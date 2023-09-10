@@ -12,6 +12,7 @@ sections:
       image:
         filename: welcome.jpg
       text: |
+        <br>
         The newly-estabilished Virtual Reality Lab in the School of Psychology is les by Max Di Luca and its goal is to enable interdisciplinary collaborations and perform high-impact research.  
   - block: collection
     content:

@@ -8,15 +8,13 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Virtual Reality Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+      The goal of newly-estabilished Virtual Reality research lab in the School of Psychology is to enable interdisciplinary collaborations and perform high-impact research.  
   - block: collection
     content:
       title: Latest News

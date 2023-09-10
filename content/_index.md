@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-      The goal of newly-estabilished Virtual Reality research lab in the School of Psychology is to enable interdisciplinary collaborations and perform high-impact research.  
+      The newly-estabilished Virtual Reality Lab in the School of Psychology is les by Max Di Luca and its goal is to enable interdisciplinary collaborations and perform high-impact research.  
   - block: collection
     content:
       title: Latest News

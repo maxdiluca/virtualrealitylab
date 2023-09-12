@@ -8,7 +8,8 @@ sections:
   - block: hero
     content:
       title: |
-        Virtual Reality Lab
+        Virtual
+        Reality Lab
       image:
         filename: welcome.jpg
       text: |

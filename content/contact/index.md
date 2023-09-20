@@ -8,8 +8,7 @@ sections:
   - block: contact
     content:
       title: Contact
-      text: |-
-      The lab is at the University of Birmingham in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
+      text: The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
       address:
         street: Pritchatts Road 52
         city: Birmingham

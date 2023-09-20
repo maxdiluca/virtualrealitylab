@@ -14,10 +14,10 @@ sections:
         city: Birmingham
         postcode: 'B15 2SA'
         country: United Kingdom
-        country_code: GB
-      coordinates:
-        latitude: '52°27'11.3"N'
-        longitude: '1°55'40.9"W'
+#        country_code: GB
+ #     coordinates:
+  #      latitude: '52°27'11.3"N'
+  #      longitude: '1°55'40.9"W'
       directions: Enter Building and take the elevators on the left to Floor 4
       office_hours:
         - 'Monday/Friday 10:00 to 17:00'

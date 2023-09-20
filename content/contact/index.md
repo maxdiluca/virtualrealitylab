@@ -15,9 +15,9 @@ sections:
         postcode: 'B15 2SA'
         country: United Kingdom
 #        country_code: GB
- #     coordinates:
-  #      latitude: '5839056.711619968'
-  #      longitude: '214667.58747998925'
+      coordinates:
+        latitude: '52.4531389'
+        longitude: '-001.9280278'
       directions: Enter Building and take the elevators on the left to Floor 4
       office_hours:
         - 'Monday/Friday 10:00 to 17:00'

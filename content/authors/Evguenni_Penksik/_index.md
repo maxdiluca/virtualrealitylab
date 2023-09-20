@@ -18,8 +18,8 @@ organizations:
   url: ""
 
 interests:
-- Virtual and Augmented Reality, and it’s applications in both research and gaming
-- Machine Learning and AI, with a particular interest in reinforcement learning and generative networks
+- Virtual and Augmented Reality
+- Machine Learning and AI
 - 3D Graphics, Modelling, and Game Development
 - Music performance and production
 

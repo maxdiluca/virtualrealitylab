@@ -15,7 +15,11 @@ organizations:
   - name: University of Birmingham
     url: ""
 
-
+interests:
+  - Haptics
+  - Virtual and Augmented Reality
+  - Phone app development
+  - Video manipulation
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

@@ -16,8 +16,8 @@ sections:
         country: United Kingdom
 #        country_code: GB
  #     coordinates:
-  #      latitude: '52°27'11.3"N'
-  #      longitude: '1°55'40.9"W'
+  #      latitude: '5839056.711619968'
+  #      longitude: '214667.58747998925'
       directions: Enter Building and take the elevators on the left to Floor 4
       office_hours:
         - 'Monday/Friday 10:00 to 17:00'

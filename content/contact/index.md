@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
-      text: The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
+      title: Get in touch
+      text: To get in touch and for information on how to use the lab, please fill in this form. You will be given access to the Lab CODA where you will find all details. The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
       address:
         street: Pritchatts Road 52
         city: Birmingham
@@ -39,7 +39,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '1'
 

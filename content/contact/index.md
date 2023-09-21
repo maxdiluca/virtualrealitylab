@@ -14,7 +14,7 @@ sections:
         city: Birmingham
         postcode: 'B15 2SA'
         country: United Kingdom
-#        country_code: GB
+        country_code: GB
       coordinates:
         latitude: '52.4531389'
         longitude: '-001.9280278'

@@ -15,24 +15,24 @@ sections:
       text: |
         <br>
         The newly-estabilished Virtual Reality Lab in the School of Psychology at the University of Birmingham is led by Dr Max Di Luca. The goals of the lab are to enable interdisciplinary collaborations and perform research in the fields of perception, cognition and action.  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
+#  - block: collection
+ #   content:
+  #    title: Latest News
+   #   subtitle:
+    #  text:
+     # count: 5
+      #filters:
+#        author: ''
+ #       category: ''
+  #      exclude_featured: false
+   #     publication_type: ''
+    #    tag: ''
+     # offset: 0
+      #order: desc
+#      page_type: post
+ #   design:
+  #    view: card
+   #   columns: '1'
   
   - block: markdown
     content:

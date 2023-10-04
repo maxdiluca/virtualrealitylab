@@ -13,7 +13,7 @@ sections:
       user_groups:
           - Principal Investigator
           - Researchers
-          - Research assistants
+          - Research Assistants
           - Administration
           - Collaborators
           - Alumni

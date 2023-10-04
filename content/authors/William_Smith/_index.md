@@ -32,5 +32,5 @@ email: ""
 superuser: false
 
 user_groups:
--  Research assistants
+-  Research Assistants
 ---

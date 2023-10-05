@@ -7,9 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        Virtual
-        Reality Lab
+      title: ''
       image:
         filename: welcome.jpg
       text: |

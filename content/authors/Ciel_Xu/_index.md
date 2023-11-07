@@ -32,7 +32,7 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "francinemailforstudy@gmail.com"
+email: "yxx212@student.bham.ac.uk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

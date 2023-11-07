@@ -16,6 +16,7 @@ sections:
           - Research Assistants
           - Administration
           - Collaborators
+          - Volunteer Research Assistants
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true

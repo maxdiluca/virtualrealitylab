@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Diar Karim
+title: Ciel Xu
 
 # Username (this should match the folder name)
 authors:
-- Diar_Karim
+- Ciel_Xu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Post-doctoral Research Fellow
+role:  Volunteer Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -19,9 +19,8 @@ organizations:
 
 
 interests:
-  - Haptics
+  - Website maintenance
   - Virtual Reality
-  - VideoCcapture
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -30,14 +29,17 @@ interests:
 social:
 - icon: link
   icon_pack: fas
-  link: https://diarkarim.com
+  link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "francinemailforstudy@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
+- Volunteer Research Assistants 
 
 ---
+
+
+This is my biography.

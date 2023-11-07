@@ -19,9 +19,8 @@ organizations:
 
 
 interests:
-  - Haptics
+  - Website maintenance
   - Virtual Reality
-  - VideoCcapture
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -33,12 +32,12 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "francinemailforstudy@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Research Assistants
+- Volunteer Research Assistants 
 
 ---
 

@@ -19,7 +19,7 @@ organizations:
 
 
 interests:
-  - Website maintenance
+  - equipment management
   - Virtual Reality
 
 # Social/Academic Networking

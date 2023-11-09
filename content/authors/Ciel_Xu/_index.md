@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Francine Lao
+title: Ciel Xu
 
 # Username (this should match the folder name)
 authors:
-- Francine_Lao
+- Ciel_Xu
 
 # Is this the primary user of the site?
 superuser: false
@@ -32,7 +32,7 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "wil219@student.bham.ac.uk"
+email: "yxx212@student.bham.ac.uk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

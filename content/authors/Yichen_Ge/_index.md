@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Ciel Xu
+title: Yichen Ge
 
 # Username (this should match the folder name)
 authors:
-- Ciel_Xu
+- Yichen_Ge
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  Project student
 
 # Organizations/Affiliations
 organizations:
@@ -19,8 +19,9 @@ organizations:
 
 
 interests:
-  - equipment management
+  - emotional analysis
   - Virtual Reality
+  - ARME
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -32,14 +33,13 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yxx212@student.bham.ac.uk"
+email: "yxg243@student.bham.ac.uk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Volunteer Research Assistants 
+- Project student
 
 ---
 
 
-This is my biography.

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Chinmay Khedkar
+title: Diallo Fatumata
 
 # Username (this should match the folder name)
 authors:
-- Chinmay_Khedkar
+- Diallo_Fatumata
 
 # Is this the primary user of the site?
 superuser: false

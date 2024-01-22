@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Ciel Xu
+title: Karthika Kamath
 
 # Username (this should match the folder name)
 authors:
-- Ciel_Xu
+- Karthika_Kamath
 
 # Is this the primary user of the site?
 superuser: false
@@ -37,7 +37,7 @@ email: "yxx212@student.bham.ac.uk"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Volunteer Research Assistants 
+- Project Students 
 
 ---
 

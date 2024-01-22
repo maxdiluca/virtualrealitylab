@@ -14,10 +14,10 @@ sections:
           - Principal Investigator
           - Researchers
           - Research Assistants
-          - Administration
+          - Administrators
           - Collaborators
           - Volunteer Research Assistants
-          - Project student
+          - Project students
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true

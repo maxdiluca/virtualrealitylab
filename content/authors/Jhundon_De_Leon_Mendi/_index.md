@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  Project Student
 
 # Organizations/Affiliations
 organizations:

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Ciel Xu
+title: Susan Min Li
 
 # Username (this should match the folder name)
 authors:
-- Ciel_Xu
+- Susan_Min_Li
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  Researchers
 
 # Organizations/Affiliations
 organizations:
@@ -19,8 +19,10 @@ organizations:
 
 
 interests:
-  - equipment management
-  - Virtual Reality
+  - Aging touch
+  - ATTS
+  - TICS
+  - ARME
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -32,13 +34,12 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yxx212@student.bham.ac.uk"
+email: "m.li.9@bham.ac.uk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Volunteer Research Assistants 
-
+- Researchers
 ---
 
 

@@ -17,7 +17,7 @@ sections:
           - Administrators
           - Collaborators
           - Volunteer Research Assistants
-          - Project students
+          - Project Students
           - Alumni
       sort_by: Params.last_name
       sort_ascending: true

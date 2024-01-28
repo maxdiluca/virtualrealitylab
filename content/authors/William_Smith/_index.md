@@ -6,7 +6,7 @@ authors:
 - William Smith
 
 # Role/position
-role: Research assistant
+role: Research Assistants
 
 
 

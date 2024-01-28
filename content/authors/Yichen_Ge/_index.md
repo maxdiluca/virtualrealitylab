@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Project student
+role:  Project students
 
 # Organizations/Affiliations
 organizations:
@@ -38,7 +38,7 @@ email: "yxg243@student.bham.ac.uk"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project students
+- Project Students
 
 ---
 

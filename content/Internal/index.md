@@ -4,4 +4,4 @@ date: 2024-02-15
 
 type: landing
 
-<a href="https://coda.io/d/Intro-page_dfkFKZfkBvc/People_suC2k#_luq_m"title="Coda">Coda</a>
+Coda page: "https://coda.io/d/Intro-page_dfkFKZfkBvc/People_suC2k#_luq_m"

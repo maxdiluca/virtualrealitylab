@@ -4,12 +4,12 @@ date: 2024-02-15
 
 type: landing
 
+
 sections:
-  - block: hero
+  - block: Opportunities
     content:
-      title: 'Opportunities'
-      text: |
-        
+      title: Opportunities
+      text: 
         #Opportunities
         
         ###We are always looking for talented students to join our research group. Feel free to get in touch to see if there are unannounced opportunities.

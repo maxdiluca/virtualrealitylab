@@ -17,10 +17,10 @@ sections:
         
         PhD positions
 
-        If you are interested in pursuing a PhD, get in contact with [max](https://virtualrealitylab.netlify.app/author/max-di-luca/ "@max")
+        If you are interested in pursuing a PhD, get in contact with @max
         
         
         Prospective MSc students in Computer Science and in Psychology
 
-        If you are interested in pursuing your Master’s thesis with us, and learning more about virtual reality, drop us a message using the [contact](https://virtualrealitylab.netlify.app/contact/ "@contact page")
+        If you are interested in pursuing your Master’s thesis with us, and learning more about virtual reality, drop us a message using the "@contact page"
 ---

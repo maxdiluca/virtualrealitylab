@@ -4,7 +4,6 @@ date: 2024-02-15
 
 type: landing
 
-
 sections:
   - block: Opportunities
     content:
@@ -23,4 +22,4 @@ sections:
         ##Prospective MSc students in Computer Science and in Psychology
 
         ###If you are interested in pursuing your Master’s thesis with us, and learning more about virtual reality, drop us a message using the [contact](https://virtualrealitylab.netlify.app/contact/ "@contact page")
-        
+---

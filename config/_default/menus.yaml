@@ -24,5 +24,9 @@ main:
     weight: 60
 
   - name: Internal
-    url: Internal
+    url: https://tinyurl.com/CODAVRLab
     weight: 60
+
+  - name: Opportunities
+    url: Opportunities
+    weight: 30

@@ -31,10 +31,10 @@ interests:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: linkedin
-  icon_pack: fas
+  icon_pack: fab
   link:  www.linkedin.com/in/tahani-baldwin
 - icon: twitter
-  icon_pack: fas
+  icon_pack: fab
   link:  https://twitter.com/tahaniimyra
 
 

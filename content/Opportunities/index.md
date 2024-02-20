@@ -9,7 +9,9 @@ sections:
     content:
       title: Opportunities
       text: 
-      <br>
+   ---
+
+   <br>
         Opportunities
         
         We are always looking for talented students to join our research group. Feel free to get in touch to see if there are unannounced opportunities.
@@ -23,4 +25,4 @@ sections:
         Prospective MSc students in Computer Science and in Psychology
 
         If you are interested in pursuing your Master’s thesis with us, and learning more about virtual reality, drop us a message using the "@contact page"
----
+

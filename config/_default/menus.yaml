@@ -29,22 +29,20 @@ main:
     
     
     
-    [[main]]
-    identifier = "internal"
-    name = "Internal"
+    
+  - name = "Internal"
     url = "/internal"
     weight = 61
-  [[main]]
-    identifier = "Sharepoint"
-    name = "Sharepoint"
+  
+  
+   - name = "Sharepoint"
     url = "https://bham.sharepoint.com/sites/LES-PSY-VRLab"
-    parent = "internal"
+    parent = "Internal"
     weight = 1
-  [[main]]
-    identifier = "Coda"
-    name = "Coda"
+  
+   - name = "Coda"
     url = "https://tinyurl.com/CODAVRLab"
-    parent = "internal"
+    parent = "Internal"
     weight = 2
     
     

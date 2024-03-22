@@ -23,9 +23,9 @@ main:
     url: contact
     weight: 70
 
-  - name: Internal
-    url: https://tinyurl.com/CODAVRLab
-    weight: 60
+ #  - name: Internal
+#     url: https://tinyurl.com/CODAVRLab
+#     weight: 60
     
     
     

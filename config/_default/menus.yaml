@@ -30,17 +30,14 @@ main:
   - name: Internal
     url: internal
     weight: 61
-  
-   - name: Sharepoint
+  - name: Sharepoint
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
     parent: internal
     weight: 1
-  
-   - name: Coda
+  - name: Coda
     url: https://tinyurl.com/CODAVRLab
     parent: internal
     weight: 2
-    
   - name: Opportunities
     url: Opportunities
     weight: 40

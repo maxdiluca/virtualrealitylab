@@ -27,23 +27,20 @@ main:
 #     url: https://tinyurl.com/CODAVRLab
 #     weight: 60
     
-    
-    
-    
-  - name = "Internal"
-    url = "/internal"
-    weight = 61
+  - name: "Internal"
+    url: "/internal"
+    weight: 61
   
   
-   - name = "Sharepoint"
-    url = "https://bham.sharepoint.com/sites/LES-PSY-VRLab"
-    parent = "Internal"
-    weight = 1
+   - name: "Sharepoint"
+    url: "https://bham.sharepoint.com/sites/LES-PSY-VRLab"
+    parent: "Internal"
+    weight: 1
   
-   - name = "Coda"
-    url = "https://tinyurl.com/CODAVRLab"
-    parent = "Internal"
-    weight = 2
+   - name: "Coda"
+    url: "https://tinyurl.com/CODAVRLab"
+    parent: "Internal"
+    weight: 2
     
     
 

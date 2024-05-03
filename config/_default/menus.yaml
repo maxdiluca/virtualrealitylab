@@ -22,20 +22,24 @@ main:
   - name: Contact
     url: contact
     weight: 70
- #  - name: Internal
-#     url: https://tinyurl.com/CODAVRLab
-#     weight: 60
+# - name: Internal
+#   url: https://tinyurl.com/CODAVRLab
+#   weight: 60
   - name: Internal
     url: internal
     weight: 61
-  - name: Sharepoint
+  - name: SharePoint
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
     parent: Internal
     weight: 1
-  - name: Coda
-    url: https://tinyurl.com/CODAVRLab
+  - name: Teams
+    url: https://teams.microsoft.com/l/team/19%3AvhCl5BNPrgqEcGePBb_ZD8r9jXkHdzrtz_ZgcC85sL81%40thread.tacv2/conversations?groupId=6812d02e-2a15-47e0-a4cd-d1a042cbffcf&tenantId=b024cacf-dede-4241-a15c-3c97d553e9f3
     parent: Internal
     weight: 2
+  - name: CODA
+    url: https://tinyurl.com/CODAVRLab
+    parent: Internal
+    weight: 3
   - name: Opportunities
     url: Opportunities
     weight: 40

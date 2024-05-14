@@ -19,14 +19,14 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'Research group at the School of Psychology, University of Birmingham.'
-    twitter: 'symonlab'
+    twitter: ''
   analytics:
-    google_analytics: 'G-87PMN679SR'
+    google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: 'GT-M6P6QXML'
+    google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: 'IU-DzMY3kqZjZ1xl5z8NErCQ3KUQFzl6aSMLuAcJqPA'
+    google: 'hnps1nGBV0Al1BkTU6JhsDSOyMDn8pg9WAdsaCFPOJE'
     baidu: ''
 
 # Site header

@@ -44,15 +44,15 @@ main:
     url:  https://github.com/maxdiluca/virtualrealitylab
     parent: Internal
     weight: 4
- - name: site build
+  - name: site build
     url:  https://app.netlify.com/sites/virtualrealitylab/overview
     parent: Internal
     weight: 5  
- - name: site state
+  - name: site state
     url:  https://virtualrealitylab.netlify.app/site-state/
     parent: Internal
     weight: 6
- - name: site log
+  - name: site log
     url:  https://virtualrealitylab.netlify.app/site-log/
     parent: Internal
     weight: 7

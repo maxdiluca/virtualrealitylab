@@ -21,12 +21,12 @@ marketing:
     description: 'Research group at the School of Psychology, University of Birmingham.'
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-87PMN679SR'
     baidu_tongji: ''
-    google_tag_manager: ''
+    google_tag_manager: 'G-87PMN679SR'
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'IU-DzMY3kqZjZ1xl5z8NErCQ3KUQFzl6aSMLuAcJqPA'
     baidu: ''
 
 # Site header

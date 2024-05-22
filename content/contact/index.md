@@ -20,7 +20,7 @@ sections:
         longitude: '-001.9280278'
       directions: Enter Building and take the elevators on the left to Floor 4
       office_hours:
-        - 'Monday/Friday 10:00 to 17:00'
+        - 'Monday/Friday 10:00 to 16:00'
   
       #appointment_url: 'https://calendly.com'
       #contact_links:
@@ -42,6 +42,18 @@ sections:
           captcha: true
     design:
       columns: '1'
+      background:
+        image: 
+          filename: 12989E6E132F480AA0013FE06A7EFABC.png
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 
   - block: markdown
     content:

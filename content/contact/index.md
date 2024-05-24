@@ -43,7 +43,7 @@ sections:
     design:
       columns: '1'
      
- - block: hero
+  - block: hero
     content:
       title: ''
       image:

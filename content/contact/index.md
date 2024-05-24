@@ -5,6 +5,14 @@ date: 2023-09-20
 type: landing
 
 sections:
+  - block: hero
+    content:
+      title: ''
+      image:
+        filename: 12989E6E132F480AA0013FE06A7EFABC.png
+      text:  text: |
+        <br> To reach the lab, across the road from the University North Gate, enter the Psychology building from the Pritchatts Road 52 parking lot. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and follow the corridor.
+     
   - block: contact
     content:
       title: Get in touch

@@ -42,19 +42,15 @@ sections:
           captcha: true
     design:
       columns: '1'
-      background:
-        image: 
-          filename: 12989E6E132F480AA0013FE06A7EFABC.png
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
+     
+ - block: hero
+    content:
+      title: ''
+      image:
+        filename: 12989E6E132F480AA0013FE06A7EFABC.jpg
+      text: |
+      To reach the lab, enter the building from Pritchard Road 52 car park. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and follow the corridor.
+      
   - block: markdown
     content:
       title:

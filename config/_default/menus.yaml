@@ -1,0 +1,46 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url:
+    weight: 20
+
+  - name: People
+    url: people
+    weight: 30
+
+  - name: Opportunities
+    url: opportunities
+    weight: 40
+
+  - name: Contact
+    url: contact
+    weight: 50
+
+  # Internal Sections for the VR Lab members
+  - name: Internal
+    url: publication
+    weight: 60
+
+  - name: SharePoint
+    url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
+    parent: Internal
+    weight: 1
+
+  - name: Teams
+    url: https://teams.microsoft.com/l/team/19%3AvhCl5BNPrgqEcGePBb_ZD8r9jXkHdzrtz_ZgcC85sL81%40thread.tacv2/conversations?groupId=6812d02e-2a15-47e0-a4cd-d1a042cbffcf&tenantId=b024cacf-dede-4241-a15c-3c97d553e9f3
+    parent: Internal
+    weight: 2
+
+  - name: CODA
+    url: https://tinyurl.com/CODAVRLab
+    parent: Internal
+    weight: 3
+
+  - name: Site Maintenance
+    url: site_maintenance
+    parent: Internal
+    weight: 4

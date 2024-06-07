@@ -15,6 +15,7 @@ sections:
         - Researchers
         - Research Assistants
         - Collaborators
+        - Visitors
         - Project Students
         - Volunteer Research Assistants
         - Alumni

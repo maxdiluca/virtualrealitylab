@@ -7,7 +7,7 @@ first_name: Jhundon
 last_name: De Leon Mendi
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
 role: BSc Computer Science
@@ -63,7 +63,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "jhundon.mendi21@gmail.com"
+email: "jxm1358@student.bham.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -72,6 +72,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Project Students
+  - Website Maintainer
 ---
 
 Hey there! I am a final year student studying BSc Computer Science and an avid user of Virtual Reality.

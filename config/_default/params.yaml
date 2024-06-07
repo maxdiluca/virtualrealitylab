@@ -1,33 +1,33 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  theme_day: ocean
+  theme_night: dark
+  font: minimal
+  font_size: l
 
 # SEO
 
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'Research group at the School of Psychology, University of Birmingham.'
-    twitter: ''
+    local_business_type: ""
+    org_name: "Virtual Reality Lab"
+    description: "Research Group at the School of Psychology, University of Birmginham"
+    twitter: ""
   analytics:
-    google_analytics: 'G-87PMN679SR'
-    baidu_tongji: ''
-    google_tag_manager: 'G-87PMN679SR'
-    microsoft_clarity: ''
+    google_analytics: "G-87PMN679SR"
+    baidu_tongji: ""
+    google_tag_manager: "G-87PMN679SR"
+    microsoft_clarity: ""
   verification:
-    google: 'IU-DzMY3kqZjZ1xl5z8NErCQ3KUQFzl6aSMLuAcJqPA'
-    baidu: ''
+    google: "IU-DzMY3kqZjZ1xl5z8NErCQ3KUQFzl6aSMLuAcJqPA"
+    baidu: ""
 
 # Site header
 
@@ -37,15 +37,15 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: false
-    show_search: true
+    show_day_night: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: "© {year} Me. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
@@ -55,9 +55,9 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-gb
+  date_format: "June 6, 2024"
+  time_format: "2:47 PM"
+  address_format: en-us
 
 # Site features
 
@@ -72,40 +72,40 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/dilucamax/virtualrealitylab'
+    url: "https://github.com/maxdiluca/virtualrealitylab"
     content_dir: content
     branch: main
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: ""
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
+  # search:
+  #   provider: wowchemy
+  #   algolia:
+  #     app_id: ''
+  #     api_key: ''
+  #     index_name: ''
+  #     show_logo: false
   map:
-    provider: 'mapnik'
-    api_key: ''
+    provider: "mapnik"
+    api_key: ""
     zoom: 15
 
 # Extensions
 
 extensions:
-  cms:
+  decap_cms:
     branch: main
     local_backend: false
   academicons:

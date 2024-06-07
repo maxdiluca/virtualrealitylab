@@ -1,63 +1,22 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: Home
 date: 2022-10-24
 type: landing
 
 sections:
   - block: hero
     content:
-      title: ''
+      title: |
+        Virtual Reality Lab
       image:
-        filename: uob-tier-one-photography-091123-151.jpg
+        filename: welcome.jpg
       text: |
         <br>
-        The newly-estabilished Virtual Reality Lab in the School of Psychology at the University of Birmingham is led by Dr Max Di Luca. The goals of the lab are to enable interdisciplinary collaborations and perform research in the fields of perception, cognition and action.  
-#  - block: collection
- #   content:
-  #    title: Latest News
-   #   subtitle:
-    #  text:
-     # count: 5
-      #filters:
-#        author: ''
- #       category: ''
-  #      exclude_featured: false
-   #     publication_type: ''
-    #    tag: ''
-     # offset: 0
-      #order: desc
-#      page_type: post
- #   design:
-  #    view: card
-   #   columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: lab.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-  
-#  - block: markdown
-#    content:
-#      title:
-#      subtitle:
-#      text: |
-#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-#    design:
-#      columns: '1'
+
+        The newly-established **Virtual Reality Lab** in the School of Psychology at the University of Birmingham, led by *Dr. Max Di Luca*, aims to advance research and foster **interdisciplinary collaborations**. 
+
+        The lab focuses on **perception, cognition, and action** by leveraging virtual reality technology to create immersive environments for detailed psychological studies. Through these efforts, the lab seeks to enhance our understanding of human behavior and mental processes.
+
+        <br>
 ---

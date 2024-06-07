@@ -4,19 +4,18 @@ title: Tarun Aulakh
 
 # Username (this should match the folder name)
 authors:
-- Tarun_Aulakh
+  - Tarun_Aulakh
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role: Project Student
 
 # Organizations/Affiliations
 organizations:
-- name: University of Birmingham
-  url: ""
-
+  - name: University of Birmingham
+    url: ""
 
 interests:
   - equipment management
@@ -27,9 +26,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: link
-  icon_pack: fas
-  link: 
+  - icon: link
+    icon_pack: fas
+    link:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "yxx212@student.bham.ac.uk"
@@ -37,9 +36,7 @@ email: "yxx212@student.bham.ac.uk"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project Students
-
+  - Project Students
 ---
-
 
 This is my biography.

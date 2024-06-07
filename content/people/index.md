@@ -14,9 +14,9 @@ sections:
         - Principal Investigator
         - Researchers
         - Research Assistants
-        - Volunteer Research Assistants
         - Collaborators
         - Project Students
+        - Volunteer Research Assistants
         - Alumni
       sort_by: Params.last_name
       sort_ascending: true

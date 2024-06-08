@@ -2,12 +2,12 @@
 # Display name
 title: Jhundon De Leon Mendi
 
-# Full Name (for SEO)
-first_name: Jhundon
-last_name: De Leon Mendi
-
 # Is this the primary user of the site?
 superuser: false
+
+# Username (this should match the folder name)
+authors:
+  - Jhundon_De_Leon_Mendi
 
 # Role/position
 role: BSc Computer Science
@@ -15,7 +15,7 @@ role: BSc Computer Science
 # Organizations/Affiliations
 organizations:
   - name: University of Birmingham
-    url: ""
+    url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Final Year BSc Computer Science
@@ -40,9 +40,6 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: "mailto:test@example.org"
   - icon: twitter
     icon_pack: fab
     link: https://x.com/JMendi2021
@@ -63,7 +60,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "jhundon.mendi21@gmail.com"
+email: "jxm1358@student.bham.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

@@ -1,14 +1,14 @@
 ---
 title: Max Di Luca
 
-first_name: Max
-last_name: Di Luca
+authors:
+  - Max_Di_Luca
 
 superuser: true
 
 role: Associate Professor
 
-bio: Max Di Luca is the PI of the lab. He is Associate Professor at the University of Birmingham (UK) in the Centre for Computational Neuroscience and Cognitive Robotics.
+bio: "Max Di Luca is the PI of the lab. He is Associate Professor at the University of Birmingham (UK) in the Centre for Computational Neuroscience and Cognitive Robotics."
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -71,7 +71,6 @@ email: ""
 
 user_groups:
   - Principal Investigator
-  - Website Maintainer
 ---
 
 Max Di Luca is Associate Professor at the University of Birmingham in the CNCR research centre. Using psychophysical methods and computational models, he investigates how the human brain processes multisensory information for perception and action.

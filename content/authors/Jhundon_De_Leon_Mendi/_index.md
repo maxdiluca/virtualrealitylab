@@ -2,12 +2,8 @@
 # Display name
 title: Jhundon De Leon Mendi
 
-# Full Name (for SEO)
-first_name: Jhundon
-last_name: De Leon Mendi
-
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Username (this should match the folder name)
 authors:
@@ -19,7 +15,7 @@ role: BSc Computer Science
 # Organizations/Affiliations
 organizations:
   - name: University of Birmingham
-    url: ""
+    url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Final Year BSc Computer Science
@@ -44,9 +40,6 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: "mailto:test@example.org"
   - icon: twitter
     icon_pack: fab
     link: https://x.com/JMendi2021
@@ -76,7 +69,6 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Project Students
-  - Website Maintainer
 ---
 
 Hey there! I am a final year student studying BSc Computer Science and an avid user of Virtual Reality.

@@ -19,7 +19,6 @@ sections:
         - Project Students
         - Volunteer Research Assistants
         - Alumni
-        - Website Maintainer
       sort_by: Params.last_name
       sort_ascending: true
     design:

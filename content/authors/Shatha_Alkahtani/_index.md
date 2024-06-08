@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Shatha_Alkahtani
+title: Shatha Alkahtani
 
 # Username (this should match the folder name)
 authors:

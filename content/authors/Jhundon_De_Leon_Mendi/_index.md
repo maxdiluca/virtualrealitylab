@@ -9,6 +9,10 @@ last_name: De Leon Mendi
 # Is this the primary user of the site?
 superuser: true
 
+# Username (this should match the folder name)
+authors:
+  - Jhundon_De_Leon_Mendi
+
 # Role/position
 role: BSc Computer Science
 

@@ -19,4 +19,6 @@ sections:
         The lab focuses on **perception, cognition, and action** by leveraging virtual reality technology to create immersive environments for detailed psychological studies. Through these efforts, the lab seeks to enhance our understanding of human behavior and mental processes.
 
         <br>
+
 ---
+

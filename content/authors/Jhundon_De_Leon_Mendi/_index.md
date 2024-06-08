@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jhundon De Leon Mendi
+title: Jhundon Mendi
 
 # Is this the primary user of the site?
 superuser: false

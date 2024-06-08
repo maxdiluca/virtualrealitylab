@@ -2,7 +2,7 @@
 title: Hugo Tremonte de Carvalho
 
 authors:
-- Hugo Tremonte de Carvalho
+- Hugo_Cavalho
 
 highlight_name: true
 role: Assistant Professor

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jhundon Mendi
+title: Jhundon De Leon Mendi
 
 # Is this the primary user of the site?
 superuser: false
@@ -27,6 +27,7 @@ interests:
   - Robotics
   - Game Development
   - Human-Robotics Interaction
+  - Website Maintenance
 
 education:
   courses:

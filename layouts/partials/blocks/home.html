@@ -8,18 +8,18 @@
 <div class="home-container">
     <div class="custom-container">
         <div class="text-content">
-            <h2 class="title"><strong>Virtual Reality Lab</strong></h1>
-            <p class="text">
+            <h2><strong>Virtual Reality Lab</strong></h2>
+            <p>
                 The newly-established <strong>Virtual Reality Lab</strong> in the School of Psychology at the University of Birmingham, led by Dr. Max Di Luca, aims to advance research and foster <strong>interdisciplinary collaborations</strong> by staffs and students across different backgrounds.
             </p>
-            <p class="text">
+            <p>
                 The lab focuses on <strong>perception, cognition, and action</strong> by leveraging virtual reality technology to create immersive environments for detailed psychological studies. Through these efforts, the lab seeks to enhance our understanding of human behavior and mental processes.
             </p>
         </div>
         <div class="image-content">
             {{ $image := resources.Get "media/welcome.jpg" }}
             {{ with $image }}
-                <img src="{{ .Permalink }}" alt="This is an image" class="image" id="dynamic-image">
+                <img src="{{ .Permalink }}" alt="Welcome Image" class="image">
             {{ end }}
         </div>
     </div>

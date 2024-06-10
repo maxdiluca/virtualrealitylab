@@ -8,5 +8,4 @@ sections:
   - block: photo-gallery
     content:
       title: Gallery
-      text:
 ---

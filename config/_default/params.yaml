@@ -11,22 +11,22 @@ appearance:
   font: minimal
   font_size: l
 
-# SEO
+# SEO 
 
 marketing:
   seo:
     site_type: Organization
     local_business_type: ""
     org_name: "Virtual Reality Lab"
-    description: "Research Group at the School of Psychology, University of Birmginham"
+    description: "Research Group at the School of Psychology, University of Birmingham"
     twitter: ""
   analytics:
-    google_analytics: ""
+    google_analytics: "G-87PMN679SR"
     baidu_tongji: ""
-    google_tag_manager: ""
+    google_tag_manager: "GT-M6P6QXML"
     microsoft_clarity: ""
   verification:
-    google: "IU-DzMY3kqZjZ1xl5z8NErCQ3KUQFzl6aSMLuAcJqPA"
+    google: ""
     baidu: ""
 
 # Site header

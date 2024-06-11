@@ -34,7 +34,7 @@
                         {{ range $j, $image := $images }}
                             {{ if eq (mod $j $numColumns) $i }}
                                 <div class="photo">
-                                    <img src="{{ $image.RelPermalink }}" alt="" loading="lazy">
+                                    <img src="{{ $image.RelPermalink }}" alt="">
                                 </div>
                             {{ end }}
                         {{ end }}

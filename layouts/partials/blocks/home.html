@@ -38,8 +38,8 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        max-width: 900px; /* Optional: limit the width */
-        margin: 0 auto; /* Center the container */
+        max-width: 900px;
+        margin: 0 auto;
     }
     
     .text-content {
@@ -53,14 +53,13 @@
     
     .image {
         max-width: 375px;
+        width: 100%;
         height: auto;
         border-radius: 10px;
-        height: calc(75% + 5px);
-        max-height: 75%
     }
     
     /** Phone view **/
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1000px) {
         .custom-container {
             flex-direction: column;
             align-items: center;
@@ -76,4 +75,3 @@
         }
     }
 </style>
-

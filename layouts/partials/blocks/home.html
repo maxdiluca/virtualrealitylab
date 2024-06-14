@@ -1,0 +1,77 @@
+{{/* My Custom Hugo Blox */}}
+{{/* https://hugoblox.com */}}
+
+{{/* Initialise the block */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<div class="home-container">
+    <div class="custom-container">
+        <div class="text-content">
+            <h2><strong>Virtual Reality Lab</strong></h2>
+            <p>
+                The newly-established <strong>Virtual Reality Lab</strong> in the School of Psychology at the University of Birmingham, led by Dr. Max Di Luca, aims to advance research and foster <strong>interdisciplinary collaborations</strong> by staffs and students across different backgrounds.
+            </p>
+            <p>
+                The lab focuses on <strong>perception, cognition, and action</strong> by leveraging virtual reality technology to create immersive environments for detailed psychological studies. Through these efforts, the lab seeks to enhance our understanding of human behavior and mental processes.
+            </p>
+        </div>
+        <div class="image-content">
+            {{ $image := resources.Get "media/welcome.jpg" }}
+            {{ with $image }}
+                <img src="{{ .Permalink }}" alt="Welcome Image" class="image">
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<style>
+    .home-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .custom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .text-content {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .image-content {
+        flex-shrink: 0;
+    }
+    
+    .image {
+        max-width: 375px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    /** Phone view **/
+    @media screen and (max-width: 1000px) {
+        .custom-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .text-content {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        
+        .image {
+            max-width: 100%;
+        }
+    }
+</style>

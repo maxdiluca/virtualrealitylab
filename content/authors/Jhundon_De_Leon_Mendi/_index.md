@@ -47,13 +47,13 @@ social:
     link: https://x.com/JMendi2021
   - icon: github
     icon_pack: fab
-    link: https://github.com/jmendi21
+    link: https://github.com/JDLMendi
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jmendi2021/
   - icon: link
     icon_pack: fas
-    link: https://jmendi2021.github.io/site/
+    link: https://JDLMendi.github.io/site/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

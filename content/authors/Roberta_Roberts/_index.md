@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Research fellow
+role:  Research Fellow
 
 # Organizations/Affiliations
 organizations:
@@ -50,7 +50,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigators
+- Collaborators
 
 ---
 Dr Roberts is a research fellow in psychology. She is interested in understanding haptic experiences, particularly those involving the hands. Her work is primarily focused on using psychophysical approaches to understand haptic and multisensory perception. Recent work has included fMRI, motion and force analyses to understand texture perception in the young and elderly.  

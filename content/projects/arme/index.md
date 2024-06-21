@@ -13,4 +13,4 @@ image:
   preview_only: true
 ---
 
-The project has the goal of understanding how musicians synchronise with each other, build a computational model that of the musician’s behaviour, and to create an augmented reality system to allow music rehearsal with virtual avatars. 
+The project has the goal of understanding how musicians synchronise with each other, building a computational model of the musician’s behaviour, and creating an augmented reality system to allow music rehearsal with virtual avatars. 

@@ -1,5 +1,5 @@
 ---
-title: ARME website
+title: ARME - Augmented Reality Music Ensemble
 subtitle:
 date: 2021-04-11T22:41:39.165Z
 summary: ""
@@ -12,3 +12,5 @@ image:
   focal_point: Smart
   preview_only: true
 ---
+
+The project has the goal of understanding how musicians synchronise with each other, building a computational model of the musician’s behaviour, and creating an augmented reality system to allow music rehearsal with virtual avatars. 

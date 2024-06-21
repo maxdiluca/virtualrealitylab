@@ -5,7 +5,7 @@ title: Projects in the lab
 #   1 = List
 #   2 = Compact
 #   3 = Card
-view: 1
+view: 2
 
 
 # Optional header image (relative to `static/media/` folder).
@@ -14,6 +14,6 @@ header:
   image: ""
 ---
 
-A collection of projects currently running in the lab.
+A collection of different projects that are currently running in the lab.
 
 --------------------------------------

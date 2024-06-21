@@ -12,3 +12,5 @@ image:
   focal_point: Smart
   preview_only: true
 ---
+
+VR experience where participants will perform a Mars exploration tasks. The app is intended to explore how different personalities navigate and respond to challenges in extreme environments. 

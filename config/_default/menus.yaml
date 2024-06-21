@@ -12,7 +12,7 @@ main:
     url: people
     weight: 30
     
- - name: Projects
+  - name: Projects
     url: projects
     weight: 35
 

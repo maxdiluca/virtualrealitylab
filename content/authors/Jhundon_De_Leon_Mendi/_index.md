@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jhundon Mendi
+title: Jhundon De Leon Mendi
 
 # Is this the primary user of the site?
 superuser: false
@@ -27,6 +27,8 @@ interests:
   - Robotics
   - Game Development
   - Human-Robotics Interaction
+  - Artificial Intelligence
+  - Website Maintenance
 
 education:
   courses:
@@ -45,13 +47,13 @@ social:
     link: https://x.com/JMendi2021
   - icon: github
     icon_pack: fab
-    link: https://github.com/jmendi21
+    link: https://github.com/JDLMendi
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jmendi2021/
   - icon: link
     icon_pack: fas
-    link: https://jmendi2021.github.io/site/
+    link: https://JDLMendi.github.io/site/
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -71,8 +73,12 @@ user_groups:
   - Project Students
 ---
 
-Hey there! I am a final year student studying BSc Computer Science and an avid user of Virtual Reality.
+**Jhundon** is a BSc Computer Science student with a passion for Virtual Reality (VR). 
 
-As a final year, my project focuses on creating a simulation to test 3D interception through utilising and evaluating the Pupil Lab Core HMD binocular eye-tracking addon with the addition of aiding in the creation inbuilt eye-tracking tests at the VR-Lab.
+His final year project focuses on creating a **framework to test eye-tracking within VR** by developing a simulation to measure the quality of data in 3D interception tasks. His project also aims to aid in the creation of inbuilt eye-tracking tests at the VR-Lab, emphasising accuracy and hardware performance.
 
-My main interest looks at why VR can be used as a tool in research to understand why and how human behaviour can be influenced based on perception and using eye-tracking technologies. Because of my background in Computer Science, my other interest includes Human-Computer Interaction, Robotics, Extended Realities, and Programming. I am currently one of the student representatives and ambassador for the School of Computer Science. As well as the current chair for the Virtual Reality Society (UBVR) to help create a platform for XR enthusiasts to come together and collaborate.
+His interests extend beyond his project into Human-Computer Interaction, Robotics, Extended Realities, and Programming. He actively contributes to the academic community as a student representative and ambassador for the School of Computer Science. Furthermore, Jhundon serves as the chair for the [Virtual Reality Society (UBVR)](https://www.guildofstudents.com/organisation/ubvr/) for the 2023/24 and 2024/25 academic years. In this role, he aims to fosters a collaborative environment for XR enthusiasts, developing resources and opportunities for students to engage in this cutting-edge field.
+
+In the upcoming year, Jhundon will pursue a master's degree in Cognitive Neuroimaging and Data Science through the Computational Pathway at the School of Psychology. He intends to continue his work with the [VR Lab](https://virtualrealitylab.netlify.app/) and the [Collaborative Teaching Laboratory](https://www.birmingham.ac.uk/facilities/collaborative-teaching-laboratory/ctl), further exploring the intersection of VR technology and human behavior. Jhundon’s goals is driven by his curiosity about how VR can be leveraged as a tool to understand and influence human behavior based on controlled virtual environments.
+
+

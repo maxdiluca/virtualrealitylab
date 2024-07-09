@@ -1,0 +1,23 @@
+{{/* Display alumni list. */}}
+
+{{- $taxonomy := "alumni" }}
+{{ with .Param $taxonomy }}
+  {{ $link_alumni := site.Params.link_alumni | default true }}
+  {{ range $index, $name_raw := . }}
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy .) -}}
+    {{- $name := $profile_page.Title | default $name_raw -}}
+    {{- if gt $index 0 }}, {{ end -}}
+    <span {{ if site.Params.highlight_superuser | and (eq $profile_page.Params.superuser true) }}class="font-weight-bold"{{end}}>
+      {{- if and $profile_page $link_alumni -}}
+        <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+      {{- else -}}
+        {{$name}}
+      {{- end -}}
+    </span>
+    {{- if isset $.Params "alumni_notes" -}}
+      {{- with (index $.Params.alumni_notes $index) -}}
+        <span title="{{.}}" class="alumni-notes">(?)</span>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

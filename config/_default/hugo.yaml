@@ -45,6 +45,7 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+  author: alumni
 markup:
   _merge: deep
 related:

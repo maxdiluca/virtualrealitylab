@@ -5,7 +5,7 @@ date: 2021-04-11T22:41:39.165Z
 summary: ""
 draft: false
 featured: false
-authors: []
+authors: [Alan_Wing, Roberta_Roberts, Max_Di_Luca]
 external_link: https://aging-touch.netlify.app
 image:
   filename:

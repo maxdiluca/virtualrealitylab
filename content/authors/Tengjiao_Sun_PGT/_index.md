@@ -4,13 +4,13 @@ title: Tengjiao Sun
 
 # Username (this should match the folder name)
 authors:
-- Tengjiao_Sun
+- Tengjiao_Sun_PGT
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Project student
+role: MSc student
 
 # Organizations/Affiliations
 organizations:

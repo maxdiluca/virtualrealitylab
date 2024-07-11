@@ -35,15 +35,9 @@ education:
     - course: BEng in Computer Science engineering
       institution: Chang'an University
       year: 2018
-      logo: education-logos/bu.png
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:TXS145@student.bham.ac.uk'
-email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

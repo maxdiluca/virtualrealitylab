@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Tongxuan_Zhou
+title: Tongxuan Zhou
 
 # Username (this should match the folder name)
 authors:
@@ -20,6 +20,8 @@ organizations:
 
 interests:
   - ARME
+  - Graphic design
+  - 3D
   
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

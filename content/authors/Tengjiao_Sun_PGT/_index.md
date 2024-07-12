@@ -4,7 +4,7 @@ title: Tengjiao Sun
 
 # Username (this should match the folder name)
 authors:
-- Tengjiao_Sun_PGT
+- Tengjiao_Sun
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,10 +21,10 @@ organizations:
 bio: Tengjiao Sun is a master student currently studying the MSc program at the University of Birmingham, his background is in computer science and human-computer interaction.
 
 interests:
-- Computer Graphics
-- Application of Computer Vision in Motion Capture
-- 3D reconstruction
-- VR/AR
+  - Computer Graphics
+  - Application of Computer Vision in Motion Capture
+  - 3D reconstruction
+  - VR/AR
 
 education:
   courses:
@@ -42,5 +42,5 @@ education:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project students
+- Project Students
 ---

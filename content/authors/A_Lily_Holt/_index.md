@@ -4,13 +4,13 @@ title: Lily Holt
 
 # Username (this should match the folder name)
 authors:
-- Lily_Holt
+- A_Lily_Holt
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  BSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -37,10 +37,9 @@ email: "yxx212@student.bham.ac.uk"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project Students
-- Alumni
+- Alumni Project Students
 
 ---
 
 
-This is my biography.
+Lily has conducted her final year research project in the lab

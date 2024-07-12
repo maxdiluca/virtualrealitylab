@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  BSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -42,4 +42,4 @@ user_groups:
 ---
 
 
-This is my biography.
+Maria  has conducted her final year research project in the lab

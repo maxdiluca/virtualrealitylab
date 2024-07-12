@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Project Student
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -39,4 +39,4 @@ user_groups:
   - Project Students
 ---
 
-This is my biography.
+

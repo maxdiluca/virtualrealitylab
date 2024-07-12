@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Volunteer Research Assistant
+role:  BSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -32,7 +32,7 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yxx212@student.bham.ac.uk"
+email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -42,4 +42,4 @@ user_groups:
 ---
 
 
-This is my biography.
+Lydia has conducted her final year research project in the lab

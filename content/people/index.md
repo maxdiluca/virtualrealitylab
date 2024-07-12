@@ -18,7 +18,6 @@ sections:
         - Visitors
         - Project Students
         - Volunteer Research Assistants
-        - Alumni
       sort_by: Params.last_name
       sort_ascending: true
     design:
@@ -27,4 +26,4 @@ sections:
       show_social: false
 ---
 
-Alumni
+Here is where I would like to list the Alumni

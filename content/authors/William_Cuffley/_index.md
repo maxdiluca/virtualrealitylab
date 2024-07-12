@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Poject student
+role:  BSc student
 
 # Organizations/Affiliations
 organizations:
@@ -20,6 +20,7 @@ organizations:
 
 interests:
   - EEG
+  - data science
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -36,7 +37,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Volunteer Research Assistants
+- Research Assistants
 
 ---
 

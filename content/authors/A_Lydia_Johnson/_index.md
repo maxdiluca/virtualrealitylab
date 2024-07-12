@@ -4,7 +4,7 @@ title: Lydia Johnson
 
 # Username (this should match the folder name)
 authors:
-- Lydia_Johnson
+- A_Lydia_Johnson
 
 # Is this the primary user of the site?
 superuser: false
@@ -38,6 +38,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Project Students
+- Alumni
 
 ---
 

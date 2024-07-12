@@ -5,7 +5,7 @@ date: 2021-04-11T22:41:39.165Z
 summary: ""
 draft: false
 featured: false
-authors: []
+authors: [Diar_Karim, Max_Di_Luca]
 external_link: https://prendosim.github.io
 image:
   filename:

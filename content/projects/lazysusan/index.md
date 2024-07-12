@@ -5,7 +5,7 @@ date: 2022-03-07T22:41:39.165Z
 summary: ""
 draft: false
 featured: false
-authors: []
+authors: [Max_Di_Luca]
 external_link: https://github.com/maxdiluca/LazySusan
 image:
   filename:

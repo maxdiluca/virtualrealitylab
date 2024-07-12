@@ -28,7 +28,13 @@ interests:
 social:
 - icon: link
   icon_pack: fas
-  link: 
+  link: https://research.birmingham.ac.uk/en/persons/mirali-khatibi-tabatabaei 
+- icon: google-scholar
+  icon_pack: ai
+  link:   https://scholar.google.com/citations?user=L5HQLOcAAAAJ&hl=en
+- icon: linkedin
+  icon_pack: fab  
+  link:  https://www.linkedin.com/in/ali-khatibi-1807a619/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

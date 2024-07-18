@@ -11,7 +11,7 @@ sections:
       text: |-
         ### Opportunities
 
-        We are always looking for talented students to join our research group. If you're interested in exploring potential opportunities, please get in touch with us.
+        We are always looking for talented students to join our research group. Please get in touch with us if you're interested in exploring potential opportunities, whether for a voluntary position, an internship or a part-time research assistantship.
 
         ---
 

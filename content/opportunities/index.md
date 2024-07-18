@@ -11,13 +11,13 @@ sections:
       text: |-
         ### Opportunities
 
-        We are always looking for talented students to join our research group. Please get in touch with us if you're interested in exploring potential opportunities, whether for a voluntary position, an internship or a part-time research assistantship.
+        We are always looking for talented students to join our research group. Send us your CV using the [Contact Page](/contact) if you're interested in exploring potential opportunities, whether for a voluntary position, an internship or a part-time research assistantship. 
 
         ---
 
         #### PhD Positions
 
-        Interested in pursuing a PhD? Contact **Dr Max Di Luca** for more information.
+        Are you interested in pursuing a PhD in the lab? Contact **Dr Max Di Luca** for more information or fill in the form using the [Contact Page](/contact).
 
         ---
 

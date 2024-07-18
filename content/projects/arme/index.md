@@ -5,7 +5,7 @@ date: 2021-04-11T22:41:39.165Z
 summary: ""
 draft: false
 featured: false
-authors: [Max_Di_Luca, Alan_Wing, Mark_Elliott, Min_Li, Diar_Karim]
+authors: [Max_Di_Luca, Alan_Wing, Maria_Witek, Mark_Elliott, Min_Li, Diar_Karim]
 external_link: https://arme-project.co.uk
 image:
   filename:

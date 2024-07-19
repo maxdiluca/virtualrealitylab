@@ -18,6 +18,7 @@ sections:
         - Visitors
         - Project Students
         - Volunteer Research Assistants
+        - Interns
       sort_by: Params.last_name
       sort_ascending: true
     design:

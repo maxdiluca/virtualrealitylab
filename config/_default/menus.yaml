@@ -48,7 +48,7 @@ main:
     parent: Internal
     weight: 3
 
-  - name: COntent Management System
+  - name: CMS (requires signup)
     url: https://virtualrealitylab.netlify.app/admin
     parent: Internal
     weight: 4

@@ -25,7 +25,7 @@ Interests:
 - Speech and Language Technology
 
 education:
-    course: mENG in Computer Science and Software Engineering
+    -  course: mENG in Computer Science and Software Engineering
       institution: University of Birmingham (UK)
       year: 2026
   

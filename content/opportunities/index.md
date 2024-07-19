@@ -23,7 +23,7 @@ sections:
         
         ---
         
-             ### Student Engagement
+        #### Student Engagement
 
         We are always looking for talented students to get involved in lab activities. Send us your CV using the [Contact Page](/contact) if you're interested in exploring potential opportunities, including internships, part-time research assistant positions, and volunteering. 
 

@@ -1,7 +1,7 @@
 ---
 title: TactileMirror. Code for a wearable sensory substitution device
 subtitle:
-date: 2021-04-11T22:41:39.165Z
+date: 2021-04-11
 summary: ""
 draft: false
 featured: false

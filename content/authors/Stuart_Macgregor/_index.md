@@ -48,7 +48,7 @@ social:
 email: ""
 
 user_groups:
-  - Research Assistants
+  - Collaborators
 ---
 
 Stuart MacGregor is a professional Squash Player and research assistant at the University of Birmingham (UK). With a BSc in Human Biology and a Masters in Computer Science, Stuart's interests lie in artificial intelligence, motion capture, and their applications in enhancing sports experiences.

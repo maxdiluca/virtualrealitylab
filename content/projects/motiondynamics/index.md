@@ -1,7 +1,7 @@
 ---
 title: Motion Dynamics
 subtitle:
-date: 2024-06-11T22:41:39.165Z
+date: 2024-06-11
 summary: ""
 draft: false
 featured: false

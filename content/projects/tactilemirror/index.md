@@ -5,7 +5,7 @@ date: 2021-04-11
 summary: ""
 draft: false
 featured: false
-authors: [Diar_Karim, Max_Di_Luca_]
+authors: [Diar_Karim, Max_Di_Luca]
 external_link: https://github.com/WHC2021SIC/WHC2021SIC-TeamTactileMirror.git
 image:
   filename:

@@ -23,16 +23,8 @@
             {{ end }}
         </div>
     </div>
-    
 </div>
 
- <div class="image-content">
-            {{ $image := resources.Get "media/panoramic_large.jpg" }}
-            {{ with $image }}
-                <img src="{{ .Permalink }}" alt="Lab panoramic image" class="image">
-            {{ end }}
-        </div>
-        
 <style>
     .home-container {
         display: flex;

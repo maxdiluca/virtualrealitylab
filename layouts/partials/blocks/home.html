@@ -23,6 +23,12 @@
             {{ end }}
         </div>
     </div>
+     <div class="image-content">
+            {{ $image := resources.Get "media/panoramic.jpg" }}
+            {{ with $image }}
+                <img src="{{ .Permalink }}" alt="Lab panoramic image" class="image">
+            {{ end }}
+        </div>
 </div>
 
 <style>

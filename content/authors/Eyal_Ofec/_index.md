@@ -43,18 +43,12 @@ social:
     link: https://scholar.google.com/citations?user=UvirJPEAAAAJ&hl=en
 
 #the following links need to be updated!
-  - icon: publons
-    icon_pack: ai
-    link: https://publons.com/researcher/1170808/massimiliano-di-luca/
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/eyalofek
-  - icon: tree
-    icon_pack: fas
-    link: https://neurotree.org/neurotree/peopleinfo.php?pid=6562
   - icon: youtube
     icon_pack: fab
-    link: https://youtube.com/playlist?list=PLRBLD3PiUPlzAmKsL7gicIvci2lRXoZah
+    link: https://www.youtube.com/@EyalOfek/featured
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/eyalofek/

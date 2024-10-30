@@ -1,5 +1,8 @@
 # [Virtual Reality Lab](https://github.com/maxdiluca/virtualrealitylab)
 
+
+**To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**
+
 This website is using the _Research Group Template_ from Hugo Blox, the following are useful things if you're looking to help maintain the website:
 
 - [**Get Started**](https://hugoblox.com/hugo-themes/)
@@ -10,4 +13,4 @@ The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS make
 
 To run this within terminal do: `hugo server -D`
 
-** To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**
+

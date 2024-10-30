@@ -1,7 +1,7 @@
 # [Virtual Reality Lab](https://github.com/maxdiluca/virtualrealitylab)
 
 
-** N.B. To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**
+**N.B. To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**
 
 This website is using the _Research Group Template_ from Hugo Blox, the following are useful things if you're looking to help maintain the website:
 

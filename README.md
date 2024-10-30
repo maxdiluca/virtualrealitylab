@@ -1,4 +1,4 @@
-# [Virtual Reality Lab](https://github.com/maxdiluca/virtualrealitylab)
+# [Virtual Reality Lab](https://virtualrealitylab.netlify.app)
 
 
 **N.B. To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**

@@ -18,7 +18,9 @@ organizations:
     url: "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ofek-eyal"
 
 interests:
-  - Virtual Reality
+  - Mixed Reality
+  - Human-Computer Interaction
+  - Computer Vision
   - Haptics
  
 education:

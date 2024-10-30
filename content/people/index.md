@@ -12,9 +12,10 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
         - Principal Investigator
+        - Affiliated Faculty
         - Researchers
-        - Research Assistants
         - Collaborators
+        - Research Assistants
         - Visitors
         - Project Students
         - Interns

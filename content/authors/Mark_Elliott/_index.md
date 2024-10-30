@@ -39,6 +39,6 @@ email: ""
 
 
 user_groups:
-- Collaborators
+- Affiliated Faculty
 ---
 

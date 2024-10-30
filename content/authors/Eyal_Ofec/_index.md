@@ -68,7 +68,7 @@ social:
 email: ""
 
 user_groups:
-  - Principal Investigator
+  - Affiliated Faculty
 ---
 
 Eyal's bio

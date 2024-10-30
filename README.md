@@ -9,3 +9,5 @@ This website is using the _Research Group Template_ from Hugo Blox, the followin
 The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
 To run this within terminal do: `hugo server -D`
+
+** To modify content on the website, please refer to the VR Lab [CODA page](https://coda.io/d/_dfkFKZfkBvc/Websites_suUeI84V)**

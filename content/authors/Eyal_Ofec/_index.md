@@ -23,9 +23,9 @@ interests:
  
 education:
   courses:
-    - course: PhD in xx
+    - course: Ph.D. in Computer Vision
       institution: xx (USA)
-      year: xx
+      year: 2000
       logo: education-logos/bu.png
     - course: xx
       institution: #delete logo line if you  don't want to uploas

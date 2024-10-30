@@ -1,8 +1,8 @@
 ---
-title: Eyal Ofec
+title: Eyal Ofek
 
 authors:
-  - Eyal_Ofec
+  - Eyal_Ofek
 
 superuser: true
 
@@ -46,7 +46,7 @@ social:
     link: https://publons.com/researcher/1170808/massimiliano-di-luca/
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/maxdiluca
+    link: https://twitter.com/eyalofek
   - icon: tree
     icon_pack: fas
     link: https://neurotree.org/neurotree/peopleinfo.php?pid=6562
@@ -55,16 +55,16 @@ social:
     link: https://youtube.com/playlist?list=PLRBLD3PiUPlzAmKsL7gicIvci2lRXoZah
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/maxdiluca/
+    link: https://www.linkedin.com/in/eyalofek/
   - icon: researchgate
     icon_pack: fab
-    link: https://www.researchgate.net/profile/Massimiliano-Di-Luca
+    link: https://www.researchgate.net/profile/Eyal-Ofek
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0003-3085-7251
+    link: https://orcid.org/0000-0003-4750-1569
   - icon: github
     icon_pack: fab
-    link: https://github.com/maxdiluca
+    link: https://github.com/eyalbham
 email: ""
 
 user_groups:

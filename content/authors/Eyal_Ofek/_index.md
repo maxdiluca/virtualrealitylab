@@ -90,7 +90,8 @@ I formed Microsoft's Bing Maps & Mobile Research Lab. We combined generated many
 Besides publishing in leading computer vision and graphics forums, our work was presented at TED 2010 and in the New York Times.
 
 
-I was a founder of several startup companies. Among them, a develop of a very succesful 2D+3D graphic editor for the Amiga computer, development of a novel game engine rendering global illumination effects in real-time, and overseeing software R&D of the world’s first time-of-flight video camera in a startup company. I used cameras for applications such as TV depth keying and reconstruction, and it was the basis for the Depth cameras used by Microsoft HoloLens and Magic Leap HMD.
+I was a founder of several startup companies. 
+Among them, a develop of a very succesful 2D+3D graphic editor for the Amiga computer, development of a novel game engine rendering global illumination effects in real-time, and overseeing software R&D of the world’s first time-of-flight video camera in a startup company. I used cameras for applications such as TV depth keying and reconstruction, and it was the basis for the Depth cameras used by Microsoft HoloLens and Magic Leap HMD.
 
 
 

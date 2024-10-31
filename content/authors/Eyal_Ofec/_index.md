@@ -76,7 +76,7 @@ SeeingVR to enhance the use of VR for people with low vision,
 Microsoft Rocketbox avatars, MoveBox and HeadBox toolkits to democratize avatar animation, 
 and RemoteLab for distributed user studies.
 
-I formed Microsoft's Bing Maps's Research Lab, where we state-of-the art research and impacting the products. 
+I formed Microsoft's Bing Maps's Research Lab, where we published state-of-the art research and impacting the products. 
 Among our results is the development of the influatial Stroke-Width Transform text detector used by Bing and was incorporated into many OCRs and the OpenCV library. 
 I developed technologies such as the world’s first street-side imagery service, street-level reconstruction, novel texture compression, matching of user's photos to the world (presented at TED 2010) and more.
 

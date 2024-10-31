@@ -84,6 +84,7 @@ I have served on multiple conference committees and was the paper chair of ACM S
 
 I was a founder of several startup companies. 
 Among them, a develop of a very succesful 2D+3D graphic editor for the Amiga computer, development of a novel game engine rendering global illumination effects in real-time, and overseeing software R&D of the world’s first time-of-flight video camera in a startup company. I used cameras for applications such as TV depth keying and reconstruction, and it was the basis for the Depth cameras used by Microsoft HoloLens and Magic Leap HMD.
+I worked on AI based forest fire detection, guiding a fleet of automous drones at DataBlanket.com
 
 
 

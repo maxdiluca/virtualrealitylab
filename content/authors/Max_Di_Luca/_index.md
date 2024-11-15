@@ -8,7 +8,7 @@ superuser: true
 
 role: Associate Professor
 
-bio: "Max Di Luca is the PI of the lab. He is Associate Professor at the University of Birmingham (UK) in the Centre for Computational Neuroscience and Cognitive Robotics."
+bio: "Max Di Luca is the PI of the lab. He is Associate Professor at the University of Birmingham (UK)."
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

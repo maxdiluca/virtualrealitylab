@@ -73,7 +73,7 @@ user_groups:
   - Principal Investigator
 ---
 
-Max Di Luca is Associate Professor at the University of Birmingham in the CNCR research centre. Using psychophysical methods and computational models, he investigates how the human brain processes multisensory information for perception and action.
+Max Di Luca is Associate Professor at the University of Birmingham in the School of Psychology and School of Computer Science. Using psychophysical methods and computational models, he investigates how the human brain processes multisensory information for perception and action.
 
 He earned the Laurea in Psychology from the Università di Trieste in 2000 and the PhD in Cognitive Science from Brown University in 2006. During his carer, Dr Di Luca has been Scientist at the Max Planck Institute for Biological Cybernetics in Tübingen, Visiting Scientist at Oculus Research and Research Scientist at Facebook Reality Labs.
 

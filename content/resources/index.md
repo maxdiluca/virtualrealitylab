@@ -53,14 +53,14 @@ sections:
         ## 3D Printing Resources
         The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are categorized into **FDM (Fused Deposition Modeling)** and **Resin (SLA/DLP)** printing technologies to meet a wide range of needs.
 
-        ## FDM Printers (Fused Deposition Modeling)
+        ### FDM Printers (Fused Deposition Modeling)
         FDM printers are ideal for creating functional prototypes with different materials and large models. 
 
         - **Creality CR-10**  
         - **Creality CR-10S**  
         - **Flashforge Creator PRO2**
 
-        ## Resin Printers (SLA/DLP)
+        ### Resin Printers (SLA/DLP)
         Resin printers are perfect for producing high-detail models with smooth finishes.
 
         - **Anycubic Photon S (2)**  

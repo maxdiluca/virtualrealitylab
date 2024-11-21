@@ -42,7 +42,7 @@ sections:
         - Practical use of XR hardware and software.  
         - Integrating VR into experimental and applied research.  
         - Best practices for interdisciplinary collaboration in XR.  
-       <p>
+        <p>
         To show interest and take part to future editions, let us know by dropping a line on the [Contact Page](/contact)
 
 ---

@@ -49,3 +49,6 @@ sections:
         - **Emotive Headsets**: Brain-computer interface (BCI) devices for recording EEG signals.  
         - **Physiological Sensors**: Comprehensive tools for monitoring biometric data, enabling studies of human responses in immersive environments.  
         - **Tobii 5**: State-of-the-art device for high-accuracy gaze tracking.  
+
+
+---

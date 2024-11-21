@@ -16,15 +16,16 @@ sections:
         ## Headsets  
         Our lab offers a wide variety of **virtual reality (VR)**, **augmented reality (AR)**, and **mixed reality (MR)** headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching. 
         - **Apple Vision Pro**: Cutting-edge mixed reality headset with high-resolution displays and advanced spatial computing capabilities.  
+        - **Magic Leap**:  Magic Leap 1 & 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.
+        - **Microsoft HoloLens 2**: Standalone or wireless tethered AR headset (see-through) for holographic experiences.  
+        - **ThinkReality Lenovo A3**
         - **Oculus/Facebook/Meta**:  
-        - Meta Quest 1, 2, 3, and Pro: Standalone VR headsets ideal for a range of applications, from entertainment to research-grade experiments.  
-        - Oculus Rift and Rift S: PC-tethered VR headsets known for their high-quality graphics and immersive experiences.  
-        - Oculus Go: Standalone VR headset for portable and casual applications. 
+        - Meta Quest Pro: High resolution standalone VR headset with eye tracking, hand tracking, and color pass-trough cameras.
+        - Meta Quest 1, 2, 3: Standalone (or tethered) VR headsets for a large range of applications with handtracking and passtrough cameras.
+        - Oculus Rift and Rift S: PC-tethered VR headsets that support high-quality graphics.  
+        - Oculus Go: Standalone VR headset for portable applications that require rotation tracking only. 
         - Oculus DK2: Early development kit for exploring VR environments.  
-        - **Microsoft HoloLens 2**: Industry-leading AR headset for interactive holographic experiences.  
-        - **Magic Leap**:  
-        - Magic Leap 1 & 2: Advanced AR devices designed for spatial computing and collaborative AR applications.  
-        - **Pico Pro**: Lightweight, standalone headset ideal for professional and consumer applications.  
+        - **Pico Pro**: Lightweight, standalone headset with good pass-through color camera.  
   
 
 

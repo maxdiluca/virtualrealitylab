@@ -16,7 +16,7 @@ sections:
         - **Apple Vision Pro**: Cutting-edge mixed reality headset with high-resolution displays and advanced spatial computing capabilities.  
         - **Magic Leap**: Magic Leap 1 & 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.  
         - **Microsoft HoloLens 2**: Standalone or wireless tethered AR headset (see-through) for holographic experiences.  
-        - **ThinkReality Lenovo A3**: Lightweight AR glasses for enterprise applications.  
+        - **ThinkReality Lenovo A3**: Lightweight AR glasses (see-through) for enterprise applications.  
         - **Oculus/Facebook/Meta**:  
           - Meta Quest Pro: High-resolution standalone VR headset with eye tracking, hand tracking, and color passthrough cameras.  
           - Meta Quest 1, 2, 3: Standalone (or tethered) VR headsets for a wide range of applications with hand tracking and passthrough cameras.  

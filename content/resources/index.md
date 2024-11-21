@@ -13,7 +13,7 @@ sections:
 
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  
-        - **Apple Vision Pro**: Cutting-edge mixed reality headset with high-resolution displays and advanced spatial computing capabilities.  
+        - **Apple Vision Pro**: Mixed reality headset with high-resolution displays, stereo pass-through, eye and hand tracking.  
         - **Magic Leap**: Magic Leap 1 & 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.  
         - **Microsoft HoloLens 2**: Standalone or wireless tethered AR headset (see-through) for holographic experiences.  
         - **ThinkReality Lenovo A3**: Lightweight AR glasses (see-through) for enterprise applications.  

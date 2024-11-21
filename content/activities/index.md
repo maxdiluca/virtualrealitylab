@@ -43,6 +43,6 @@ sections:
         - Integrating VR into experimental and applied research.  
         - Best practices for interdisciplinary collaboration in XR.  
         <p>
-        To show interest and take part in future editions of the course, let us know by dropping a line on the [Contact Page](/contact)
+        To register you interest in taking part to future editions of the course, let us know by dropping a line on the [Contact Page](/contact)
 
 ---

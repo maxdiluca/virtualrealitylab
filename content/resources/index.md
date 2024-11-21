@@ -66,4 +66,4 @@ sections:
         - **Anycubic Photon S (2)**  
         - **Peopoly Phenom**
 
-        ---
+---

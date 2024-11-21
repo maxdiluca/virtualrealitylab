@@ -13,6 +13,20 @@ sections:
        
         # VR Lab Equipment and Resources  
         The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual and augmented reality (VR/AR), human-computer interaction, and cognitive science.  Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. The space can be configured to meet the specific needs of researchers and developers.  
+        ## Headsets  
+        Our lab offers a wide variety of **virtual reality (VR)**, **augmented reality (AR)**, and **mixed reality (MR)** headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching. 
+        - **Apple Vision Pro**: Cutting-edge mixed reality headset with high-resolution displays and advanced spatial computing capabilities.  
+        - **Oculus/Facebook/Meta**:  
+        - Meta Quest 1, 2, 3, and Pro: Standalone VR headsets ideal for a range of applications, from entertainment to research-grade experiments.  
+        - Oculus Rift and Rift S: PC-tethered VR headsets known for their high-quality graphics and immersive experiences.  
+        - Oculus Go: Standalone VR headset for portable and casual applications. 
+        - Oculus DK2: Early development kit for exploring VR environments.  
+        - **Microsoft HoloLens 2**: Industry-leading AR headset for interactive holographic experiences.  
+        - **Magic Leap**:  
+        - Magic Leap 1 & 2: Advanced AR devices designed for spatial computing and collaborative AR applications.  
+        - **Pico Pro**: Lightweight, standalone headset ideal for professional and consumer applications.  
+  
+
 
         ## Motion Tracking Systems  
         - **Qualisys Motion Tracking**: Advanced optical tracking system with a **large tracking area**, ideal for precise motion capture and spatial analysis.  

@@ -16,10 +16,18 @@ main:
     url: projects
     weight: 35
 
+  - name: Activities
+    url: activities
+    weight: 35
+    
   - name: Gallery
     url: gallery
     weight: 40
 
+  - name: Resources
+    url: resources
+    weight: 45
+    
   - name: Opportunities
     url: opportunities
     weight: 50

@@ -11,6 +11,8 @@ sections:
       text: |-
         The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual, augmented, and mixed reality (VR/AR/MR), human-computer interaction, and cognitive science. Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. The space can be configured to meet the specific needs of researchers and developers.
 
+{{< figure src="/panoramic_big_.jpg" title="VR Lab panoramic" alt="Image of the VR Lab" >}}
+
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  
         - **Apple Vision Pro**: Mixed reality headset with high-resolution displays, stereo pass-through, eye and hand tracking.  

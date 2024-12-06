@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Arindam Dutta
+title: Maisy Rapata
 
 # Is this the primary user of the site?
 superuser: false
 
 # Username (this should match the folder name)
 authors:
-  - Arindam_Dutta
+  - Maisy_Rapata
 
 # Role/position
 role: MSc Human Computer Interaction
@@ -18,14 +18,15 @@ organizations:
     url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Postgraduate MSc Human Computer Interaction
+bio: MSc Human Computer Interaction
 
 interests:
   - Virtual Reality
-  - Haptics
-  - UI/UX
-  - Game Development
-  - Web Development
+  - Mobile development
+  - Innovation
+  - Health
+  - Artificial Intelligence
+  - Motion capture
 
 education:
   courses:
@@ -41,13 +42,7 @@ education:
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/Arid99t
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/arin99/
-  - icon: Behance
-    icon_pack: fas
-    link: https://www.behance.net/arindamdutta4
+    link: https://github.com/Maisy1900
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -56,7 +51,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "axd584@student.bham.ac.uk"
+email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -64,10 +59,14 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Students
+  - Research Assistants
 ---
 
-Hey there! I am a postgraduate student pursuing an MSc in Human-Computer Interaction, with a deep passion for game development, VR and XR technologies, and haptics. I am equally enthusiastic about web development and UI/UX design, where I aim to create intuitive and engaging user experiences. 
+Hello! I'm a research assistant at the School of Psychology.
 
+I am currently collaborating on two projects:
+A **text entry project** in partnership with Google. An **AI-based optimization environment** focusing on enhancing physics-based interactions in virtual reality (VR).
 
+Hello, I'm a postgraduate student from the School of Computer Science at the University of Birmingham, specialising in Human-Computer Interaction (HCI). My interest in this field originated from my undergraduate studies in Computer Science, where I focused on creating an accessible health management app for individuals with age-related macular degeneration.
 
+My research at the VRLab involves using classical machine learning to optimise the physics parameters of a physics-based grasping system in virtual reality, which is an extension of the PrendoSim project. The aim is to enhance the realism and immersion of VR interactions, making them more effective and engaging.

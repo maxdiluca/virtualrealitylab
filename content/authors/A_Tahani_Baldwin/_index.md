@@ -4,19 +4,18 @@ title: Tahani Baldwin
 
 # Username (this should match the folder name)
 authors:
-- Tahani_Baldwin
+  - Tahani_Baldwin
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  MSc Psychology
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:
-- name: University of Birmingham
-  url: "https://www.birmingham.ac.uk/"
-
+  - name: University of Birmingham
+    url: "https://www.birmingham.ac.uk/"
 
 interests:
   - Virtual Reality
@@ -31,13 +30,12 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: linkedin
-  icon_pack: fab
-  link:  https://www.linkedin.com/in/tahani-baldwin/
-- icon: twitter
-  icon_pack: fab
-  link:  https://x.com/tahaniimyra
-
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/tahani-baldwin/
+  - icon: twitter
+    icon_pack: fab
+    link: https://x.com/tahaniimyra
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "tmb270@student.bham.ac.uk"
@@ -45,14 +43,11 @@ email: "tmb270@student.bham.ac.uk"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project Students
-
+  - Alumni Project Students
 ---
 
-I’m a current master’s student in psychology, and use virtual reality in my dissertation project. 
+I’m a current master’s student in psychology, and use virtual reality in my dissertation project.
 
-My research is focused on the influence of **psychosocial factors on perceived stress in a Martian environment**, and what it means for future selection processes for space travel. My other research interests include human factors engineering, human-robotics interactions, climate anxiety, and space psychology/medicine. 
+My research is focused on the influence of **psychosocial factors on perceived stress in a Martian environment**, and what it means for future selection processes for space travel. My other research interests include human factors engineering, human-robotics interactions, climate anxiety, and space psychology/medicine.
 
 Aside from my degree, I’m a student representative and ambassador for the psychology department, a lead ambassador for the [British Psychological Society](https://www.bps.org.uk/), and previously Chair of the [UoB Astronomical Society](https://www.guildofstudents.com/organisation/astrosoc/). I hope to utilise the skills I have learnt from these roles and my project in the hope of one day becoming a professor and human performance specialist.
-
-

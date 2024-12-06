@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Maisy Rapata
+title: Arindam Dutta
 
 # Is this the primary user of the site?
 superuser: false
 
 # Username (this should match the folder name)
 authors:
-  - Maisy_Rapata
+  - Arindam_Dutta
 
 # Role/position
 role: MSc Human Computer Interaction
@@ -18,16 +18,13 @@ organizations:
     url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: MSc Human Computer Interaction
+bio: Postgraduate MSc Human Computer Interaction
 
 interests:
   - Virtual Reality
-  - Mobile development
-  - Human-Computer interaction
-  - UX/UI 
-  - Health Management 
-  - Artificial Intelligence 
-  - Motion capture 
+  - Haptics
+  - UI/UX
+  - Game Development
 
 education:
   courses:
@@ -43,7 +40,13 @@ education:
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/Maisy1900
+    link: https://github.com/Arid99t
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/arin99/
+  - icon: Behance
+    icon_pack: fas
+    link: https://www.behance.net/arindamdutta4
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -52,7 +55,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "mxr536@student.bham.ac.uk"
+email: "axd584@student.bham.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -60,12 +63,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Students
+  - Research Assistants
 ---
-
-Hello, I'm a postgraduate student from the School of Computer Science at the University of Birmingham, specialising in Human-Computer Interaction (HCI). My interest in this field originated from my undergraduate studies in Computer Science, where I focused on creating an accessible health management app for individuals with age-related macular degeneration.
-
-My research at the VRLab involves using classical machine learning to optimise the physics parameters of a physics-based grasping system in virtual reality, which is an extension of the PrendoSim project. The aim is to enhance the realism and immersion of VR interactions, making them more effective and engaging.
-
-
-

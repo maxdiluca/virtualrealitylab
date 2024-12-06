@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Diallo Fatumata
+title: Vojtect Ryp
 
 # Username (this should match the folder name)
 authors:
-- Diallo_Fatumata
+- Vojtect_Ryp
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role:  Poject student
+role:  Volunteer Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,8 @@ organizations:
 
 
 interests:
-  - EEG
+  - equipment management
+  - Virtual Reality
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -31,13 +32,14 @@ social:
   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "yxx212@student.bham.ac.uk"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Project students
+- Alumni Project Students
 
 ---
 
 
+This is my biography.

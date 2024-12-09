@@ -66,7 +66,3 @@ Hello! I'm a research assistant at the School of Psychology.
 
 I am currently collaborating on two projects:
 A **text entry project** in partnership with Google. An **AI-based optimization environment** focusing on enhancing physics-based interactions in virtual reality (VR).
-
-Hello, I'm a postgraduate student from the School of Computer Science at the University of Birmingham, specialising in Human-Computer Interaction (HCI). My interest in this field originated from my undergraduate studies in Computer Science, where I focused on creating an accessible health management app for individuals with age-related macular degeneration.
-
-My research at the VRLab involves using classical machine learning to optimise the physics parameters of a physics-based grasping system in virtual reality, which is an extension of the PrendoSim project. The aim is to enhance the realism and immersion of VR interactions, making them more effective and engaging.

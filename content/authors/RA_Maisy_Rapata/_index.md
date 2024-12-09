@@ -26,11 +26,11 @@ interests:
   - Innovation
   - Health
   - Artificial Intelligence
-  - Motion capture
+  - Motion Capture
 
 education:
   courses:
-    - course: Msc in Human Computer Interaction
+    - course: MSc Human Computer Interaction
       institution: University of Birmingham
       year: 2023-2024
 

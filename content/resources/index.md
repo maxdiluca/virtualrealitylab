@@ -11,7 +11,7 @@ sections:
       text: |-
         The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual, augmented, and mixed reality (VR/AR/MR), human-computer interaction, and cognitive science. Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. The space can be configured to meet the specific needs of researchers and developers.
 
-
+        {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  
@@ -53,6 +53,9 @@ sections:
         - **Tobii 5**: State-of-the-art device for high-accuracy gaze tracking.
 
         ## 3D Printing Resources
+
+        {{< figure src="workshop_panoramic.jpeg" alt="Workshop" width="100%" >}}
+
         The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are categorized into **FDM (Fused Deposition Modeling)** and **Resin (SLA/DLP)** printing technologies to meet a wide range of needs.
 
         ### FDM Printers (Fused Deposition Modeling)
@@ -67,7 +70,4 @@ sections:
 
         - **Anycubic Photon S (2)**  
         - **Peopoly Phenom**
-
 ---
-
-

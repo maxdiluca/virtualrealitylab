@@ -10,7 +10,7 @@ authors:
   - Jhundon_De_Leon_Mendi
 
 # Role/position
-role: MSc Cognitive Neuroimaging and Data Science
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:

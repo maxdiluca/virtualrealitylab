@@ -10,7 +10,7 @@ authors:
   - Arindam_Dutta
 
 # Role/position
-role: MSc Human Computer Interaction
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:

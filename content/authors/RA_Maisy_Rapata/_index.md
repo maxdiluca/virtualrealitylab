@@ -10,7 +10,7 @@ authors:
   - Maisy_Rapata
 
 # Role/position
-role: MSc Human Computer Interaction
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:

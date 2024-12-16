@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: MSc Computational Neuroscience and Cognitive Robotics
+role: Graduate
 
 # Organizations/Affiliations
 organizations:
@@ -47,9 +47,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
+  - Volunteer Research Assistants
   - Alumni Project Students
 ---
 
-Hi, I am Karthika.
-
-I completed my bachelors degree in Electronics Engineering and worked in the industry for 5 years. I am back to studying now, pursuing my masters in CNCR at the University of Birmingham. I am interested in multisensory integration and neuroAI. I am working on **visuo-haptics integration** to assess softness in VR for my master's thesis at the lab.

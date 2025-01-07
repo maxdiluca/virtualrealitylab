@@ -99,7 +99,7 @@ df = pd.read_excel(excel_file)
 os.makedirs(output_directory, exist_ok=True)
 
 
-threshold_date = datetime(2024, 11, 1) # datetime(YYY, MM, DD)
+threshold_date = datetime(2024, 12, 18) # datetime(YYY, MM, DD)
 
 # Ensure that the 'Date' column is in datetime format
 df['Date'] = pd.to_datetime(df['Completion time'], errors='coerce')

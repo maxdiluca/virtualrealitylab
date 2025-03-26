@@ -11,10 +11,24 @@ sections:
       image:
         filename: FindUs.gif
       text: |-
-        The Gisbert Kapp building is located across the road from the University North Gate (Green G8 on the campus map). Enter the Pritchatts Road 52 building through the parking lot. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and enter the door leading to the corridor. The lab is at the end of the corridor.
+        The Gisbert Kapp building (Green G8 on the campus map) is located between the University North Gate and the North East multistorey Car Park. Enter the Pritchatts Road 52 building (either through the parking lot or from the multistorey entrance). Looking at the Cafe 52, take the elevators on the left. On the 4th floor enter the left door leading to the corridor. The lab is at the end of the corridor.
         <br>
-        Please note that access to the Gisbert Kapp corridors requires a UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
-  - block: contact
+        Please note that access to the Gisbert Kapp corridors requires an activated UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
+   - block: contact
+    content:
+      address:
+        street: Pritchatts Road 52
+        postcode: "B15 2SA"
+        city: Birmingham
+        country: United Kingdom
+        country_code: UK
+      coordinates:
+        latitude: "52.45321698704788"
+        longitude: "-1.927825815563642"
+      directions: Floor 4 in the Gisbert Kapp Building
+      
+      
+- block: contact
     content:
       title: Get in touch
       text: |-

@@ -14,7 +14,7 @@ sections:
         The Gisbert Kapp building is located between the University North Gate and the North East multistorey Car Park. Enter the Pritchatts Road 52 building (either through the parking lot or from the multistorey entrance). Looking at the Cafe 52, take the elevators on the left. On the 4th floor enter the left door leading to the corridor. The lab is at the end of the corridor.
         <br>
         Please note that access to the Gisbert Kapp corridors requires an activated UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
-  - block: markdown
+ - block: markdown
     content:
       title: Gisbert Kapp on Campus Map
       text: |-

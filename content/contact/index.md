@@ -18,10 +18,8 @@ sections:
     content:
       title: Gisbert Kapp on Campus Map
       text: |-
-        You can view the Gisbert Kapp building is in Green G8 on the campus map:
-        
+        You can view the Gisbert Kapp building is in Green G8 on the campus map: 
         <iframe src="https://www.birmingham.ac.uk/documents/university/edgbaston-campus-map.pdf" width="100%" height="600px"></iframe>
-   
     design:
       columns: "1"
 - block: contact

@@ -29,8 +29,6 @@ sections:
         latitude: "52.45321698704788"
         longitude: "-1.927825815563642"
       directions: Floor 4 in the Gisbert Kapp Building
-      office_hours:
-        - Monday - Friday 10:00 to 16:00
 
       # Automatically link email and phone or display as text?
       autolink: true
@@ -66,5 +64,3 @@ sections:
         padding: ["20px", "0", "20px", "0"]
       css_class: fullscreen
 ---
-     <iframe src="https://www.birmingham.ac.uk/documents/university/edgbaston-campus-map.pdf" width="100%" height="600px"></iframe>
-  

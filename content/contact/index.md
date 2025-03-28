@@ -13,7 +13,7 @@ sections:
       text: |-
         The Gisbert Kapp building is located across the road from the University North Gate.  
         <br>
-        [Gisbert Kapp on the campus map ]({{< ref " https://campusmap.bham.ac.uk/search/5d6f49101e1f64009327a18c" >}} "About Us")
+        [Gisbert Kapp on the campus map ](https://campusmap.bham.ac.uk/search/5d6f49101e1f64009327a18c)
        <br>
          Enter the Pritchatts Road 52 building through the parking lot. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and enter the door leading to the corridor. The lab is at the end of the corridor.
         <br>

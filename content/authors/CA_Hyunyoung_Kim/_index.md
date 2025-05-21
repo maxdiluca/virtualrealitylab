@@ -26,9 +26,18 @@ education:
     
 
 social:
-  # - icon: 
-  #   icon_pack:
-  #   link:
+  - icon: x
+    icon_pack: fas
+    link: https://x.com/hyunyoung_kim
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/future.fab.lab/ 
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/hyunyoungkim/
+  - icon: facebook
+    icon_pack: fab
+    link: https://www.facebook.com/hyunyoung.kim.1113
 
 highlight_name: false
 
@@ -45,3 +54,5 @@ user_groups:
 # Volunteer Research Assistants (V)
 # Alumni (A)
 ---
+
+I am an Assistant Professor in the School of Computer Science at the University of Birmingham. I am interested in providing tools for everyone to fabricate interactive objects for their unique problems. My research method encompasses developing fabrication tools, proposing novel applications such as shape-changing interfaces using on the tools, and conducting user studies to identify usability problems of the tools. I have experience both in academia and industry, focusing on HCI and UX design. I have a strong academic record since my PhD, publishing full papers at CHI and UIST. I am also supervising three PhD students and actively involved academic communities. I have been working in five different countries (UK, Denmark, France, Germany, and South Korea), broadening my research skills and network.

@@ -6,6 +6,7 @@
 
 {{ $title := $block.content.title | $page.RenderString }}
 {{ $text := $block.content.text | $page.RenderString }}
+{{ $directory := $block.content.directory | $page.RenderString }}
 
 <div class="container">
     <div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center text-center">
@@ -22,8 +23,11 @@
                     <div class="column">
                         {{ range $j, $image := $images }}
                             {{ if eq (mod $j $numColumns) $i }}
+                                {{ $resized := $image.Fit "600x600" }}
                                 <div class="photo">
-                                    <img src="{{ $image.RelPermalink }}" alt="">
+                                    <a href="{{ $image.RelPermalink }}" data-lightbox="gallery">
+                                        <img src="{{ $resized.RelPermalink }}" alt="" loading="lazy" decoding="async">
+                                    </a>
                                 </div>
                             {{ end }}
                         {{ end }}
@@ -31,6 +35,8 @@
                 {{ end }}
             </div>
         </div>
+
+
     </div>
 </div>
 

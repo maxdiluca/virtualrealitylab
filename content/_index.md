@@ -6,6 +6,9 @@ type: landing
 
 sections:
   - block: home
+  - block: photo-gallery
+    content:
+      title: Photo Gallery
 
 ---
 

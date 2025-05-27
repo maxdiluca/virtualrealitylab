@@ -24,18 +24,8 @@ sections:
             icon_pack: fas
             text: Contact Us
             url: ../contact/
-        - title: Academics from different fields
-          content: |-
-            The Virtual Reality Lab in the School of Psychology at the University of Birmingham, led by Dr. Max Di Luca, brings together experts from diverse fields, including Computer Vision, Human-Computer Interaction, Social Sciences, Psychology, Neuroscience, Music, and Sports.
-          align: left
-          background:
-            image: 
-                filename: slider_image_2.jpeg
-                filters:
-                  brightness: 0.7
-            position: up
-            color: '#666'
-        - title: Projects in VR and Research
+      
+        - title: Research
           content: |-
             The lab focuses on perception, cognition, and action by leveraging virtual reality technology to create immersive environments for detailed psychological studies. Through these efforts, the lab seeks to enhance our understanding of human behavior and mental processes.
           align: left
@@ -46,6 +36,17 @@ sections:
                 brightness: 0.4
             position: center
             color: '#333'
+        - title: Interdisciplinarity
+          content: |-
+            The Virtual Reality Lab in the School of Psychology at the University of Birmingham, led by Dr. Max Di Luca, brings together experts from diverse fields, including Computer Vision, Human-Computer Interaction, Social Sciences, Psychology, Neuroscience, Music, and Sports.
+          align: left
+          background:
+            image: 
+                filename: slider_image_2.jpeg
+                filters:
+                  brightness: 0.7
+            position: up
+            color: '#666'
     design:
       slide_height: ''
       is_fullscreen: true

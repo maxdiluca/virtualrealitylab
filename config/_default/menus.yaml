@@ -6,32 +6,32 @@
 main:
   - name: Home
     url:
-    weight: 20
-
-  - name: People
-    url: people
-    weight: 30
+    weight: 10
     
   - name: Projects
     url: projects
-    weight: 35
+    weight: 20
 
   - name: Resources
     url: resources
-    weight: 40
+    weight: 30
     
   - name: Opportunities
     url: opportunities
-    weight: 45
+    weight: 40
+
+  - name: People
+    url: people
+    weight: 50
 
   - name: Contact
     url: contact
-    weight: 50
+    weight: 60
 
   # Internal Sections for the VR Lab members
   - name: Internal
     url: publication
-    weight: 55
+    weight: 70
 
   - name: SharePoint
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab

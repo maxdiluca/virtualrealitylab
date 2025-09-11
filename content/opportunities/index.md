@@ -36,10 +36,10 @@ sections:
         ## VR Lab Activities  
         The goal of the lab is to serve as a hub for research, development, and training in virtual, augmented, and mixed reality (VR/AR/MR).  
         ## Supporting BhamXR  
-        The lab is an active contributor to **BhamXR**, the University’s interdisciplinary community of over 100 academics engaged in extended reality (XR) research. Our activities include:  
+        The lab is an active contributor to **<a href="https://www.birmingham.ac.uk/research/centres-institutes/bhamxr">BhamXR</a>**, the University’s interdisciplinary community of over 100 academics engaged in extended reality (XR) research. Our activities include:  
         - **Technical Support**: Providing access to advanced VR hardware and tools to enable pioneering research.  
         - **Workshops and Events**: Hosting seminars, hackathons, and interactive sessions to foster knowledge exchange.  
-        - **Collaborative Projects**: Partnering with BhamXR members to develop XR solutions for diverse fields like education, healthcare, and the arts.  
+        - **Collaborative Projects**: Partnering with <a href="https://www.birmingham.ac.uk/research/centres-institutes/bhamxr/meet-the-team">BhamXR members</a> to develop XR solutions for diverse fields like education, healthcare, and the arts.  
          
          <p>
          To sign up to the BhamXR mailing list and be kept in the loop about VR, MR, AR activities at UoB, Staff and Students can email majordomo@lists.bham.ac.uk with the text: “subscribe bhamxr”

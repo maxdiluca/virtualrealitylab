@@ -23,7 +23,6 @@ interests:
   - Psychophysics
   - Computational modeling
   - Multisensory perception
-  - Temporal perception
 
 education:
   courses:

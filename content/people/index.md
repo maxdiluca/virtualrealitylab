@@ -16,6 +16,7 @@ sections:
         - Research Assistants
         - Volunteer Research Assistants
         - Project Students
+        - PhD Students
         - Interns
         - Visitors
         

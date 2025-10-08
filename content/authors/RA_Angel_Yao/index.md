@@ -4,7 +4,7 @@ title: Angel Yao
 
 # Username (this should match the folder name)
 authors:
-  - Angel_Yao
+  - RA_Angel_Yao
 
 # Is this the primary user of the site?
 superuser: false

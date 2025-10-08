@@ -4,7 +4,7 @@ title: Ioannis Emmanouilidis
 
 # Username (this should match the folder name)
 authors:
-  - Ioannis_Emmanouilidis
+  - RA_Ioannis_Emmanouilidis
 
 # Is this the primary user of the site?
 superuser: false

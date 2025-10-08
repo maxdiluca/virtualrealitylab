@@ -4,7 +4,7 @@ title: Nazrin Salimzade
 
 # Username (this should match the folder name)
 authors:
-  - Nazrin_Salimzade
+  - P_Nazrin_Salimzade
 
 # Is this the primary user of the site?
 superuser: false

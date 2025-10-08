@@ -4,7 +4,7 @@ title: Sean Sparkes
 
 # Username (this should match the folder name)
 authors:
-  - Sean_Sparkes
+  - P_Sean_Sparkes
 
 # Is this the primary user of the site?
 superuser: false

@@ -4,7 +4,7 @@ title: Devika Mukherjee
 
 # Username (this should match the folder name)
 authors:
-  - Devika_Mukherjee
+  - RA_Devika_Mukherjee
 
 # Is this the primary user of the site?
 superuser: false

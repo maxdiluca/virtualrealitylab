@@ -4,7 +4,7 @@ title: Leaf Crauwels
 
 # Username (this should match the folder name)
 authors:
-  - Leaf_Crauwels
+  - P_Leaf_Crauwels
 
 # Is this the primary user of the site?
 superuser: false

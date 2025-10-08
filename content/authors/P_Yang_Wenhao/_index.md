@@ -6,7 +6,7 @@ title: Yang Wenhao
 superuser: false
 
 # Username (this should match the folder name)
-authors: Yang_Wenhao
+authors: P_Yang_Wenhao
 
 # Role/position
 role: Project Student

@@ -4,7 +4,7 @@ title: Xiao Wei Monica
 
 # Username (this should match the folder name)
 authors:
-  - Xiao_Wei_Monica
+  - PHD_Xiao_Wei_Monica
 
 # Is this the primary user of the site?
 superuser: false

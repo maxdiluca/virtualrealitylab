@@ -1,15 +1,13 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const cards = document.querySelectorAll(".card, .author-card");
-    cards.forEach(card => {
-      const nameEl = card.querySelector(".portrait-title, .card-title");
-      if (nameEl && nameEl.textContent.trim() === "Max Di Luca") {
-        const anchor = card.querySelector("a");
-        if (anchor && anchor.href.includes("/authors/PI_Max_Di_Luca")) {
-          anchor.href = "https://massimilianodiluca.info";
-          anchor.target = "_blank";
-          anchor.rel = "noopener";
-        }
+    // Find all links on the page
+    const links = document.querySelectorAll("a[href='/authors/pi_max_di_luca/']");
+    links.forEach(link => {
+      if (link.textContent.trim() === "Max Di Luca") {
+        link.href = "https://massimilianodiluca.info";
+        link.target = "_blank";
+        link.rel = "noopener";
+        console.log("Redirected Max Di Luca link to external site.");
       }
     });
   });

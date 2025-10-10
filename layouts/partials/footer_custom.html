@@ -1,14 +1,14 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const cards = document.querySelectorAll(".author-card");
+    const cards = document.querySelectorAll(".card, .author-card");
     cards.forEach(card => {
-      const nameEl = card.querySelector(".portrait-title");
-      if (nameEl && nameEl.textContent.includes("Max Di Luca")) {
-        const link = card.querySelector("a");
-        if (link) {
-          link.href = "https://massimilianodiluca.info";
-          link.target = "_blank";
-          link.rel = "noopener";
+      const nameEl = card.querySelector(".portrait-title, .card-title");
+      if (nameEl && nameEl.textContent.trim() === "Max Di Luca") {
+        const anchor = card.querySelector("a");
+        if (anchor && anchor.href.includes("/authors/PI_Max_Di_Luca")) {
+          anchor.href = "https://massimilianodiluca.info";
+          anchor.target = "_blank";
+          anchor.rel = "noopener";
         }
       }
     });

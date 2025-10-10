@@ -1,12 +1,12 @@
 ---
 # Samantha Goldney
-title: Samantha Goldney
+title: Lana Sharif
 
 # Is this the primary user of the site?
 superuser: false
 
 # Username (this should match the folder name)
-authors: VRA_Samantha_Goldney
+authors: VRA_Lana_Sharif
 
 # Role/position
 role: Volunteer Research Assistant

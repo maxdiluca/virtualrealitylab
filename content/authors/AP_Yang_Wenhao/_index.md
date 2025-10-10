@@ -6,7 +6,7 @@ title: Yang Wenhao
 superuser: false
 
 # Username (this should match the folder name)
-authors: P_Yang_Wenhao
+authors: AP_Yang_Wenhao
 
 # Role/position
 role: Project Student
@@ -33,7 +33,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
   # - Group 2
 
 # User Groups:

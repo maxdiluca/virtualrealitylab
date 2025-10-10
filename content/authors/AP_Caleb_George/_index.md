@@ -1,12 +1,12 @@
 ---
-# Milan Nedoma
-title: Milan Nedoma
+# Caleb George
+title: Caleb George
 
 # Is this the primary user of the site?
 superuser: false
 
 # Username (this should match the folder name)
-authors: Milan_Nedoma
+authors: AP_Caleb_George
 
 # Role/position
 role: Project Student
@@ -33,7 +33,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
   # - Group 2
 
 # User Groups:

@@ -6,7 +6,7 @@ title: Ella Barber
 superuser: false
 
 # Username (this should match the folder name)
-authors: Ella_Barber
+authors: AP_Ella_Barber
 
 # Role/position
 role: Project Student
@@ -33,7 +33,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
   # - Group 2
 
 # User Groups:

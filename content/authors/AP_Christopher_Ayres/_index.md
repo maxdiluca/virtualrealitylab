@@ -6,7 +6,7 @@ title: Christopher Ayres
 superuser: false
 
 # Username (this should match the folder name)
-authors: Christopher_Ayres
+authors: AP_Christopher_Ayres
 
 # Role/position
 role: Project Student
@@ -33,7 +33,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
 
 # User Groups:
 # Researchers (R)

@@ -13,10 +13,11 @@ sections:
         - Affiliated Faculty
         - Researchers
         - Collaborators
+        - PhD Students
         - Research Assistants
         - Volunteer Research Assistants
         - Project Students
-        - PhD Students
+
         - Interns
         - Visitors
         

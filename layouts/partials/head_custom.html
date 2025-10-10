@@ -1,0 +1,13 @@
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("a[href='/authors/pi_max_di_luca/']");
+    links.forEach(link => {
+      if (link.textContent.trim() === "Max Di Luca") {
+        link.href = "https://massimilianodiluca.info";
+        link.target = "_blank";
+        link.rel = "noopener";
+        console.log("🔁 Redirected Max Di Luca link to external site.");
+      }
+    });
+  });
+</script>

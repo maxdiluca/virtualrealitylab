@@ -44,6 +44,7 @@ header:
 # Site footer
 
 footer:
+  custom: true  # 👈 add this line
   copyright:
     notice: "© {year} Me. This work is licensed under {license}"
     license:

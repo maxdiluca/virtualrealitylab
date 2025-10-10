@@ -1,0 +1,16 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".author-card");
+    cards.forEach(card => {
+      const nameEl = card.querySelector(".portrait-title");
+      if (nameEl && nameEl.textContent.includes("Max Di Luca")) {
+        const link = card.querySelector("a");
+        if (link) {
+          link.href = "https://massimilianodiluca.info";
+          link.target = "_blank";
+          link.rel = "noopener";
+        }
+      }
+    });
+  });
+</script>

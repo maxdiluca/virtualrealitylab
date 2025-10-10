@@ -1,9 +1,0 @@
-{{- $name := .Title | urlize -}}
-{{ if eq $name "max-di-luca" }}
-  <meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
-  <link rel="canonical" href="https://massimilianodiluca.info" />
-  <script>window.location.href = "https://massimilianodiluca.info"</script>
-  <p>If you are not redirected, <a href="https://massimilianodiluca.info">click here</a>.</p>
-{{ else }}
-  {{ partial "author-profile.html" . }}
-{{ end }}

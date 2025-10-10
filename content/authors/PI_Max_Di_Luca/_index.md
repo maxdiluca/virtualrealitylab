@@ -70,10 +70,6 @@ email: ""
 
 user_groups:
   - Principal Investigator
-  
-_build:
-  list: false
-  render: false
 ---
 
 Max Di Luca is Associate Professor at the University of Birmingham in the School of Psychology and School of Computer Science. Using psychophysical methods and computational models, he investigates how the human brain processes multisensory information for perception and action.

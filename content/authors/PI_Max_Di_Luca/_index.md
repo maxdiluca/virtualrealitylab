@@ -10,7 +10,7 @@ role: Associate Professor
 
 bio: "Max Di Luca is the PI of the lab. He is Associate Professor at the University of Birmingham (UK)."
 
-# Highlight the author in author lists? (true/false)
+# Highlight the author in author lists? (true/false) <meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
 highlight_name: false
 
 organizations:
@@ -76,5 +76,4 @@ Max Di Luca is Associate Professor at the University of Birmingham in the School
 
 He earned the Laurea in Psychology from the Università di Trieste in 2000 and the PhD in Cognitive Science from Brown University in 2006. During his carer, Dr Di Luca has been Scientist at the Max Planck Institute for Biological Cybernetics in Tübingen, Visiting Scientist at Oculus Research and Research Scientist at Facebook Reality Labs.
 
-<meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
 

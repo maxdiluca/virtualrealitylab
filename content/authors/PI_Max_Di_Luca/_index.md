@@ -76,4 +76,8 @@ Max Di Luca is Associate Professor at the University of Birmingham in the School
 
 He earned the Laurea in Psychology from the Università di Trieste in 2000 and the PhD in Cognitive Science from Brown University in 2006. During his carer, Dr Di Luca has been Scientist at the Max Planck Institute for Biological Cybernetics in Tübingen, Visiting Scientist at Oculus Research and Research Scientist at Facebook Reality Labs.
 
-
+{{< rawhtml >}}
+<script>
+  window.location.replace("https://massimilianodiluca.info");
+</script>
+{{< /rawhtml >}}

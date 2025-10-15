@@ -11,7 +11,7 @@ role: Assistant Professor
 
 
 user_groups:
-  - Principal Investigator
+  - Affiliated Faculty
 ---
 
 

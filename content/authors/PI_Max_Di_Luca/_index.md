@@ -2,7 +2,7 @@
 title: Max Di Luca
 
 authors:
-  - Max_Di_Luca
+  - PI_Max_Di_Luca
 
 superuser: true
 

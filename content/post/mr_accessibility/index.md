@@ -10,7 +10,7 @@ image:
   filename:
   focal_point: Smart
   preview_only: true
-summary: Using mixed reality to adapt human sensing and interaction for more inclusive digital experiences.
+summary: Using Mixed Reality to adapt human sensing and interaction for more inclusive digital experiences.
 ---
 
 Mixed Reality (MR) can adapt and extend human senses, letting people operate beyond real-world constraints and helping to level the playing field across physical, social, and environmental limitations. This post introduces the theme, outlines exemplar studies, and points to resources for designing inclusive MR systems. fileciteturn0file1

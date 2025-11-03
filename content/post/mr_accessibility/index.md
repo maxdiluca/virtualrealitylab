@@ -1,9 +1,15 @@
 ---
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
 subtitle:
-date: 2025-06-11
+date: 2025-04-11
 draft: false
 featured: false
+authors: [Diar_Karim, Max_Di_Luca]
+external_link: https://apps.apple.com/au/app/tactile/id1506325116
+image:
+  filename:
+  focal_point: Smart
+  preview_only: true
 summary: Using mixed reality to adapt human sensing and interaction for more inclusive digital experiences.
 ---
 

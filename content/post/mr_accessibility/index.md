@@ -1,6 +1,7 @@
 ---
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
-date: 2025-11-01
+subtitle:
+date: 2025-06-11
 draft: false
 featured: false
 summary: Using mixed reality to adapt human sensing and interaction for more inclusive digital experiences.

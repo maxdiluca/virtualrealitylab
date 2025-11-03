@@ -1,5 +1,4 @@
-# Save the updated markdown file with image links referencing same folder (no "images/" prefix)
-markdown_content = """---
+
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
 date: 2025-11-03T15:00:00+00:00
 draft: false

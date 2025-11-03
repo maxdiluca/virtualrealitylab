@@ -1,9 +1,12 @@
 ---
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
-date: 2025-11-03T15:00:00+00:00
 draft: false
 featured: false
 summary: Using mixed reality to adapt human sensing and interaction for more inclusive digital experiences.
+date: 2025-11-03
+publishDate: 2025-11-03
+show_date: true
+lastmod: 2025-11-03
 ---
 
 Mixed Reality (MR) can adapt and extend human senses, letting people operate beyond real-world constraints and helping to level the playing field across physical, social, and environmental limitations. This post introduces the theme, outlines exemplar studies, and points to resources for designing inclusive MR systems. fileciteturn0file1

@@ -1,7 +1,7 @@
 ---
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
 subtitle:
-date: 2025-04-11
+date: 2025-04-10
 draft: false
 featured: false
 authors: [Diar_Karim, Max_Di_Luca]

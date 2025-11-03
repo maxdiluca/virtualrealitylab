@@ -1,4 +1,4 @@
-
+---
 title: "MR for Accessibility: Augmenting Senses for Inclusive Virtual Worlds"
 date: 2025-11-03T15:00:00+00:00
 draft: false

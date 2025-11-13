@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Research 
 view: 2
 
 header:
@@ -7,9 +7,8 @@ header:
   image: ""
 ---
 
-# Research in the Virtual Reality Lab
 
-The Virtual Reality Lab investigates how humans perceive, act, and collaborate in immersive environments. The focus of our research is to understand multisensory processing and apply this knowledge to extended reality (XR) systems that support interaction, learning, and creative performance. A common goal is to develop scientific and engineering principles that improve user experience, accessibility, and performance in VR and AR.
+We investigates how humans perceive, act, and collaborate in immersive environments. The focus of our research is to understand multisensory processing and apply this knowledge to extended reality (XR) systems that support interaction, learning, and creative performance. A common goal is to develop scientific and engineering principles that improve user experience, accessibility, and performance in VR and AR.
 
 Our research uses approaches from psychophysics, computational modelling, human–computer interaction, machine learning, and real-time motion analysis. The lab fosters collaboration between researchers in psychology, computer science, music technology, robotics, and the creative industries.
 

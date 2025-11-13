@@ -13,7 +13,7 @@ The focus of our research is to understand how humans perceive, act, and collabo
 Our research uses approaches from psychophysics, computational modelling, human–computer interaction, machine learning, and real-time motion analysis. The lab fosters collaboration between researchers in psychology, computer science, music technology, robotics, and the creative industries.
 
 Funding for our work comes from:
-
+ 
 - **EPSRC**  
 - **BBSRC**  
 - **NHS**  

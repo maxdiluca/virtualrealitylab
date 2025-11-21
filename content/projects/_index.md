@@ -78,9 +78,10 @@ The lab is fundamentally collaborative and interdisciplinary. It is open to anyo
 
 The lab maintains a strong portfolio of industry engagement and commercialisation activities, including several spinoffs:
 
-- **ObiRobotics** – Hand and body tracking technologies for robotics and XR  
-- **MotionDynamics Ltd** – motion capture and movement analytics for sport and rehabilitation  
-- **MyJAMS Ltd** – AI-enhanced virtual ensembles and immersive music practice environments  
+- **<a href="https://www.obirobotics.com">ObiRobotics</a>** – Hand and body tracking technologies for robotics and XR  
+- **<a href="https://motiondynamics.ai ">MotionDynamics Ltd</a>** – motion capture and movement analytics for sport and rehabilitation  
+- **<a href="https://myjamsltd.netlify.app">MyJAMS Ltd</a>** – AI-enhanced virtual ensembles and immersive music practice environments  
+
 
 ---
 

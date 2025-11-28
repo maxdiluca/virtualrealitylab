@@ -27,6 +27,10 @@ main:
   - name: Contact
     url: contact
     weight: 60
+    
+  - name: BhamXR
+    url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
+    weight: 61
 
   # Internal Sections for the VR Lab members
   - name: Internal

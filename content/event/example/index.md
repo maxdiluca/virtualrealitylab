@@ -6,7 +6,7 @@ event_url: https://example.org
 
 location: 52 Pritchatts Road
 address:
-  street:  52 Pritchatts Road
+  street:  Pritchatts Road
   city: Birmingham
   region: West Midlands
   postcode: B15 2TT

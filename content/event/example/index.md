@@ -1,5 +1,5 @@
 ---
-title: Beyond the Page: Designing Inclusive AR Storytelling for All Learners.
+title: Example Event Designing Inclusive AR Storytelling for All Learners
 
 event: Wowchemy Conference
 event_url: https://example.org

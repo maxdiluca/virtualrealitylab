@@ -20,6 +20,10 @@ main:
     url: opportunities
     weight: 40
 
+  - name: Events
+    url: event
+    weight: 45
+
   - name: People
     url: people
     weight: 50

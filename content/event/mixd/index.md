@@ -23,7 +23,7 @@ date_end: 2025-12-10T17:00:00Z
 # Schedule page publish date (NOT talk date).
 publishDate: 2025-01-01T00:00:00Z
 authors: 
-  
+profile: false
 tags: 
 
 # Is this a featured talk? (true/false)

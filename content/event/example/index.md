@@ -21,7 +21,7 @@ date: 2021-05-28T13:00:00Z
 date_end: 2021-05-28T14:00:00Z
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: 2025-01-01T00:00:00Z
 authors: []
 tags: []
 

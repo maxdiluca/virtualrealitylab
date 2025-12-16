@@ -20,6 +20,8 @@ abstract: "How do you build an augmented reality book for a child who finds trad
 date: 2025-12-10T15:30:00Z
 date_end: 2025-12-10T17:00:00Z
 
+full_talk: '[**Youtube Link**](https://www.youtube.com/watch?v=j7bnPJJLxl0)'
+
 # Schedule page publish date (NOT talk date).
 publishDate: 2025-01-01T00:00:00Z
 authors: 

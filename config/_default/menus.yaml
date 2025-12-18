@@ -24,6 +24,10 @@ main:
     url: event
     weight: 45
 
+  - name: Events
+    url: event
+    weight: 45
+
   - name: People
     url: people
     weight: 50

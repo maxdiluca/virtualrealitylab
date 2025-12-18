@@ -36,6 +36,11 @@ sections:
                 brightness: 0.4
             position: center
             color: '#333'
+          link:
+            icon: link
+            icon_pack: fas
+            text: Reaserches
+            url: ../projects/
         - title: Interdisciplinarity
           content: |-
             The Virtual Reality Lab in the School of Psychology at the University of Birmingham, led by Dr. Max Di Luca, brings together experts from diverse fields, including Computer Vision, Human-Computer Interaction, Social Sciences, Psychology, Neuroscience, Music, and Sports.

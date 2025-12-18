@@ -55,6 +55,7 @@ slides:
 projects:
 ---
 - **Full Talk** : [**Youtube Link**](https://www.youtube.com/watch?v=j7bnPJJLxl0)
+
 **About the speaker:** MIXD Reality is an award-winning UK creative tech company pioneering inclusive augmented reality for children’s literacy. Founded by husband-and-wife team Pamela Aculey and Alex Kosminsky, the company blends lived experience, accessibility-led design, and advanced AR to support all children; particularly SEND and neurodivergent learners whose strengths are often overlooked by traditional reading tools.
 
 Inspired by their autistic son Walter, MIXD Reality created Buster Finds His Beat — the UK’s first inclusive AR picture book featuring a mixed-heritage autistic protagonist. The book has received national recognition for its innovation, representation and measurable impact, helping children stay engaged, focused and connected to the joy of reading.

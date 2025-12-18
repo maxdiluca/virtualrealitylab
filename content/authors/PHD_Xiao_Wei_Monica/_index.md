@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xiao Wei Monica
+title: Monica Wei
 
 # Username (this should match the folder name)
 authors:

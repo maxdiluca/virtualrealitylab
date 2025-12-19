@@ -1,13 +1,23 @@
 {{- $group := .Get "group" | default "" -}}
+{{- $title := .Get "title" | default $group -}}
+{{- $link := .Get "link" | default "false" -}}
+
 {{- $authors := where site.Pages "Section" "authors" -}}
 {{- if $group -}}
   {{- $authors = where $authors "Params.user_groups" "intersect" (slice $group) -}}
 {{- end -}}
-
 {{- $authors = sort $authors "Title" "asc" -}}
 
-<ul class="people-names">
-  {{- range $authors -}}
-    <li>{{ .Title }}</li>
+{{- if gt (len $authors) 0 -}}
+<h2>{{ $title }}</h2>
+<p class="people-names-inline">
+  {{- range $i, $p := $authors -}}
+    {{- if gt $i 0 -}} {{ end -}}
+    {{- if eq $link "true" -}}
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+    {{- else -}}
+      {{- $p.Title -}}
+    {{- end -}}
   {{- end -}}
-</ul>
+</p>
+{{- end -}}

@@ -1,31 +1,13 @@
 ---
-title: People
+title: VR Lab team
 date: 2022-10-24
-
-type: landing
-
-sections:
-  - block: people
-    content:
-      title:
-      user_groups:
-        - Principal Investigator
-        - Affiliated Faculty
-        - Researchers
-        - Collaborators
-        - PhD Students
-        - Research Assistants
-        - Volunteer Research Assistants
-        - Project Students
-        - Interns
-        - Visitors
-        
-
-      sort_by: Params.last_name
-      sort_ascending: true
-    design:
-      view: 3
-      show_interests: false
-      show_role: true
-      show_social: false
 ---
+
+{{< people_names group="Principal Investigator" >}}
+{{< people_names group="Affiliated Faculty" >}}
+{{< people_names group="Researchers" >}}
+{{< people_names group="Collaborators" >}}
+{{< people_names group="PhD Students" >}}
+{{< people_names group="Project Students" >}}
+{{< people_names group="Volunteer Research Assistants" >}}
+

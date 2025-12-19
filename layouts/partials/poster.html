@@ -1,0 +1,13 @@
+{{- $group := .Get "group" | default "" -}}
+{{- $authors := where site.Pages "Section" "authors" -}}
+{{- if $group -}}
+  {{- $authors = where $authors "Params.user_groups" "intersect" (slice $group) -}}
+{{- end -}}
+
+{{- $authors = sort $authors "Title" "asc" -}}
+
+<ul class="people-names">
+  {{- range $authors -}}
+    <li>{{ .Title }}</li>
+  {{- end -}}
+</ul>

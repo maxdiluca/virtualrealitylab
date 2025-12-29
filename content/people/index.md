@@ -1,5 +1,5 @@
 ---
-title: People1
+title: People
 date: 2022-10-24
 
 type: landing
@@ -37,6 +37,7 @@ sections:
         - Alumni Researchers
         - Alumni Research Assistants
         - Alumni Project Students
+        - Alumni Interns
       sort_by: Params.last_name
       sort_ascending: true
     design:

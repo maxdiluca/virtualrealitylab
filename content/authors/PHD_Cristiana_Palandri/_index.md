@@ -33,9 +33,20 @@ interests:
 education:
   courses:
     - course: Music Technology Innovation Ph.D.
-      institution: De Montfort University
-      year: 2023
-	
+    institution: De Montfort University
+    year: 2023
+    - course: MSc with Honor in Composition and Theory
+    institution: Conservatotio della Svizzera Italiana
+    year: 2019-2022
+    - course: BSc Electronic Music 
+    institution: Conservatorio Giuseppe Verdi
+    year: 2017 - 2020
+    - course: Msc with Honor Painting
+    institution: Accademia di belle Arti di Bologna
+    year: 2003 - 1998
+    - course: Advanced course Print Making
+    institution: University of the West of England
+    year: 2000 - 2001
  
 
 # Social/Academic Networking

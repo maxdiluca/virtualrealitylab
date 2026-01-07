@@ -34,7 +34,7 @@ education:
   courses:
     - course: Music Technology Innovation Ph.D.
       institution: De Montfort University
-      year: 2023
+      year: 2023-2023
 	- course: MSc with Honor in Composition and Theory
       institution: Conservatotio della Svizzera Italiana
       year: 2019-2022

@@ -32,10 +32,10 @@ interests:
 
 education:
   courses:
-    - course: Music Technology Innovation Ph.D.
+ - course: Music Technology Innovation Ph.D.
       institution: De Montfort University
       year: 2023
-    - course: MSc with Honor in Composition and Theory
+ - course: MSc with Honor in Composition and Theory
       institution: Conservatotio della Svizzera Italiana
       year: 2019-2022
  - course: BSc Electronic Music 

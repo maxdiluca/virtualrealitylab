@@ -32,7 +32,10 @@ interests:
 
 education:
   courses:
-
+    - course: Music Technology Innovation Ph.D.
+      institution: De Montfort University
+      year: 2023
+	
  
 
 # Social/Academic Networking

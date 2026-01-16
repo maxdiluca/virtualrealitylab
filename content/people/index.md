@@ -37,6 +37,7 @@ sections:
         - Alumni Researchers
         - Alumni Research Assistants
         - Alumni Project Students
+        - Alumni Interns
       sort_by: Params.last_name
       sort_ascending: true
     design:

@@ -12,33 +12,6 @@ The focus of our research is to understand how humans perceive, act, and collabo
 
 Our research uses approaches from psychophysics, computational modelling, human–computer interaction, machine learning, and real-time motion analysis. The lab fosters collaboration between researchers in psychology, computer science, music technology, robotics, and the creative industries.
 
-Funding for our work comes from:
- 
-- **EPSRC**  
-- **BBSRC**  
-- **NHS**  
-- **Google Research**  
-- **Marie Skłodowska-Curie**  
-- **MSC Doctoral Networks**  
-- **Royal Society**
-
-alongside support and collaboration with industry partners such as:
-
-- **Google**  
-- **Meta / Facebook / Oculus**  
-- **Procter & Gamble**  
-- **Ansell Gloves**  
-- **Gillette**  
-- **ROLI**  
-- **Givaudan**  
-- **PartPlay**
-- **Zubr**
-- **Innogence**
-
-and cultural and charitable partners including:
-
-- **Museum of Music History**  
-- **Kenilworth Town Council**
 
 ---
 

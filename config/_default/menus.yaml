@@ -12,6 +12,10 @@ main:
     url: projects
     weight: 20
 
+  - name: Funding
+    url: funding
+    weight: 21
+    
   - name: Resources
     url: resources
     weight: 30

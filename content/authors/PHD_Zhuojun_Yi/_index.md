@@ -23,18 +23,18 @@ bio: Psychology Ph.D.
 interests:
   - Ageing
   - Touch (Vibrotactile)
-  - Neurophysiology(Somatosensory)
+  - Neurophysiology (Somatosensory)
   - Cognition 
   - Psychophysics
   - Neuroimaging
-  - Computational modeling
+  - Computational Modeling
 
 education:
   courses:
     - course: Psychology Ph.D.
       institution: University of Birmingham
-      year: 2025-
-    - course: MSc Computational Neuroscience and Cognitive Robotics(CNCR)
+      year: 2025 -
+    - course: MSc Computational Neuroscience and Cognitive Robotics (CNCR)
       institution: University of Birmingham
       year: 2023 - 2024
 
@@ -77,5 +77,5 @@ highlight_name: false
 user_groups:
   - PhD Students
 ---
-
+Contact me: zxy353@student.bham.ac.uk
 

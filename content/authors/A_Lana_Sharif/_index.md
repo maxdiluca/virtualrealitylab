@@ -6,7 +6,7 @@ title: Lana Sharif
 superuser: false
 
 # Username (this should match the folder name)
-authors: VRA_Lana_Sharif
+authors: A_Lana_Sharif
 
 # Role/position
 role: Volunteer Research Assistant
@@ -32,7 +32,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Volunteer Research Assistants
+  - Alumni Research Assistants
   # - Group 2
 # User Groups:
 # Researchers (R)

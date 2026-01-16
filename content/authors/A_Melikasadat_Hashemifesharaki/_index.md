@@ -9,7 +9,7 @@ superuser: false
 authors: Melikasadat_Hashemifesharaki
 
 # Role/position
-role: Project Student
+role: Alumni Project Students
 
 # Organizations/Affiliations
 organizations:
@@ -33,7 +33,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
   # - Group 2
 
 # User Groups:

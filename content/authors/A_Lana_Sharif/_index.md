@@ -6,7 +6,7 @@ title: Lana Sharif
 superuser: false
 
 # Username (this should match the folder name)
-authors: VRA_Lana_Sharif
+authors: A_Lana_Sharif
 
 # Role/position
 role: Volunteer Research Assistant

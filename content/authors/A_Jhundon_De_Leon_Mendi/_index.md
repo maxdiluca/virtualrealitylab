@@ -73,7 +73,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Research Assistants
+  - Alumni Research Assistants
 ---
 
 **Jhundon** is pursuing a master's degree in Cognitive Neuroimaging and Data Science (Computational Neuroscience) with the School of Psychology and School of Computer Science. He intends to continue his work with the [VR Lab](https://virtualrealitylab.netlify.app/) and the [Collaborative Teaching Laboratory](https://www.birmingham.ac.uk/facilities/collaborative-teaching-laboratory/ctl), further exploring the intersection of VR technology and human behavior. Jhundon’s goals is driven by his curiosity about how VR can be leveraged as a tool to understand and influence human behavior based on controlled virtual environments.

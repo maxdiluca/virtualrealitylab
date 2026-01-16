@@ -32,7 +32,7 @@ social:
 email: "kmp672@student.bham.ac.uk"
 
 user_groups:
-- Researchers
+- Alumni Researchers
 
 ---
 

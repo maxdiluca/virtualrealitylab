@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Research Assistants
+  - Project Students
 ---
 
 **Youngbin Park** is a final-year undergraduate student in Artificial Intelligence and Computer Science at the University of Birmingham and a member of the [VRLab](https://virtualrealitylab.netlify.app/). His work focuses on Virtual Reality and Human–Computer Interaction, with a particular interest in how information presentation affects user decision-making in immersive environments. His Final Year Project explores information overlays and preview mechanisms for VR portal-based navigation.

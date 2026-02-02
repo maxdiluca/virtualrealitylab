@@ -49,7 +49,7 @@ main:
     url: publication
     weight: 70
 
-  - name: SharePoint
+  - name: SharePoint(WIKI
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
     parent: Internal
     weight: 1
@@ -59,17 +59,17 @@ main:
     parent: Internal
     weight: 2
 
-  - name: CODA
+  - name: CODA (outdated)
     url: https://tinyurl.com/CODAVRLab
     parent: Internal
-    weight: 3
+    weight: 5
 
   - name: CMS (requires signup)
     url: https://virtualrealitylab.netlify.app/admin
     parent: Internal
-    weight: 4
+    weight: 6
     
   - name: Site Maintenance
     url: site_maintenance
     parent: Internal
-    weight: 5
+    weight: 3

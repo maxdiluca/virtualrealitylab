@@ -9,9 +9,18 @@ sections:
     content:
       title: VR Lab Equipment and Resources
       text: |-
-        The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual, augmented, and mixed reality (VR/AR/MR), human-computer interaction, and cognitive science. Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. The space can be configured to meet the specific needs of researchers and developers.
+        The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual, augmented, and mixed reality (VR/AR/MR), human-computer interaction, and cognitive science. Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. 
+        
+        Thedifferent spaces available to the lab can be configured to meet the specific needs of researchers and developers.
 
+Main lab : Reconfigurable with desks and meeting space
         {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
+
+Motion lab: for large-scale motion capture, including walking, threadmill, and biking.
+     {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
+
+Camera lab: trackerless audiovisual capture
+     {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  

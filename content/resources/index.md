@@ -16,10 +16,10 @@ sections:
         Main lab : Reconfigurable with desks and meeting space
         {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
-        Motion lab: for large-scale motion capture, including walking, threadmill, and biking.
+        Motion lab:  large-scale motion capture, including walking, treadmill, and stationary biking.
         {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
 
-        Camera lab: trackerless audiovisual capture
+        Camera lab: markerless audiovisual capture
         {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
         ## Headsets  

@@ -13,14 +13,14 @@ sections:
         
         Thedifferent spaces available to the lab can be configured to meet the specific needs of researchers and developers.
 
-Main lab : Reconfigurable with desks and meeting space
+        Main lab : Reconfigurable with desks and meeting space
         {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
-Motion lab: for large-scale motion capture, including walking, threadmill, and biking.
-     {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
+        Motion lab: for large-scale motion capture, including walking, threadmill, and biking.
+       {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
 
-Camera lab: trackerless audiovisual capture
-     {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
+       Camera lab: trackerless audiovisual capture
+       {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  

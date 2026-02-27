@@ -17,10 +17,10 @@ sections:
         {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
         Motion lab: for large-scale motion capture, including walking, threadmill, and biking.
-       {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
+        {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
 
-       Camera lab: trackerless audiovisual capture
-       {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
+        Camera lab: trackerless audiovisual capture
+        {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
         ## Headsets  
         Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  

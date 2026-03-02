@@ -47,11 +47,25 @@ sections:
           - Google Cardboar VR
           - IIS VFX3D	
 
-        ## Motion Tracking Systems  
-        - **Qualisys Motion Tracking**: Advanced optical tracking system with a **large tracking area**, ideal for precise motion capture and spatial analysis.  
-        - **Tracking Gloves**: High-accuracy gloves for capturing fine hand movements and gestures.  
-        - **Leap Motion**: Compact tracking devices for hand and finger movements in VR/AR applications.  
-        - **Lidar Sensors**: For advanced environmental mapping and AR integration.  
+        ## Motion Capture and Tracking Systems
+
+        - **Qualisys Optical Motion Capture**: High-precision marker-based motion capture system (Oqus and Arqus). Provides sub-millimetre 3D tracking of body, hands, and objects, with real-time streaming to experimental software and XR engines.
+
+        - **Vicon Motion Capture**: Optical infrared motion capture system enabling accurate full-body and object tracking for avatar animation, biomechanics, and validation of XR interaction experiments.
+
+        - **Qualisys Markerless Motion Capture**: Multi-camera markerless tracking system that reconstructs full-body skeletal motion without reflective markers, allowing natural movement capture in behavioural and XR interaction experiments.
+
+        - **Microsoft Kinect (RGB-D Tracking)**: Depth-sensing cameras for markerless body and skeleton tracking, used for rapid prototyping, gesture interaction studies, and low-cost motion capture applications.
+
+        - **Tracking Gloves**: High-accuracy wearable gloves for capturing fine finger articulation and detailed hand gestures during interaction tasks.
+
+        - **Leap Motion / Ultraleap**: Compact optical hand-tracking devices for markerless tracking of hands and fingers in VR/AR applications.
+
+        - **Lidar Sensors**: Intel Realsense devices for spatial mapping and environmental reconstruction, supporting mixed-reality interaction and AR scene integration.
+        
+        - **Polhemus Fastrak**: Electromagnetic tracking system for real-time 6-DOF position and orientation tracking of sensors. Suitable for precise tracking of head, hand, or object motion in VR and psychophysics experiments without requiring optical line of sight.
+
+
 
         ## Audiovideo Recording and Presentation Equipment  
         - **Video Recording Setup**: Professional-grade equipment, including black/white/green backdrops, stage lights, and contact microphones.  
@@ -69,9 +83,11 @@ sections:
 
         ## EEG/BCI Sensors  
         - **Emotive Headsets**: Brain-computer interface (BCI) devices for recording EEG signals.  
-        - **Physiological Sensors**: Comprehensive tools for monitoring biometric data, enabling studies of human responses in immersive environments.  
+        - **Shimmer Wearable Sensors**: Wireless wearable sensing platform for motion and physiological measurement (IMU, EMG, ECG, GSR). Used for recording body movement, muscle activity, and physiological responses during VR and human–computer interaction experiments.  
         - **Tobii 5**: State-of-the-art device for high-accuracy gaze tracking.
-
+        - **Physiological Sensors**: Comprehensive tools for monitoring biometric data, enabling studies of human responses in immersive environments.  
+       
+       
         ## 3D Printing Resources
 
         {{< figure src="workshop_panoramic.jpeg" alt="Workshop" width="100%" >}}

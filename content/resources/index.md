@@ -31,10 +31,21 @@ sections:
         - **Oculus/Facebook/Meta**:  
           - Meta Quest Pro: High-resolution standalone VR headset with eye tracking, hand tracking, and color passthrough cameras.  
           - Meta Quest 1, 2, 3: Standalone (or tethered) VR headsets for a wide range of applications with hand tracking and passthrough cameras.  
-          - Oculus Rift and Rift S: PC-tethered VR headsets that support high-quality graphics.  
-          - Oculus Go: Standalone VR headset for portable applications requiring rotation tracking only.  
-          - Oculus DK2: Early development kit for exploring VR environments.  
         - **Pico Pro**: Lightweight, standalone VR headset with a good passthrough color camera.  
+        - **HTC Vive**:
+        	- HTC Vive Pro
+        	- HTC Vive Pro Eye	
+
+
+        ## Legacy headsets
+        We have a variety of legacy headsets including:
+          - Oculus Rift/S
+          - Oculus Go  
+          - Oculus DK1/DK2 
+          - Meta 2 AR glasses
+          - Google Glass
+          - Google Cardboar VR
+          - IIS VFX3D	
 
         ## Motion Tracking Systems  
         - **Qualisys Motion Tracking**: Advanced optical tracking system with a **large tracking area**, ideal for precise motion capture and spatial analysis.  

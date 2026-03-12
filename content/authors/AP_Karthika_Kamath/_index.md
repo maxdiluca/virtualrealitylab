@@ -4,7 +4,7 @@ title: Karthika Kamath
 
 # Username (this should match the folder name)
 authors:
-  - Karthika_Kamath
+  - AP_Karthika_Kamath
 
 # Is this the primary user of the site?
 superuser: false

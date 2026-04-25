@@ -2,7 +2,7 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
-{{ $kicker := $content.kicker | default "News & Events" }}
+{{ $kicker := $content.kicker }}
 {{ $title := $content.title | default "What's new at the VR Lab." }}
 {{ $subtitle := $content.subtitle | default "Talks, press releases and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
@@ -16,18 +16,30 @@
   <div class="lab-section-shell">
     <div class="lab-editorial-header">
       <div class="lab-editorial-copy">
-        <p class="lab-section-kicker"><span></span>{{ $kicker | $page.RenderString }}</p>
+        {{ with $kicker }}
+          <p class="lab-section-kicker"><span></span>{{ . | $page.RenderString }}</p>
+        {{ end }}
         <h2>{{ $title | $page.RenderString }}</h2>
         {{ with $subtitle }}
           <p>{{ . | $page.RenderString }}</p>
         {{ end }}
       </div>
-      <a class="lab-outline-button" href="{{ $archiveLink | relLangURL }}">{{ $archiveText }} <span aria-hidden="true">-></span></a>
+      <div class="lab-editorial-actions">
+        <a class="lab-outline-button" href="{{ $archiveLink | relLangURL }}">{{ $archiveText }} <span aria-hidden="true">-></span></a>
+        <div class="recent-updates-controls" aria-label="Update navigation">
+          <button class="recent-updates-arrow" type="button" data-updates-prev aria-label="Previous updates">
+            <span aria-hidden="true">&lt;</span>
+          </button>
+          <button class="recent-updates-arrow" type="button" data-updates-next aria-label="Next updates">
+            <span aria-hidden="true">&gt;</span>
+          </button>
+        </div>
+      </div>
     </div>
 
     <div class="lab-section-divider"></div>
 
-    <div class="recent-updates-grid">
+    <div class="recent-updates-grid" data-updates-track>
       {{ range first $count $updates }}
         {{ $image := .Resources.GetMatch "featured.*" }}
         {{ if not $image }}
@@ -68,3 +80,37 @@
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    var sections = document.querySelectorAll('.recent-updates-block');
+    sections.forEach(function (section) {
+      var track = section.querySelector('[data-updates-track]');
+      var previous = section.querySelector('[data-updates-prev]');
+      var next = section.querySelector('[data-updates-next]');
+
+      if (!track || !previous || !next) {
+        return;
+      }
+
+      function getScrollStep() {
+        var card = track.querySelector('.recent-update-card');
+        if (!card) {
+          return track.clientWidth;
+        }
+
+        var styles = window.getComputedStyle(track);
+        var gap = parseFloat(styles.columnGap || styles.gap || 0);
+        return card.getBoundingClientRect().width + gap;
+      }
+
+      previous.addEventListener('click', function () {
+        track.scrollBy({ left: -getScrollStep(), behavior: 'smooth' });
+      });
+
+      next.addEventListener('click', function () {
+        track.scrollBy({ left: getScrollStep(), behavior: 'smooth' });
+      });
+    });
+  }());
+</script>

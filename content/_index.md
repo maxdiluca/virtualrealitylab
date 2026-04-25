@@ -59,10 +59,9 @@ sections:
       interval: 5000
   - block: recent-updates
     content:
-      kicker: News & Events
       title: What's new at the VR Lab.
       subtitle: Talks, press releases and project updates from across the lab.
-      count: 3
+      count: 6
       archive_link: /post/
       archive_text: All updates
 

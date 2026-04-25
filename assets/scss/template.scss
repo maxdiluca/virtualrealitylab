@@ -86,6 +86,13 @@
   text-decoration: none;
 }
 
+.lab-editorial-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .lab-section-divider {
   height: 1px;
   margin-bottom: 3rem;
@@ -216,16 +223,56 @@
 
 .recent-updates-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: calc((100% - 2.7rem) / 3);
+  grid-auto-flow: column;
   gap: 1.35rem;
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.recent-updates-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.recent-updates-controls {
+  display: inline-flex;
+  gap: 0.45rem;
+}
+
+.recent-updates-arrow {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9e3ef;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #172033;
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.03);
+  cursor: pointer;
+}
+
+.recent-updates-arrow:hover,
+.recent-updates-arrow:focus {
+  border-color: #9fc2e8;
+  color: #17435c;
 }
 
 .recent-update-card {
+  min-width: 0;
   overflow: hidden;
   border: 1px solid #d9e7f5;
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0 20px 45px rgba(36, 78, 120, 0.09);
+  scroll-snap-align: start;
 }
 
 .recent-update-image {
@@ -334,7 +381,9 @@ html.dark .recent-update-card {
 }
 
 .dark .lab-outline-button,
-html.dark .lab-outline-button {
+.dark .recent-updates-arrow,
+html.dark .lab-outline-button,
+html.dark .recent-updates-arrow {
   border-color: #334155;
   background: #111827;
   color: #e8edf4;
@@ -362,7 +411,7 @@ html.dark .lab-outline-button {
   }
 
   .recent-updates-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns: calc((100% - 1.35rem) / 2);
   }
 }
 
@@ -375,6 +424,11 @@ html.dark .lab-outline-button {
     align-items: flex-start;
     flex-direction: column;
     gap: 1.25rem;
+  }
+
+  .lab-editorial-actions {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .lab-editorial-header h1,
@@ -392,9 +446,12 @@ html.dark .lab-outline-button {
   }
 
   .lab-gallery-mosaic,
-  .lab-full-gallery-grid,
-  .recent-updates-grid {
+  .lab-full-gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .recent-updates-grid {
+    grid-auto-columns: 100%;
   }
 
   .lab-gallery-tile,

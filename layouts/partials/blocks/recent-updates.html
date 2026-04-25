@@ -6,8 +6,6 @@
 {{ $title := $content.title | default "What's new at the VR Lab." }}
 {{ $subtitle := $content.subtitle | default "Talks, press releases and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
-{{ $archiveLink := $content.archive_link | default "/post/" }}
-{{ $archiveText := $content.archive_text | default "All updates" }}
 {{ $updates := where site.RegularPages "Section" "post" }}
 {{ $updates = sort $updates "Date" "desc" }}
 {{ $fallbackImage := resources.Get "media/welcome.jpg" }}
@@ -24,59 +22,58 @@
           <p>{{ . | $page.RenderString }}</p>
         {{ end }}
       </div>
-      <div class="lab-editorial-actions">
-        <a class="lab-outline-button" href="{{ $archiveLink | relLangURL }}">{{ $archiveText }} <span aria-hidden="true">-></span></a>
-        <div class="recent-updates-controls" aria-label="Update navigation">
-          <button class="recent-updates-arrow" type="button" data-updates-prev aria-label="Previous updates">
-            <span aria-hidden="true">&lt;</span>
-          </button>
-          <button class="recent-updates-arrow" type="button" data-updates-next aria-label="Next updates">
-            <span aria-hidden="true">&gt;</span>
-          </button>
-        </div>
-      </div>
     </div>
 
     <div class="lab-section-divider"></div>
 
-    <div class="recent-updates-grid" data-updates-track>
-      {{ range first $count $updates }}
-        {{ $image := .Resources.GetMatch "featured.*" }}
-        {{ if not $image }}
-          {{ $image = $fallbackImage }}
-        {{ end }}
-        {{ $cardImage := "" }}
-        {{ with $image }}
-          {{ $processed := .Fill "760x480 center" }}
-          {{ $cardImage = $processed.RelPermalink }}
-        {{ end }}
-        {{ $summary := .Summary }}
-        {{ with .Params.summary }}
-          {{ $summary = . }}
-        {{ end }}
-        {{ $postLink := .RelPermalink }}
+    <div class="recent-updates-carousel">
+      <button class="recent-updates-arrow recent-updates-arrow-prev" type="button" data-updates-prev aria-label="Previous updates">
+        <span aria-hidden="true">&lt;</span>
+      </button>
 
-        <article class="recent-update-card">
-          {{ with $cardImage }}
-            <a class="recent-update-image" href="{{ $postLink }}">
-              <img src="{{ . }}" alt="" loading="lazy" decoding="async">
-            </a>
+      <div class="recent-updates-grid" data-updates-track>
+        {{ range first $count $updates }}
+          {{ $image := .Resources.GetMatch "featured.*" }}
+          {{ if not $image }}
+            {{ $image = $fallbackImage }}
           {{ end }}
-          <div class="recent-update-body">
-            <div class="recent-update-meta">
-              <span>News</span>
-              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
-            </div>
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            {{ with $summary }}
-              <p>{{ . | plainify | truncate 150 }}</p>
+          {{ $cardImage := "" }}
+          {{ with $image }}
+            {{ $processed := .Fill "760x480 center" }}
+            {{ $cardImage = $processed.RelPermalink }}
+          {{ end }}
+          {{ $summary := .Summary }}
+          {{ with .Params.summary }}
+            {{ $summary = . }}
+          {{ end }}
+          {{ $postLink := .RelPermalink }}
+
+          <article class="recent-update-card">
+            {{ with $cardImage }}
+              <a class="recent-update-image" href="{{ $postLink }}">
+                <img src="{{ . }}" alt="" loading="lazy" decoding="async">
+              </a>
             {{ end }}
-            <a class="recent-update-read-more" href="{{ .RelPermalink }}">Read more <span aria-hidden="true">-></span></a>
-          </div>
-        </article>
-      {{ else }}
-        <p class="recent-updates-empty">No news posts have been published yet.</p>
-      {{ end }}
+            <div class="recent-update-body">
+              <div class="recent-update-meta">
+                <span>News</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+              </div>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              {{ with $summary }}
+                <p>{{ . | plainify | truncate 150 }}</p>
+              {{ end }}
+              <a class="recent-update-read-more" href="{{ .RelPermalink }}">Read more <span aria-hidden="true">-></span></a>
+            </div>
+          </article>
+        {{ else }}
+          <p class="recent-updates-empty">No news posts have been published yet.</p>
+        {{ end }}
+      </div>
+
+      <button class="recent-updates-arrow recent-updates-arrow-next" type="button" data-updates-next aria-label="Next updates">
+        <span aria-hidden="true">&gt;</span>
+      </button>
     </div>
   </div>
 </section>

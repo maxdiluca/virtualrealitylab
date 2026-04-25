@@ -39,7 +39,7 @@ sections:
           link:
             icon: link
             icon_pack: fas
-            text: Reaserches
+            text: Research
             url: ../projects/
         - title: Interdisciplinarity
           content: |-
@@ -63,7 +63,6 @@ sections:
       subtitle: Talks, press releases and project updates from across the lab.
       count: 6
       archive_link: /post/
-      archive_text: All updates
 
 ---
 

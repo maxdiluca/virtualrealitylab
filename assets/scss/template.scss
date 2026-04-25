@@ -221,6 +221,10 @@
   background: #eef7ff;
 }
 
+.recent-updates-carousel {
+  position: relative;
+}
+
 .recent-updates-grid {
   display: grid;
   grid-auto-columns: calc((100% - 2.7rem) / 3);
@@ -237,19 +241,17 @@
   display: none;
 }
 
-.recent-updates-controls {
-  display: inline-flex;
-  gap: 0.45rem;
-}
-
 .recent-updates-arrow {
-  width: 42px;
-  height: 42px;
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 46px;
+  height: 46px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #d9e3ef;
-  border-radius: 8px;
+  border-radius: 999px;
   background: #ffffff;
   color: #172033;
   font-size: 1.1rem;
@@ -257,12 +259,21 @@
   line-height: 1;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.03);
   cursor: pointer;
+  transform: translateY(-50%);
 }
 
 .recent-updates-arrow:hover,
 .recent-updates-arrow:focus {
   border-color: #9fc2e8;
   color: #17435c;
+}
+
+.recent-updates-arrow-prev {
+  left: -68px;
+}
+
+.recent-updates-arrow-next {
+  right: -68px;
 }
 
 .recent-update-card {
@@ -413,6 +424,14 @@ html.dark .recent-updates-arrow {
   .recent-updates-grid {
     grid-auto-columns: calc((100% - 1.35rem) / 2);
   }
+
+  .recent-updates-arrow-prev {
+    left: -22px;
+  }
+
+  .recent-updates-arrow-next {
+    right: -22px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -424,11 +443,6 @@ html.dark .recent-updates-arrow {
     align-items: flex-start;
     flex-direction: column;
     gap: 1.25rem;
-  }
-
-  .lab-editorial-actions {
-    width: 100%;
-    justify-content: space-between;
   }
 
   .lab-editorial-header h1,
@@ -452,6 +466,19 @@ html.dark .recent-updates-arrow {
 
   .recent-updates-grid {
     grid-auto-columns: 100%;
+  }
+
+  .recent-updates-arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .recent-updates-arrow-prev {
+    left: -10px;
+  }
+
+  .recent-updates-arrow-next {
+    right: -10px;
   }
 
   .lab-gallery-tile,

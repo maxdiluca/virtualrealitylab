@@ -2,7 +2,7 @@
 # The site logo links to the homepage, so Home is intentionally omitted.
 
 main:
-  - name: Publications
+  - name: Research
     url: /projects/
     weight: 10
 
@@ -24,6 +24,11 @@ main:
     parent: media
     weight: 2
 
+  - name: Funding
+    url: /funding/
+    parent: media
+    weight: 3
+
   - name: Outreach
     identifier: outreach
     weight: 40
@@ -37,11 +42,6 @@ main:
     url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
     parent: outreach
     weight: 2
-
-  - name: Funding
-    url: /funding/
-    parent: outreach
-    weight: 3
 
   - name: Blog
     url: /blog/

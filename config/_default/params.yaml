@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: zinc
+  theme_day: minimal
   theme_night: dark
   font: minimal
   font_size: l
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: "© {year} Me. This work is licensed under {license}"
+    notice: "© {year} Virtual Reality Lab, University of Birmingham. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false

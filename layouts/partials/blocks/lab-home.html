@@ -1,0 +1,168 @@
+{{/* Custom homepage block for the Virtual Reality Lab. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+
+{{ $heroImage := "" }}
+{{ with $content.image }}
+  {{ with .filename }}
+    {{ with resources.Get (printf "media/%s" .) }}
+      {{ $hero := .Fill "1800x1000 center" }}
+      {{ $heroImage = $hero.RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="lab-home">
+  <section class="lab-hero"{{ with $heroImage }} style="background-image: linear-gradient(90deg, rgba(8, 16, 30, 0.88) 0%, rgba(8, 16, 30, 0.68) 48%, rgba(8, 16, 30, 0.24) 100%), url('{{ . }}');"{{ end }}>
+    <div class="lab-hero-inner">
+      {{ with $content.eyebrow }}
+        <p class="lab-eyebrow">{{ . | $page.RenderString }}</p>
+      {{ end }}
+      <h1>{{ $content.title | $page.RenderString }}</h1>
+      {{ with $content.subtitle }}
+        <p class="lab-subtitle">{{ . | $page.RenderString }}</p>
+      {{ end }}
+      {{ with $content.text }}
+        <p class="lab-hero-text">{{ . | $page.RenderString }}</p>
+      {{ end }}
+      {{ with $content.actions }}
+        <div class="lab-actions" aria-label="Homepage actions">
+          {{ range . }}
+            {{ $buttonClass := "lab-button lab-button-secondary" }}
+            {{ if eq .style "primary" }}
+              {{ $buttonClass = "lab-button lab-button-primary" }}
+            {{ end }}
+            <a class="{{ $buttonClass }}" href="{{ .url | relLangURL }}">{{ .label }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ with $content.stats }}
+    <section class="lab-stat-strip" aria-label="Lab highlights">
+      <div class="lab-section-inner lab-stat-grid">
+        {{ range . }}
+          <div class="lab-stat">
+            <strong>{{ .value }}</strong>
+            <span>{{ .label }}</span>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with $content.focus }}
+    <section class="lab-section">
+      <div class="lab-section-inner">
+        <div class="lab-section-heading">
+          <p class="lab-section-kicker">Research Focus</p>
+          <h2>What We Study</h2>
+        </div>
+        <div class="lab-card-grid lab-card-grid-three">
+          {{ range . }}
+            <article class="lab-card">
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </article>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="lab-section lab-section-muted">
+    <div class="lab-section-inner lab-two-column">
+      <div>
+        <p class="lab-section-kicker">Access</p>
+        <h2>{{ $content.try_title | default "Give It a Try" }}</h2>
+        {{ with $content.try_text }}
+          <p class="lab-lead">{{ . | $page.RenderString }}</p>
+        {{ end }}
+        <div class="lab-actions lab-actions-compact">
+          <a class="lab-button lab-button-primary" href="{{ "/contact/" | relLangURL }}">Start a conversation</a>
+          <a class="lab-button lab-button-secondary" href="{{ "/opportunities/" | relLangURL }}">Student opportunities</a>
+        </div>
+      </div>
+      {{ with $content.try_items }}
+        <div class="lab-step-list">
+          {{ range . }}
+            <article class="lab-step">
+              <h3>{{ .title }}</h3>
+              <p>{{ .text }}</p>
+            </article>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="lab-section">
+    <div class="lab-section-inner lab-two-column lab-two-column-reversed">
+      <div>
+        <p class="lab-section-kicker">Partners</p>
+        <h2>{{ $content.collaborators_title | default "Collaborators & Funding" }}</h2>
+        {{ with $content.collaborators_text }}
+          <p class="lab-lead">{{ . | $page.RenderString }}</p>
+        {{ end }}
+        <a class="lab-text-link" href="{{ "/funding/" | relLangURL }}">View funding and collaborators</a>
+      </div>
+      {{ with $content.collaborators }}
+        <div class="lab-logo-list" aria-label="Funding and collaborator names">
+          {{ range . }}
+            <span>{{ . }}</span>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="lab-section lab-section-muted">
+    <div class="lab-section-inner">
+      <div class="lab-section-heading lab-section-heading-row">
+        <div>
+          <p class="lab-section-kicker">Latest</p>
+          <h2>{{ $content.updates_title | default "Recent Updates" }}</h2>
+          {{ with $content.updates_text }}
+            <p>{{ . | $page.RenderString }}</p>
+          {{ end }}
+        </div>
+        <a class="lab-text-link" href="{{ "/post/" | relLangURL }}">All news</a>
+      </div>
+
+      {{ $updates := slice }}
+      {{ range site.RegularPages }}
+        {{ if in (slice "post" "blog" "event") .Section }}
+          {{ $updates = $updates | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $updates = sort $updates "Date" "desc" }}
+
+      <div class="lab-updates">
+        {{ range first 4 $updates }}
+          {{ $sectionLabel := .Section | humanize }}
+          {{ if eq .Section "post" }}
+            {{ $sectionLabel = "News" }}
+          {{ end }}
+          <article class="lab-update-card">
+            <div class="lab-update-meta">
+              <span>{{ $sectionLabel }}</span>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+            </div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ $summary := .Summary }}
+            {{ with .Params.summary }}
+              {{ $summary = . }}
+            {{ end }}
+            {{ with $summary }}
+              <p>{{ . | plainify | truncate 150 }}</p>
+            {{ end }}
+          </article>
+        {{ else }}
+          <p class="lab-muted">No updates have been published yet.</p>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>

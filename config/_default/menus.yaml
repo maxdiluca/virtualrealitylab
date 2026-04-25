@@ -1,79 +1,87 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+# The site logo links to the homepage, so Home is intentionally omitted.
 
 main:
-  - name: Home
-    url:
+  - name: Publications
+    url: /projects/
     weight: 10
-    
-  - name: Research
-    url: projects
-    weight: 20
-
-  - name: Funding
-    url: funding
-    weight: 21
-    
-  - name: Resources
-    url: resources
-    weight: 30
-    
-  - name: Opportunities
-    url: opportunities
-    weight: 40
-    
-  - name: Events
-    url: event
-    weight: 45
-
-  - name: News
-    url: post
-    weight: 46
-
-  - name: Blog
-    url: blog
-    weight: 47
 
   - name: People
-    url: people
-    weight: 50
+    url: /people/
+    weight: 20
 
-  - name: Contact
-    url: contact
-    weight: 60
-    
+  - name: Media
+    identifier: media
+    weight: 30
+
+  - name: News
+    url: /post/
+    parent: media
+    weight: 1
+
+  - name: Photo Gallery
+    url: /media/
+    parent: media
+    weight: 2
+
+  - name: Outreach
+    identifier: outreach
+    weight: 40
+
+  - name: Opportunities
+    url: /opportunities/
+    parent: outreach
+    weight: 1
+
   - name: BhamXR
     url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
-    weight: 61
+    parent: outreach
+    weight: 2
 
-  # Internal Sections for the VR Lab members
+  - name: Funding
+    url: /funding/
+    parent: outreach
+    weight: 3
+
+  - name: Blog
+    url: /blog/
+    weight: 50
+
+  - name: Events
+    url: /event/
+    weight: 60
+
+  # Internal sections for VR Lab members
   - name: Internal
-    url: publication
+    identifier: internal
     weight: 70
 
-  - name: SharePoint(WIKI
-    url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
-    parent: Internal
+  - name: Contact
+    url: /contact/
+    parent: internal
     weight: 1
+
+  - name: SharePoint Wiki
+    url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
+    parent: internal
+    weight: 2
 
   - name: Teams
     url: https://teams.microsoft.com/l/team/19%3AvhCl5BNPrgqEcGePBb_ZD8r9jXkHdzrtz_ZgcC85sL81%40thread.tacv2/conversations?groupId=6812d02e-2a15-47e0-a4cd-d1a042cbffcf&tenantId=b024cacf-dede-4241-a15c-3c97d553e9f3
-    parent: Internal
-    weight: 2
+    parent: internal
+    weight: 3
+
+  - name: Site Maintenance
+    url: /site_maintenance/
+    parent: internal
+    weight: 4
 
   - name: CODA (outdated)
     url: https://tinyurl.com/CODAVRLab
-    parent: Internal
+    parent: internal
     weight: 5
 
-  - name: CMS (requires signup)
+  - name: CMS
     url: https://virtualrealitylab.netlify.app/admin
-    parent: Internal
+    parent: internal
     weight: 6
-    
-  - name: Site Maintenance
-    url: site_maintenance
-    parent: Internal
-    weight: 3

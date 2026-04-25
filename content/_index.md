@@ -57,10 +57,13 @@ sections:
       is_fullscreen: true
       loop: true
       interval: 5000
-  # - block: home
-  - block: photo-gallery
+  - block: recent-updates
     content:
-      title: Photo Gallery
+      title: Recent Updates
+      subtitle: News from the Virtual Reality Lab
+      count: 4
+      archive_link: /post/
+      archive_text: View all news
 
 ---
 

@@ -1,0 +1,40 @@
+{{/* Recent news block for the homepage. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | default "Recent Updates" }}
+{{ $subtitle := $block.content.subtitle | default "" }}
+{{ $count := $block.content.count | default 4 }}
+{{ $archiveLink := $block.content.archive_link | default "/post/" }}
+{{ $archiveText := $block.content.archive_text | default "View all news" }}
+{{ $updates := where site.RegularPages "Section" "post" }}
+{{ $updates = sort $updates "Date" "desc" }}
+
+<section class="recent-updates-block">
+  <div class="recent-updates-header">
+    <div>
+      <h2>{{ $title | $page.RenderString }}</h2>
+      {{ with $subtitle }}
+        <p>{{ . | $page.RenderString }}</p>
+      {{ end }}
+    </div>
+    <a class="recent-updates-link" href="{{ $archiveLink | relLangURL }}">{{ $archiveText }}</a>
+  </div>
+
+  <div class="recent-updates-grid">
+    {{ range first $count $updates }}
+      <article class="recent-update-card">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ $summary := .Summary }}
+        {{ with .Params.summary }}
+          {{ $summary = . }}
+        {{ end }}
+        {{ with $summary }}
+          <p>{{ . | plainify | truncate 150 }}</p>
+        {{ end }}
+      </article>
+    {{ else }}
+      <p class="recent-updates-empty">No news posts have been published yet.</p>
+    {{ end }}
+  </div>
+</section>

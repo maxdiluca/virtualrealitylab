@@ -1,5 +1,5 @@
 ---
-title: "Collaborators & Funding"
+title: Funding 
 view: 2
 
 header:
@@ -7,32 +7,33 @@ header:
   image: ""
 ---
 
-The Virtual Reality Lab works with research councils, university partners, industry collaborators, cultural organisations, and charities to develop and evaluate immersive technology.
-
-## Research Funding
-
-- **EPSRC**
-- **BBSRC**
-- **NHS**
-- **Google Research**
-- **Marie Sklodowska-Curie**
-- **MSC Doctoral Networks**
+Funding for our work comes from:
+ 
+- **EPSRC**  
+- **BBSRC**  
+- **NHS**  
+- **Google Research**  
+- **Marie Skłodowska-Curie**  
+- **MSC Doctoral Networks**  
 - **Royal Society**
 
-## Industry Collaborators
+alongside support and collaboration with industry partners such as:
 
-- **Google**
-- **Meta / Facebook / Oculus**
-- **Procter & Gamble**
-- **Ansell Gloves**
-- **Gillette**
-- **ROLI**
-- **Givaudan**
+- **Google**  
+- **Meta / Facebook / Oculus**  
+- **Procter & Gamble**  
+- **Ansell Gloves**  
+- **Gillette**  
+- **ROLI**  
+- **Givaudan**  
 - **PartPlay**
 - **Zubr**
 - **Innogence**
 
-## Cultural and Charitable Partners
+and cultural and charitable partners including:
 
-- **Museum of Music History**
+- **Museum of Music History**  
 - **Kenilworth Town Council**
+
+---
+

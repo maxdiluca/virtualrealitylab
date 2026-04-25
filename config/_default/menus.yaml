@@ -28,9 +28,13 @@ main:
     url: event
     weight: 45
 
-  - name: Events
-    url: event
-    weight: 45
+  - name: News
+    url: post
+    weight: 46
+
+  - name: Blog
+    url: blog
+    weight: 47
 
   - name: People
     url: people

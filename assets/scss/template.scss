@@ -360,9 +360,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
-  margin: 3.5rem 0 1rem;
-  padding: 1.5rem;
+  gap: 1rem;
+  max-width: 680px;
+  margin: 2.25rem auto 0;
+  padding: 0.95rem 1rem;
   border: 1px solid #d9e7f5;
   border-radius: 8px;
   background: #f7fbff;
@@ -373,9 +374,9 @@
 }
 
 .blog-submit-cta-kicker {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.25rem;
   color: #3478c9;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   line-height: 1.2;
@@ -385,27 +386,28 @@
 .blog-submit-cta h2 {
   margin: 0;
   color: #172033;
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   line-height: 1.25;
 }
 
 .blog-submit-cta p:not(.blog-submit-cta-kicker) {
-  margin: 0.5rem 0 0;
+  margin: 0.25rem 0 0;
   color: #536176;
+  font-size: 0.9rem;
   line-height: 1.55;
 }
 
 .blog-submit-cta-button,
 .blog-submission-actions button {
   display: inline-flex;
-  min-height: 44px;
+  min-height: 40px;
   align-items: center;
   justify-content: center;
   border: 1px solid #3478c9;
   border-radius: 8px;
   background: #3478c9;
   color: #ffffff;
-  padding: 0.7rem 1.1rem;
+  padding: 0.58rem 0.9rem;
   font-weight: 800;
   line-height: 1.2;
   text-decoration: none;
@@ -455,6 +457,11 @@
 .blog-editor:focus {
   border-color: #3478c9;
   outline: 3px solid rgba(52, 120, 201, 0.18);
+}
+
+.blog-editor-drop-active {
+  outline: 3px solid rgba(52, 120, 201, 0.22);
+  outline-offset: -6px;
 }
 
 .blog-submission-grid {
@@ -523,6 +530,10 @@
   max-width: 100%;
   display: block;
   border-radius: 8px;
+}
+
+.blog-editor figure {
+  margin: 1rem 0;
 }
 
 .blog-editor iframe {

@@ -10,12 +10,12 @@
       method="POST"
       action="/blog-submitted/"
       data-netlify="true"
+      data-netlify-honeypot="bot-field"
       netlify-honeypot="bot-field"
       enctype="multipart/form-data"
     >
       <input type="hidden" name="form-name" value="blog-post-entry">
-      <input type="hidden" name="recipient" value="a.dutta.3@bham.ac.uk">
-      <input type="hidden" name="subject" value="Blog Post Entry - VR Lab">
+      <input type="hidden" name="subject" data-remove-prefix value="Blog Post Entry - VR Lab">
       <textarea id="blog-submission-content" name="post_content" class="blog-submission-hidden"></textarea>
 
       <p class="blog-submission-honeypot">
@@ -30,18 +30,18 @@
 
         <label>
           <span>Email address</span>
-          <input type="email" name="author_email" autocomplete="email" required>
+          <input type="email" name="email" autocomplete="email" required>
         </label>
       </div>
 
       <label>
         <span>Blog title</span>
-        <input type="text" name="blog_title" required>
+        <input type="text" name="title" required>
       </label>
 
       <label>
         <span>Short summary</span>
-        <textarea name="blog_summary" rows="3"></textarea>
+        <textarea name="summary" rows="3"></textarea>
       </label>
 
       <div class="blog-editor-wrap">
@@ -66,7 +66,7 @@
           <button type="button" data-editor-command="insertUnorderedList" title="Bulleted list" aria-label="Bulleted list">&bull;</button>
           <button type="button" data-editor-command="insertOrderedList" title="Numbered list" aria-label="Numbered list">1.</button>
           <button type="button" data-editor-action="link">Link</button>
-          <button type="button" data-editor-action="image">Image</button>
+          <button type="button" data-editor-action="image">Image URL</button>
           <button type="button" data-editor-action="video">Video</button>
         </div>
 
@@ -138,6 +138,37 @@
       document.execCommand('insertHTML', false, html);
     }
 
+    function setEditorDropState(isActive) {
+      editor.classList.toggle('blog-editor-drop-active', isActive);
+    }
+
+    function insertInlineImage(file) {
+      if (!file || !/^image\//i.test(file.type)) {
+        return false;
+      }
+
+      if (file.size > 5 * 1024 * 1024) {
+        error.textContent = 'Please use the attachment field for images larger than 5 MB.';
+        return true;
+      }
+
+      var reader = new FileReader();
+      reader.onload = function () {
+        insertHtml('<figure><img src="' + reader.result + '" alt=""><figcaption></figcaption></figure>');
+        error.textContent = '';
+      };
+      reader.readAsDataURL(file);
+      return true;
+    }
+
+    function insertInlineImages(files) {
+      var inserted = false;
+      Array.prototype.forEach.call(files || [], function (file) {
+        inserted = insertInlineImage(file) || inserted;
+      });
+      return inserted;
+    }
+
     form.querySelectorAll('[data-editor-command]').forEach(function (control) {
       control.addEventListener('change', function () {
         var command = control.getAttribute('data-editor-command');
@@ -183,6 +214,41 @@
       } else if (url) {
         insertHtml('<p><a href="' + escapeHtml(url) + '">' + escapeHtml(url) + '</a></p>');
       }
+    });
+
+    editor.addEventListener('paste', function (event) {
+      var clipboard = event.clipboardData;
+      if (!clipboard || !clipboard.items) {
+        return;
+      }
+
+      var files = [];
+      Array.prototype.forEach.call(clipboard.items, function (item) {
+        if (item.kind === 'file' && /^image\//i.test(item.type)) {
+          files.push(item.getAsFile());
+        }
+      });
+
+      if (files.length && insertInlineImages(files)) {
+        event.preventDefault();
+      }
+    });
+
+    editor.addEventListener('dragover', function (event) {
+      event.preventDefault();
+      setEditorDropState(true);
+    });
+
+    editor.addEventListener('dragleave', function () {
+      setEditorDropState(false);
+    });
+
+    editor.addEventListener('drop', function (event) {
+      var files = event.dataTransfer && event.dataTransfer.files;
+      if (files && files.length && insertInlineImages(files)) {
+        event.preventDefault();
+      }
+      setEditorDropState(false);
     });
 
     form.addEventListener('submit', function (event) {

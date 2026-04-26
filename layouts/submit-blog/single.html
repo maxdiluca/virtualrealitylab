@@ -9,12 +9,8 @@
       name="blog-post-entry"
       method="POST"
       action="/blog-submitted/"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      netlify-honeypot="bot-field"
-      enctype="multipart/form-data"
+      data-apps-script-url="https://script.google.com/macros/s/AKfycbyaEg1HEh1dVAMqatB_-aRszgZ-3_PMM7ieVeamy5HdIRrd68I7TPiAXuioB0GaJJU/exec"
     >
-      <input type="hidden" name="form-name" value="blog-post-entry">
       <input type="hidden" name="subject" data-remove-prefix value="Blog Post Entry - VR Lab">
       <textarea id="blog-submission-content" name="post_content" class="blog-submission-hidden"></textarea>
 
@@ -82,8 +78,8 @@
       </div>
 
       <label>
-        <span>Attach images or videos</span>
-        <input type="file" name="attachments" accept="image/*,video/*" multiple>
+        <span>Supporting media links</span>
+        <textarea name="media_links" rows="2" placeholder="Paste Google Drive, YouTube, or image links here. You can also paste images directly into the editor above."></textarea>
       </label>
 
       <div class="blog-submission-actions">
@@ -100,6 +96,7 @@
     var editor = document.getElementById('blog-submission-editor');
     var contentField = document.getElementById('blog-submission-content');
     var error = document.getElementById('blog-submission-error');
+    var submitButton = form && form.querySelector('button[type="submit"]');
 
     if (!form || !editor || !contentField) {
       return;
@@ -167,6 +164,19 @@
         inserted = insertInlineImage(file) || inserted;
       });
       return inserted;
+    }
+
+    function getFieldValue(name) {
+      var field = form.elements[name];
+      return field ? field.value.trim() : '';
+    }
+
+    function setSubmitting(isSubmitting) {
+      if (!submitButton) {
+        return;
+      }
+      submitButton.disabled = isSubmitting;
+      submitButton.textContent = isSubmitting ? 'Submitting...' : 'Submit for Review';
     }
 
     form.querySelectorAll('[data-editor-command]').forEach(function (control) {
@@ -252,10 +262,11 @@
     });
 
     form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
       var content = editor.innerHTML.trim();
       var text = editor.textContent.trim();
       if (!text && content.indexOf('<img') === -1 && content.indexOf('<iframe') === -1) {
-        event.preventDefault();
         error.textContent = 'Please add your blog post content before submitting.';
         editor.focus();
         return;
@@ -263,6 +274,39 @@
 
       error.textContent = '';
       contentField.value = content;
+      var mediaLinks = getFieldValue('media_links');
+      var savedContent = content;
+
+      if (mediaLinks) {
+        savedContent += '<h2>Supporting media links</h2><p>' + escapeHtml(mediaLinks).replace(/\n/g, '<br>') + '</p>';
+      }
+
+      var payload = {
+        subject: getFieldValue('subject') || 'Blog Post Entry - VR Lab',
+        author_name: getFieldValue('author_name'),
+        email: getFieldValue('email'),
+        title: getFieldValue('title'),
+        summary: getFieldValue('summary'),
+        media_links: mediaLinks,
+        post_content: savedContent,
+        submitted_at: new Date().toISOString()
+      };
+
+      setSubmitting(true);
+
+      fetch(form.getAttribute('data-apps-script-url'), {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8'
+        },
+        body: JSON.stringify(payload)
+      }).then(function () {
+        window.location.href = form.getAttribute('action');
+      }).catch(function () {
+        error.textContent = 'The blog post could not be submitted. Please try again.';
+        setSubmitting(false);
+      });
     });
   }());
 </script>

@@ -59,7 +59,6 @@ sections:
       interval: 5000
   - block: recent-updates
     content:
-      title: What's new at the VR Lab.
       subtitle: Talks, press releases and project updates from across the lab.
       count: 6
       archive_link: /post/

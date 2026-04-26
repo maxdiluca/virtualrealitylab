@@ -3,7 +3,7 @@
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
 {{ $kicker := $content.kicker }}
-{{ $title := $content.title | default "What's new at the VR Lab." }}
+{{ $title := $content.title }}
 {{ $subtitle := $content.subtitle | default "Talks, press releases and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
 {{ $updates := where site.RegularPages "Section" "post" }}
@@ -17,7 +17,9 @@
         {{ with $kicker }}
           <p class="lab-section-kicker"><span></span>{{ . | $page.RenderString }}</p>
         {{ end }}
-        <h2>{{ $title | $page.RenderString }}</h2>
+        {{ with $title }}
+          <h2>{{ . | $page.RenderString }}</h2>
+        {{ end }}
         {{ with $subtitle }}
           <p>{{ . | $page.RenderString }}</p>
         {{ end }}

@@ -184,6 +184,10 @@
   margin-top: 4rem;
 }
 
+.lab-full-gallery-direct {
+  margin-top: 0;
+}
+
 .lab-full-gallery-header {
   max-width: 680px;
   margin-bottom: 1.5rem;
@@ -352,6 +356,78 @@
   text-decoration: underline;
 }
 
+.lab-blog-article {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.lab-blog-article-header {
+  margin-bottom: 1.75rem;
+  color: #536176;
+  text-align: center;
+}
+
+.lab-blog-author {
+  margin: 0;
+  color: #172033;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.lab-blog-affiliation {
+  margin: 0.25rem 0 0;
+}
+
+.lab-blog-figure {
+  margin: 2rem 0;
+}
+
+.lab-blog-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  background: #e9eef4;
+}
+
+.lab-blog-figure figcaption {
+  color: #536176;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.lab-blog-figure figcaption {
+  margin-top: 0.85rem;
+}
+
+.lab-blog-article h2 {
+  margin-top: 2.5rem;
+}
+
+.lab-blog-video {
+  margin: 2rem 0;
+}
+
+.lab-blog-video-frame {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  background: #111827;
+}
+
+.lab-blog-video-frame iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+.lab-blog-source {
+  margin-top: 2.5rem;
+  font-weight: 700;
+}
+
 .dark .lab-gallery-page,
 html.dark .lab-gallery-page {
   background: #111827;
@@ -389,6 +465,18 @@ html.dark .recent-update-card {
   border-color: #334155;
   background: #111827;
   box-shadow: none;
+}
+
+.dark .lab-blog-author,
+html.dark .lab-blog-author {
+  color: #e8edf4;
+}
+
+.dark .lab-blog-article-header,
+.dark .lab-blog-figure figcaption,
+html.dark .lab-blog-article-header,
+html.dark .lab-blog-figure figcaption {
+  color: #b4bfcc;
 }
 
 .dark .lab-outline-button,

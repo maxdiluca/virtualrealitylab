@@ -8,5 +8,4 @@ sections:
     content:
       title: Inside our experiments, workshops and demos.
       text: A glimpse at the people, hardware and moments behind our research - from headset fittings to public demos and conferences.
-      button_text: Full gallery
 ---

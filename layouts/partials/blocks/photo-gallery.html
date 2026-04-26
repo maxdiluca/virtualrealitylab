@@ -6,7 +6,6 @@
 {{ $kicker := $content.kicker }}
 {{ $title := $content.title | default "Inside our experiments, workshops and demos." }}
 {{ $text := $content.text | default "A glimpse at the people, hardware and moments behind our research - from headset fittings to public demos and conferences." }}
-{{ $buttonText := $content.button_text | default "Full gallery" }}
 
 <section class="lab-gallery-page">
   <div class="lab-section-shell">
@@ -18,26 +17,11 @@
         <h1>{{ $title | $page.RenderString }}</h1>
         <p>{{ $text | $page.RenderString }}</p>
       </div>
-      <a class="lab-outline-button" href="#full-gallery">{{ $buttonText }} <span aria-hidden="true">-></span></a>
     </div>
 
     <div class="lab-section-divider"></div>
 
-    <div class="lab-gallery-mosaic" aria-label="Featured gallery images">
-      {{ range $i, $image := first 8 $images }}
-        {{ $featured := $image.Fill "760x900 center" }}
-        <a class="lab-gallery-tile lab-gallery-tile-{{ add $i 1 }}" href="{{ $image.RelPermalink }}" data-lightbox="gallery">
-          <img src="{{ $featured.RelPermalink }}" alt="" loading="lazy" decoding="async">
-        </a>
-      {{ end }}
-    </div>
-
-    <div id="full-gallery" class="lab-full-gallery">
-      <div class="lab-full-gallery-header">
-        <h2>Full gallery</h2>
-        <p>Browse more photos from lab projects, workshops, demonstrations and events.</p>
-      </div>
-
+    <div class="lab-full-gallery lab-full-gallery-direct" aria-label="Photo gallery">
       <div class="lab-full-gallery-grid">
         {{ range $image := $images }}
           {{ $thumb := $image.Fill "520x360 center" }}

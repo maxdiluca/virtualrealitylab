@@ -4,7 +4,9 @@
       "WebFetch(domain:eyalofek.org)",
       "Bash(hugo version *)",
       "Bash(hugo --gc --minify --quiet --destination /tmp/hugo-verify-blog)",
-      "Read(//tmp/hugo-verify-blog/submit-blog/**)"
+      "Read(//tmp/hugo-verify-blog/submit-blog/**)",
+      "Bash(rm -rf e:/VRLabWebpage/virtualrealitylab/netlify e:/VRLabWebpage/virtualrealitylab/content/blog-admin e:/VRLabWebpage/virtualrealitylab/layouts/blog-admin)",
+      "Bash(git restore *)"
     ]
   }
 }

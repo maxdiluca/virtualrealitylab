@@ -1,0 +1,273 @@
+{{- define "main" -}}
+
+<article class="article">
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+    <noscript>
+      <p style="color:#b00;">JavaScript is required to use the blog submissions admin.</p>
+    </noscript>
+
+    <div id="ba-login" hidden>
+      <h2 style="margin-top:0">Sign in</h2>
+      <p>Enter the admin password to view pending blog submissions.</p>
+      <form id="ba-login-form" autocomplete="off">
+        <label style="display:block;margin-bottom:0.5rem;">
+          <span>Password</span>
+          <input id="ba-password" type="password" autocomplete="current-password" required style="display:block;width:100%;max-width:320px;padding:0.4rem 0.6rem;">
+        </label>
+        <button type="submit">Sign in</button>
+        <p id="ba-login-error" style="color:#b00;"></p>
+      </form>
+    </div>
+
+    <div id="ba-app" hidden>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+        <h2 style="margin:0">Pending submissions <span id="ba-count" style="opacity:0.6;font-weight:normal;"></span></h2>
+        <div>
+          <button id="ba-refresh" type="button">Refresh</button>
+          <button id="ba-logout" type="button">Sign out</button>
+        </div>
+      </div>
+      <p id="ba-status" role="status" aria-live="polite"></p>
+      <ol id="ba-list" style="list-style:none;padding:0;margin:1.5rem 0 0;"></ol>
+      <p id="ba-empty" hidden style="opacity:0.7;font-style:italic;">No pending submissions.</p>
+    </div>
+  </div>
+</article>
+
+<style>
+  .ba-card { border: 1px solid rgba(0,0,0,0.12); border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 1rem; background: #fff; }
+  .ba-card h3 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+  .ba-meta { font-size: 0.9rem; opacity: 0.75; margin: 0 0 0.75rem; }
+  .ba-summary { margin: 0.5rem 0; }
+  .ba-content-toggle { background: none; border: 1px solid rgba(0,0,0,0.2); padding: 0.2rem 0.6rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+  .ba-content { display: none; max-height: 400px; overflow: auto; border: 1px dashed rgba(0,0,0,0.15); padding: 0.75rem; margin-top: 0.5rem; background: #fafafa; }
+  .ba-content.is-open { display: block; }
+  .ba-actions { margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .ba-actions button { padding: 0.4rem 0.9rem; border-radius: 4px; cursor: pointer; }
+  .ba-approve { background: #1a7e3c; color: #fff; border: 1px solid #166c33; }
+  .ba-reject { background: #fff; color: #b00; border: 1px solid #b00; }
+  .ba-actions button:disabled { opacity: 0.5; cursor: progress; }
+  .ba-image-note { font-size: 0.85rem; color: #b06400; margin-top: 0.25rem; }
+</style>
+
+<script>
+  (function () {
+    var STORAGE_KEY = 'vrlab-blog-admin-password';
+    var login = document.getElementById('ba-login');
+    var app = document.getElementById('ba-app');
+    var loginForm = document.getElementById('ba-login-form');
+    var pwInput = document.getElementById('ba-password');
+    var loginError = document.getElementById('ba-login-error');
+    var status = document.getElementById('ba-status');
+    var list = document.getElementById('ba-list');
+    var emptyMsg = document.getElementById('ba-empty');
+    var countLabel = document.getElementById('ba-count');
+    var refreshBtn = document.getElementById('ba-refresh');
+    var logoutBtn = document.getElementById('ba-logout');
+
+    function getPassword() {
+      try { return sessionStorage.getItem(STORAGE_KEY) || ''; } catch (e) { return ''; }
+    }
+    function setPassword(value) {
+      try { sessionStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+    }
+    function clearPassword() {
+      try { sessionStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    }
+
+    function showLogin() {
+      login.hidden = false;
+      app.hidden = true;
+      pwInput.value = '';
+      loginError.textContent = '';
+      pwInput.focus();
+    }
+    function showApp() {
+      login.hidden = true;
+      app.hidden = false;
+      loadSubmissions();
+    }
+
+    function callApi(path, options) {
+      var pw = getPassword();
+      var opts = Object.assign({}, options || {});
+      opts.headers = Object.assign({ 'X-Admin-Password': pw, 'Content-Type': 'application/json' }, opts.headers || {});
+      return fetch('/.netlify/functions/' + path, opts).then(function (r) {
+        if (r.status === 401) {
+          clearPassword();
+          showLogin();
+          loginError.textContent = 'Session expired or password rejected. Please sign in again.';
+          throw new Error('Unauthorized');
+        }
+        return r.json().then(function (body) {
+          if (!r.ok) throw new Error(body && body.error ? body.error : 'Request failed');
+          return body;
+        });
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[c];
+      });
+    }
+
+    function fmtDate(iso) {
+      if (!iso) return '';
+      try {
+        var d = new Date(iso);
+        return d.toLocaleString();
+      } catch (e) { return iso; }
+    }
+
+    function renderSubmissions(items) {
+      list.innerHTML = '';
+      countLabel.textContent = '(' + items.length + ')';
+      emptyMsg.hidden = items.length !== 0;
+      items.forEach(function (item) {
+        var li = document.createElement('li');
+        li.className = 'ba-card';
+        li.dataset.id = item.id;
+        li.innerHTML =
+          '<h3>' + escapeHtml(item.title || '(no title)') + '</h3>' +
+          '<p class="ba-meta">' +
+            'By <strong>' + escapeHtml(item.author_name) + '</strong>' +
+            (item.email ? ' &middot; <a href="mailto:' + escapeHtml(item.email) + '">' + escapeHtml(item.email) + '</a>' : '') +
+            ' &middot; ' + escapeHtml(fmtDate(item.created_at)) +
+          '</p>' +
+          (item.summary ? '<p class="ba-summary"><em>' + escapeHtml(item.summary) + '</em></p>' : '') +
+          (item.media_links ? '<p class="ba-meta"><strong>Media links:</strong><br><pre style="white-space:pre-wrap;margin:0">' + escapeHtml(item.media_links) + '</pre></p>' : '') +
+          (item.inline_image_count ? '<p class="ba-image-note">' + item.inline_image_count + ' inline image(s) embedded — will be saved as image1, image2, ... on approve.</p>' : '') +
+          '<button type="button" class="ba-content-toggle">Show content</button>' +
+          '<div class="ba-content">' + (item.post_content_preview || '') + '</div>' +
+          '<div class="ba-actions">' +
+            '<button type="button" class="ba-approve">Approve & save as draft</button>' +
+            '<button type="button" class="ba-reject">Reject</button>' +
+          '</div>';
+
+        var toggle = li.querySelector('.ba-content-toggle');
+        var content = li.querySelector('.ba-content');
+        toggle.addEventListener('click', function () {
+          var open = content.classList.toggle('is-open');
+          toggle.textContent = open ? 'Hide content' : 'Show content';
+        });
+
+        li.querySelector('.ba-approve').addEventListener('click', function (e) {
+          handleApprove(item, li, e.currentTarget);
+        });
+        li.querySelector('.ba-reject').addEventListener('click', function (e) {
+          handleReject(item, li, e.currentTarget);
+        });
+
+        list.appendChild(li);
+      });
+    }
+
+    function setLoading(card, msg) {
+      var actionButtons = card.querySelectorAll('.ba-actions button');
+      actionButtons.forEach(function (b) { b.disabled = true; });
+      var existing = card.querySelector('.ba-card-status');
+      if (existing) existing.remove();
+      if (msg) {
+        var p = document.createElement('p');
+        p.className = 'ba-card-status';
+        p.style.fontSize = '0.85rem';
+        p.style.opacity = '0.8';
+        p.textContent = msg;
+        card.appendChild(p);
+      }
+    }
+
+    function handleApprove(item, card, button) {
+      if (!confirm('Approve "' + (item.title || 'this post') + '" and save as a draft on the profile-updates-branch?')) return;
+      setLoading(card, 'Approving and committing to GitHub…');
+      callApi('approve-submission', {
+        method: 'POST',
+        body: JSON.stringify({ id: item.id })
+      })
+        .then(function (res) {
+          card.style.opacity = '0.5';
+          var p = card.querySelector('.ba-card-status');
+          if (p) p.textContent = 'Approved — committed as draft (slug: ' + res.slug + '). Reload to refresh list.';
+        })
+        .catch(function (err) {
+          var actionButtons = card.querySelectorAll('.ba-actions button');
+          actionButtons.forEach(function (b) { b.disabled = false; });
+          var p = card.querySelector('.ba-card-status');
+          if (p) { p.style.color = '#b00'; p.textContent = 'Error: ' + err.message; }
+        });
+    }
+
+    function handleReject(item, card) {
+      if (!confirm('Reject and delete "' + (item.title || 'this post') + '"? This cannot be undone.')) return;
+      setLoading(card, 'Deleting submission…');
+      callApi('reject-submission', {
+        method: 'POST',
+        body: JSON.stringify({ id: item.id })
+      })
+        .then(function () {
+          card.remove();
+          var remaining = list.children.length;
+          countLabel.textContent = '(' + remaining + ')';
+          emptyMsg.hidden = remaining !== 0;
+        })
+        .catch(function (err) {
+          var actionButtons = card.querySelectorAll('.ba-actions button');
+          actionButtons.forEach(function (b) { b.disabled = false; });
+          var p = card.querySelector('.ba-card-status');
+          if (p) { p.style.color = '#b00'; p.textContent = 'Error: ' + err.message; }
+        });
+    }
+
+    function loadSubmissions() {
+      status.textContent = 'Loading…';
+      list.innerHTML = '';
+      callApi('list-submissions', { method: 'GET' })
+        .then(function (items) {
+          status.textContent = '';
+          renderSubmissions(items);
+        })
+        .catch(function (err) {
+          if (err.message !== 'Unauthorized') {
+            status.textContent = 'Failed to load: ' + err.message;
+          }
+        });
+    }
+
+    loginForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      setPassword(pwInput.value);
+      loginError.textContent = '';
+      // Verify by attempting to load submissions
+      callApi('list-submissions', { method: 'GET' })
+        .then(function (items) {
+          login.hidden = true;
+          app.hidden = false;
+          renderSubmissions(items);
+        })
+        .catch(function (err) {
+          if (err.message === 'Unauthorized') {
+            // already handled
+          } else {
+            loginError.textContent = 'Error: ' + err.message;
+          }
+        });
+    });
+
+    refreshBtn.addEventListener('click', loadSubmissions);
+    logoutBtn.addEventListener('click', function () {
+      clearPassword();
+      showLogin();
+    });
+
+    if (getPassword()) {
+      showApp();
+    } else {
+      showLogin();
+    }
+  }());
+</script>
+
+{{- end -}}

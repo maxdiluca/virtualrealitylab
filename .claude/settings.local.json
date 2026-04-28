@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:eyalofek.org)"
+      "WebFetch(domain:eyalofek.org)",
+      "Bash(hugo version *)",
+      "Bash(hugo --gc --minify --quiet --destination /tmp/hugo-verify-blog)",
+      "Read(//tmp/hugo-verify-blog/submit-blog/**)"
     ]
   }
 }

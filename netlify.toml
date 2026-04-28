@@ -5,6 +5,11 @@
 [build.environment]
   HUGO_VERSION = "0.125.7"
   HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "20"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
 
 [context.production.environment]
   HUGO_ENV = "production"

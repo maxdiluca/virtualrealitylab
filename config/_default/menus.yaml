@@ -6,6 +6,10 @@ main:
     url: /projects/
     weight: 10
 
+  - name: Publications
+    url: /publication/
+    weight: 15
+
   - name: People
     url: /people/
     weight: 20
@@ -43,7 +47,7 @@ main:
     parent: outreach
     weight: 2
 
-  - name: Blog
+  - name: Blogs
     url: /blog/
     weight: 50
 

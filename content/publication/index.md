@@ -10,6 +10,8 @@ sections:
       title:
       text: |-
 
+        # Publication
+
         ## 2026
 
         Diar Abdlkarim, Devika Mukherjee, Daniele Giunchi, Max Di Luca, Eyal Ofek. Belt and whistles - adding lower body collision awareness for MR experiences. *CHI*, 2026. [PDF](https://pure-oai.bham.ac.uk/ws/portalfiles/portal/295068678/BeltAndWhistles_CHI26.pdf)

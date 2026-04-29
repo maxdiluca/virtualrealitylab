@@ -10,7 +10,7 @@ sections:
       title:
       text: |-
 
-        # Publication
+        # Publications
 
         ## 2026
 

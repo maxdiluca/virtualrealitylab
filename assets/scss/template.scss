@@ -8,6 +8,31 @@
   justify-content: center;
 }
 
+// Homepage slider and adjacent custom block spacing.
+.home-section.wg-slider {
+  overflow: hidden;
+}
+
+.home-section.wg-slider .hero-title {
+  font-size: 2.25rem;
+  line-height: 1.05;
+}
+
+.home-section.wg-slider .hero-lead {
+  max-width: 720px;
+  font-size: 1.1rem;
+  line-height: 1.55;
+}
+
+.home-section.wg-slider .btn-lg {
+  font-size: 1rem;
+}
+
+.home-section.wg-recent-updates {
+  padding: 0;
+  background: transparent;
+}
+
 // Editorial sections used by the homepage updates and media gallery.
 .lab-section-shell {
   width: calc(100% - 48px);
@@ -770,6 +795,15 @@ html.dark .recent-updates-arrow {
 }
 
 @media (max-width: 720px) {
+  .home-section.wg-slider .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .home-section.wg-slider .hero-lead {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
   .lab-section-shell {
     width: calc(100% - 32px);
   }

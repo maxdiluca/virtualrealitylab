@@ -53,7 +53,7 @@ sections:
             position: up
             color: '#666'
     design:
-      slide_height: '75vh'
+      slide_height: '55vh'
       is_fullscreen: false
       loop: true
       interval: 5000

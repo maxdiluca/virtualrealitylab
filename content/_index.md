@@ -17,7 +17,7 @@ sections:
                 filename: slider_image_1.jpeg
                 filters:
                   brightness: 0.45
-            position: right top
+                position: center top
             color: '#666'
           link:
             icon: link

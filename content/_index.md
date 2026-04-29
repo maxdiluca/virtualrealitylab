@@ -17,7 +17,7 @@ sections:
                 filename: slider_image_1.jpeg
                 filters:
                   brightness: 0.45
-            position: right
+            position: right top
             color: '#666'
           link:
             icon: link
@@ -59,7 +59,7 @@ sections:
       interval: 5000
   - block: recent-updates
     content:
-      subtitle: Talks, press releases and project updates from across the lab.
+      subtitle: Talks, press releases, blogs and project updates from across the lab.
       count: 6
       archive_link: /post/
 

@@ -4,10 +4,28 @@
 {{ $content := $block.content }}
 {{ $kicker := $content.kicker }}
 {{ $title := $content.title }}
-{{ $subtitle := $content.subtitle | default "Talks, press releases and project updates from across the lab." }}
+{{ $subtitle := $content.subtitle | default "Talks, press releases, blogs and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
-{{ $updates := where site.RegularPages "Section" "post" }}
-{{ $updates = sort $updates "Date" "desc" }}
+{{ $news := where site.RegularPages "Section" "post" }}
+{{ $blogs := where site.RegularPages "Section" "blog" }}
+{{ $news = sort $news "Date" "desc" }}
+{{ $blogs = sort $blogs "Date" "desc" }}
+{{ $updates := slice }}
+{{ $maxItems := len $news }}
+{{ if gt (len $blogs) $maxItems }}
+  {{ $maxItems = len $blogs }}
+{{ end }}
+{{ if gt $maxItems 0 }}
+  {{ range $i := seq $maxItems }}
+    {{ $index := sub $i 1 }}
+    {{ if lt $index (len $news) }}
+      {{ $updates = $updates | append (index $news $index) }}
+    {{ end }}
+    {{ if lt $index (len $blogs) }}
+      {{ $updates = $updates | append (index $blogs $index) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 {{ $fallbackImage := resources.Get "media/welcome.jpg" }}
 
 <section class="recent-updates-block">
@@ -49,6 +67,10 @@
             {{ $summary = . }}
           {{ end }}
           {{ $postLink := .RelPermalink }}
+          {{ $label := "News" }}
+          {{ if eq .Section "blog" }}
+            {{ $label = "Blog" }}
+          {{ end }}
 
           <article class="recent-update-card">
             {{ with $cardImage }}
@@ -58,7 +80,7 @@
             {{ end }}
             <div class="recent-update-body">
               <div class="recent-update-meta">
-                <span>News</span>
+                <span>{{ $label }}</span>
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
               </div>
               <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -69,7 +91,7 @@
             </div>
           </article>
         {{ else }}
-          <p class="recent-updates-empty">No news posts have been published yet.</p>
+          <p class="recent-updates-empty">No updates have been published yet.</p>
         {{ end }}
       </div>
 

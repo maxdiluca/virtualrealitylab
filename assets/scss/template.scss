@@ -33,6 +33,11 @@
   background: transparent;
 }
 
+.recent-updates-block .lab-editorial-header p:not(.lab-section-kicker) {
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
 // Editorial sections used by the homepage updates and media gallery.
 .lab-section-shell {
   width: calc(100% - 48px);

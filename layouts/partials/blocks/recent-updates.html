@@ -53,7 +53,14 @@
 
       <div class="recent-updates-grid" data-updates-track>
         {{ range first $count $updates }}
-          {{ $image := .Resources.GetMatch "featured.*" }}
+          {{ $post := . }}
+          {{ $image := "" }}
+          {{ with $post.Params.image.filename }}
+            {{ $image = $post.Resources.GetMatch . }}
+          {{ end }}
+          {{ if not $image }}
+            {{ $image = $post.Resources.GetMatch "featured.*" }}
+          {{ end }}
           {{ if not $image }}
             {{ $image = $fallbackImage }}
           {{ end }}

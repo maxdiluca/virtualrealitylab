@@ -13,7 +13,7 @@ summary: VR Lab members presented research and contributed to a workshop on augm
 
 ![Members of the University of Birmingham VR Lab at CHI 2026.](image1.png)
 
-Members of the University of Birmingham VR Lab recently attended CHI 2026, where they presented and contributed to research exploring mixed reality, embodied interaction, and future forms of human-computer interaction.
+Members of the VR Lab recently attended CHI 2026, where they presented and contributed to research exploring mixed reality, embodied interaction, and future forms of human-computer interaction.
 
 The team shared work from the Belt & Whistles project, which investigates lower-body collision awareness for mixed reality experiences.
 
@@ -31,4 +31,4 @@ The workshop brought together researchers working at the intersection of virtual
 
 ![Displays and demonstrations from the workshop.](image5.png)
 
-The visit highlighted the VR Lab's growing contribution to international research in immersive technologies and human-computer interaction.
+

@@ -18,5 +18,8 @@ sections:
 
         Hao Ai1,Wenjie Chang2, Jianbo Jiao1, Ales Leonardis1, Eyal Ofek. Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglemen. *ICLR*, 2026. (https://haoai-1997.github.io/AiM/)
 
-      
+        ## 2025
+
+        Diar Abdlkarim, Devika Mukherjee, Daniele Giunchi, Max Di Luca, Eyal Ofek. TEXT: Text Entry for XR Trove—Collecting and Analyzing Techniques for Text Input in XR. *CHI*, 2025. https://dl.acm.org/doi/10.1145/3706598.3713382. 
+
 ---

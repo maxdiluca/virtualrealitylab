@@ -11,7 +11,7 @@ image:
 summary: VR Lab members presented research and contributed to a workshop on augmented mixed-reality and robotic body parts at CHI 2026.
 ---
 
-![Members of the University of Birmingham VR Lab at CHI 2026.](image1.png)
+<!--> ![Members of the University of Birmingham VR Lab at CHI 2026.](image1.png) -->
 
 Members of the VR Lab recently attended CHI 2026, where they presented and contributed to research exploring mixed reality, embodied interaction, and future forms of human-computer interaction.
 

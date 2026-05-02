@@ -152,5 +152,30 @@ sections:
         }
         </style>
 
+  - block: contact
+    content:
+      title: Get in touch
+      text: |-
+        To get in touch and for information on how to use the lab, please fill in the form below. The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
+      address:
+        street: Pritchatts Road 52
+        postcode: "B15 2SA"
+        city: Birmingham
+        country: United Kingdom
+        country_code: UK
+      coordinates:
+        latitude: "52.45321698704788"
+        longitude: "-1.927825815563642"
+      directions: Floor 4 in the Gisbert Kapp Building
+      autolink: true
+      form:
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          captcha: true
+    design:
+      columns: "1"
+
 ---
 

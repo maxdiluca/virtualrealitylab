@@ -33,19 +33,13 @@ main:
     parent: media
     weight: 3
 
-  - name: Outreach
-    identifier: outreach
-    weight: 40
-
   - name: Opportunities
     url: /opportunities/
-    parent: outreach
-    weight: 1
+    weight: 40
 
   - name: BhamXR
     url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
-    parent: outreach
-    weight: 2
+    weight: 45
 
   - name: Blogs
     url: /blog/
@@ -59,11 +53,6 @@ main:
   - name: Internal
     identifier: internal
     weight: 70
-
-  - name: Contact
-    url: /contact/
-    parent: internal
-    weight: 1
 
   - name: SharePoint Wiki
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
@@ -79,13 +68,3 @@ main:
     url: /site_maintenance/
     parent: internal
     weight: 4
-
-  - name: CODA (outdated)
-    url: https://tinyurl.com/CODAVRLab
-    parent: internal
-    weight: 5
-
-  - name: CMS
-    url: https://virtualrealitylab.netlify.app/admin
-    parent: internal
-    weight: 6

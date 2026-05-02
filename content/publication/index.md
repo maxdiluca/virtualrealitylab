@@ -20,6 +20,10 @@ sections:
 
         ## 2025
 
-        Diar Abdlkarim, Devika Mukherjee, Daniele Giunchi, Max Di Luca, Eyal Ofek. TEXT: Text Entry for XR Trove—Collecting and Analyzing Techniques for Text Input in XR. *CHI*, 2025. https://dl.acm.org/doi/10.1145/3706598.3713382. 
+        A. Bhatia, M. H. Mughrabi, D. Abdlkarim, M. Di Luca, M. Gonzalez-Franco, K. Ahuja, H. Seifi. TEXT: Text Entry for XR Trove—Collecting and Analyzing Techniques for Text Input in XR. *CHI*, 2025. https://dl.acm.org/doi/10.1145/3706598.3713382. 
 
+
+        <!-- Format
+        Author name one , Author name two. Name of the paper. *NAME OF THE CONFERENCE*, Year. Link to the Paper or [PDF] (Link to the pdf)
+        -->
 ---

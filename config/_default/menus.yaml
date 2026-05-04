@@ -14,24 +14,7 @@ main:
     url: /people/
     weight: 20
 
-  - name: Media
-    identifier: media
-    weight: 30
-
-  - name: News
-    url: /post/
-    parent: media
-    weight: 1
-
-  - name: Photo Gallery
-    url: /media/
-    parent: media
-    weight: 2
-
-  - name: Funding
-    url: /funding/
-    parent: media
-    weight: 3
+ 
 
   - name: Opportunities
     url: /opportunities/
@@ -41,13 +24,36 @@ main:
     url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
     weight: 45
 
+  - name: Media
+    identifier: media
+    weight: 30
+
+  - name: News
+    url: /post/
+    parent: media
+    weight: 1
+
   - name: Blogs
     url: /blog/
-    weight: 50
+    parent: media
+    weight: 2
 
   - name: Events
     url: /event/
-    weight: 60
+    parent: media
+    weight: 3
+
+  - name: Photo Gallery
+    url: /media/
+    parent: media
+    weight: 4
+
+  - name: Funding
+    url: /funding/
+    parent: media
+    weight: 5
+
+  
 
   # Internal sections for VR Lab members
   - name: Internal

@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ if templates.Exists (printf "partials/views/%s-start.html" (lower $.Params.view | default "compact")) }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-start" $.Params.view) "index" 0) }}
+  {{ end }}
+
+  {{ $paginator := .Paginate .Pages }}
+  {{ range $index, $post := $paginator.Pages }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+  {{ end }}
+
+  {{ if templates.Exists (printf "partials/views/%s-end.html" (lower $.Params.view | default "compact")) }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-end" $.Params.view) "index" 0) }}
+  {{ end }}
+
+  {{ partial "pagination" . }}
+
+  <section class="blog-submit-cta" aria-labelledby="blog-submit-cta-title">
+    <div class="blog-submit-cta-copy">
+      <p class="blog-submit-cta-kicker">VR Lab Blog</p>
+      <h2 id="blog-submit-cta-title">Have a story for the lab blog?</h2>
+      <p>Submit a draft for review by the VR Lab team.</p>
+    </div>
+    <a class="blog-submit-cta-button" href="/submit-blog/">Submit a Blog Post</a>
+  </section>
+</div>
+
+{{- end -}}

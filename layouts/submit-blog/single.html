@@ -1,0 +1,280 @@
+{{- define "main" -}}
+
+<article class="article">
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+    {{/* Notification recipient is configured in Netlify (Site → Forms → Notifications), NOT via a form field. */}}
+    <form
+      class="blog-submission-form"
+      name="blog-post-entry"
+      method="POST"
+      action="/blog-submitted/"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="blog-post-entry">
+      <input type="hidden" name="subject" data-remove-prefix value="Blog Post Entry - VR Lab">
+      <textarea id="blog-submission-content" name="post_content" class="blog-submission-hidden"></textarea>
+
+      <p class="blog-submission-honeypot">
+        <label>Leave this field empty <input name="bot-field"></label>
+      </p>
+
+      <div class="blog-submission-grid">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="author_name" autocomplete="name" required>
+        </label>
+
+        <label>
+          <span>Email address</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+      </div>
+
+      <label>
+        <span>Blog title</span>
+        <input type="text" name="title" required>
+      </label>
+
+      <label>
+        <span>Short summary</span>
+        <textarea name="summary" rows="3"></textarea>
+      </label>
+
+      <div class="blog-editor-wrap">
+        <div class="blog-editor-toolbar" aria-label="Blog editor toolbar">
+          <select data-editor-command="fontName" aria-label="Font family">
+            <option value="">Font</option>
+            <option value="Arial">Arial</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+          </select>
+
+          <select data-editor-command="formatBlock" aria-label="Text style">
+            <option value="P">Paragraph</option>
+            <option value="H2">Heading</option>
+            <option value="H3">Subheading</option>
+          </select>
+
+          <button type="button" data-editor-command="bold" title="Bold" aria-label="Bold"><strong>B</strong></button>
+          <button type="button" data-editor-command="italic" title="Italic" aria-label="Italic"><em>I</em></button>
+          <button type="button" data-editor-command="underline" title="Underline" aria-label="Underline"><u>U</u></button>
+          <button type="button" data-editor-command="insertUnorderedList" title="Bulleted list" aria-label="Bulleted list">&bull;</button>
+          <button type="button" data-editor-command="insertOrderedList" title="Numbered list" aria-label="Numbered list">1.</button>
+          <button type="button" data-editor-action="link">Link</button>
+          <button type="button" data-editor-action="image">Image URL</button>
+          <button type="button" data-editor-action="video">Video</button>
+        </div>
+
+        <div
+          id="blog-submission-editor"
+          class="blog-editor"
+          contenteditable="true"
+          role="textbox"
+          aria-multiline="true"
+          aria-label="Blog post content"
+          data-placeholder="Start writing your blog post here..."
+        ></div>
+      </div>
+
+      <label>
+        <span>Supporting media links</span>
+        <textarea name="media_links" rows="2" placeholder="Paste Google Drive, YouTube, or image links here. You can also paste images directly into the editor above."></textarea>
+      </label>
+
+      <div class="blog-submission-actions">
+        <button type="submit">Submit for Review</button>
+        <p id="blog-submission-error" role="alert"></p>
+      </div>
+    </form>
+  </div>
+</article>
+
+<script>
+  (function () {
+    var form = document.querySelector('.blog-submission-form');
+    var editor = document.getElementById('blog-submission-editor');
+    var contentField = document.getElementById('blog-submission-content');
+    var error = document.getElementById('blog-submission-error');
+    var submitButton = form && form.querySelector('button[type="submit"]');
+
+    if (!form || !editor || !contentField) {
+      return;
+    }
+
+    function normalizeUrl(value) {
+      var url = (value || '').trim();
+      if (!url) {
+        return '';
+      }
+      if (!/^https?:\/\//i.test(url)) {
+        url = 'https://' + url;
+      }
+      return url;
+    }
+
+    function getYouTubeEmbed(url) {
+      var match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([A-Za-z0-9_-]{6,})/);
+      return match ? 'https://www.youtube.com/embed/' + match[1] : '';
+    }
+
+    function escapeHtml(value) {
+      return value.replace(/[&<>"']/g, function (character) {
+        return {
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#039;'
+        }[character];
+      });
+    }
+
+    function insertHtml(html) {
+      editor.focus();
+      document.execCommand('insertHTML', false, html);
+    }
+
+    function setEditorDropState(isActive) {
+      editor.classList.toggle('blog-editor-drop-active', isActive);
+    }
+
+    function insertInlineImage(file) {
+      if (!file || !/^image\//i.test(file.type)) {
+        return false;
+      }
+
+      if (file.size > 5 * 1024 * 1024) {
+        error.textContent = 'Please use the attachment field for images larger than 5 MB.';
+        return true;
+      }
+
+      var reader = new FileReader();
+      reader.onload = function () {
+        insertHtml('<figure><img src="' + reader.result + '" alt=""><figcaption></figcaption></figure>');
+        error.textContent = '';
+      };
+      reader.readAsDataURL(file);
+      return true;
+    }
+
+    function insertInlineImages(files) {
+      var inserted = false;
+      Array.prototype.forEach.call(files || [], function (file) {
+        inserted = insertInlineImage(file) || inserted;
+      });
+      return inserted;
+    }
+
+    function setSubmitting(isSubmitting) {
+      if (!submitButton) {
+        return;
+      }
+      submitButton.disabled = isSubmitting;
+      submitButton.textContent = isSubmitting ? 'Submitting...' : 'Submit for Review';
+    }
+
+    form.querySelectorAll('[data-editor-command]').forEach(function (control) {
+      control.addEventListener('change', function () {
+        var command = control.getAttribute('data-editor-command');
+        var value = control.value;
+        if (!value) {
+          return;
+        }
+        editor.focus();
+        document.execCommand(command, false, value);
+        if (control.tagName === 'SELECT') {
+          control.selectedIndex = 0;
+        }
+      });
+    });
+
+    form.querySelectorAll('button[data-editor-command]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        editor.focus();
+        document.execCommand(button.getAttribute('data-editor-command'), false, null);
+      });
+    });
+
+    form.querySelector('[data-editor-action="link"]').addEventListener('click', function () {
+      var url = normalizeUrl(window.prompt('Paste the link URL'));
+      if (url) {
+        editor.focus();
+        document.execCommand('createLink', false, url);
+      }
+    });
+
+    form.querySelector('[data-editor-action="image"]').addEventListener('click', function () {
+      var url = normalizeUrl(window.prompt('Paste the image URL'));
+      if (url) {
+        insertHtml('<figure><img src="' + escapeHtml(url) + '" alt=""><figcaption></figcaption></figure>');
+      }
+    });
+
+    form.querySelector('[data-editor-action="video"]').addEventListener('click', function () {
+      var url = normalizeUrl(window.prompt('Paste a YouTube or video URL'));
+      var embed = getYouTubeEmbed(url);
+      if (embed) {
+        insertHtml('<figure><iframe src="' + embed + '" title="Embedded video" allowfullscreen></iframe><figcaption></figcaption></figure>');
+      } else if (url) {
+        insertHtml('<p><a href="' + escapeHtml(url) + '">' + escapeHtml(url) + '</a></p>');
+      }
+    });
+
+    editor.addEventListener('paste', function (event) {
+      var clipboard = event.clipboardData;
+      if (!clipboard || !clipboard.items) {
+        return;
+      }
+
+      var files = [];
+      Array.prototype.forEach.call(clipboard.items, function (item) {
+        if (item.kind === 'file' && /^image\//i.test(item.type)) {
+          files.push(item.getAsFile());
+        }
+      });
+
+      if (files.length && insertInlineImages(files)) {
+        event.preventDefault();
+      }
+    });
+
+    editor.addEventListener('dragover', function (event) {
+      event.preventDefault();
+      setEditorDropState(true);
+    });
+
+    editor.addEventListener('dragleave', function () {
+      setEditorDropState(false);
+    });
+
+    editor.addEventListener('drop', function (event) {
+      var files = event.dataTransfer && event.dataTransfer.files;
+      if (files && files.length && insertInlineImages(files)) {
+        event.preventDefault();
+      }
+      setEditorDropState(false);
+    });
+
+    form.addEventListener('submit', function (event) {
+      var content = editor.innerHTML.trim();
+      var text = editor.textContent.trim();
+      if (!text && content.indexOf('<img') === -1 && content.indexOf('<iframe') === -1) {
+        event.preventDefault();
+        error.textContent = 'Please add your blog post content before submitting.';
+        editor.focus();
+        return;
+      }
+
+      error.textContent = '';
+      contentField.value = content;
+      setSubmitting(true);
+    });
+  }());
+</script>
+
+{{- end -}}

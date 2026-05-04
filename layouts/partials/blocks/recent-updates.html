@@ -1,0 +1,144 @@
+{{/* Recent news block for the homepage. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ $kicker := $content.kicker }}
+{{ $title := $content.title }}
+{{ $subtitle := $content.subtitle | default "Talks, press releases, blogs and project updates from across the lab." }}
+{{ $count := $content.count | default 3 }}
+{{ $news := where site.RegularPages "Section" "post" }}
+{{ $blogs := where site.RegularPages "Section" "blog" }}
+{{ $news = sort $news "Date" "desc" }}
+{{ $blogs = sort $blogs "Date" "desc" }}
+{{ $updates := slice }}
+{{ $maxItems := len $news }}
+{{ if gt (len $blogs) $maxItems }}
+  {{ $maxItems = len $blogs }}
+{{ end }}
+{{ if gt $maxItems 0 }}
+  {{ range $i := seq $maxItems }}
+    {{ $index := sub $i 1 }}
+    {{ if lt $index (len $news) }}
+      {{ $updates = $updates | append (index $news $index) }}
+    {{ end }}
+    {{ if lt $index (len $blogs) }}
+      {{ $updates = $updates | append (index $blogs $index) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $fallbackImage := resources.Get "media/welcome.jpg" }}
+
+<section class="recent-updates-block">
+  <div class="lab-section-shell">
+    <div class="lab-editorial-header">
+      <div class="lab-editorial-copy">
+        {{ with $kicker }}
+          <p class="lab-section-kicker"><span></span>{{ . | $page.RenderString }}</p>
+        {{ end }}
+        {{ with $title }}
+          <h2>{{ . | $page.RenderString }}</h2>
+        {{ end }}
+        {{ with $subtitle }}
+          <p>{{ . | $page.RenderString }}</p>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="lab-section-divider"></div>
+
+    <div class="recent-updates-carousel">
+      <button class="recent-updates-arrow recent-updates-arrow-prev" type="button" data-updates-prev aria-label="Previous updates">
+        <span aria-hidden="true">&lt;</span>
+      </button>
+
+      <div class="recent-updates-grid" data-updates-track>
+        {{ range first $count $updates }}
+          {{ $post := . }}
+          {{ $image := "" }}
+          {{ with $post.Params.image.filename }}
+            {{ $image = $post.Resources.GetMatch . }}
+          {{ end }}
+          {{ if not $image }}
+            {{ $image = $post.Resources.GetMatch "featured.*" }}
+          {{ end }}
+          {{ if not $image }}
+            {{ $image = $fallbackImage }}
+          {{ end }}
+          {{ $cardImage := "" }}
+          {{ with $image }}
+            {{ $processed := .Fill "760x480 center" }}
+            {{ $cardImage = $processed.RelPermalink }}
+          {{ end }}
+          {{ $summary := .Summary }}
+          {{ with .Params.summary }}
+            {{ $summary = . }}
+          {{ end }}
+          {{ $postLink := .RelPermalink }}
+          {{ $label := "News" }}
+          {{ if eq .Section "blog" }}
+            {{ $label = "Blog" }}
+          {{ end }}
+
+          <article class="recent-update-card">
+            {{ with $cardImage }}
+              <a class="recent-update-image" href="{{ $postLink }}">
+                <img src="{{ . }}" alt="" loading="lazy" decoding="async">
+              </a>
+            {{ end }}
+            <div class="recent-update-body">
+              <div class="recent-update-meta">
+                <span>{{ $label }}</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+              </div>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              {{ with $summary }}
+                <p>{{ . | plainify | truncate 150 }}</p>
+              {{ end }}
+              <a class="recent-update-read-more" href="{{ .RelPermalink }}">Read more <span aria-hidden="true">-></span></a>
+            </div>
+          </article>
+        {{ else }}
+          <p class="recent-updates-empty">No updates have been published yet.</p>
+        {{ end }}
+      </div>
+
+      <button class="recent-updates-arrow recent-updates-arrow-next" type="button" data-updates-next aria-label="Next updates">
+        <span aria-hidden="true">&gt;</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var sections = document.querySelectorAll('.recent-updates-block');
+    sections.forEach(function (section) {
+      var track = section.querySelector('[data-updates-track]');
+      var previous = section.querySelector('[data-updates-prev]');
+      var next = section.querySelector('[data-updates-next]');
+
+      if (!track || !previous || !next) {
+        return;
+      }
+
+      function getScrollStep() {
+        var card = track.querySelector('.recent-update-card');
+        if (!card) {
+          return track.clientWidth;
+        }
+
+        var styles = window.getComputedStyle(track);
+        var gap = parseFloat(styles.columnGap || styles.gap || 0);
+        return card.getBoundingClientRect().width + gap;
+      }
+
+      previous.addEventListener('click', function () {
+        track.scrollBy({ left: -getScrollStep(), behavior: 'smooth' });
+      });
+
+      next.addEventListener('click', function () {
+        track.scrollBy({ left: getScrollStep(), behavior: 'smooth' });
+      });
+    });
+  }());
+</script>

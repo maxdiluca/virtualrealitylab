@@ -1,65 +1,76 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+# The site logo links to the homepage, so Home is intentionally omitted.
 
 main:
-  - name: Home
-    url:
-    weight: 10
-    
   - name: Research
-    url: projects
-    weight: 20
+    url: /projects/
+    weight: 10
 
-  - name: Funding
-    url: funding
-    weight: 21
-    
-  - name: Resources
-    url: resources
-    weight: 30
-    
-  - name: Opportunities
-    url: opportunities
-    weight: 40
-    
-  - name: Events
-    url: event
-    weight: 45
-
-  - name: Events
-    url: event
-    weight: 45
+  - name: Publications
+    url: /publication/
+    weight: 15
 
   - name: People
-    url: people
-    weight: 50
+    url: /people/
+    weight: 20
 
-  - name: Contact
-    url: contact
-    weight: 60
-    
+ 
+
+  - name: Opportunities
+    url: /opportunities/
+    weight: 40
+
   - name: BhamXR
     url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
-    weight: 61
+    weight: 45
 
-  # Internal Sections for the VR Lab members
+  - name: Media
+    identifier: media
+    weight: 30
+
+  - name: News
+    url: /post/
+    parent: media
+    weight: 1
+
+  - name: Blogs
+    url: /blog/
+    parent: media
+    weight: 2
+
+  - name: Events
+    url: /event/
+    parent: media
+    weight: 3
+
+  - name: Photo Gallery
+    url: /media/
+    parent: media
+    weight: 4
+
+  - name: Funding
+    url: /funding/
+    parent: media
+    weight: 5
+
+  
+
+  # Internal sections for VR Lab members
   - name: Internal
-    url: publication
+    identifier: internal
     weight: 70
 
-  - name: SharePoint
+  - name: SharePoint Wiki
     url: https://bham.sharepoint.com/sites/LES-PSY-VRLab
-    parent: Internal
-    weight: 1
+    parent: internal
+    weight: 2
 
   - name: Teams
     url: https://teams.microsoft.com/l/team/19%3AvhCl5BNPrgqEcGePBb_ZD8r9jXkHdzrtz_ZgcC85sL81%40thread.tacv2/conversations?groupId=6812d02e-2a15-47e0-a4cd-d1a042cbffcf&tenantId=b024cacf-dede-4241-a15c-3c97d553e9f3
-    parent: Internal
-    weight: 2
-    
-  - name: Site Maintenance
-    url: site_maintenance
-    parent: Internal
+    parent: internal
     weight: 3
+
+  - name: Site Maintenance
+    url: /site_maintenance/
+    parent: internal
+    weight: 4

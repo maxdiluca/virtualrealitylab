@@ -177,9 +177,6 @@ sections:
         city: Birmingham
         country: United Kingdom
         country_code: UK
-      coordinates:
-        latitude: "52.45321698704788"
-        longitude: "-1.927825815563642"
       directions: Floor 4 in the Gisbert Kapp Building
       autolink: true
       form:
@@ -192,4 +189,3 @@ sections:
       columns: "1"
 
 ---
-

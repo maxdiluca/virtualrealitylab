@@ -1,5 +1,6 @@
 ---
-title: Recent & Upcoming Events
+title: Events
+summary: Seminars, workshops, demos and public activities hosted or supported by the Virtual Reality Lab.
 
 # View.
 #   1 = List

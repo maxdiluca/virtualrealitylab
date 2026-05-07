@@ -10,7 +10,7 @@ sections:
       slides:
         - title: Welcome to the Virtual Reality Lab
           content: |-
-            
+            We study how people perceive, move, collaborate and create in immersive environments, then use that knowledge to build better virtual, augmented and mixed reality systems.
           align: Left
           background:
             image: 
@@ -22,8 +22,8 @@ sections:
           link:
             icon: link
             icon_pack: fas
-            text: Contact Us
-            url: ../contact/
+            text: Explore the lab
+            url: ../projects/
       
         - title: Research
           content: |-
@@ -67,88 +67,105 @@ sections:
     content:
       title:
       text: |-
-        <div class="vrlab-cta">
-          <div class="vrlab-cta-text">
-            <p class="vrlab-cta-eyebrow">— JOIN THE LAB</p>
-            <h2 class="vrlab-cta-heading">Curious about VR research?<br>Let's collaborate.</h2>
-            <p class="vrlab-cta-body">We welcome enquiries from prospective PhD students, postdocs, visiting scholars and industry partners interested in immersive psychology research.</p>
+        <div class="vrlab-pathways">
+          <div class="vrlab-pathways-intro">
+            <p class="vrlab-pathways-eyebrow">Work with the VR Lab</p>
+            <h2 class="vrlab-pathways-heading">A research space for experiments, tools and collaborations in XR.</h2>
+            <p class="vrlab-pathways-body">The lab supports work across psychology, computer science, music, sport, robotics, accessibility and the creative industries. Start with the route that best matches what you need.</p>
           </div>
-          <div class="vrlab-cta-actions">
-            <a class="vrlab-cta-btn vrlab-cta-btn-primary" href="/opportunities/">Explore opportunities <span aria-hidden="true">→</span></a>
-            
+          <div class="vrlab-pathway-grid">
+            <a class="vrlab-pathway-card" href="/projects/">
+              <span class="vrlab-pathway-title">Collaborate with us</span>
+              <span class="vrlab-pathway-text">Explore current research areas, active projects and industry translation work.</span>
+            </a>
+            <a class="vrlab-pathway-card" href="/resources/">
+              <span class="vrlab-pathway-title">Use the lab</span>
+              <span class="vrlab-pathway-text">See the spaces, headsets, tracking systems, haptics and fabrication equipment available.</span>
+            </a>
+            <a class="vrlab-pathway-card" href="/opportunities/">
+              <span class="vrlab-pathway-title">Join as a student</span>
+              <span class="vrlab-pathway-text">Find routes into PhD work, research assistant roles, projects, training and student activities.</span>
+            </a>
           </div>
         </div>
 
         <style>
-        .vrlab-cta {
-          background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-          color: #f8fafc;
-          border-radius: 12px;
-          padding: 2.5rem 2rem;
+        .vrlab-pathways {
+          background: #f8fafc;
+          color: #111827;
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          padding: 2.25rem;
           margin: 2rem auto;
-          max-width: 960px;
-          display: flex;
-          flex-wrap: wrap;
-          gap: 2rem;
-          align-items: center;
-          justify-content: space-between;
-          box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
+          max-width: 1080px;
+          box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
         }
-        .vrlab-cta-text { flex: 1 1 360px; }
-        .vrlab-cta-eyebrow {
+        .vrlab-pathways-intro {
+          max-width: 760px;
+          margin-bottom: 1.5rem;
+        }
+        .vrlab-pathways-eyebrow {
           font-size: 0.8rem;
-          letter-spacing: 0.18em;
+          letter-spacing: 0.08em;
           text-transform: uppercase;
-          opacity: 0.7;
+          color: #0f766e;
+          font-weight: 700;
           margin: 0 0 0.6rem;
         }
-        .vrlab-cta-heading {
-          color: #f8fafc;
+        .vrlab-pathways-heading {
+          color: #111827;
           margin: 0 0 0.9rem;
-          font-size: 1.6rem;
+          font-size: 1.75rem;
           line-height: 1.25;
         }
-        .vrlab-cta-body {
-          color: #cbd5e1;
+        .vrlab-pathways-body {
+          color: #4b5563;
           margin: 0;
+          font-size: 1rem;
+          line-height: 1.55;
+        }
+        .vrlab-pathway-grid {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 1rem;
+        }
+        .vrlab-pathway-card {
+          display: flex;
+          min-height: 10.5rem;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 1rem;
+          border: 1px solid #d1d5db;
+          border-radius: 8px;
+          padding: 1.2rem;
+          color: #111827;
+          text-decoration: none;
+          background: #ffffff;
+          transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+        }
+        .vrlab-pathway-card:hover {
+          border-color: #0f766e;
+          box-shadow: 0 10px 24px rgba(15, 118, 110, 0.14);
+          color: #111827;
+          text-decoration: none;
+          transform: translateY(-2px);
+        }
+        .vrlab-pathway-title {
+          color: #0f766e;
+          font-size: 1.1rem;
+          font-weight: 700;
+          line-height: 1.3;
+        }
+        .vrlab-pathway-text {
+          color: #4b5563;
           font-size: 0.95rem;
           line-height: 1.55;
-          max-width: 44ch;
         }
-        .vrlab-cta-actions {
-          display: flex;
-          flex-direction: column;
-          gap: 0.65rem;
-          flex: 0 0 auto;
-        }
-        .vrlab-cta-btn {
-          display: inline-block;
-          padding: 0.65rem 1.25rem;
-          border-radius: 8px;
-          font-weight: 500;
-          text-decoration: none;
-          transition: transform 0.15s ease, background 0.15s ease;
-          font-size: 0.95rem;
-          text-align: center;
-          min-width: 220px;
-        }
-        .vrlab-cta-btn:hover { transform: translateY(-1px); text-decoration: none; }
-        .vrlab-cta-btn-primary {
-          background: #f8fafc;
-          color: #0f172a;
-        }
-        .vrlab-cta-btn-primary:hover { background: #e2e8f0; color: #0f172a; }
-        .vrlab-cta-btn-secondary {
-          background: rgba(248, 250, 252, 0.08);
-          color: #f8fafc;
-          border: 1px solid rgba(248, 250, 252, 0.25);
-        }
-        .vrlab-cta-btn-secondary:hover { background: rgba(248, 250, 252, 0.16); color: #f8fafc; }
-        @media (max-width: 640px) {
-          .vrlab-cta { padding: 1.75rem 1.25rem; }
-          .vrlab-cta-heading { font-size: 1.35rem; }
-          .vrlab-cta-actions { width: 100%; }
-          .vrlab-cta-btn { min-width: 0; width: 100%; }
+        @media (max-width: 760px) {
+          .vrlab-pathways { padding: 1.5rem; }
+          .vrlab-pathways-heading { font-size: 1.35rem; }
+          .vrlab-pathway-grid { grid-template-columns: 1fr; }
+          .vrlab-pathway-card { min-height: 0; }
         }
         </style>
 
@@ -171,6 +188,7 @@ sections:
     content:
       title: Get in touch
       text: |-
+        To get in touch, discuss a collaboration, or ask how to use the lab, please fill in the form below. You will be given access to the lab SharePoint site, where you will find practical details for booking and using the space.
       address:
         street: Pritchatts Road 52
         postcode: "B15 2SA"

@@ -9,21 +9,30 @@ sections:
     content:
       title: VR Lab Equipment and Resources
       text: |-
-        The lab is equipped with state-of-the-art technology to support cutting-edge research and development in immersive technologies. Our comprehensive range of tools and resources enables innovative experiments and applications in virtual, augmented, and mixed reality (VR/AR/MR), human-computer interaction, and cognitive science. Our lab is designed to accommodate diverse experimental setups, from small-scale studies to large collaborative projects. 
+        The VR Lab supports research, teaching and collaboration in virtual, augmented and mixed reality (VR/AR/MR), human-computer interaction, perception, movement science and creative technologies. The space combines configurable rooms, the dedicated VRLab Office, XR headsets, motion capture, haptics, audio-visual recording, physiological sensing and fabrication equipment.
         
-        The different rooms can be configured to meet the specific needs of researchers and developers.
+        If you would like to use the lab, start by identifying the space or equipment category that matches your project, then contact us to discuss access, training and practical requirements.
 
-        Main lab: Reconfigurable with desks and meeting space.
+        ## Spaces
+
+        **Main lab**: A configurable room for meetings, workshops, demos, desk-based development and small-to-medium experiments.
         {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
-        Motion lab:  Large-scale motion capture, including walking, treadmill, and stationary biking.
+        **Motion lab**: A larger tracking space for walking, treadmill, stationary biking and full-body motion capture.
         {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
 
-        Camera lab: Markerless audiovisual capture.
+        **Camera lab**: A recording and markerless capture space for audiovisual experiments, movement analysis and media production.
         {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
+        **Workshop**: A fabrication and prototyping space with 3D printing facilities for building mounts, experimental apparatus, interaction props and physical models.
+        {{< figure src="workshop_panoramic.jpeg" alt="Workshop" width="100%" >}}
+
+        **VRLab Office**: A dedicated office space for lab members, visitors and collaborators to plan studies, work between sessions and meet around ongoing projects.
+
         ## Headsets  
-        Our lab has a  variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.  
+        Best for immersive experiments, prototyping, student training, demonstrations and development across VR, AR and MR.
+
+        Our lab has a variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities and teaching.
         - **Apple Vision Pro**: Mixed reality headset with high-resolution displays, stereo pass-through, eye and hand tracking.  
         - **Magic Leap**: Magic Leap 1 & 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.  
         - **Microsoft HoloLens 2**: Standalone or wireless tethered AR headset (see-through) for holographic experiences.  
@@ -44,10 +53,11 @@ sections:
           - Oculus DK1/DK2 
           - Meta 2 AR glasses
           - Google Glass
-          - Google Cardboar VR
+          - Google Cardboard VR
           - IIS VFX3D	
 
         ## Motion Capture and Tracking Systems
+        Best for movement science, avatar animation, interaction analysis, biomechanics, validation studies and real-time XR control.
 
         - **Qualisys Optical Motion Capture**: High-precision marker-based motion capture system (Oqus and Arqus). Provides sub-millimetre 3D tracking of body, hands, and objects, with real-time streaming to experimental software and XR engines.
 
@@ -67,13 +77,17 @@ sections:
 
 
 
-        ## Audiovideo Recording and Presentation Equipment  
+        ## Audio-visual Recording and Presentation Equipment
+        Best for documenting studies, running presentations, capturing performance and creating controlled multisensory environments.
+
         - **Video Recording Setup**: Professional-grade equipment, including black/white/green backdrops, stage lights, and contact microphones.  
         - **Audiocards**: A variety of multichannel audiocards for sound research.  
         - **10 High-Quality Speakers**: Configurable for immersive audio experiences and spatial sound research.  
         - **Cambridge Research Display++**: Specialized screens for experiments requiring precise visual presentation.  
 
         ## Haptic Devices  
+        Best for touch, force feedback, tactile perception, sensory substitution and embodied interaction studies.
+
         - **Ultraleap**: Touchless haptic feedback for interactive VR experiences.  
         - **ForceDimension Delta 3**: High-performance force feedback for advanced interaction.  
         - **Phantom Devices**: Including **Phantom Desktop**, **Phantom Omni**, and **Phantom Premium**, offering detailed force feedback for tactile exploration and manipulation.  
@@ -82,6 +96,8 @@ sections:
         - **Tactile Wearables**: A variety of tactile and skin-stretch devices.  
 
         ## EEG/BCI Sensors  
+        Best for studies involving gaze, physiological response, movement, muscle activity and brain-computer interaction.
+
         - **Emotive Headsets**: Brain-computer interface (BCI) devices for recording EEG signals.  
         - **Shimmer Wearable Sensors**: Wireless wearable sensing platform for motion and physiological measurement (IMU, EMG, ECG, GSR). Used for recording body movement, muscle activity, and physiological responses during VR and human–computer interaction experiments.  
         - **Tobii 5**: State-of-the-art device for high-accuracy gaze tracking.
@@ -90,9 +106,9 @@ sections:
        
         ## 3D Printing Resources
 
-        {{< figure src="workshop_panoramic.jpeg" alt="Workshop" width="100%" >}}
+        Best for building prototypes, custom mounts, experimental apparatus, interaction props and physical models.
 
-        The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are categorized into **FDM (Fused Deposition Modeling)** and **Resin (SLA/DLP)** printing technologies to meet a wide range of needs.
+        The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are organized into **FDM (Fused Deposition Modeling)** and **Resin (SLA/DLP)** technologies to meet a wide range of needs.
 
         ### FDM Printers (Fused Deposition Modeling)
         FDM printers are ideal for creating functional prototypes with different materials and large models. 

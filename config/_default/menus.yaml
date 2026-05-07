@@ -20,10 +20,6 @@ main:
     url: /opportunities/
     weight: 40
 
-  - name: BhamXR
-    url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr
-    weight: 45
-
   - name: Media
     identifier: media
     weight: 30

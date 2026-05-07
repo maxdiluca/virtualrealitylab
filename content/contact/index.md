@@ -23,7 +23,7 @@ sections:
     content:
       title: Get in touch
       text: |-
-        To get in touch and for information on how to use the lab, please fill in the form below. You will be given access to the Lab CODA where you will find all details. The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
+        To get in touch and for information on how to use the lab, please fill in the form below. You will be given access to the lab SharePoint site where you will find all details. The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
       address:
         street: Pritchatts Road 52
         postcode: "B15 2SA"

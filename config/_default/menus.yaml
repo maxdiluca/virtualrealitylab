@@ -3,18 +3,8 @@
 
 main:
   - name: Research
-    identifier: research
-    weight: 10
-
-  - name: Research Overview
     url: /projects/
-    parent: research
-    weight: 1
-
-  - name: Funding
-    url: /funding/
-    parent: research
-    weight: 2
+    weight: 10
 
   - name: Publications
     url: /publication/

@@ -8,6 +8,13 @@
   justify-content: center;
 }
 
+// Keep main navigation typography consistent across all pages.
+#navbar-main .main-menu-item .nav-link,
+#navbar-main .dropdown-menu .dropdown-item {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 // Homepage slider and adjacent custom block spacing.
 .home-section.wg-slider {
   overflow: hidden;

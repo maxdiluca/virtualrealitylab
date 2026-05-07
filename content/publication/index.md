@@ -12,7 +12,9 @@ sections:
 
         # Publications
 
-        Selected recent publications involving current VR Lab members, focused on VR, AR, MR, XR, head-mounted displays, virtual embodiment and immersive interaction. Entries are included when a 2025+ publication could be verified against a public profile, DOI, publisher record or repository record.
+        Our publications investigate how immersive technologies shape perception, movement, interaction and collaboration. The work below highlights recent VR, AR, MR and XR research involving VR Lab members, including studies of haptics, embodiment, text entry, multimodal interaction, virtual environments, mixed-reality simulation and applied immersive systems.
+
+        This list focuses on recent publications from 2025 onwards. It is intended as a readable snapshot of the lab's current XR research activity rather than a complete academic bibliography.
 
         ## 2026
 
@@ -44,8 +46,4 @@ sections:
 
         - A. David, D. Giunchi, J. Stuart, A. Steed, and A. Esteves. PaintBranch: Asynchronous Collaborative Art in Virtual Reality. *2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)*, 320-321, 2025. [DOI](https://doi.org/10.1109/VRW66409.2025.00306)
 
-
-        <!-- Format
-        Author name one , Author name two. Name of the paper. *NAME OF THE CONFERENCE*, Year. Link to the Paper or [PDF] (Link to the pdf)
-        -->
 ---

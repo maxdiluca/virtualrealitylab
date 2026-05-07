@@ -651,6 +651,13 @@
   margin: 2rem 0;
 }
 
+.lab-blog-video video {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  background: #111827;
+}
+
 .lab-blog-video-frame {
   position: relative;
   overflow: hidden;
@@ -664,6 +671,13 @@
   height: 100%;
   display: block;
   border: 0;
+}
+
+.lab-blog-video figcaption {
+  margin-top: 0.85rem;
+  color: #536176;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .lab-blog-source {
@@ -758,8 +772,10 @@ html.dark .lab-blog-author {
 
 .dark .lab-blog-article-header,
 .dark .lab-blog-figure figcaption,
+.dark .lab-blog-video figcaption,
 html.dark .lab-blog-article-header,
-html.dark .lab-blog-figure figcaption {
+html.dark .lab-blog-figure figcaption,
+html.dark .lab-blog-video figcaption {
   color: #b4bfcc;
 }
 

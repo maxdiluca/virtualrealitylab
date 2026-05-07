@@ -32,7 +32,7 @@ social:
 highlight_name: false
 
 user_groups:
-  - Project Students
+  - Alumni Project Students
   # - Group 2
 
 # User Groups:

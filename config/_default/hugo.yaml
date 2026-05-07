@@ -21,7 +21,8 @@ removePathAccents: true
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -45,7 +46,7 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
-  author: alumni
+  alumni: alumni
 markup:
   _merge: deep
 related:

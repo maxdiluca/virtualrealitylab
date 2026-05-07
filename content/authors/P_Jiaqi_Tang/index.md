@@ -1,9 +1,10 @@
 ---
 # Display name
-title: Anishveren Mogan
+title: Jiaqi Tang
+
 # Username (this should match the folder name)
 authors:
-  - P_Anishveren_Mogan
+  - P_Jiaqi_Tang
 
 # Is this the primary user of the site?
 superuser: false
@@ -23,7 +24,6 @@ social:
   - icon: link
     icon_pack: fas
     link:
-
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

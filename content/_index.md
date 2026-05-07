@@ -90,6 +90,11 @@ sections:
         </div>
 
         <style>
+        #navbar-main .main-menu-item .nav-link,
+        #navbar-main .dropdown-menu .dropdown-item {
+          font-size: 1rem;
+          line-height: 1.5;
+        }
         .vrlab-pathways {
           background: #f8fafc;
           color: #111827;
@@ -158,7 +163,7 @@ sections:
         }
         .vrlab-pathway-text {
           color: #4b5563;
-          font-size: 0.95rem;
+          font-size: 1rem;
           line-height: 1.55;
         }
         @media (max-width: 760px) {

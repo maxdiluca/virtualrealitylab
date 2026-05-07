@@ -16,4 +16,10 @@ user_groups:
 
 
 
- <meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
+<script>
+  window.location.replace("https://massimilianodiluca.info");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
+</noscript>
+<p>Redirecting to <a href="https://massimilianodiluca.info">massimilianodiluca.info</a>.</p>

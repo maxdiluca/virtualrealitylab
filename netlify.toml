@@ -19,3 +19,15 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "/authors/pi_max_di_luca"
+  to = "https://massimilianodiluca.info"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/pi_max_di_luca/"
+  to = "https://massimilianodiluca.info"
+  status = 301
+  force = true

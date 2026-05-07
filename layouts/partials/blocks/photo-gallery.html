@@ -3,18 +3,19 @@
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
 {{ $images := resources.Match "gallery/*" }}
+{{ $anchor := $content.anchor }}
 {{ $kicker := $content.kicker }}
 {{ $title := $content.title | default "Inside our experiments, workshops and demos." }}
 {{ $text := $content.text | default "A glimpse at the people, hardware and moments behind our research - from headset fittings to public demos and conferences." }}
 
-<section class="lab-gallery-page">
+<section {{ with $anchor }}id="{{ . }}" {{ end }}class="lab-gallery-page">
   <div class="lab-section-shell">
     <div class="lab-editorial-header">
       <div class="lab-editorial-copy">
         {{ with $kicker }}
           <p class="lab-section-kicker"><span></span>{{ . | $page.RenderString }}</p>
         {{ end }}
-        <h1>{{ $title | $page.RenderString }}</h1>
+        <h2>{{ $title | $page.RenderString }}</h2>
         <p>{{ $text | $page.RenderString }}</p>
       </div>
     </div>

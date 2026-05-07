@@ -2,33 +2,38 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
+{{ $anchor := $content.anchor }}
 {{ $kicker := $content.kicker }}
 {{ $title := $content.title }}
 {{ $subtitle := $content.subtitle | default "Talks, press releases, blogs and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
-{{ $news := where site.RegularPages "Section" "post" }}
-{{ $blogs := where site.RegularPages "Section" "blog" }}
-{{ $news = sort $news "Date" "desc" }}
-{{ $blogs = sort $blogs "Date" "desc" }}
+{{ $sectionNames := $content.sections | default (slice "post" "blog") }}
+{{ $sections := slice }}
 {{ $updates := slice }}
-{{ $maxItems := len $news }}
-{{ if gt (len $blogs) $maxItems }}
-  {{ $maxItems = len $blogs }}
+{{ $maxItems := 0 }}
+{{ range $sectionName := $sectionNames }}
+  {{ $pages := where site.RegularPages "Section" $sectionName }}
+  {{ $pages = sort $pages "Date" "desc" }}
+  {{ $sections = $sections | append (dict "name" $sectionName "pages" $pages) }}
+  {{ if gt (len $pages) $maxItems }}
+    {{ $maxItems = len $pages }}
+  {{ end }}
 {{ end }}
 {{ if gt $maxItems 0 }}
   {{ range $i := seq $maxItems }}
     {{ $index := sub $i 1 }}
-    {{ if lt $index (len $news) }}
-      {{ $updates = $updates | append (index $news $index) }}
-    {{ end }}
-    {{ if lt $index (len $blogs) }}
-      {{ $updates = $updates | append (index $blogs $index) }}
+    {{ range $section := $sections }}
+      {{ $pages := index $section "pages" }}
+      {{ if lt $index (len $pages) }}
+        {{ $updates = $updates | append (index $pages $index) }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
+{{ $sectionLabels := dict "post" "News" "blog" "Blog" "event" "Event" }}
 {{ $fallbackImage := resources.Get "media/welcome.jpg" }}
 
-<section class="recent-updates-block">
+<section {{ with $anchor }}id="{{ . }}" {{ end }}class="recent-updates-block">
   <div class="lab-section-shell">
     <div class="lab-editorial-header">
       <div class="lab-editorial-copy">
@@ -74,10 +79,7 @@
             {{ $summary = . }}
           {{ end }}
           {{ $postLink := .RelPermalink }}
-          {{ $label := "News" }}
-          {{ if eq .Section "blog" }}
-            {{ $label = "Blog" }}
-          {{ end }}
+          {{ $label := index $sectionLabels .Section | default (humanize .Section) }}
 
           <article class="recent-update-card">
             {{ with $cardImage }}

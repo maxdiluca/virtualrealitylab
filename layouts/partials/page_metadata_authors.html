@@ -3,19 +3,26 @@
 {{- $taxonomy := "authors" }}
 {{ with .Param $taxonomy }}
   {{ $link_authors := site.Params.link_authors | default true }}
-  {{ range $index, $name_raw := . }}
-    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy .) -}}
-    {{- $name := $profile_page.Title | default $name_raw -}}
+  {{ range $index, $author := . }}
+    {{- $name_raw := printf "%v" $author -}}
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy $name_raw) -}}
+    {{- $name := $name_raw -}}
+    {{- $is_superuser := false -}}
+    {{- $is_max_profile := or (eq $name_raw "Max_Di_Luca") (eq $name_raw "PI_Max_Di_Luca") -}}
+    {{- with $profile_page -}}
+      {{- $name = .Title | default $name_raw -}}
+      {{- $is_superuser = .Params.superuser | default false -}}
+    {{- end -}}
     {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if site.Params.highlight_superuser | and (eq $profile_page.Params.superuser true) }}class="font-weight-bold"{{end }}>
-      {{- if and $profile_page $link_authors -}}
-        {{- if eq $profile_page.File.Path "authors/PI_Max_Di_Luca/_index.md" -}}
-          <a href="https://massimilianodiluca.info" target="_blank" rel="noopener">{{$name}}</a>
-        {{- else -}}
-          <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
-        {{- end -}}
+    <span {{ if and site.Params.highlight_superuser $is_superuser }}class="font-weight-bold"{{end }}>
+      {{- if $is_max_profile -}}
+        <a href="https://massimilianodiluca.info" target="_blank" rel="noopener">{{$name}}</a>
       {{- else -}}
-        {{$name}}
+        {{- if and $profile_page $link_authors -}}
+          <a href="{{$profile_page.RelPermalink}}">{{$name}}</a>
+        {{- else -}}
+          {{$name}}
+        {{- end -}}
       {{- end -}}
     </span>
     {{- if isset $.Params "author_notes" -}}

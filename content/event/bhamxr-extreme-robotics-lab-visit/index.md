@@ -1,6 +1,6 @@
 ---
 title: "BhamXR visit to the Extreme Robotics Lab"
-draft: true
+draft: false
 
 event: BhamXR Network Visit
 event_url: https://www.birmingham.ac.uk/research/centres-institutes/bhamxr

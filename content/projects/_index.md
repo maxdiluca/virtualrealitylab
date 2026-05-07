@@ -15,7 +15,9 @@ Our work combines psychophysics, computational modelling, human-computer interac
 
 ---
 
-## Network Activities
+## Activities
+
+The lab serves as a hub for research, development and training in virtual, augmented and mixed reality (VR/AR/MR). We support projects through equipment access, technical advice, workshops, student training and interdisciplinary collaboration.
 
 ### BhamXR
 
@@ -35,6 +37,23 @@ This network activity is central to how the lab builds collaborations beyond ind
 The lab also supports structured student research and project routes, including **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** and **<a href="https://intranet.birmingham.ac.uk/student/careers/skills-development/birmingham-project/index.aspx">the Birmingham Project</a>**. These programmes give students opportunities to work on applied XR, interaction design, data capture, prototyping and interdisciplinary research challenges connected to the lab's wider activity.
 
 Supporting these programmes is part of the lab's broader role as a place where students can move from coursework and training into practical research, development and collaboration.
+
+### Virtual Reality Student Society
+
+We support the **University of Birmingham VR Student Society**, a student-led community for people interested in XR technologies. The society runs events, demos and practical activities, and the lab contributes through training, mentorship and access to equipment where appropriate.
+
+To join the VR Student Society, visit the <a href="https://www.guildofstudents.com/organisation/ubvr/" target="_blank">Guild of Students page</a>.
+
+### VR Training for Researchers
+
+We offer specialist VR training for academics and students who want to use immersive technologies in research. Training can cover:
+
+- Fundamental concepts in VR, AR and MR.
+- Practical use of XR hardware and software.
+- Integrating VR into experimental and applied research.
+- Good practice for interdisciplinary XR collaboration.
+
+To register your interest in a future course, contact us through the [Contact Page](/contact).
 
 ---
 

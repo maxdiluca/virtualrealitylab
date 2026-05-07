@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Graduate
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -49,4 +49,3 @@ email: ""
 user_groups:
   - Alumni Project Students
 ---
-

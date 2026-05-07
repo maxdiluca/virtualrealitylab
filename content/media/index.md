@@ -16,6 +16,7 @@ sections:
             <a href="#updates">Latest updates</a>
             <a href="#events">Events</a>
             <a href="#gallery">Photo gallery</a>
+            <a href="#resources">Resources</a>
           </div>
         </section>
 
@@ -113,6 +114,84 @@ sections:
       archive_link:
     design:
       css_class: media-events
+
+  - block: markdown
+    content:
+      title:
+      text: |-
+        <section id="resources" class="media-resource-card">
+          <div>
+            <p class="media-resource-kicker">Resources</p>
+            <h2>Explore the lab spaces, equipment and workshop facilities.</h2>
+            <p>The Resources page brings together details about VR/AR/MR headsets, motion capture, haptics, recording spaces, 3D printing and the VRLab Office.</p>
+          </div>
+          <a class="media-resource-link" href="/resources/">View resources</a>
+        </section>
+
+        <style>
+        .media-resource-card {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto;
+          gap: 1.5rem;
+          align-items: center;
+          max-width: 980px;
+          margin: 2rem auto;
+          padding: 2rem;
+          border: 1px solid #d9e7f5;
+          border-radius: 8px;
+          background: #ffffff;
+          box-shadow: 0 16px 36px rgba(36, 78, 120, 0.08);
+        }
+        .media-resource-kicker {
+          margin: 0 0 0.65rem;
+          color: #3478c9;
+          font-size: 0.8rem;
+          font-weight: 800;
+          letter-spacing: 0.12em;
+          line-height: 1.2;
+          text-transform: uppercase;
+        }
+        .media-resource-card h2 {
+          margin: 0;
+          color: #111827;
+          font-size: 1.7rem;
+          line-height: 1.2;
+        }
+        .media-resource-card p:not(.media-resource-kicker) {
+          max-width: 680px;
+          margin: 0.85rem 0 0;
+          color: #536176;
+          line-height: 1.65;
+        }
+        .media-resource-link {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 44px;
+          padding: 0.75rem 1.1rem;
+          border-radius: 8px;
+          background: #17435c;
+          color: #ffffff;
+          font-weight: 800;
+          text-decoration: none;
+          white-space: nowrap;
+        }
+        .media-resource-link:hover,
+        .media-resource-link:focus {
+          background: #12334a;
+          color: #ffffff;
+          text-decoration: none;
+        }
+        @media (max-width: 760px) {
+          .media-resource-card {
+            grid-template-columns: 1fr;
+            padding: 1.5rem;
+          }
+          .media-resource-link {
+            width: 100%;
+          }
+        }
+        </style>
 
   - block: photo-gallery
     content:

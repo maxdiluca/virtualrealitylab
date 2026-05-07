@@ -10,7 +10,7 @@ authors:
   - Jhundon_De_Leon_Mendi
 
 # Role/position
-role: Project Student
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:

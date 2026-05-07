@@ -9,7 +9,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Project student
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

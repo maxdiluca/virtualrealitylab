@@ -9,7 +9,7 @@ superuser: false
 authors: Melikasadat_Hashemifesharaki
 
 # Role/position
-role: Alumni Project Students
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

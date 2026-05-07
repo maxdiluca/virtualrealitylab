@@ -9,7 +9,7 @@ superuser: false
 authors: P_Yunhao_Du
 
 # Role/position
-role: Project Student
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

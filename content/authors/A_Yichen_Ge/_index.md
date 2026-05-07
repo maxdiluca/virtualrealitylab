@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Project students
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -41,5 +41,4 @@ user_groups:
 - Alumni Project Students
 
 ---
-
 

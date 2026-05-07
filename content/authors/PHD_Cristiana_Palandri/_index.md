@@ -67,6 +67,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:cristianapalandri@gmail.com
+  - icon: envelope
+    icon_pack: fas
     link: mailto:p2713080@my365.dmu.ac.uk
 
 
@@ -91,5 +93,4 @@ user_groups:
 Hi, I am Cristiana Palandri, a composer and visual artist whose interdisciplinary practice ranges from music to drawing, installations to sculpture, and performance, conceived as interconnected stages of a unified narrative. My musical production explores both electronic and contemporary classical music, based on new technologies. 
 
 I am currently in my third year of doctoral studies with a thesis entitled “Materializing sound-based composition: exploring multisensory perception and audience engagement” under the supervision of two composers, Prof. Peter Batchelor and John Young, and Prof. Massimiliano Di Luca.
-
 

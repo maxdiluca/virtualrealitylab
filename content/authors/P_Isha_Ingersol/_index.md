@@ -9,7 +9,7 @@ superuser: false
 authors: Isha_Ingersol
 
 # Role/position
-role: Project Student
+role: BSc Computer Science
 
 # Organizations/Affiliations
 organizations:

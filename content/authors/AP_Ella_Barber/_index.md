@@ -9,7 +9,7 @@ superuser: false
 authors: AP_Ella_Barber
 
 # Role/position
-role: Project Student
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

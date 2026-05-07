@@ -9,7 +9,7 @@ superuser: false
 authors: AP_Yang_Wenhao
 
 # Role/position
-role: Project Student
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:

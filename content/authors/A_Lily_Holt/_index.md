@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  BSc Psychology
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

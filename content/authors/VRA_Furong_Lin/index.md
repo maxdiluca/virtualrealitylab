@@ -10,7 +10,7 @@ authors:
   - VRA_Furong_Lin
 
 # Role/position
-role: Project Student
+role: MSc Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -68,4 +68,3 @@ highlight_name: false
 user_groups:
   - Volunteer Research Assistants
 ---
-

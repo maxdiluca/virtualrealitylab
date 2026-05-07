@@ -10,7 +10,7 @@ authors:
   - Youngbin Park
 
 # Role/position
-role: Research Assistant
+role: BSc Computer Science
 
 # Organizations/Affiliations
 organizations:

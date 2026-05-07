@@ -9,7 +9,7 @@ superuser: false
 authors: AP_Christopher_Ayres
 
 # Role/position
-role: Project Student
+role: BSc Psychology
 
 # Organizations/Affiliations
 organizations:

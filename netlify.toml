@@ -21,6 +21,68 @@
     debug = true
 
 [[redirects]]
+  from = "/author/pi_max_di_luca"
+  to = "https://massimilianodiluca.info"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/author/pi_max_di_luca/"
+  to = "https://massimilianodiluca.info"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/phd_yilong_lin"
+  to = "/author/phd_yilong_lin/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/phd_yilong_lin/"
+  to = "/author/phd_yilong_lin/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/af_eyal_ofec"
+  to = "/author/af_eyal_ofec/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/af_eyal_ofec/"
+  to = "/author/af_eyal_ofec/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/af_daniele_giunchi"
+  to = "/author/af_daniele_giunchi/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/af_daniele_giunchi/"
+  to = "/author/af_daniele_giunchi/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/r_diar_karim"
+  to = "/author/r_diar_karim/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/r_diar_karim/"
+  to = "/author/r_diar_karim/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/ra_devika_mukherjee"
+  to = "/author/ra_devika_mukherjee/"
+  status = 301
+
+[[redirects]]
+  from = "/authors/ra_devika_mukherjee/"
+  to = "/author/ra_devika_mukherjee/"
+  status = 301
+
+[[redirects]]
   from = "/authors/pi_max_di_luca"
   to = "https://massimilianodiluca.info"
   status = 301

@@ -10,7 +10,7 @@ authors:
   - Kika Okwubuasi-Andrew
 
 # Role/position
-role: Research Assistant
+role: MSc Psychology
 
 # Organizations/Affiliations
 organizations:

@@ -3,7 +3,7 @@ title: "How can we avoid hitting objects we can't see?"
 date: 2026-04-25
 draft: false
 featured: true
-authors: [Eyal_Ofek]
+authors: [AF_Eyal_Ofec]
 summary: A haptic belt that warns VR users about real-world obstacles before they collide with them, improving immersion without breaking the experience.
 image:
   filename: featured.png

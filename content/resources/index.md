@@ -16,45 +16,103 @@ sections:
         ## Spaces
 
         **Main lab**: A configurable room for meetings, workshops, demos, desk-based development and small-to-medium experiments.
-        {{< figure src="panoramic_big.jpg" alt="Lab" width="100%" >}}
 
         **Motion lab**: A larger tracking space for walking, treadmill, stationary biking and full-body motion capture.
-        {{< figure src="panoramic_actionlab.jpg" alt="Lab" width="100%" >}}
 
         **Camera lab**: A recording and markerless capture space for audiovisual experiments, movement analysis and media production.
-        {{< figure src="panoramic_cameralab.jpg" alt="Lab" width="100%" >}}
 
         **Workshop**: A fabrication and prototyping space with 3D printing facilities for building mounts, experimental apparatus, interaction props and physical models.
-        {{< figure src="workshop_panoramic.jpeg" alt="Workshop" width="100%" >}}
 
         **VRLab Office**: A dedicated office space for lab members, visitors and collaborators to plan studies, work between sessions and meet around ongoing projects.
 
-        ## Headsets  
-        Best for immersive experiments, prototyping, student training, demonstrations and development across VR, AR and MR.
+        <div class="resource-image-strip" aria-label="VR Lab spaces photo gallery">
+          {{< figure src="panoramic_big.jpg" alt="Panoramic view of the main VR Lab" caption="Main lab" >}}
+          {{< figure src="panoramic_actionlab.jpg" alt="Panoramic view of the motion lab" caption="Motion lab" >}}
+          {{< figure src="panoramic_cameralab.jpg" alt="Panoramic view of the camera lab" caption="Camera lab" >}}
+          {{< figure src="workshop_panoramic.jpeg" alt="Panoramic view of the VR Lab workshop" caption="Workshop" >}}
+        </div>
 
-        Our lab has a variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities and teaching.
-        - **Apple Vision Pro**: Mixed reality headset with high-resolution displays, stereo pass-through, eye and hand tracking.  
-        - **Magic Leap**: Magic Leap 1 & 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.  
-        - **Microsoft HoloLens 2**: Standalone or wireless tethered AR headset (see-through) for holographic experiences.  
-        - **ThinkReality Lenovo A3**: Lightweight AR glasses (see-through) for enterprise applications.  
-        - **Oculus/Facebook/Meta**:  
-          - Meta Quest Pro: High-resolution standalone VR headset with eye tracking, hand tracking, and color passthrough cameras.  
-          - Meta Quest 1, 2, 3: Standalone (or tethered) VR headsets for a wide range of applications with hand tracking and passthrough cameras.  
-        - **Pico Pro**: Lightweight, standalone VR headset with a good passthrough color camera.  
+        <style>
+        .resource-image-strip {
+          display: flex;
+          gap: 1rem;
+          margin: 1.5rem 0 2.25rem;
+          padding: 0.25rem 0.25rem 1rem;
+          overflow-x: auto;
+          overscroll-behavior-x: contain;
+          scroll-behavior: smooth;
+          scroll-snap-type: x proximity;
+          -webkit-overflow-scrolling: touch;
+        }
+        .resource-image-strip figure {
+          flex: 0 0 min(82vw, 720px);
+          margin: 0;
+          scroll-snap-align: start;
+        }
+        .resource-image-strip img {
+          display: block;
+          width: 100%;
+          height: clamp(220px, 36vw, 360px);
+          border-radius: 8px;
+          object-fit: cover;
+          box-shadow: 0 16px 36px rgba(36, 78, 120, 0.1);
+        }
+        .resource-image-strip figcaption {
+          margin-top: 0.6rem;
+          color: #536176;
+          font-size: 0.9rem;
+          font-weight: 700;
+          text-align: left;
+        }
+        </style>
+
+        ## Headsets
+
+        Our lab has a variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.
+
+        - **[Apple Vision Pro](https://vr-compare.com/headset/applevisionpro)**: Mixed reality headset with high-resolution displays, stereo pass-through, eye and hand tracking.
+
+        - **Magic Leap**: Magic Leap 1 and Magic Leap 2 are advanced AR devices (see-through) designed for spatial computing and collaborative AR applications.
+
+          - **[Magic Leap 1](https://vr-compare.com/headset/magicleap1)**
+
+          - **[Magic Leap 2](https://vr-compare.com/headset/magicleap2)**
+
+        - **[Microsoft HoloLens 2](https://vr-compare.com/headset/microsofthololens2)**: Standalone AR headset (see-through) for holographic experiences.
+
+        - **[Lenovo ThinkReality A3](https://vr-compare.com/headset/lenovothinkrealitya3)**: Lightweight AR glasses (see-through) for enterprise applications.
+
+        - **Oculus/Facebook/Meta**:
+
+          - **[Meta Quest Pro](https://vr-compare.com/headset/metaquestpro)**: High-resolution standalone VR headset with eye tracking, hand tracking, and colour passthrough cameras.
+
+          - **[Meta Quest 1](https://vr-compare.com/headset/oculusquest)**, **[Meta Quest 2](https://vr-compare.com/headset/oculusquest2)**, and **[Meta Quest 3](https://vr-compare.com/headset/metaquest3)**: Standalone or tethered VR headsets for a wide range of applications with hand tracking and passthrough cameras.
+
+        - **[Pico 4 Pro](https://vr-compare.com/headset/pico4pro)**: Lightweight, standalone VR headset with colour passthrough cameras.
+
         - **HTC Vive**:
-        	- HTC Vive Pro
-        	- HTC Vive Pro Eye	
 
+          - **[HTC Vive Pro](https://vr-compare.com/headset/htcvivepro)**
+
+          - **[HTC Vive Pro Eye](https://vr-compare.com/headset/htcviveproeye)**
 
         ## Legacy headsets
+
         We have a variety of legacy headsets including:
-          - Oculus Rift/S
-          - Oculus Go  
-          - Oculus DK1/DK2 
-          - Meta 2 AR glasses
-          - Google Glass
-          - Google Cardboard VR
-          - IIS VFX3D	
+
+        - **[Oculus Rift](https://vr-compare.com/headset/oculusrift)** and **[Oculus Rift S](https://vr-compare.com/headset/oculusrifts)**
+
+        - **[Oculus Go](https://vr-compare.com/headset/oculusgo)**
+
+        - **[Oculus DK1](https://vr-compare.com/headset/oculusriftdk1)** and **[Oculus DK2](https://vr-compare.com/headset/oculusriftdk2)**
+
+        - **[Meta 2 AR glasses](https://vr-compare.com/headset/meta2)**
+
+        - **[Google Glass](https://vr-compare.com/headset/googleglassexploreredition)**
+
+        - **[Google Cardboard VR](https://vr.google.com/cardboard/)**
+
+        - **[IIS VFX3D](https://vr-compare.com/headset/iisvfx3d)**
 
         ## Motion Capture and Tracking Systems
         Best for movement science, avatar animation, interaction analysis, biomechanics, validation studies and real-time XR control.
@@ -108,13 +166,14 @@ sections:
 
         Best for building prototypes, custom mounts, experimental apparatus, interaction props and physical models.
 
-        The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are organized into **FDM (Fused Deposition Modeling)** and **Resin (SLA/DLP)** technologies to meet a wide range of needs.
+        The lab has a workshop with 3D printing facilities to support prototyping, experimentation, and development of physical models and devices. Our printers are organized into **FDM** and **Resin (SLA/DLP)** technologies to meet a wide range of needs.
 
-        ### FDM Printers (Fused Deposition Modeling)
+        ### FDM Printers
         FDM printers are ideal for creating functional prototypes with different materials and large models. 
 
         - **Creality CR-10**  
         - **Creality CR-10S**  
+        - **Bambu Lab X1C**
         - **Flashforge Creator PRO2**
 
         ### Resin Printers (SLA/DLP)

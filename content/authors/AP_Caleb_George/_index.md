@@ -9,7 +9,7 @@ superuser: false
 authors: AP_Caleb_George
 
 # Role/position
-role: Project Student
+role: BSc Computer Science
 
 # Organizations/Affiliations
 organizations:

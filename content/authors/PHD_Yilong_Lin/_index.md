@@ -7,7 +7,7 @@ superuser: false
 
 # Username (this should match the folder name)
 authors:
-  - Yilong_Lin
+  - PHD_Yilong_Lin
 
 # Role/position
 role: Ph.D. Student

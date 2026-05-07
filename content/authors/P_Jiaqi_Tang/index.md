@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Project student
+role: BSc Computer Science
 
 # Organizations/Affiliations
 organizations:

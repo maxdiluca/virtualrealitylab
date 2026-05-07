@@ -14,6 +14,7 @@ sections:
           <p>Follow the lab's latest research updates, event activity, public stories and snapshots from workshops, demonstrations and visits.</p>
           <div class="media-hub-links">
             <a href="#updates">Latest updates</a>
+            <a href="#events">Events</a>
             <a href="#gallery">Photo gallery</a>
           </div>
         </section>
@@ -90,16 +91,28 @@ sections:
     content:
       anchor: updates
       kicker: Updates
-      title: Latest news, blog posts and events
-      subtitle: Browse the newest stories, announcements, workshops and public-facing activities from across the lab.
+      title: Latest news and blog posts
+      subtitle: Browse the newest stories, announcements and public-facing updates from across the lab.
       count: 9
       sections:
         - post
         - blog
-        - event
       archive_link:
     design:
       css_class: media-updates
+
+  - block: recent-updates
+    content:
+      anchor: events
+      kicker: Events
+      title: Events, talks and visits
+      subtitle: Explore seminars, workshops, demos, network visits and public activities hosted or supported by the VR Lab.
+      count: 6
+      sections:
+        - event
+      archive_link:
+    design:
+      css_class: media-events
 
   - block: photo-gallery
     content:

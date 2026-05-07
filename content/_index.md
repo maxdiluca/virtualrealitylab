@@ -185,6 +185,7 @@ sections:
         Please note that access to the Gisbert Kapp corridors requires a UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
 
   - block: contact
+    id: contact
     content:
       title: Get in touch
       text: |-

@@ -54,7 +54,7 @@ We offer specialist VR training for academics and students who want to use immer
 - Integrating VR into experimental and applied research.
 - Good practice for interdisciplinary XR collaboration.
 
-To register your interest in a future course, contact us through the [Contact Page](/contact).
+To register your interest in a future course, contact us through the [Get in touch section](/#contact).
 
 ---
 

@@ -15,17 +15,17 @@ sections:
 
         #### PhD positions
 
-        If you are interested in pursuing a PhD in the lab, contact **Dr Max Di Luca** or use the [Contact Page](/contact). It helps to include a short description of your interests, relevant experience and the kind of XR research question you would like to explore.
+        If you are interested in pursuing a PhD in the lab, contact **Dr Max Di Luca** or use the [Get in touch section](/#contact). It helps to include a short description of your interests, relevant experience and the kind of XR research question you would like to explore.
 
         #### BSc and MSc student projects
 
         We support Bachelor's and Master's projects in Psychology, Computer Science and related areas. Projects can involve perception experiments, motion capture, haptics, accessibility, immersive interaction, AI-supported XR tools, or applied VR/AR/MR systems.
 
-        Start by browsing our [Research](/projects/) and [Resources](/resources/) pages, then get in touch through the [Contact Page](/contact).
+        Start by browsing our [Research](/projects/) and [Resources](/resources/) pages, then get in touch through the [Get in touch section](/#contact).
 
         #### Student engagement
 
-        We are always looking for students who want to get involved in lab activities. Send us your CV through the [Contact Page](/contact) if you are interested in internships, part-time research assistant roles, volunteering, workshops or project support.
+        We are always looking for students who want to get involved in lab activities. Send us your CV through the [Get in touch section](/#contact) if you are interested in internships, part-time research assistant roles, volunteering, workshops or project support.
 
         #### Supported student programmes
 

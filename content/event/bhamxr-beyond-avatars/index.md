@@ -37,7 +37,7 @@ image:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=khZvU7U59bo"
 
 slides:
 projects:
@@ -50,6 +50,8 @@ The session explored how the body can function as a medium for control, coordina
 ## About the speaker
 
 Xiang Li is a fourth-year PhD candidate at the University of Cambridge and a Student Fellow at the Leverhulme Centre for the Future of Intelligence. His research focuses on embodied interaction and body-centric interfaces for spatial computing, with work published across HCI and XR venues.
+
+The BhamXR recording was published on YouTube on 5 December 2025.
 
 ## About BhamXR
 

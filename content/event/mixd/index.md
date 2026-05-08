@@ -41,7 +41,7 @@ image:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=j7bnPJJLxl0"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -63,6 +63,8 @@ projects:
 Inspired by their autistic son Walter, MIXD Reality created Buster Finds His Beat — the UK’s first inclusive AR picture book featuring a mixed-heritage autistic protagonist. The book has received national recognition for its innovation, representation and measurable impact, helping children stay engaged, focused and connected to the joy of reading.
 
 MIXD Reality continues to develop pioneering immersive experiences that reduce barriers, honour diverse ways of learning, and ensure every child can see themselves in a story.
+
+The BhamXR recording was published on YouTube on 16 December 2025.
 
 **About BhamXR:** BhamXR brings together more than 100 researchers from across the University to design responsible, human-centred XR and virtual worlds. Our interests spans identity and embodiment, perception and presence, regulation and rights, access and equity, creativity and cognition. Our aim is to shape immersive technologies that enhance learning, well-being, inclusion, and the public good within sustainable, ethical frameworks.
 BhamXR isn’t just for researchers in Birmingham we welcome collaborators from anywhere in the world. If you're working on immersive technologies and want to connect, please reach out.

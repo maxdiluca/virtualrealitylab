@@ -24,6 +24,8 @@ The lab serves as a hub for research, development and training in virtual, augme
 
 The VR Lab is part of and actively supports **<a href="https://www.birmingham.ac.uk/research/centres-institutes/bhamxr">BhamXR</a>**, the University of Birmingham's interdisciplinary XR network. BhamXR brings together researchers, students and partners working on virtual reality, augmented reality, haptics, wearables, data science, performance, creative technologies and responsible immersive futures.
 
+Recordings from the BhamXR talk series are available on the **<a href="https://www.youtube.com/@BhamXRUoB">BhamXR YouTube channel</a>**.
+
 Through BhamXR, the lab helps connect people to:
 
 - **Seminars and showcases** that share XR research, tools and emerging project ideas.

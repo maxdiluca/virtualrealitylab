@@ -15,10 +15,10 @@ address:
 summary: Gavin Buckingham discussed how people perceive and interact with objects through touch, movement and immersive virtual reality.
 abstract: "A BhamXR talk recording by Dr Gavin Buckingham from the Department of Sport and Health Sciences at the University of Exeter on grasping, perception and action in virtual environments."
 
-date: 2025-12-01T16:00:00Z
-date_end: 2025-12-01T17:00:00Z
+date: 2025-10-21T11:00:00Z
+date_end: 2025-10-21T12:15:00Z
 
-publishDate: 2025-12-01T00:00:00Z
+publishDate: 2025-10-21T00:00:00Z
 authors: []
 profile: false
 tags:
@@ -37,7 +37,7 @@ image:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://lnkd.in/eyNg8RUx"
+url_video: "https://www.youtube.com/watch?v=J2Hmy5c9gDA"
 
 slides:
 projects:
@@ -45,9 +45,9 @@ projects:
 
 BhamXR featured a recording of Dr Gavin Buckingham's talk, **Grasping the Virtual World**.
 
-Dr Gavin Buckingham, from the Department of Sport and Health Sciences at the **University of Exeter**, explored how humans perceive and interact with objects through touch and movement. The talk connected immersive virtual reality research with perception, action and training in controlled but realistic environments.
+Dr Gavin Buckingham, from the Department of Public Health and Sport Sciences at the **University of Exeter**, explored how humans perceive and interact with objects through touch and movement. The talk connected immersive virtual reality research with lab-based perception and action research, remote assessment of upper-limb movements, and sports training.
 
-The public LinkedIn preview identifies the talk recording and speaker but does not expose the original event date. This entry uses the recording announcement month so the talk can be represented in the BhamXR event archive without overstating the date.
+The public YouTube recording was published on 21 October 2025. The original live event date is not exposed publicly, so this archive entry uses the recording date.
 
 ## About BhamXR
 

@@ -28,10 +28,10 @@ tags:
   - HCI
   - Spatial Computing
 
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**VR Lab**](https://virtualrealitylab.netlify.app)'
+  caption: 'Image credit: [**BhamXR YouTube**](https://www.youtube.com/@BhamXRUoB)'
   focal_point: Center
 
 url_code: ""
@@ -52,6 +52,10 @@ The session explored how the body can function as a medium for control, coordina
 Xiang Li is a fourth-year PhD candidate at the University of Cambridge and a Student Fellow at the Leverhulme Centre for the Future of Intelligence. His research focuses on embodied interaction and body-centric interfaces for spatial computing, with work published across HCI and XR venues.
 
 The BhamXR recording was published on YouTube on 5 December 2025.
+
+{{< youtube id="khZvU7U59bo" >}}
+
+Links: **<a href="https://www.eventbrite.co.uk/e/bhamxr-beyond-avatars-designing-bodily-interfaces-in-virtual-environments-tickets-1862622436849">Eventbrite listing</a>** and **<a href="https://uk.linkedin.com/company/bhamxr">BhamXR LinkedIn</a>**.
 
 ## About BhamXR
 

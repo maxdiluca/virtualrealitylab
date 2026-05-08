@@ -28,10 +28,10 @@ tags:
   - Community
   - University of Birmingham
 
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**VR Lab**](https://virtualrealitylab.netlify.app)'
+  caption: 'Image credit: [**BhamXR YouTube**](https://www.youtube.com/@BhamXRUoB)'
   focal_point: Center
 
 url_code: ""
@@ -48,6 +48,8 @@ The first **BhamXR Meetup** brought the University of Birmingham's XR community 
 The meetup helped introduce BhamXR as an interdisciplinary community for people working with virtual reality, augmented reality, mixed reality and virtual worlds across the University. Public LinkedIn snippets from the event thank attendees and give special thanks to **Dr Daniele Giunchi** for his contribution.
 
 The public preview confirms that this was a BhamXR meetup held at the University of Birmingham in May 2025, but it does not expose the exact event day, time or full programme. This archive entry uses May 2025 for placement while keeping the event description to the details visible publicly.
+
+Links: **<a href="https://uk.linkedin.com/company/bhamxr">BhamXR LinkedIn</a>** and **<a href="https://www.youtube.com/@BhamXRUoB">BhamXR YouTube channel</a>**.
 
 ## About BhamXR
 

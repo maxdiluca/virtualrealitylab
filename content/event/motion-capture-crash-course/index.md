@@ -28,10 +28,10 @@ tags:
   - Human Movement
   - VR Lab
 
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**VR Lab**](https://virtualrealitylab.netlify.app)'
+  caption: 'Image credit: [**Diar Abdlkarim**](https://www.diarkarim.com/)'
   focal_point: Center
 
 url_code: ""
@@ -50,6 +50,8 @@ The course introduced participants to motion capture technologies used across re
 The course was organised by Diar Abdlkarim with support from Mark Elliott, the I-MOVE Network+, the VR Lab and the BhamXR community. Guest contributors included Alan Wing from the Active Touch Lab, Eyal Ofek, Daniele Giunchi, Sang-Hoon Yeo and Dagmar Fraser.
 
 The public LinkedIn post records the course as a completed activity but does not expose the exact course dates. This archive entry uses the public post date so the activity can be represented on the site without overstating the schedule.
+
+Links: **<a href="https://www.linkedin.com/posts/eyalofek_a-motion-capture-hands-on-course-was-arranged-activity-7342540267679358976-ysUl">LinkedIn post</a>** and **<a href="https://www.diarkarim.com/#courses">course listing</a>**.
 
 ## About BhamXR
 

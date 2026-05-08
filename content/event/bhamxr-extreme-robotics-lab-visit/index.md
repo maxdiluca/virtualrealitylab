@@ -54,6 +54,8 @@ The visit created space to explore how robotics and XR can inform one another, f
 
 For the VR Lab, visits like this are an important part of BhamXR's network activity: they help researchers discover shared technical challenges, identify opportunities for collaboration, and connect students and staff with facilities across the University.
 
+Links: **<a href="https://www.birmingham.ac.uk/research/centres-institutes/bhamxr">BhamXR</a>** and **<a href="https://extremeroboticslab.org/">Extreme Robotics Lab</a>**.
+
 ## Themes
 
 - Robotics and immersive environments

@@ -28,10 +28,10 @@ tags:
   - Perception
   - Embodiment
 
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**VR Lab**](https://virtualrealitylab.netlify.app)'
+  caption: 'Image credit: [**BhamXR YouTube**](https://www.youtube.com/@BhamXRUoB)'
   focal_point: Center
 
 url_code: ""
@@ -48,6 +48,10 @@ BhamXR featured a recording of Dr Gavin Buckingham's talk, **Grasping the Virtua
 Dr Gavin Buckingham, from the Department of Public Health and Sport Sciences at the **University of Exeter**, explored how humans perceive and interact with objects through touch and movement. The talk connected immersive virtual reality research with lab-based perception and action research, remote assessment of upper-limb movements, and sports training.
 
 The public YouTube recording was published on 21 October 2025. The original live event date is not exposed publicly, so this archive entry uses the recording date.
+
+{{< youtube id="J2Hmy5c9gDA" >}}
+
+Links: **<a href="https://uk.linkedin.com/company/bhamxr">BhamXR LinkedIn</a>**.
 
 ## About BhamXR
 

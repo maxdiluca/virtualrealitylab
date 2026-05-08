@@ -40,15 +40,27 @@
     {{ end }}
 
     {{ range $query }}
-      {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{ $avatar := (.Resources.ByType "image").GetMatch "avatar.*" }}
+      {{ if not $avatar }}
+        {{ $avatar = (.Resources.ByType "image").GetMatch "Avatar.*" }}
+      {{ end }}
+      {{ if not $avatar }}
+        {{ $avatar = (.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{ end }}
       {{ $has_body := ne (trim .RawContent " \n\r\t") "" }}
       {{ $has_interests := false }}
       {{ with .Params.interests }}
-        {{ if gt (len .) 0 }}{{ $has_interests = true }}{{ end }}
+        {{ range . }}
+          {{ if ne (trim (string .) " \n\r\t") "" }}{{ $has_interests = true }}{{ end }}
+        {{ end }}
       {{ end }}
       {{ $has_social := false }}
       {{ with .Params.social }}
-        {{ if gt (len .) 0 }}{{ $has_social = true }}{{ end }}
+        {{ range . }}
+          {{ with .link }}
+            {{ if ne (trim (string .) " \n\r\t") "" }}{{ $has_social = true }}{{ end }}
+          {{ end }}
+        {{ end }}
       {{ end }}
       {{ $has_education := false }}
       {{ with .Params.education }}
@@ -57,6 +69,9 @@
         {{ end }}
       {{ end }}
       {{ $has_profile_content := or $has_body (or $has_interests (or $has_social $has_education)) }}
+      {{ if isset .Params "link_profile" }}
+        {{ $has_profile_content = .Params.link_profile }}
+      {{ end }}
 
       {{/* Get link to user's profile page only when it has useful profile information. */}}
       {{ $link := "" }}

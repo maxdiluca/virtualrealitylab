@@ -11,6 +11,7 @@ superuser: false
 
 # Role/position
 role: Professor of Human Movement
+link_profile: true
 
 # Organizations/Affiliations
 organizations:

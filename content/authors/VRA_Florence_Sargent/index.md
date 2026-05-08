@@ -11,6 +11,7 @@ superuser: false
 
 # Role/position
 role: PhD Student
+link_profile: false
 
 # Organizations/Affiliations
 organizations:

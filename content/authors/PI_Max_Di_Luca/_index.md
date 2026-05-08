@@ -6,7 +6,7 @@ authors:
 
 superuser: true
 
-role: Associate Professor
+role: Associate Professor in Psychology and Computer Science
 
 
 

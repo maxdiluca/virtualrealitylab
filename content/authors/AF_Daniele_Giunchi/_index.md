@@ -6,7 +6,7 @@ authors:
 
 superuser: true
 
-role: Assistant Professor
+role: Assistant Professor in Scene Understanding and Smart Environments
 
 
 

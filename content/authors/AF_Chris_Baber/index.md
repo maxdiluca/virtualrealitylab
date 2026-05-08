@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Researcher
+role: Chair of Pervasive and Ubiquitous Computing
 
 # Organizations/Affiliations
 organizations:

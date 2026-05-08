@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position
-role:  Professor
+role: Professor of Human Movement
 
 # Organizations/Affiliations
 organizations:

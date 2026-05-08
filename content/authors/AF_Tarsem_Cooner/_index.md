@@ -9,7 +9,7 @@ superuser: false
 authors: Tarsem_Cooner
 
 # Role/position
-role: Professor
+role: Professor of Social Work and Digital Media
 
 # Organizations/Affiliations
 organizations:

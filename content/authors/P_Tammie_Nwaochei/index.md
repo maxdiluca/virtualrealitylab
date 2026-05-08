@@ -37,4 +37,4 @@ user_groups:
   - Project Students
 ---
 
-Tammie Nwaochei is a Computer Science student at the University of Birmingham. Her public profile highlights experience with Schneider Electric and AI-assisted micro-game development through a University of Birmingham Intern Match placement.
+Tammie Nwaochei is a Computer Science student at the University of Birmingham with interests in AI-assisted game development, data analysis and digital tools. Her experience includes work with Schneider Electric and AI-assisted micro-game development through a University of Birmingham Intern Match placement.

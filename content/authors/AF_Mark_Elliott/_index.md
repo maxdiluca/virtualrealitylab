@@ -1,6 +1,6 @@
 ---
 title: Mark Elliott
-role: Associate Professor
+role: Associate Professor in Human Movement Analytics
 
 authors:
 - Mark_Elliott
@@ -41,4 +41,3 @@ email: ""
 user_groups:
 - Affiliated Faculty
 ---
-

@@ -37,4 +37,4 @@ user_groups:
   - Volunteer Research Assistants
 ---
 
-Daniel Clark is a University of Birmingham alumnus and volunteer research assistant. His public profile highlights work with DCA Design International and long-running robotics experience through the AberSailbot autonomous sailing robot project.
+Daniel Clark is a University of Birmingham alumnus and volunteer research assistant with experience across robotics, product design, hardware and software systems. His work includes design engineering experience with DCA Design International and long-running involvement in the AberSailbot autonomous sailing robot project.

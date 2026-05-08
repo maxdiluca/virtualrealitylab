@@ -7,7 +7,7 @@ superuser: false
 
 # Username (this should match the folder name)
 authors:
-  - Yuehang Lin
+  - RA_Yuehang_Lin
 
 # Role/position
 role: Research Assistant

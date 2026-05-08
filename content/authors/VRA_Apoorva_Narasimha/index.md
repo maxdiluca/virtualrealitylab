@@ -38,4 +38,4 @@ user_groups:
   - Volunteer Research Assistants
 ---
 
-Apoorva Narasimha is a UX designer with a background in Computer Science and Human-Computer Interaction. Her public profile highlights work on MorphMind, a Smart MorpheesPlug toolkit project that integrated motion capture and machine learning for advanced shape-changing interface prototyping.
+Apoorva Narasimha is a UX designer with a background in Computer Science and Human-Computer Interaction. Her work includes MorphMind, a Smart MorpheesPlug toolkit project integrating motion capture and machine learning for advanced shape-changing interface prototyping.

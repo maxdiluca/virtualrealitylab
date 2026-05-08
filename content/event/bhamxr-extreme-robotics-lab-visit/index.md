@@ -14,8 +14,6 @@ address:
 summary: BhamXR members visited the Extreme Robotics Lab to explore links between robotics, XR, sensing, control and human-centred interaction.
 abstract: "A BhamXR network visit to the Extreme Robotics Lab, bringing together researchers interested in robotics, immersive technologies, sensing, movement, autonomy and human-centred interaction."
 
-# The source media for this visit is currently in OneDrive as HEIC/MOV files.
-# Export web-ready JPEG/MP4 assets before publishing this event.
 date: 2025-09-24T16:00:00+01:00
 date_end: 2025-09-24T18:00:00+01:00
 
@@ -28,7 +26,7 @@ tags:
   - XR
   - Networking
 
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**VR Lab**](https://virtualrealitylab.netlify.app)'
@@ -46,6 +44,13 @@ projects:
 The VR Lab joined a BhamXR visit to the **<a href="https://extremeroboticslab.org/">Extreme Robotics Lab</a>** in the School of Metallurgy and Materials at the University of Birmingham to connect researchers working across robotics, immersive technology and human-centred interaction.
 
 The visit created space to explore how robotics and XR can inform one another, from sensing and control to teleoperation, embodied interfaces, simulation, movement analysis and future collaborative research.
+
+{{< figure src="IMG_0058.jpg" alt="BhamXR members watching a robotics demonstration in the Extreme Robotics Lab" caption="BhamXR members visited the Extreme Robotics Lab to explore links between robotics and XR." >}}
+
+<figure class="lab-blog-video">
+  <video controls playsinline preload="metadata" src="IMG_0071.MOV"></video>
+  <figcaption>Robotics demonstration during the BhamXR visit to the Extreme Robotics Lab.</figcaption>
+</figure>
 
 For the VR Lab, visits like this are an important part of BhamXR's network activity: they help researchers discover shared technical challenges, identify opportunities for collaboration, and connect students and staff with facilities across the University.
 

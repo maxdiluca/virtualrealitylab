@@ -1,6 +1,6 @@
 ---
 title: Funding 
-view: 2
+view: compact
 
 header:
   caption: ""
@@ -36,4 +36,3 @@ and cultural and charitable partners including:
 - **Kenilworth Town Council**
 
 ---
-

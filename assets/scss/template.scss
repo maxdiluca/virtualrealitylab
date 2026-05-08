@@ -40,6 +40,38 @@
   background: transparent;
 }
 
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.custom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-content {
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100%;
+  max-width: 375px;
+  height: auto;
+  border-radius: 10px;
+}
+
 .recent-updates-block .lab-editorial-header p:not(.lab-section-kicker) {
   font-size: 1.12rem;
   line-height: 1.6;
@@ -393,6 +425,230 @@
   text-decoration: underline;
 }
 
+.vrlab-pathways {
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 2.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #111827;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.vrlab-pathways-intro {
+  max-width: 760px;
+  margin-bottom: 1.5rem;
+}
+
+.vrlab-pathways-eyebrow,
+.media-hub-kicker,
+.media-resource-kicker {
+  margin: 0 0 0.75rem;
+  color: #3478c9;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.vrlab-pathways-eyebrow {
+  color: #0f766e;
+}
+
+.vrlab-pathways-heading {
+  margin: 0 0 0.9rem;
+  color: #111827;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+.vrlab-pathways-body,
+.vrlab-pathway-text {
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.vrlab-pathways-body {
+  margin: 0;
+}
+
+.vrlab-pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.vrlab-pathway-card {
+  display: flex;
+  min-height: 10.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1.2rem;
+  background: #ffffff;
+  color: #111827;
+  text-decoration: none;
+  transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.vrlab-pathway-card:hover,
+.vrlab-pathway-card:focus {
+  border-color: #0f766e;
+  color: #111827;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(15, 118, 110, 0.14);
+}
+
+.vrlab-pathway-title {
+  color: #0f766e;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.resource-image-strip {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0 2.25rem;
+  padding: 0.25rem 0.25rem 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+}
+
+.resource-image-strip figure {
+  flex: 0 0 unquote("min(82vw, 720px)");
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.resource-image-strip img {
+  width: 100%;
+  height: clamp(220px, 36vw, 360px);
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 16px 36px rgba(36, 78, 120, 0.1);
+}
+
+.resource-image-strip figcaption {
+  margin-top: 0.6rem;
+  color: #536176;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.media-hub-intro {
+  max-width: 980px;
+  margin: 3rem auto 1.5rem;
+  padding: 2.5rem;
+  border: 1px solid #d9e7f5;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f8fbff 0%, #eef7ff 100%);
+  box-shadow: 0 20px 45px rgba(36, 78, 120, 0.08);
+}
+
+.media-hub-intro h1 {
+  max-width: 760px;
+  margin: 0;
+  color: #111827;
+  font-size: 2.45rem;
+  line-height: 1.1;
+}
+
+.media-hub-intro p:not(.media-hub-kicker) {
+  max-width: 720px;
+  margin: 1rem 0 0;
+  color: #536176;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.media-hub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.media-hub-links a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  border: 1px solid #9fc2e8;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #17435c;
+  padding: 0.65rem 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.media-hub-links a:hover,
+.media-hub-links a:focus {
+  border-color: #3478c9;
+  color: #12334a;
+  text-decoration: none;
+}
+
+.media-resource-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 980px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #d9e7f5;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 16px 36px rgba(36, 78, 120, 0.08);
+}
+
+.media-resource-card h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.media-resource-card p:not(.media-resource-kicker) {
+  max-width: 680px;
+  margin: 0.85rem 0 0;
+  color: #536176;
+  line-height: 1.65;
+}
+
+.media-resource-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #17435c;
+  color: #ffffff;
+  padding: 0.75rem 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.media-resource-link:hover,
+.media-resource-link:focus {
+  background: #12334a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .blog-submit-cta {
   display: flex;
   align-items: center;
@@ -695,14 +951,31 @@ html.dark .recent-updates-block {
   background: #0f1d2c;
 }
 
+.dark .vrlab-pathways,
+.dark .media-hub-intro,
+.dark .media-resource-card,
+html.dark .vrlab-pathways,
+html.dark .media-hub-intro,
+html.dark .media-resource-card {
+  border-color: #334155;
+  background: #111827;
+  box-shadow: none;
+}
+
 .dark .lab-editorial-header h1,
 .dark .lab-editorial-header h2,
 .dark .lab-full-gallery-header h2,
 .dark .recent-update-card h3,
+.dark .vrlab-pathways-heading,
+.dark .media-hub-intro h1,
+.dark .media-resource-card h2,
 html.dark .lab-editorial-header h1,
 html.dark .lab-editorial-header h2,
 html.dark .lab-full-gallery-header h2,
-html.dark .recent-update-card h3 {
+html.dark .recent-update-card h3,
+html.dark .vrlab-pathways-heading,
+html.dark .media-hub-intro h1,
+html.dark .media-resource-card h2 {
   color: #e8edf4;
 }
 
@@ -710,15 +983,27 @@ html.dark .recent-update-card h3 {
 .dark .lab-full-gallery-header p,
 .dark .recent-update-card p,
 .dark .recent-updates-empty,
+.dark .vrlab-pathways-body,
+.dark .vrlab-pathway-text,
+.dark .resource-image-strip figcaption,
+.dark .media-hub-intro p:not(.media-hub-kicker),
+.dark .media-resource-card p:not(.media-resource-kicker),
 html.dark .lab-editorial-header p:not(.lab-section-kicker),
 html.dark .lab-full-gallery-header p,
 html.dark .recent-update-card p,
-html.dark .recent-updates-empty {
+html.dark .recent-updates-empty,
+html.dark .vrlab-pathways-body,
+html.dark .vrlab-pathway-text,
+html.dark .resource-image-strip figcaption,
+html.dark .media-hub-intro p:not(.media-hub-kicker),
+html.dark .media-resource-card p:not(.media-resource-kicker) {
   color: #b4bfcc;
 }
 
 .dark .recent-update-card,
-html.dark .recent-update-card {
+.dark .vrlab-pathway-card,
+html.dark .recent-update-card,
+html.dark .vrlab-pathway-card {
   border-color: #334155;
   background: #111827;
   box-shadow: none;
@@ -781,14 +1066,30 @@ html.dark .lab-blog-video figcaption {
 
 .dark .lab-outline-button,
 .dark .recent-updates-arrow,
+.dark .media-hub-links a,
 html.dark .lab-outline-button,
-html.dark .recent-updates-arrow {
+html.dark .recent-updates-arrow,
+html.dark .media-hub-links a {
   border-color: #334155;
   background: #111827;
   color: #e8edf4;
 }
 
 @media (max-width: 1050px) {
+  .custom-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
   .lab-gallery-mosaic,
   .lab-full-gallery-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -849,6 +1150,37 @@ html.dark .recent-updates-arrow {
 
   .lab-section-divider {
     margin-bottom: 2rem;
+  }
+
+  .vrlab-pathways,
+  .media-hub-intro,
+  .media-resource-card {
+    padding: 1.5rem;
+  }
+
+  .vrlab-pathways-heading {
+    font-size: 1.35rem;
+  }
+
+  .vrlab-pathway-grid,
+  .media-resource-card {
+    grid-template-columns: 1fr;
+  }
+
+  .vrlab-pathway-card {
+    min-height: 0;
+  }
+
+  .media-hub-intro {
+    margin-top: 2rem;
+  }
+
+  .media-hub-intro h1 {
+    font-size: 2rem;
+  }
+
+  .media-resource-link {
+    width: 100%;
   }
 
   .lab-gallery-page,

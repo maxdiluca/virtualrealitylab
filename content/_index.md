@@ -62,6 +62,7 @@ sections:
       subtitle: Talks, press releases, blogs and project updates from across the lab.
       count: 6
       archive_link: /post/
+      archive_text: View all news
 
   - block: markdown
     content:
@@ -88,86 +89,6 @@ sections:
             </a>
           </div>
         </div>
-
-        <style>
-        .vrlab-pathways {
-          background: #f8fafc;
-          color: #111827;
-          border: 1px solid #e5e7eb;
-          border-radius: 8px;
-          padding: 2.25rem;
-          margin: 2rem auto;
-          max-width: 1080px;
-          box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
-        }
-        .vrlab-pathways-intro {
-          max-width: 760px;
-          margin-bottom: 1.5rem;
-        }
-        .vrlab-pathways-eyebrow {
-          font-size: 0.8rem;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
-          color: #0f766e;
-          font-weight: 700;
-          margin: 0 0 0.6rem;
-        }
-        .vrlab-pathways-heading {
-          color: #111827;
-          margin: 0 0 0.9rem;
-          font-size: 1.75rem;
-          line-height: 1.25;
-        }
-        .vrlab-pathways-body {
-          color: #4b5563;
-          margin: 0;
-          font-size: 1rem;
-          line-height: 1.55;
-        }
-        .vrlab-pathway-grid {
-          display: grid;
-          grid-template-columns: repeat(3, minmax(0, 1fr));
-          gap: 1rem;
-        }
-        .vrlab-pathway-card {
-          display: flex;
-          min-height: 10.5rem;
-          flex-direction: column;
-          justify-content: space-between;
-          gap: 1rem;
-          border: 1px solid #d1d5db;
-          border-radius: 8px;
-          padding: 1.2rem;
-          color: #111827;
-          text-decoration: none;
-          background: #ffffff;
-          transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
-        }
-        .vrlab-pathway-card:hover {
-          border-color: #0f766e;
-          box-shadow: 0 10px 24px rgba(15, 118, 110, 0.14);
-          color: #111827;
-          text-decoration: none;
-          transform: translateY(-2px);
-        }
-        .vrlab-pathway-title {
-          color: #0f766e;
-          font-size: 1.1rem;
-          font-weight: 700;
-          line-height: 1.3;
-        }
-        .vrlab-pathway-text {
-          color: #4b5563;
-          font-size: 1rem;
-          line-height: 1.55;
-        }
-        @media (max-width: 760px) {
-          .vrlab-pathways { padding: 1.5rem; }
-          .vrlab-pathways-heading { font-size: 1.35rem; }
-          .vrlab-pathway-grid { grid-template-columns: 1fr; }
-          .vrlab-pathway-card { min-height: 0; }
-        }
-        </style>
 
   - block: hero
     content:

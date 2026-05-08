@@ -32,40 +32,6 @@ sections:
           {{< figure src="workshop_panoramic.jpeg" alt="Panoramic view of the VR Lab workshop" caption="Workshop" >}}
         </div>
 
-        <style>
-        .resource-image-strip {
-          display: flex;
-          gap: 1rem;
-          margin: 1.5rem 0 2.25rem;
-          padding: 0.25rem 0.25rem 1rem;
-          overflow-x: auto;
-          overscroll-behavior-x: contain;
-          scroll-behavior: smooth;
-          scroll-snap-type: x proximity;
-          -webkit-overflow-scrolling: touch;
-        }
-        .resource-image-strip figure {
-          flex: 0 0 min(82vw, 720px);
-          margin: 0;
-          scroll-snap-align: start;
-        }
-        .resource-image-strip img {
-          display: block;
-          width: 100%;
-          height: clamp(220px, 36vw, 360px);
-          border-radius: 8px;
-          object-fit: cover;
-          box-shadow: 0 16px 36px rgba(36, 78, 120, 0.1);
-        }
-        .resource-image-strip figcaption {
-          margin-top: 0.6rem;
-          color: #536176;
-          font-size: 0.9rem;
-          font-weight: 700;
-          text-align: left;
-        }
-        </style>
-
         ## Headsets
 
         Our lab has a variety of headsets to meet diverse research and development needs. Headsets are available for research projects, student training, collaborative activities, and teaching.

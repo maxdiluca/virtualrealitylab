@@ -8,6 +8,8 @@
 {{ $subtitle := $content.subtitle | default "Talks, press releases, blogs and project updates from across the lab." }}
 {{ $count := $content.count | default 3 }}
 {{ $sectionNames := $content.sections | default (slice "post" "blog") }}
+{{ $archiveLink := $content.archive_link }}
+{{ $archiveText := $content.archive_text | default "View all updates" }}
 {{ $sections := slice }}
 {{ $updates := slice }}
 {{ $maxItems := 0 }}
@@ -47,13 +49,18 @@
           <p>{{ . | $page.RenderString }}</p>
         {{ end }}
       </div>
+      {{ with $archiveLink }}
+        <div class="lab-editorial-actions">
+          <a class="lab-outline-button" href="{{ . }}">{{ $archiveText | $page.RenderString }}</a>
+        </div>
+      {{ end }}
     </div>
 
     <div class="lab-section-divider"></div>
 
     <div class="recent-updates-carousel">
       <button class="recent-updates-arrow recent-updates-arrow-prev" type="button" data-updates-prev aria-label="Previous updates">
-        <span aria-hidden="true">&lt;</span>
+        <span aria-hidden="true">&lsaquo;</span>
       </button>
 
       <div class="recent-updates-grid" data-updates-track>
@@ -96,7 +103,7 @@
               {{ with $summary }}
                 <p>{{ . | plainify | truncate 150 }}</p>
               {{ end }}
-              <a class="recent-update-read-more" href="{{ .RelPermalink }}">Read more <span aria-hidden="true">-></span></a>
+              <a class="recent-update-read-more" href="{{ .RelPermalink }}">Read more <span aria-hidden="true">&rsaquo;</span></a>
             </div>
           </article>
         {{ else }}
@@ -105,7 +112,7 @@
       </div>
 
       <button class="recent-updates-arrow recent-updates-arrow-next" type="button" data-updates-next aria-label="Next updates">
-        <span aria-hidden="true">&gt;</span>
+        <span aria-hidden="true">&rsaquo;</span>
       </button>
     </div>
   </div>

@@ -24,6 +24,14 @@ main:
     url: /media/
     weight: 30
 
+  - name: Resources
+    url: /resources/
+    weight: 35
+
+  - name: Contact
+    url: /#contact
+    weight: 45
+
   
 
   # Internal sections for VR Lab members

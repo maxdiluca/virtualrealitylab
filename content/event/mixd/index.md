@@ -2,9 +2,9 @@
 title: "Beyond the Page: Designing Inclusive AR Storytelling for All Learners"
 
 event: BhamXR Talk Series
-event_url: https://www.linkedin.com/company/bhamxr/posts/?feedView=all
+event_url: https://www.eventbrite.co.uk/e/beyond-the-page-designing-inclusive-ar-storytelling-for-all-learners-tickets-1975518106837
 
-location: 52 Pritchatts Road
+location: 52 Pritchatts Road, Lecture Theatre 1, Room G16
 address:
   street:  Pritchatts Road
   city: Birmingham
@@ -12,7 +12,7 @@ address:
   postcode: B15 2TT
   country: United Kingdom
 
-summary: MIXD Event.
+summary: Pamela Aculey and Alex Kosminsky shared how inclusive AR storytelling can support children who find traditional reading formats challenging.
 abstract: "How do you build an augmented reality book for a child who finds traditional stories overwhelming? And what happens when that book sparks a measurable uplift in focus, joy and engagement for neurodivergent learners? In this talk, Pamela Aculey and Alex Kosminsky — the husband-and-wife team behind MIXD Reality share the real story of creating Buster Finds His Beat, the UK’s first inclusive AR children’s book inspired by their autistic son, Walter. They reveal how storytelling, accessibility and immersive technology can work together to give children new ways of entering and understanding the world of reading. From sensory-informed design choices to the challenges of developing AR for early-years learners, the talk maps the journey from lived experience to award-winning innovation, and explores how immersive technology can create new pathways into literacy, confidence and self-expression. The session will also touch on MIXD Reality’s future vision, including early work toward a scalable SaaS platform designed to help educators, publishers and creators build their own inclusive immersive experiences — widening access and ensuring that every child can engage with stories in the way that feels right for them."
 
 # Talk start and end times.
@@ -24,7 +24,12 @@ date_end: 2025-12-10T17:00:00Z
 publishDate: 2025-01-01T00:00:00Z
 authors: 
 profile: false
-tags: 
+tags:
+  - BhamXR
+  - AR
+  - Accessibility
+  - Education
+  - Inclusive Design
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -61,5 +66,3 @@ MIXD Reality continues to develop pioneering immersive experiences that reduce b
 
 **About BhamXR:** BhamXR brings together more than 100 researchers from across the University to design responsible, human-centred XR and virtual worlds. Our interests spans identity and embodiment, perception and presence, regulation and rights, access and equity, creativity and cognition. Our aim is to shape immersive technologies that enhance learning, well-being, inclusion, and the public good within sustainable, ethical frameworks.
 BhamXR isn’t just for researchers in Birmingham we welcome collaborators from anywhere in the world. If you're working on immersive technologies and want to connect, please reach out.
-
-

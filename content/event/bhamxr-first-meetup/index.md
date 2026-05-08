@@ -15,8 +15,9 @@ address:
 summary: The first BhamXR meetup brought the University of Birmingham XR community together for discussion, networking and research exchange.
 abstract: "The first BhamXR meetup in May 2025 introduced the University of Birmingham's extended reality community and included a contribution from Dr Daniele Giunchi."
 
-date: 2025-05-01T16:00:00Z
-date_end: 2025-05-01T17:00:00Z
+date: 2025-05-01T00:00:00Z
+date_end: 2025-05-31T23:59:59Z
+all_day: true
 
 publishDate: 2025-05-01T00:00:00Z
 authors: []
@@ -31,7 +32,7 @@ tags:
 featured: true
 
 image:
-  caption: 'Image credit: [**BhamXR YouTube**](https://www.youtube.com/@BhamXRUoB)'
+  caption: 'Image credit: [**BhamXR**](https://uk.linkedin.com/company/bhamxr)'
   focal_point: Center
 
 url_code: ""

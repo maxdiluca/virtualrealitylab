@@ -47,10 +47,7 @@ The visit created space to explore how robotics and XR can inform one another, f
 
 {{< figure src="IMG_0058.jpg" alt="BhamXR members watching a robotics demonstration in the Extreme Robotics Lab" caption="BhamXR members visited the Extreme Robotics Lab to explore links between robotics and XR." >}}
 
-<figure class="lab-blog-video">
-  <video controls playsinline preload="metadata" src="IMG_0071.MOV"></video>
-  <figcaption>Robotics demonstration during the BhamXR visit to the Extreme Robotics Lab.</figcaption>
-</figure>
+**<a href="IMG_0071.MOV">Watch the robotics demonstration video</a>**.
 
 For the VR Lab, visits like this are an important part of BhamXR's network activity: they help researchers discover shared technical challenges, identify opportunities for collaboration, and connect students and staff with facilities across the University.
 

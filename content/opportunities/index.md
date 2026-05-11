@@ -29,7 +29,9 @@ sections:
 
         #### Supported student programmes
 
-        The lab supports structured student opportunities through **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** and **<a href="https://intranet.birmingham.ac.uk/student/careers/skills-development/birmingham-project/index.aspx">the Birmingham Project</a>**. These programmes can connect students with XR research, prototyping, interaction design, data capture and interdisciplinary project work.
+        **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** supports structured summer research opportunities for undergraduate students interested in research experience, technical development and project work.
+
+        **Research Volunteering Scheme in Psychology** supports Year 2 Psychology students who want to work as research assistants, including literature searching, ethics preparation, data collection and other research support activities.
 
         
 ---

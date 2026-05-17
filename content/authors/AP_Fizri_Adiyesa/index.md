@@ -21,9 +21,12 @@ interests:
   -
 
 social:
-  - icon: link
-    icon_pack: fas
-    link:
+  - icon: linkedin
+    icon_pack: fab
+    link: https://id.linkedin.com/in/fizri-adiyesa
+  - icon: dribbble
+    icon_pack: fab
+    link: https://dribbble.com/fizriadiyesa
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

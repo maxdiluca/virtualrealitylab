@@ -23,7 +23,7 @@ interests:
 social:
   - icon: link
     icon_pack: fas
-    link:
+    link: https://arme-project.co.uk/author/nazrin-salimzade/
 
 
 # Organizational groups that you belong to (for People widget)

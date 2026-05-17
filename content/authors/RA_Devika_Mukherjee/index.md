@@ -21,9 +21,9 @@ interests:
   -
 
 social:
-  - icon: link
-    icon_pack: fas
-    link:
+  - icon: linkedin
+    icon_pack: fab
+    link: https://uk.linkedin.com/in/devika-mukherjee-3bb5b020a
 
 
 # Organizational groups that you belong to (for People widget)

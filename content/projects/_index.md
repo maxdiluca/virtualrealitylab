@@ -39,7 +39,7 @@ This network activity is central to how the lab builds collaborations beyond ind
 
 The lab also supports structured student research and project routes connected to its wider XR activity.
 
-**<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** gives undergraduate students a route into summer research experience, including applied XR, interaction design, data capture and technical prototyping.
+**<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** gives undergraduate students a route into summer research experience, including applied XR, interaction design, data capture and technical prototyping. A recent example is our [BSURE 2025 summer research group](/post/bsure-2025/).
 
 **<a href="https://intranet.birmingham.ac.uk/student/careers/skills-development/birmingham-project/index.aspx">The Birmingham Project</a>** gives students a separate route into interdisciplinary project work, where immersive technologies can be explored through collaborative research and development challenges.
 

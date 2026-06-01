@@ -17,7 +17,6 @@ sections:
     content:
       title: Current Members
       user_groups:
-        - Principal Investigator
         - Affiliated Faculty
         - Researchers
         - Collaborators

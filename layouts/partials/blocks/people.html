@@ -24,18 +24,48 @@
   {{ end }}
 
   {{ range $block.content.user_groups }}
-    {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+    {{ $group := . }}
+    {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice $group) }}
 
     {{/* Sort */}}
-    {{ $sort_by := $block.content.sort_by | default "Params.last_name" }}
+    {{ $sort_by_param := $block.content.sort_by | default "Params.last_name" }}
+    {{ $sort_by := $sort_by_param }}
     {{ $sort_by = partial "blox-core/functions/get_sort_by_parameter" $sort_by }}
     {{ $sort_ascending := $block.content.sort_ascending | default true }}
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
-    {{ $query = sort $query $sort_by $sort_order }}
+    {{ if eq $sort_by_param "Params.last_name" }}
+      {{ $people := slice }}
+      {{ range $query }}
+        {{ $badges := .Params.badges | default .Params.badge | default (slice) }}
+        {{ $title_parts := split .Title " " }}
+        {{ $fallback_last_name := .Title }}
+        {{ if gt (len $title_parts) 0 }}
+          {{ $fallback_last_name = index $title_parts (sub (len $title_parts) 1) }}
+        {{ end }}
+        {{ $last_name := .Params.last_name | default $fallback_last_name }}
+        {{ $sort_name := printf "%s %s" (lower (printf "%v" $last_name)) (lower .Title) }}
+        {{ $is_pinned := and (eq $group "Affiliated Faculty") (in $badges "Head of Lab") }}
+        {{ $people = $people | append (dict "page" . "sort_name" $sort_name "is_pinned" $is_pinned) }}
+      {{ end }}
+      {{ $people = sort $people "sort_name" $sort_order }}
+      {{ $ordered_people := slice }}
+      {{ range where $people "is_pinned" true }}
+        {{ $ordered_people = $ordered_people | append . }}
+      {{ end }}
+      {{ range where $people "is_pinned" false }}
+        {{ $ordered_people = $ordered_people | append . }}
+      {{ end }}
+      {{ $query = slice }}
+      {{ range $ordered_people }}
+        {{ $query = $query | append (index . "page") }}
+      {{ end }}
+    {{ else }}
+      {{ $query = sort $query $sort_by $sort_order }}
+    {{ end }}
 
     {{ if $query | and (gt (len $block.content.user_groups) 1) }}
       <div class="col-md-12">
-        <h2 class="mb-4">{{ . | markdownify }}</h2>
+        <h2 class="mb-4">{{ $group | markdownify }}</h2>
       </div>
     {{ end }}
 
@@ -96,6 +126,14 @@
 
         <div class="portrait-title">
           <h2>{{ with $link }}<a href="{{ . }}">{{ end }}{{ .Title }}{{ if $link }}</a>{{ end }}</h2>
+          {{ $badges := .Params.badges | default .Params.badge }}
+          {{ with $badges }}
+            <div class="people-badges" aria-label="Lab roles">
+              {{ range . }}
+                <span class="people-badge">{{ . | markdownify | emojify }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
           {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
           {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
           {{ if $show_social }}{{ partial "social_links" . }}{{ end }}

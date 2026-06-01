@@ -8,10 +8,13 @@ superuser: true
 
 role: Associate Professor in Psychology and Computer Science
 
+badges:
+  - Head of Lab
+
 
 
 user_groups:
-  - Principal Investigator
+  - Affiliated Faculty
 ---
 
 

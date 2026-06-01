@@ -47,6 +47,29 @@
   padding: 20px;
 }
 
+.people-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0.25rem;
+}
+
+.people-badge {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bfd7ed;
+  border-radius: 999px;
+  background: #f2f8fc;
+  color: #17435c;
+  padding: 0.18rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .custom-container {
   display: flex;
   align-items: center;
@@ -960,6 +983,13 @@ html.dark .media-resource-card {
   border-color: #334155;
   background: #111827;
   box-shadow: none;
+}
+
+.dark .people-badge,
+html.dark .people-badge {
+  border-color: #36647f;
+  background: rgba(52, 120, 201, 0.16);
+  color: #c7e4ff;
 }
 
 .dark .lab-editorial-header h1,

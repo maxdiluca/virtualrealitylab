@@ -29,7 +29,7 @@ sections:
 
         #### Supported student programmes
 
-        **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** supports structured summer research opportunities for undergraduate students interested in research experience, technical development and project work.
+        **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** supports structured summer research opportunities for undergraduate students interested in research experience, technical development and project work. See our [BSURE 2025 summer research group](/post/bsure-2025/) update for a recent example.
 
         **Research Volunteering Scheme in Psychology** supports Year 2 Psychology students who want to work as research assistants, including literature searching, ethics preparation, data collection and other research support activities.
 

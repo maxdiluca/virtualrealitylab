@@ -11,6 +11,8 @@ authors: Tarsem_Cooner
 # Role/position
 role: Professor of Social Work and Digital Media
 
+profile_url: "https://www.birmingham.ac.uk/staff/profiles/social-policy/cooner-tarsem-singh"
+
 # Organizations/Affiliations
 organizations:
   - name: University of Birmingham

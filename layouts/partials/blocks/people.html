@@ -105,9 +105,13 @@
 
       {{/* Get link to user's profile page only when it has useful profile information. */}}
       {{ $link := "" }}
-      {{ if $has_profile_content }}
-        {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
-          {{ $link = .RelPermalink }}
+      {{ with .Params.profile_url }}
+        {{ $link = . }}
+      {{ else }}
+        {{ if $has_profile_content }}
+          {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+            {{ $link = .RelPermalink }}
+          {{ end }}
         {{ end }}
       {{ end }}
 

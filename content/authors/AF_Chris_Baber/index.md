@@ -12,6 +12,8 @@ superuser: false
 # Role/position
 role: Chair of Pervasive and Ubiquitous Computing
 
+profile_url: "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/baber-chris"
+
 # Organizations/Affiliations
 organizations:
   - name: University of Birmingham

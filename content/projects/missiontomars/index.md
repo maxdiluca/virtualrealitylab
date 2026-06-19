@@ -5,7 +5,7 @@ date: 2021-04-11
 summary: ""
 draft: false
 featured: false
-authors: [Tahani_Baldwin,Diar_Karim,Max_Di_Luca]
+authors: [Tahani_Baldwin, R_Diar_Karim, Max_Di_Luca]
 external_link: https://sidequestvr.com/app/5246/mission-to-mars-scientific-experiment
 image:
   filename:
@@ -13,4 +13,4 @@ image:
   preview_only: true
 ---
 
-VR experience where participants will perform a Mars exploration tasks. The app is intended to explore how different personalities navigate and respond to challenges in extreme environments. 
+VR experience where participants will perform a Mars exploration tasks. The app is intended to explore how different personalities navigate and respond to challenges in extreme environments.

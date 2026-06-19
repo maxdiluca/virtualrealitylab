@@ -5,7 +5,7 @@ date: 2021-04-11
 summary: ""
 draft: false
 featured: false
-authors: [Diar_Karim, Max_Di_Luca]
+authors: [R_Diar_Karim, Max_Di_Luca]
 external_link: https://apps.apple.com/au/app/tactile/id1506325116
 image:
   filename:

@@ -33,4 +33,4 @@ user_groups:
   - Interns
 ---
 
-Marci Talbot is listed as a BSURE intern in the VR Lab, supervised by Massimiliano Di Luca. The listed project area is ARME audiovisual recording.
+Marci Talbot is a BSURE intern in the VR Lab, supervised by Massimiliano Di Luca. The project area is ARME audiovisual recording.

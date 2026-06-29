@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Dwayne Wright is listed as an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is XR and generative AI, with the source sheet listing the project title **Authoring by Exploring: Populating Interactive Behaviors Through User Navigation in VR**.
+Dwayne Wright is an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is XR and generative AI, and his project title is **Authoring by Exploring: Populating Interactive Behaviors Through User Navigation in VR**.

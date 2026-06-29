@@ -14,4 +14,4 @@ user_groups:
   - Project Students
 ---
 
-Akbar Juraev is listed as a first-year student in the VR Lab, supervised by Eyal Ofek and Daniele Giunchi. Project details are to be confirmed.
+Akbar Juraev is a first-year student in the VR Lab, supervised by Eyal Ofek and Daniele Giunchi.

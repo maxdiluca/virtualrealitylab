@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Pragadheeswaran Ganapathy is listed as an MSc student in the VR Lab, supervised by Eyal Ofek. His project area is XR, graphics and HCI, with the source sheet listing the project title **Gaussian splting for VR**.
+Pragadheeswaran Ganapathy is an MSc student in the VR Lab, supervised by Eyal Ofek. His project area is XR, graphics and HCI, and his project title is **Gaussian splatting for VR**.

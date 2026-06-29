@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Jasmin Kamal-Deen Gbontaa is listed as an MSc student in the VR Lab, supervised by Eyal Ofek. The listed project area is XR and HCI, with the project title **Haptic Belt 2.0**.
+Jasmin Kamal-Deen Gbontaa is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is XR and HCI, and the project title is **Haptic Belt 2.0**.

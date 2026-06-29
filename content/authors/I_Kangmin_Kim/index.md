@@ -32,4 +32,4 @@ user_groups:
   - Interns
 ---
 
-Kangmin Kim is listed as an intern in the VR Lab, supervised by Eyal Ofek. The source sheet lists the project area as an internship; project details are to be confirmed.
+Kangmin Kim is an intern in the VR Lab, supervised by Eyal Ofek.

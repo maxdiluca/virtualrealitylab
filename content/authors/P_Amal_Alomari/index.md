@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Amal Alomari is listed as an MSc student in the VR Lab, supervised by Daniele Giunchi. Her project area is XR and generative AI, with the project title **Explaining AI Errors in VR Authoring**.
+Amal Alomari is an MSc student in the VR Lab, supervised by Daniele Giunchi. Her project area is XR and generative AI, and her project title is **Explaining AI Errors in VR Authoring**.

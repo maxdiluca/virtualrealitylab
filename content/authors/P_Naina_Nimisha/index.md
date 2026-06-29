@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Naina Nimisha is listed as an MSc student associated with a VR Lab project, supervised by Peter Tino. Her project area is XR and generative AI, with the project title **VisualDreamcodeVR: Visual Feedback for Advanced Authoring tool**.
+Naina Nimisha is an MSc student associated with a VR Lab project, supervised by Peter Tino. Her project area is XR and generative AI, and her project title is **VisualDreamcodeVR: Visual Feedback for Advanced Authoring tool**.

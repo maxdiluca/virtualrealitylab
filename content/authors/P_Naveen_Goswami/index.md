@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Naveen Goswami is listed as an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is XR and generative AI, with the project title **AI-assisted UX design for immersive analytics environments**.
+Naveen Goswami is an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is XR and generative AI, and his project title is **AI-assisted UX design for immersive analytics environments**.

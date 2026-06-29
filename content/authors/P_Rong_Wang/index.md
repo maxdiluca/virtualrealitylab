@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Rong Wang is listed as an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is XR, rehabilitation and HCI, with the project title **VR setup for Stroke Patient Rehabilitation**.
+Rong Wang is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is XR, rehabilitation and HCI, and the project title is **VR setup for Stroke Patient Rehabilitation**.

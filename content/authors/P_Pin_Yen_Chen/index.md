@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Pin Yen Chen is listed as an MSc student in the VR Lab, supervised by Eyal Ofek. The source sheet lists the project area as vision and HCI, with the project title **Activity Recognition**.
+Pin Yen Chen is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is vision and HCI, and the project title is **Activity Recognition**.

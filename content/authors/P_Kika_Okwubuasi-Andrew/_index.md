@@ -73,7 +73,7 @@ user_groups:
   - Project Students
 ---
 
-Kika Okwubuasi-Andrew is an MSc Cognitive Neuroimaging and Data Science student in the VR Lab, supervised by Massimiliano Di Luca. Her listed project area is the ARME user study.
+Kika Okwubuasi-Andrew is an MSc Cognitive Neuroimaging and Data Science student in the VR Lab, supervised by Massimiliano Di Luca. Her project area is the ARME user study.
 
 <!-- **Youngbin Park** is a final-year undergraduate student in Artificial Intelligence and Computer Science at the University of Birmingham and a member of the [VRLab](https://virtualrealitylab.netlify.app/). His work focuses on Virtual Reality and Human–Computer Interaction, with a particular interest in how information presentation affects user decision-making in immersive environments. His Final Year Project explores information overlays and preview mechanisms for VR portal-based navigation.
 

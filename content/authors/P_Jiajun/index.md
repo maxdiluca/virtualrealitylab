@@ -15,4 +15,4 @@ user_groups:
   - Project Students
 ---
 
-Jiajun is listed as an MSc student in the VR Lab, supervised by Eyal Ofek. The listed project area is XR and HCI, with the project title **3D modeling using the Haptic Pen**.
+Jiajun is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is XR and HCI, and the project title is **3D modeling using the Haptic Pen**.

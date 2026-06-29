@@ -34,7 +34,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Volunteer Research Assistants
+  - Alumni Research Assistants
 ---
 
 Daniel Clark is a University of Birmingham alumnus and volunteer research assistant with experience across robotics, product design, hardware and software systems. His work includes design engineering experience with DCA Design International and long-running involvement in the AberSailbot autonomous sailing robot project.

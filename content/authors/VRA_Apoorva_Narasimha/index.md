@@ -35,7 +35,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Volunteer Research Assistants
+  - Alumni Research Assistants
 ---
 
 Apoorva Narasimha is a UX designer with a background in Computer Science and Human-Computer Interaction. Her work includes MorphMind, a Smart MorpheesPlug toolkit project integrating motion capture and machine learning for advanced shape-changing interface prototyping.

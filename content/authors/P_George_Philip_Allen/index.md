@@ -30,3 +30,5 @@ social:
 user_groups:
   - Project Students
 ---
+
+George Philip Allen is listed as an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is music generation for virtual reality, with the project title **Themes blending for VR**.

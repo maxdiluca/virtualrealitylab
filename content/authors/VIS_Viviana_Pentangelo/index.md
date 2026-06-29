@@ -43,7 +43,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Visitors
+  - Alumni Interns
 ---
 
 Viviana Pentangelo is a PhD student in Computer Science at the University of Salerno and a visitor to the VR Lab. Her work focuses on metaverse engineering, metaverse systems for e-health, educational metaverse design, machine learning and 3D environment generation.

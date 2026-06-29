@@ -40,7 +40,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Visitors
+  - Alumni Interns
 ---
 
 Mengting Lai is a PhD student in the Department of the Arts at the University of Bologna and a visitor to the VR Lab. Her research explores human-computer interaction and the effects of scent on work performance in virtual reality environments.

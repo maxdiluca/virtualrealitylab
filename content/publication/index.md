@@ -42,6 +42,8 @@ sections:
 
         - A. Bhatia, M. H. Mughrabi, **[D. Abdlkarim](/author/diar-karim/)**, **[M. Di Luca](/author/max-di-luca/)**, M. Gonzalez-Franco, K. Ahuja, and H. Seifi. Text Entry for XR Trove (TEXT): Collecting and Analyzing Techniques for Text Input in XR. *CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*, 2025. [DOI](https://doi.org/10.1145/3706598.3713382)
 
+        - D. S. Fraser, **[M. Di Luca](/author/max-di-luca/)**, and J. L. Cook. Biological kinematics: a detailed review of the velocity-curvature power law calculation. *Experimental Brain Research*, 243(5), Article 107, 2025. [DOI](https://doi.org/10.1007/s00221-025-07065-0)
+
         - Y. Chang, J. Chen, **[Y. Lin](/author/yilong-lin/)**, X. Zhang, and S. Je. HapticWings: Enhancing the Experience of Extra Wing Motions in Virtual Reality through Dynamic 2D Weight Shifting. *DIS '25: Proceedings of the 2025 ACM Designing Interactive Systems Conference*, 2025. [DOI](https://doi.org/10.1145/3715336.3735755)
 
         - E. Gatti, **[D. Giunchi](/author/daniele-giunchi/)**, N. Numan, and A. Steed. Around the Virtual Campfire: Early UX Insights into AI-Generated Stories in VR. *2025 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)*, 136-141, 2025. [DOI](https://doi.org/10.1109/AIxVR63409.2025.00027)

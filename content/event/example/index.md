@@ -1,9 +1,13 @@
 ---
-title: Example Event Designing Inclusive AR Storytelling for All Learners
+title: Draft Event Template
 draft: true
+build:
+  render: never
+  list: never
+  publishResources: false
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: Draft Event
+event_url: ""
 
 location: 52 Pritchatts Road
 address:
@@ -13,8 +17,8 @@ address:
   postcode: B15 2TT
   country: United Kingdom
 
-summary: An example event.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Draft event template.
+abstract: "Draft event template."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -53,10 +57,4 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including page elements such as image galleries, can be added to the body of this page.
+This draft event template is not published.

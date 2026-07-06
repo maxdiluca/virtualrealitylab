@@ -20,6 +20,8 @@ sections:
 
         - **[Y. Lin](/author/yilong-lin/)**, M. Han, W. Jiang, S. Je, and I. Oakley. GazeZoom: Exploration of Gaze-Assisted Multimodal Techniques for Panning and Zooming. *CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*, Article 673, 2026. [DOI](https://doi.org/10.1145/3772318.3790749)
 
+        - H. Ai, W. Chang, J. Jiao, A. Leonardis, and **[E. Ofek](/author/eyal-ofek/)**. Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement. *CoRR*, abs/2603.02910, 2026. [DOI](https://doi.org/10.48550/arXiv.2603.02910)
+
         - H. Yi, M. J. Kim, S. Je, S. Oh, S. Takashita, H. Zhou, M. Muehlhaus, **[E. Ofek](/author/eyal-ofek/)**, and A. Bianchi. Augmented Body Parts: Bridging VR Embodiment and Wearable Robotics. *CHI EA '26: Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems*, Article 923, 2026. [DOI](https://doi.org/10.1145/3772363.3778688)
 
         - J. Wen, **[D. Giunchi](/author/daniele-giunchi/)**, P. Cascarano, R. Bovo, **[E. Ofek](/author/eyal-ofek/)**, and A. J. Steed. Tuning Immersion and Performance with Adaptive Generative Music in VR. *IEEE Transactions on Visualization and Computer Graphics*, 2026. [DOI](https://doi.org/10.1109/TVCG.2026.3679907)
@@ -35,6 +37,8 @@ sections:
         - **[Y. Lin](/author/yilong-lin/)**, H. Shi, W. Jiang, X. Zhang, H.-Y. Jo, Y. Kim, and S. Je. Designing Hand and Forearm Gestures to Control Virtual Forearm for User-Initiated Forearm Deformation. *IEEE Transactions on Visualization and Computer Graphics*, 31(11), 10066-10079, 2025. [DOI](https://doi.org/10.1109/TVCG.2025.3616825)
 
         - S. Hauck, **[D. Abdlkarim](/author/diar-karim/)**, J. Dudley, P. O. Kristensson, **[E. Ofek](/author/eyal-ofek/)**, and J. Grubert. ReachVox: clutter-free reachability visualization for robot motion planning in virtual reality. *IEEE International Symposium on Mixed and Augmented Reality (ISMAR)*, 2025. [DOI](https://doi.org/10.1109/ISMAR67309.2025.00151)
+
+        - S. M. Yusuf, **[C. Baber](/author/chris-baber/)**, and **[E. Ofek](/author/eyal-ofek/)**. Handling Uncertainty in UAV Sensor Information using Bayesian Belief Network and Large Language Model. *Drones and Unmanned Systems*, 58, 2025. [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UvirJPEAAAAJ&sortby=pubdate&citation_for_view=UvirJPEAAAAJ:rCNdntzdTkkC)
 
         - A. Bhatia, M. H. Mughrabi, **[D. Abdlkarim](/author/diar-karim/)**, **[M. Di Luca](/author/max-di-luca/)**, M. Gonzalez-Franco, K. Ahuja, and H. Seifi. Text Entry for XR Trove (TEXT): Collecting and Analyzing Techniques for Text Input in XR. *CHI '25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*, 2025. [DOI](https://doi.org/10.1145/3706598.3713382)
 

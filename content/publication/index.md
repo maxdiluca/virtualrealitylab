@@ -1,6 +1,6 @@
 ---
 title: Publications
-date: 2026-04-28
+date: 2026-08-04
 
 type: landing
 
@@ -17,6 +17,12 @@ sections:
         This list focuses on recent publications from 2025 onwards. It is intended as a readable snapshot of the lab's current XR research activity rather than a complete academic bibliography.
 
         ## 2026
+
+        - **[M. M. Rapata](/author/maisy-rapata/)**, **[J. Tang](/author/jiaqi-tang/)**, M. Eslami, **[D. Giunchi](/author/daniele-giunchi/)**, **[M. Di Luca](/author/max-di-luca/)**, P. O. Kristensson, and **[E. Ofek](/author/eyal-ofek/)**. Implicit Gaze+Slide: Discrete and Low-Effort Typing for MR Using Gaze-Based Prediction and Finger Motion Refinement. *SUI '26: Proceedings of the 14th ACM Symposium on Spatial User Interaction*, forthcoming, 2026. [Publication record](https://pokristensson.com/publications.html) · [Research blog](/blog/implicit-gaze-slide/)
+
+        - J. Grubert, J. Dudley, **[E. Ofek](/author/eyal-ofek/)**, and P. O. Kristensson. Extended Reality as a Mediation Layer for Situated Human Control in Human-Robot Teaming. *arXiv preprint arXiv:2607.25047*, 2026. [DOI](https://doi.org/10.48550/arXiv.2607.25047)
+
+        - **[Y. Lin](/author/yilong-lin/)**, T. Xie, Y. Ma, **[D. Giunchi](/author/daniele-giunchi/)**, M. J. Sinclair, S. Je, and **[E. Ofek](/author/eyal-ofek/)**. GroundedReach: Enabling Body-grounded Haptic Experience in Virtual Reality with an Elbow Wearable Haptic Device. *IEEE Transactions on Visualization and Computer Graphics*, accepted/in press, 2026. [Pure](https://research.birmingham.ac.uk/en/publications/groundedreach-enabling-body-grounded-haptic-experience-in-virtual/)
 
         - **[Y. Lin](/author/yilong-lin/)**, M. Han, W. Jiang, S. Je, and I. Oakley. GazeZoom: Exploration of Gaze-Assisted Multimodal Techniques for Panning and Zooming. *CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*, Article 673, 2026. [DOI](https://doi.org/10.1145/3772318.3790749)
 

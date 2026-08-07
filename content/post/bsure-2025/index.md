@@ -1,6 +1,6 @@
 ---
 title: BSURE 2025 summer research group
-date: 2025-08-15T15:41:44+01:00
+date: 2025-09-15T15:41:44+01:00
 draft: false
 featured: false
 image:

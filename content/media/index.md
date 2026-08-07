@@ -14,6 +14,7 @@ sections:
           <p>Follow the lab's latest research updates, event activity, public stories and snapshots from workshops, demonstrations and visits.</p>
           <div class="media-hub-links">
             <a href="#updates">Latest updates</a>
+            <a href="/blog/">Blog archive</a>
             <a href="#events">Events</a>
             <a href="#gallery">Photo gallery</a>
             <a href="#resources">Resources</a>
@@ -30,7 +31,8 @@ sections:
       sections:
         - post
         - blog
-      archive_link:
+      archive_link: /blog/
+      archive_text: Browse all blog posts
     design:
       css_class: media-updates
 

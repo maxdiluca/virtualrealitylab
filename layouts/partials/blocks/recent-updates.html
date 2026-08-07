@@ -10,28 +10,12 @@
 {{ $sectionNames := $content.sections | default (slice "post" "blog") }}
 {{ $archiveLink := $content.archive_link }}
 {{ $archiveText := $content.archive_text | default "View all updates" }}
-{{ $sections := slice }}
 {{ $updates := slice }}
-{{ $maxItems := 0 }}
 {{ range $sectionName := $sectionNames }}
   {{ $pages := where site.RegularPages "Section" $sectionName }}
-  {{ $pages = sort $pages "Date" "desc" }}
-  {{ $sections = $sections | append (dict "name" $sectionName "pages" $pages) }}
-  {{ if gt (len $pages) $maxItems }}
-    {{ $maxItems = len $pages }}
-  {{ end }}
+  {{ $updates = $updates | append $pages }}
 {{ end }}
-{{ if gt $maxItems 0 }}
-  {{ range $i := seq $maxItems }}
-    {{ $index := sub $i 1 }}
-    {{ range $section := $sections }}
-      {{ $pages := index $section "pages" }}
-      {{ if lt $index (len $pages) }}
-        {{ $updates = $updates | append (index $pages $index) }}
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ $updates = sort $updates "Date" "desc" }}
 {{ $sectionLabels := dict "post" "News" "blog" "Blog" "event" "Event" }}
 {{ $fallbackImage := resources.Get "media/welcome.jpg" }}
 

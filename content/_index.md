@@ -61,8 +61,8 @@ sections:
     content:
       subtitle: Talks, press releases, blogs and project updates from across the lab.
       count: 6
-      archive_link: /post/
-      archive_text: View all news
+      archive_link: /media/
+      archive_text: View all updates
 
   - block: markdown
     content:

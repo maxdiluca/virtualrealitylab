@@ -9,3 +9,5 @@ header:
   caption: ""
   image: ""
 ---
+
+Research stories from across the VR Lab. New posts are added to this archive while earlier articles remain available, creating a growing record of the lab's work.

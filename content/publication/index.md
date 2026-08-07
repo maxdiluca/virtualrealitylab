@@ -1,6 +1,6 @@
 ---
 title: Publications
-date: 2026-08-04
+date: 2026-08-07
 
 type: landing
 
@@ -17,6 +17,8 @@ sections:
         This list focuses on recent publications from 2025 onwards. It is intended as a readable snapshot of the lab's current XR research activity rather than a complete academic bibliography.
 
         ## 2026
+
+        - **[M. S. Li](/author/min-susan-li/)** and **[M. Di Luca](/author/max-di-luca/)**. Temporal sensitivity and perceived timing in unimodal and crossmodal isochronous sequences. *Experimental Brain Research*, 244, Article 173, 2026. [DOI](https://doi.org/10.1007/s00221-026-07371-1)
 
         - **[M. M. Rapata](/author/maisy-rapata/)**, **[J. Tang](/author/jiaqi-tang/)**, M. Eslami, **[D. Giunchi](/author/daniele-giunchi/)**, **[M. Di Luca](/author/max-di-luca/)**, P. O. Kristensson, and **[E. Ofek](/author/eyal-ofek/)**. Implicit Gaze+Slide: Discrete and Low-Effort Typing for MR Using Gaze-Based Prediction and Finger Motion Refinement. *SUI '26: Proceedings of the 14th ACM Symposium on Spatial User Interaction*, forthcoming, 2026. [Publication record](https://pokristensson.com/publications.html) · [Research blog](/blog/implicit-gaze-slide/)
 

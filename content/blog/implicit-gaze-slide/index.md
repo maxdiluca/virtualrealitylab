@@ -1,6 +1,6 @@
 ---
 title: "Typing without anyone knowing you're typing"
-date: 2026-08-04
+date: 2026-06-04
 draft: false
 featured: true
 authors: [AF_Eyal_Ofec]
@@ -14,7 +14,7 @@ image:
 <article class="lab-blog-article">
   <header class="lab-blog-article-header">
     <p class="lab-blog-author">Prof. Eyal Ofek</p>
-    <p class="lab-blog-affiliation">University of Birmingham, UK · August 2026</p>
+    <p class="lab-blog-affiliation">University of Birmingham, UK · June 2026</p>
   </header>
 
   <p>Text entry remains difficult on smart glasses and mixed-reality headsets. Speech is conspicuous and may disclose private content, while mid-air keyboards and pinch gestures can attract attention and become tiring. A new technique developed by researchers at the Universities of Birmingham and Cambridge explores a more discreet alternative.</p>

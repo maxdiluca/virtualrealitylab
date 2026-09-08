@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Shatha Alkahtani
+graduation_year: 2024
+# Graduation year follows the Birmingham BSc education entry below.
 
 # Username (this should match the folder name)
 authors:

@@ -40,6 +40,7 @@ sections:
   - block: people
     content:
       title: Alumni
+      group_project_students_by_graduation_year: true
       user_groups:
         - Alumni Researchers
         - Alumni Research Assistants

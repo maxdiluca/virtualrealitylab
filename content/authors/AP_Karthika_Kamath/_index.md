@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Karthika Kamath
+graduation_year: 2024
+# Graduation year follows the Birmingham MSc education entry below.
 
 # Username (this should match the folder name)
 authors:

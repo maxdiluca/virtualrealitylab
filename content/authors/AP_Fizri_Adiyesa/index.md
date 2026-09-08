@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Fizri Adiyesa
+graduation_year: 2025
+graduation_year_source: https://id.linkedin.com/in/fizri-adiyesa
 
 # Username (this should match the folder name)
 authors:

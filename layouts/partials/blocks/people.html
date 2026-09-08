@@ -69,7 +69,43 @@
       </div>
     {{ end }}
 
-    {{ range $query }}
+    {{/* Use explicitly recorded graduation years, never access or profile dates. */}}
+    {{ $group_by_year := and (eq $group "Alumni Project Students") ($block.content.group_project_students_by_graduation_year | default false) }}
+    {{ $cohorts := slice (dict "year" "" "people" $query) }}
+    {{ if $group_by_year }}
+      {{ $years := slice }}
+      {{ $dated_people := slice }}
+      {{ $undated_people := slice }}
+      {{ range $query }}
+        {{ $year := printf "%v" (.Params.graduation_year | default "") }}
+        {{ if findRE `^[0-9]{4}$` $year }}
+          {{ $years = $years | append $year }}
+          {{ $dated_people = $dated_people | append (dict "year" $year "page" .) }}
+        {{ else }}
+          {{ $undated_people = $undated_people | append . }}
+        {{ end }}
+      {{ end }}
+      {{ $cohorts = slice }}
+      {{ range sort (uniq $years) "value" "desc" }}
+        {{ $year := . }}
+        {{ $members := slice }}
+        {{ range where $dated_people "year" $year }}
+          {{ $members = $members | append .page }}
+        {{ end }}
+        {{ $cohorts = $cohorts | append (dict "year" $year "people" $members) }}
+      {{ end }}
+      {{ with $undated_people }}
+        {{ $cohorts = $cohorts | append (dict "year" "unknown" "people" .) }}
+      {{ end }}
+    {{ end }}
+
+    {{ range $cohorts }}
+      {{ if $group_by_year }}
+        <div class="col-12" data-graduation-year="{{ .year }}">
+          <h3 class="mt-3 mb-4">{{ if eq .year "unknown" }}Graduation year not recorded{{ else }}{{ .year }} graduates{{ end }}</h3>
+        </div>
+      {{ end }}
+    {{ range .people }}
       {{ $avatar := (.Resources.ByType "image").GetMatch "avatar.*" }}
       {{ if not $avatar }}
         {{ $avatar = (.Resources.ByType "image").GetMatch "Avatar.*" }}
@@ -144,6 +180,7 @@
           {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
         </div>
       </div>
+    {{ end }}
     {{ end }}
   {{ end }}
 </div>

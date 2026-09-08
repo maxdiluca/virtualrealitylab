@@ -1,6 +1,8 @@
 ---
 # Display name
 title: Youngbin Park
+graduation_year: 2026
+graduation_year_source: https://uk.linkedin.com/in/youngbin-park-sk
 
 # Is this the primary user of the site?
 superuser: false
@@ -34,7 +36,7 @@ education:
   courses:
     - course: BSc Artificial Intelligence & Computer Science
       institution: University of Birmingham
-      year: 2021 - 2024
+      year: 2021 - 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -73,6 +75,6 @@ user_groups:
   - Alumni Project Students
 ---
 
-**Youngbin Park** is a final-year undergraduate student in Artificial Intelligence and Computer Science at the University of Birmingham and a member of the [VRLab](https://virtualrealitylab.netlify.app/). His work focuses on Virtual Reality and Human–Computer Interaction, with a particular interest in how information presentation affects user decision-making in immersive environments. His Final Year Project explores information overlays and preview mechanisms for VR portal-based navigation.
+**Youngbin Park** is a graduate in Artificial Intelligence and Computer Science from the University of Birmingham and a member of the [VRLab](https://virtualrealitylab.netlify.app/). His work focuses on Virtual Reality and Human–Computer Interaction, with a particular interest in how information presentation affects user decision-making in immersive environments. His final-year project explored information overlays and preview mechanisms for VR portal-based navigation.
 
 Contact: **Yxp104@student.bham.ac.uk**

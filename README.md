@@ -14,8 +14,3 @@ This website is using the _Research Group Template_ from Hugo Blox, the followin
 The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
 To run this within terminal do: `hugo server -D`
-
-Alumni project students on the People page are grouped by `graduation_year` in their
-author profile front matter, newest first. Record the year of the degree associated
-with their lab project, and retain a source in `graduation_year_source` when available.
-Omit the year until confirmed; these profiles appear under “Graduation year not recorded”.

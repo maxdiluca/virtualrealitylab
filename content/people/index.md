@@ -23,9 +23,8 @@ sections:
         - PhD Students
         - Research Assistants
         - Volunteer Research Assistants
-        - Project Students
-
         - Interns
+        - Project Students
         - Visitors
         
 
@@ -44,8 +43,8 @@ sections:
       user_groups:
         - Alumni Researchers
         - Alumni Research Assistants
-        - Alumni Project Students
         - Alumni Interns
+        - Alumni Project Students
       sort_by: Params.last_name
       sort_ascending: true
     design:

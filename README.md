@@ -1,6 +1,5 @@
 # [Virtual Reality Lab Webpage](https://virtualrealitylab.netlify.app)
 
-
 **N.B. To modify content on the website, please refer to the VR Lab [SharePoint page](https://bham.sharepoint.com/sites/LES-PSY-VRLab/SitePages/Webpage.aspx).**
 
 Site maintenance webpage: [https://virtualrealitylab.netlify.app/site_maintenance/](https://virtualrealitylab.netlify.app/site_maintenance/)

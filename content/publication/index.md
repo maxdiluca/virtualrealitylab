@@ -24,7 +24,7 @@ sections:
 
         - J. Grubert, J. Dudley, **[E. Ofek](/author/eyal-ofek/)**, and P. O. Kristensson. Extended Reality as a Mediation Layer for Situated Human Control in Human-Robot Teaming. *arXiv preprint arXiv:2607.25047*, 2026. [DOI](https://doi.org/10.48550/arXiv.2607.25047)
 
-        - **[Y. Lin](/author/yilong-lin/)**, T. Xie, Y. Ma, **[D. Giunchi](/author/daniele-giunchi/)**, M. J. Sinclair, S. Je, and **[E. Ofek](/author/eyal-ofek/)**. GroundedReach: Enabling Body-grounded Haptic Experience in Virtual Reality with an Elbow Wearable Haptic Device. *IEEE Transactions on Visualization and Computer Graphics*, accepted/in press, 2026. [Pure](https://research.birmingham.ac.uk/en/publications/groundedreach-enabling-body-grounded-haptic-experience-in-virtual/)
+        - **[Y. Lin](/author/yilong-lin/)**, T. Xie, Y. Ma, **[D. Giunchi](/author/daniele-giunchi/)**, M. J. Sinclair, S. Je, and **[E. Ofek](/author/eyal-ofek/)**. GroundedReach: Enabling Body-grounded Haptic Experience in Virtual Reality with an Elbow Wearable Haptic Device. *IEEE Transactions on Visualization and Computer Graphics*, accepted/in press, 2026. [Pure](https://research.birmingham.ac.uk/en/publications/groundedreach-enabling-body-grounded-haptic-experience-in-virtual/) · [Research blog](/blog/grounded-reach/)
 
         - **[Y. Lin](/author/yilong-lin/)**, M. Han, W. Jiang, S. Je, and I. Oakley. GazeZoom: Exploration of Gaze-Assisted Multimodal Techniques for Panning and Zooming. *CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems*, Article 673, 2026. [DOI](https://doi.org/10.1145/3772318.3790749)
 

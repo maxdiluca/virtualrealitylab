@@ -20,6 +20,12 @@
   [plugins.inputs]
     debug = true
 
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
+  [plugins.inputs]
+    # Google verification files contain plain text, not HTML documents.
+    fileFilter = ["*.html", "!google469d02072284da16.html", "!googleb54ae49de8628b96.html"]
+
 [[redirects]]
   from = "/author/pi_max_di_luca"
   to = "https://massimilianodiluca.info"

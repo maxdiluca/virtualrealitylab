@@ -113,11 +113,14 @@ Publication remains a separate owner-reviewed merge followed by a check of the
 deployed page and selected image. Never broaden the sender or field allowlists
 to work around a withheld submission.
 
-Full-site validation on 2 October 2026 reached an existing build blocker at
-website base `f7be0695c2061e249deee020167778fed5e55ca0`: the pinned
-`blox-seo` module places a sitemap in the render-hook directory. A private
-configuration-only remount removed that warning, but the same strict baseline
-then stopped on deprecated `_build` front matter and four existing duplicate
-author routes. The configuration experiment is not included in this package.
-The synthetic proposal build has not passed; resolve the existing site issues
-under website-owner review before the pilot. Keep the warning gate enabled.
+Full-site validation on 2 October 2026 passed against website base
+`f7be0695c2061e249deee020167778fed5e55ca0` plus the three proposed site repairs:
+mount the pinned `blox-seo` sitemap at its proper layout path, replace deprecated
+maintenance-page build options, and stop four generated taxonomy terms from
+rendering over their existing file-backed profiles. The existing canonical
+author URLs are retained. The actual receiver's strict baseline and synthetic
+proposal builds passed with no warnings; author HTML routes changed from 141
+to 142, adding only `/author/synthetic-member/`. No warning gate was relaxed.
+These repairs remain a code proposal until the website owner reviews and merges
+the pull request. Local build success does not establish cloud execution,
+profile consent or deployment.

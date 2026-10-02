@@ -62,3 +62,31 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Keep the existing file-backed profiles as the sole rendered owners of these
+# author URLs. These verified generated terms retain canonical links.
+cascade:
+- _target:
+    kind: term
+    path: /authors/william-smith
+  build:
+    render: link
+    list: never
+- _target:
+    kind: term
+    path: /authors/kika-okwubuasi-andrew
+  build:
+    render: link
+    list: never
+- _target:
+    kind: term
+    path: /authors/youngbin-park
+  build:
+    render: link
+    list: never
+- _target:
+    kind: term
+    path: /authors/melissa-mira-zulle
+  build:
+    render: link
+    list: never

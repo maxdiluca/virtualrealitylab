@@ -106,8 +106,10 @@ class Expression:
             "uriComponent": lambda a: quote(a, safe="-_.!~*'()"),
             "substring": lambda a, start, size: a[start:start + size],
             "concat": lambda *a: "".join(a), "split": lambda a, b: a.split(b),
-            "first": lambda a: a[0], "toLower": str.lower, "trim": str.strip,
-            "startsWith": str.startswith, "endsWith": str.endswith,
+            "first": lambda a: a[0], "last": lambda a: a[-1],
+            "toLower": str.lower, "trim": str.strip,
+            "startsWith": lambda a, b: a.lower().startswith(b.lower()),
+            "endsWith": lambda a, b: a.lower().endswith(b.lower()),
             "coalesce": lambda *a: next((v for v in a if v is not None), None),
             "string": lambda a: a if isinstance(a, str) else json.dumps(a, separators=(",", ":"), ensure_ascii=False),
             "base64": lambda a: base64.b64encode(a.encode("utf-8")).decode(),
@@ -171,6 +173,19 @@ class TemplateTests(unittest.TestCase):
             self.assertFalse(self.boundaries(submission=submission))
         for key in ("SubjectConsentVerified", "ImageConsentVerified", "DispatchIntentReserved"):
             self.assertFalse(self.boundaries(**{key: False}))
+
+    def test_extension_allowlist_with_actual_wdl_case_semantics(self):
+        # WDL startsWith/endsWith ignore case; contains uses exact case.
+        self.assertTrue(Expression("@endsWith('photo.PNG','.png')").evaluate())
+        self.assertTrue(Expression("@startsWith('HTTPS://example.invalid','https://')").evaluate())
+        self.assertFalse(Expression("@contains(json('[\"png\",\"jpg\",\"jpeg\"]'),'PNG')").evaluate())
+        for avatar in ("photo.PNG", "photo.Png", "photo.JPG", "photo.JpG", "photo.JPEG", "photo.JpeG"):
+            with self.subTest(avatar=avatar):
+                self.assertFalse(self.boundaries(avatar=avatar))
+        for avatar in ("PHOTO.png", "PHOTO.jpg", "PHOTO.jpeg"):
+            self.assertTrue(self.boundaries(avatar=avatar))
+        for avatar in ("photo.pngx", "photo.jpgx", "photo.jpegx", "photo.png.exe", "photo..png"):
+            self.assertFalse(self.boundaries(avatar=avatar))
 
     def test_named_gets_only_and_connection_aliases(self):
         connectors = [(n, a) for n, a in all_actions(ROOT) if a["type"].startswith("OpenApiConnection")]
@@ -241,7 +256,11 @@ class TemplateTests(unittest.TestCase):
         self.assertTrue(Expression(gate, parameters=config, bodies={"Approval": approved}).evaluate())
         for bad in ({"outcome": "Reject", "responses": approved["responses"]},
                     {"outcome": "Approve", "responses": [{"approverResponse": "Approve", "responder": {"email": "other@example.invalid"}}]},
-                    {"outcome": "Approve", "responses": [{"approverResponse": "Approve", "responder": {}}]}):
+                    {"outcome": "Approve", "responses": [{"approverResponse": "Approve", "responder": {}}]},
+                    {"outcome": "Approve", "responses": approved["responses"] * 2},
+                    {"outcome": "Approve", "responses": []},
+                    {"outcome": "Approve", "responses": None},
+                    {"outcome": "Approve"}, {}):
             self.assertFalse(Expression(gate, parameters=config, bodies={"Approval": bad}).evaluate())
         stable = {"Markdown_snapshot_base64": "bWFya2Rvd24=", "Avatar_snapshot_base64": "aW1hZ2U="}
         bodies = {"Reread_markdown": {"$content": stable["Markdown_snapshot_base64"]},

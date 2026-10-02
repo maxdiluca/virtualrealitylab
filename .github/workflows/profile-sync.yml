@@ -4,9 +4,7 @@ name: Approved website profile proposal
   repository_dispatch:
     types: [vr-lab-profile-approved-v1]
   pull_request:
-    paths:
-      - scripts/profile_sync/**
-      - .github/workflows/profile-sync.yml
+    branches: [main]
   workflow_dispatch: {}
 
 permissions: {}
@@ -30,6 +28,8 @@ jobs:
         run: python -B -m unittest discover -s scripts/profile_sync -p 'test_profile_sync.py' -v
       - name: Validate disabled Power Automate definition
         run: python -B scripts/profile_sync/powerautomate/test_powerautomate_template.py
+      - name: Validate disabled Microsoft-only manual handoff
+        run: python -B scripts/profile_sync/powerautomate/test_powerautomate_manual_handoff.py
 
   propose-profile:
     needs: synthetic-tests

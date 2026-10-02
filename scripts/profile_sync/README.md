@@ -6,6 +6,13 @@ Status: staged implementation, disabled by default. This package is designed for
 code or passing tests does not approve publication, connect Power Automate, or
 establish a live service.
 
+A separate [Microsoft-only manual-handoff option](powerautomate/manual-handoff.md)
+keeps GitHub upload as an operator task. It preserves frozen approval snapshots
+and stops at `approved-awaiting-manual-validation`; its cloud actions and optional
+handoff mail remain disabled. The local recipe validates both downloaded files
+and runs the receiver's strict private Hugo preview before any public upload.
+Native installation and a separately authorized synthetic pilot are pending.
+
 Deploy this directory's Python, requirements, tests, fixtures, README and
 `powerautomate/` instructions under `scripts/profile_sync/` in the website
 repository. Deploy `profile-sync.yml` as `.github/workflows/profile-sync.yml`.
@@ -16,6 +23,8 @@ Use CPython 3.12 and the pinned dependencies:
 ```bash
 python -m pip install -r scripts/profile_sync/requirements.txt
 python -B -m unittest discover -s scripts/profile_sync -p 'test_profile_sync.py' -v
+python -B scripts/profile_sync/powerautomate/test_powerautomate_template.py
+python -B scripts/profile_sync/powerautomate/test_powerautomate_manual_handoff.py
 python -B scripts/profile_sync/profile_sync.py --event-json /private/path/event.json --repo /private/path/website-checkout --output /private/path/new-staging-directory
 ```
 

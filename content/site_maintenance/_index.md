@@ -5,8 +5,8 @@ type: maintenance
 
 slug:
 private: false
-_build:
-  list: true
+build:
+  list: always
 
 ---
 <meta http-equiv="refresh" content="5">

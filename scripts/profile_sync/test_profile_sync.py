@@ -416,14 +416,14 @@ class RouteTests(unittest.TestCase):
 
     tearDown = ReceiverTests.tearDown
 
-    def model(self, version="0.152.2", collision=False, no_new_page=False):
+    def model(self, version="0.152.2", collision=False, no_new_page=False, tracked=None):
         calls = []
         def command(argv, cwd):
             calls.append(argv)
             if argv == ["hugo", "version"]:
                 return ("hugo v" + version + "+extended linux/amd64\n").encode()
             if argv == ["git", "ls-files", "-z"]:
-                return b"content/authors/Existing/_index.md\0"
+                return tracked if tracked is not None else b"content/authors/Existing/_index.md\0"
             self.assertIn("--printPathWarnings", argv)
             self.assertIn("--panicOnWarning", argv)
             source = Path(argv[argv.index("--source") + 1])
@@ -448,6 +448,81 @@ class RouteTests(unittest.TestCase):
         self.assertEqual(len(calls), 4)
         self.assertFalse((self.repo / "content/authors/Synthetic_Member").exists())
         self.assertEqual(self.result["route_check"]["content_digest"], self.result["content_digest"])
+
+    def test_only_exact_website_sources_are_copied(self):
+        names = ["content/authors/Existing/_index.md", "assets/example.txt", "config/example.yaml",
+                 "layouts/example.html", "static/example.txt", "go.mod", "go.sum", "theme.toml"]
+        for name in names[1:]:
+            path = self.repo / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(b"Synthetic website input")
+        outside = ["outputs/missing.xlsx", ".claude/settings.local.json", ".github/workflow.yml",
+                   "public/index.html", "resources/missing", "root-mail.eml", "README.md", "netlify.toml",
+                   "go.mod/extra", "theme.toml.extra", "content-extra/missing"]
+        command, calls = self.model(tracked=("\0".join(names + outside) + "\0").encode())
+        with patch.object(sync, "fixed_command", side_effect=command):
+            sync.check_routes(self.result, self.repo, self.output)
+        preview = self.output / "private-preview-source"
+        self.assertEqual({path.relative_to(preview).as_posix() for path in preview.rglob("*") if path.is_file()},
+                         set(names) | set(self.result["files"]))
+        self.assertTrue(all((preview / name).read_bytes() == (self.repo / name).read_bytes() for name in names))
+
+    def test_unrelated_symlink_and_files_are_never_inspected(self):
+        unrelated = self.repo / "outputs"
+        unrelated.symlink_to(self.root / "missing-private-source", target_is_directory=True)
+        names = ["content/authors/Existing/_index.md", "outputs/node_modules", "root-mail.eml"]
+        command, calls = self.model(tracked=("\0".join(names) + "\0").encode())
+        original_stat = Path.stat
+        def guarded_stat(path, *args, **kwargs):
+            if path == unrelated or unrelated in path.parents or path.name == "root-mail.eml":
+                raise AssertionError("Unrelated source must not be inspected")
+            return original_stat(path, *args, **kwargs)
+        with patch.object(sync, "fixed_command", side_effect=command), patch.object(Path, "stat", guarded_stat):
+            sync.check_routes(self.result, self.repo, self.output)
+        self.assertFalse((self.output / "private-preview-source/outputs").exists())
+
+    def test_symlink_inside_selected_source_is_rejected_before_build(self):
+        linked = self.repo / "assets/linked.txt"
+        linked.parent.mkdir()
+        linked.symlink_to(self.root / "missing-source")
+        command, calls = self.model(tracked=b"content/authors/Existing/_index.md\0assets/linked.txt\0")
+        with patch.object(sync, "fixed_command", side_effect=command), self.assertRaises(sync.Rejected) as error:
+            sync.check_routes(self.result, self.repo, self.output)
+        self.assertEqual(str(error.exception), "route-check-snapshot-invalid")
+        self.assertEqual(len(calls), 2)
+
+    def test_selected_parent_symlink_is_rejected_before_build(self):
+        (self.repo / "assets").symlink_to(self.root, target_is_directory=True)
+        command, calls = self.model(tracked=b"content/authors/Existing/_index.md\0assets/linked.txt\0")
+        with patch.object(sync, "fixed_command", side_effect=command), self.assertRaises(sync.Rejected) as error:
+            sync.check_routes(self.result, self.repo, self.output)
+        self.assertEqual(str(error.exception), "path-symlink-rejected")
+        self.assertEqual(len(calls), 2)
+
+    def test_unsafe_names_are_rejected_even_when_not_selected(self):
+        for name in ["../outputs/missing", "/outputs/missing", "outputs/../missing", "outputs/control\nname"]:
+            command, calls = self.model(tracked=(name + "\0").encode())
+            with self.subTest(name=name), patch.object(sync, "fixed_command", side_effect=command), self.assertRaises(sync.Rejected) as error:
+                sync.check_routes(self.result, self.repo, self.output)
+            self.assertEqual(str(error.exception), "route-check-snapshot-invalid")
+            (self.output / "private-preview-source").rmdir()
+
+    def test_byte_limit_applies_only_to_selected_source(self):
+        outside = self.repo / "outputs/large.bin"
+        outside.parent.mkdir()
+        outside.write_bytes(b"Synthetic excluded bytes" * 100)
+        tracked = b"content/authors/Existing/_index.md\0outputs/large.bin\0"
+        selected_size = (self.repo / "content/authors/Existing/_index.md").stat().st_size
+        command, calls = self.model(tracked=tracked)
+        with patch.object(sync, "fixed_command", side_effect=command), patch.object(sync, "MAX_BUILD_BYTES", selected_size):
+            sync.check_routes(self.result, self.repo, self.output)
+        second_output = self.root / "second-stage"
+        sync.stage(self.result, second_output)
+        command, calls = self.model(tracked=tracked)
+        with patch.object(sync, "fixed_command", side_effect=command), patch.object(sync, "MAX_BUILD_BYTES", selected_size - 1), self.assertRaises(sync.Rejected) as error:
+            sync.check_routes(self.result, self.repo, second_output)
+        self.assertEqual(str(error.exception), "route-check-snapshot-too-large")
+        self.assertEqual(len(calls), 2)
 
     def test_same_title_route_collision_is_fatal(self):
         command, calls = self.model(collision=True)

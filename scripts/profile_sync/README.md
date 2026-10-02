@@ -80,7 +80,13 @@ Publishing additionally requires `--publish`, `PROFILE_SYNC_ENABLED=true`, the
 fixed repository/base environment bindings, an authentic dispatch context and
 `GITHUB_TOKEN`. Checkout HEAD must match the event SHA and current remote main.
 Before any mutation, the receiver uses Git's tracked-file list to copy only
-the public website baseline to private temporary directories. It uses exact
+the website's `assets/`, `config/`, `content/`, `layouts/` and `static/` source,
+plus exactly `go.mod`, `go.sum` and `theme.toml`, to private temporary directories.
+It filters unrelated tracked names before inspecting or copying their files;
+operational outputs, root mail, local settings and generated artifacts stay
+outside the snapshot. Symlinks inside the selected source are rejected and the
+selected bytes remain limited to 250 MiB. Unknown build dependencies must fail
+the real baseline build rather than silently broadening this allowlist. It uses exact
 extended Hugo 0.152.2 for baseline and proposed builds with
 `--printPathWarnings --panicOnWarning`. The proposed build must add exactly one
 author HTML route. Build tools receive a minimal environment without GitHub
@@ -106,3 +112,12 @@ do not assume a draft PR triggered every existing CI or deploy workflow.
 Publication remains a separate owner-reviewed merge followed by a check of the
 deployed page and selected image. Never broaden the sender or field allowlists
 to work around a withheld submission.
+
+Full-site validation on 2 October 2026 reached an existing build blocker at
+website base `f7be0695c2061e249deee020167778fed5e55ca0`: the pinned
+`blox-seo` module places a sitemap in the render-hook directory. A private
+configuration-only remount removed that warning, but the same strict baseline
+then stopped on deprecated `_build` front matter and four existing duplicate
+author routes. The configuration experiment is not included in this package.
+The synthetic proposal build has not passed; resolve the existing site issues
+under website-owner review before the pilot. Keep the warning gate enabled.

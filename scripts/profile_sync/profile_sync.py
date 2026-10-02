@@ -37,6 +37,9 @@ MAX_MARKDOWN_BYTES = 16000
 MAX_IMAGE_BYTES = 32768
 MAX_PIXELS = 1000000
 HUGO_VERSION = "0.152.2"
+BUILD_DIRECTORIES = frozenset({"assets", "config", "content", "layouts", "static"})
+BUILD_FILES = frozenset({"go.mod", "go.sum", "theme.toml"})
+MAX_BUILD_BYTES = 250 * 1024 * 1024
 GROUPS = frozenset({
     "Affiliated Faculty", "Researchers", "Collaborators", "PhD Students",
     "Research Assistants", "Volunteer Research Assistants", "Interns",
@@ -435,7 +438,7 @@ def fixed_command(argv: list[str], cwd: Path) -> bytes:
 
 
 def check_routes(result: dict, repo: Path, output: Path) -> None:
-    """Build an explicit tracked-public-file snapshot, never the whole checkout.
+    """Build only the allowlisted tracked website source, never the checkout.
 
     A baseline and proposed build use the site's actual Hugo configuration.
     Duplicate output paths are fatal; the proposal must produce one new author
@@ -458,14 +461,17 @@ def check_routes(result: dict, repo: Path, output: Path) -> None:
         if (relative.is_absolute() or ".." in relative.parts or not relative.parts
                 or any(unicodedata.category(c) in {"Cc", "Cf", "Cs"} for c in name)):
             reject("route-check-snapshot-invalid")
-        if relative.parts[0] in {".git", "public", "resources"}:
+        # Classify names before touching their filesystem entries. Operational
+        # outputs, local settings, mail and build artifacts are not site inputs.
+        if not ((len(relative.parts) > 1 and relative.parts[0] in BUILD_DIRECTORIES)
+                or name in BUILD_FILES):
             continue
         source = repo / relative
         safe_directory(source.parent)
         if source.is_symlink() or not source.is_file():
             reject("route-check-snapshot-invalid")
         total_bytes += source.stat().st_size
-        if total_bytes > 250 * 1024 * 1024:
+        if total_bytes > MAX_BUILD_BYTES:
             reject("route-check-snapshot-too-large")
         destination = preview / relative
         destination.parent.mkdir(mode=0o700, parents=True, exist_ok=True)

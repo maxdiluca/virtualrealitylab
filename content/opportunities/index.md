@@ -15,6 +15,8 @@ sections:
 
         #### PhD positions
 
+        **MIBTP PhD studentships — October 2027 entry.** Applications are open for two projects supervised by Dr Massimiliano Di Luca: sensory prediction and adaptation in virtual reality, and coordination with artificial musical partners. **Deadline: 23 November 2026.** See the [announcement and application guidance](/post/mibtp-phd-studentships-2027/) for project details, funding and how to apply.
+
         If you are interested in pursuing a PhD in the lab, contact **Dr Max Di Luca** or use the [Get in touch section](/#contact). It helps to include a short description of your interests, relevant experience and the kind of XR research question you would like to explore.
 
         #### BSc and MSc student projects

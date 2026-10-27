@@ -34,7 +34,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Hasan Alshaban is an Artificial Intelligence and Computer Science student at the University of Birmingham. He has experience with Aramco and is interested in the intersection of machine intelligence and applied computing.

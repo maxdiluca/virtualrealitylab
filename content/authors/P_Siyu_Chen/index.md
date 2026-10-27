@@ -12,7 +12,7 @@ interests:
   - Music
   - Experimental Modelling
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Siyu Chen is an MSc Computer Science student in the VR Lab, supervised by Massimiliano Di Luca. The project area is the ARME alpha model.

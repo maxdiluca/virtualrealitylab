@@ -12,7 +12,7 @@ interests:
   - Large Language Models
   - Assistive Technology
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Vaishali Veera Saravana Perumal is an MSc student in the VR Lab, supervised by Eyal Ofek. Her project area is XR and large language models, and her project title is **Smart glasses support for elderly in their home**.

@@ -9,7 +9,7 @@ organizations:
   - name: University of Birmingham
     url: "https://www.birmingham.ac.uk/"
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Lindsey Ann Lancaster is an MSc Human-Computer Interaction project student at the University of Birmingham, undertaking dissertation work in the VR Lab with Chris Baber.

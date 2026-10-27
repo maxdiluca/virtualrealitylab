@@ -16,7 +16,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/joshua-devavasagam/
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Joshua Devavasagam John is a postgraduate project student in the VR Lab at the University of Birmingham, supervised by Hyunyoung Kim. His interests include human-computer interaction and people-centred technology.

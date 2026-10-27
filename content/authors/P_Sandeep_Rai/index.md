@@ -12,7 +12,7 @@ interests:
   - Generative AI
   - Cybersecurity
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Sandeep Rai is an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is XR and generative AI with a cybersecurity focus, and his project title is **GuardianXR: Protecting Real-Time AI Authoring of Interactive Virtual Environments**.

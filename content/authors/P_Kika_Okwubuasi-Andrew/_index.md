@@ -70,7 +70,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Kika Okwubuasi-Andrew is an MSc Cognitive Neuroimaging and Data Science student in the VR Lab, supervised by Massimiliano Di Luca. Her project area is the ARME user study.

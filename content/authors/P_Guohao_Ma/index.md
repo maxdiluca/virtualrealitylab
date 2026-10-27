@@ -12,7 +12,7 @@ interests:
   - Human-Computer Interaction
   - Privacy
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Guohao Ma is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is vision and HCI, and the project title is **Video privacy**.

@@ -12,7 +12,7 @@ interests:
   - Sports Training
   - Haptic Feedback
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Jerlin Judson Brabu is an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is sports and VR, and his project title is **Virtual AI Coach: Evaluating LLM-Guided Visual and Haptic Feedback for Basketball Shooting Training in XR**.

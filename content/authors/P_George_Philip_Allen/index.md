@@ -28,7 +28,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 George Philip Allen is an MSc student in the VR Lab, supervised by Daniele Giunchi. His project area is music generation for virtual reality, and his project title is **Themes blending for VR**.

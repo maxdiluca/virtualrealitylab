@@ -17,7 +17,7 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/michael-ho-2b9831263/
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Michael Ho is a project student in the VR Lab at the University of Birmingham. He holds a BSc in Computer Science from Birmingham City University. His experience includes developing an interactive hospital ward simulator in Unreal Engine 5 with desktop and VR interaction, and contributing to a team project on wearable pneumatic haptic feedback.

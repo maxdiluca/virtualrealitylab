@@ -12,7 +12,7 @@ interests:
   - Human-Computer Interaction
   - Activity Recognition
 user_groups:
-  - Project Students
+  - Alumni Project Students
 ---
 
 Pin Yen Chen is an MSc student in the VR Lab, supervised by Eyal Ofek. The project area is vision and HCI, and the project title is **Activity Recognition**.

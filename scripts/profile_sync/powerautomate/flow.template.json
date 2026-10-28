@@ -1,0 +1,977 @@
+{
+  "properties": {
+    "displayName": "VR Lab approved website profile sync (disabled draft)",
+    "state": "Stopped",
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "EnableCloudActions": {
+          "type": "Bool",
+          "defaultValue": false
+        },
+        "EnableExternalDispatch": {
+          "type": "Bool",
+          "defaultValue": false
+        },
+        "EnableFailureNotifications": {
+          "type": "Bool",
+          "defaultValue": false
+        },
+        "ProfileSiteAddress": {
+          "type": "String",
+          "defaultValue": "__PROFILE_SITE_ADDRESS__"
+        },
+        "ProfileRoot": {
+          "type": "String",
+          "defaultValue": "/__PROFILE_ROOT__"
+        },
+        "ProfileApprover": {
+          "type": "String",
+          "defaultValue": "__PROFILE_APPROVER_UPN__"
+        },
+        "GitHubOwner": {
+          "type": "String",
+          "defaultValue": "__GITHUB_OWNER__"
+        },
+        "GitHubRepository": {
+          "type": "String",
+          "defaultValue": "__GITHUB_REPOSITORY__"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "FolderKey": {
+                  "type": "string",
+                  "title": "FolderKey (single profile folder, case-sensitive)",
+                  "minLength": 1,
+                  "maxLength": 80
+                },
+                "AvatarFilename": {
+                  "type": "string",
+                  "title": "AvatarFilename",
+                  "default": "DEFAULT_AVATAR.png"
+                },
+                "SubmissionKey": {
+                  "type": "string",
+                  "title": "SubmissionKey from the private durable ledger",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "SubjectConsentVerified": {
+                  "type": "boolean",
+                  "title": "Separate recorded subject consent verified",
+                  "default": false
+                },
+                "ImageConsentVerified": {
+                  "type": "boolean",
+                  "title": "Separate recorded image consent verified",
+                  "default": false
+                },
+                "DispatchIntentReserved": {
+                  "type": "boolean",
+                  "title": "Private dispatch intent reserved for this key and exact file versions; uncertain prior writes reconciled",
+                  "default": false
+                }
+              },
+              "required": [
+                "FolderKey",
+                "SubmissionKey",
+                "SubjectConsentVerified",
+                "ImageConsentVerified",
+                "DispatchIntentReserved"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            },
+            "concurrency": {
+              "runs": 1,
+              "maximumWaitingRuns": 10
+            }
+          }
+        }
+      },
+      "actions": {
+        "Cloud_actions_enabled": {
+          "type": "If",
+          "expression": "@equals(parameters('EnableCloudActions'),true)",
+          "runAfter": {},
+          "actions": {
+            "Cloud_gate_passed": {
+              "type": "Compose",
+              "inputs": "cloud-gate-passed",
+              "runAfter": {}
+            }
+          },
+          "else": {
+            "actions": {
+              "Disabled": {
+                "type": "Compose",
+                "inputs": {
+                  "status": "disabled-no-cloud-actions",
+                  "publication_verified": false
+                },
+                "runAfter": {}
+              },
+              "Stop_disabled": {
+                "type": "Terminate",
+                "inputs": {
+                  "runStatus": "Succeeded"
+                },
+                "runAfter": {
+                  "Disabled": [
+                    "Succeeded"
+                  ]
+                }
+              }
+            }
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Folder_key": {
+          "type": "Compose",
+          "inputs": "@string(coalesce(triggerBody()?['FolderKey'],''))",
+          "runAfter": {
+            "Cloud_actions_enabled": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Submission_key": {
+          "type": "Compose",
+          "inputs": "@string(coalesce(triggerBody()?['SubmissionKey'],''))",
+          "runAfter": {
+            "Folder_key": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Avatar_filename": {
+          "type": "Compose",
+          "inputs": "@if(empty(triggerBody()?['AvatarFilename']),'DEFAULT_AVATAR.png',string(triggerBody()?['AvatarFilename']))",
+          "runAfter": {
+            "Submission_key": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Avatar_stem": {
+          "type": "Compose",
+          "inputs": "@first(split(outputs('Avatar_filename'),'.'))",
+          "runAfter": {
+            "Avatar_filename": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Require_input_boundaries": {
+          "type": "If",
+          "expression": "@and(and(greater(length(outputs('Folder_key')),0),lessOrEquals(length(outputs('Folder_key')),80),equals(uriComponent(outputs('Folder_key')),outputs('Folder_key')),not(contains(outputs('Folder_key'),'.')),not(contains(outputs('Folder_key'),'!')),not(contains(outputs('Folder_key'),'~')),not(contains(outputs('Folder_key'),'*')),not(contains(outputs('Folder_key'),'''')),not(contains(outputs('Folder_key'),'(')),not(contains(outputs('Folder_key'),')')),contains('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',substring(concat(outputs('Folder_key'),'#'),0,1))),and(greater(length(outputs('Submission_key')),0),lessOrEquals(length(outputs('Submission_key')),100),equals(uriComponent(outputs('Submission_key')),outputs('Submission_key')),not(contains(outputs('Submission_key'),'.')),not(contains(outputs('Submission_key'),'!')),not(contains(outputs('Submission_key'),'~')),not(contains(outputs('Submission_key'),'*')),not(contains(outputs('Submission_key'),'''')),not(contains(outputs('Submission_key'),'(')),not(contains(outputs('Submission_key'),')')),contains('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',substring(concat(outputs('Submission_key'),'#'),0,1))),equals(length(split(outputs('Avatar_filename'),'.')),2),and(greater(length(outputs('Avatar_stem')),0),lessOrEquals(length(outputs('Avatar_stem')),80),equals(uriComponent(outputs('Avatar_stem')),outputs('Avatar_stem')),not(contains(outputs('Avatar_stem'),'.')),not(contains(outputs('Avatar_stem'),'!')),not(contains(outputs('Avatar_stem'),'~')),not(contains(outputs('Avatar_stem'),'*')),not(contains(outputs('Avatar_stem'),'''')),not(contains(outputs('Avatar_stem'),'(')),not(contains(outputs('Avatar_stem'),')')),contains('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',substring(concat(outputs('Avatar_stem'),'#'),0,1))),contains(json('[\"png\",\"jpg\",\"jpeg\"]'),last(split(outputs('Avatar_filename'),'.'))),equals(triggerBody()?['SubjectConsentVerified'],true),equals(triggerBody()?['ImageConsentVerified'],true),equals(triggerBody()?['DispatchIntentReserved'],true))",
+          "actions": {
+            "Require_input_boundaries_passed": {
+              "type": "Compose",
+              "inputs": "validated",
+              "runAfter": {}
+            }
+          },
+          "else": {
+            "actions": {
+              "Require_input_boundaries_stopped": {
+                "type": "Terminate",
+                "inputs": {
+                  "runStatus": "Failed",
+                  "runError": {
+                    "code": "PROFILE_INPUT_OR_READINESS_INVALID",
+                    "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                  }
+                },
+                "runAfter": {}
+              }
+            }
+          },
+          "runAfter": {
+            "Avatar_stem": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Require_configuration": {
+          "type": "If",
+          "expression": "@and(startsWith(parameters('ProfileSiteAddress'),'https://'),not(contains(parameters('ProfileSiteAddress'),'__')),startsWith(parameters('ProfileRoot'),'/'),not(endsWith(parameters('ProfileRoot'),'/')),not(contains(parameters('ProfileRoot'),'..')),not(contains(parameters('ProfileRoot'),'__')),not(contains(parameters('ProfileRoot'),'%')),not(contains(parameters('ProfileRoot'),'?')),not(contains(parameters('ProfileRoot'),'#')),greater(length(parameters('ProfileApprover')),0),equals(length(split(parameters('ProfileApprover'),'@')),2),not(contains(parameters('ProfileApprover'),'__')),not(contains(parameters('ProfileApprover'),';')),not(contains(parameters('ProfileApprover'),',')),not(contains(parameters('ProfileApprover'),' ')),not(contains(parameters('ProfileApprover'),decodeUriComponent('%0A'))),not(contains(parameters('ProfileApprover'),decodeUriComponent('%0D'))),equals(parameters('GitHubOwner'),'maxdiluca'),equals(parameters('GitHubRepository'),'virtualrealitylab'))",
+          "actions": {
+            "Require_configuration_passed": {
+              "type": "Compose",
+              "inputs": "validated",
+              "runAfter": {}
+            }
+          },
+          "else": {
+            "actions": {
+              "Require_configuration_stopped": {
+                "type": "Terminate",
+                "inputs": {
+                  "runStatus": "Failed",
+                  "runError": {
+                    "code": "PROFILE_CONFIGURATION_INVALID",
+                    "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                  }
+                },
+                "runAfter": {}
+              }
+            }
+          },
+          "runAfter": {
+            "Require_input_boundaries": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Profile_sync": {
+          "type": "Scope",
+          "actions": {
+            "Get_markdown": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_sharepointonline",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                  "operationId": "GetFileContentByPath"
+                },
+                "parameters": {
+                  "dataset": "@parameters('ProfileSiteAddress')",
+                  "path": "@concat(parameters('ProfileRoot'),'/',outputs('Folder_key'),'/index.md')",
+                  "inferContentType": true
+                },
+                "retryPolicy": {
+                  "type": "exponential",
+                  "count": 3,
+                  "interval": "PT5S",
+                  "minimumInterval": "PT5S",
+                  "maximumInterval": "PT30S"
+                }
+              },
+              "runAfter": {},
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Get_avatar": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_sharepointonline",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                  "operationId": "GetFileContentByPath"
+                },
+                "parameters": {
+                  "dataset": "@parameters('ProfileSiteAddress')",
+                  "path": "@concat(parameters('ProfileRoot'),'/',outputs('Folder_key'),'/',outputs('Avatar_filename'))",
+                  "inferContentType": true
+                },
+                "retryPolicy": {
+                  "type": "exponential",
+                  "count": 3,
+                  "interval": "PT5S",
+                  "minimumInterval": "PT5S",
+                  "maximumInterval": "PT30S"
+                }
+              },
+              "runAfter": {
+                "Get_markdown": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Markdown_snapshot_base64": {
+              "type": "Compose",
+              "inputs": "@string(coalesce(body('Get_markdown')?['$content'],''))",
+              "runAfter": {
+                "Get_avatar": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Avatar_snapshot_base64": {
+              "type": "Compose",
+              "inputs": "@string(coalesce(body('Get_avatar')?['$content'],''))",
+              "runAfter": {
+                "Markdown_snapshot_base64": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Markdown_snapshot_text": {
+              "type": "Compose",
+              "inputs": "@base64ToString(outputs('Markdown_snapshot_base64'))",
+              "runAfter": {
+                "Avatar_snapshot_base64": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Require_snapshot_bounds": {
+              "type": "If",
+              "expression": "@and(equals(base64(outputs('Markdown_snapshot_text')),outputs('Markdown_snapshot_base64')),greater(length(trim(outputs('Markdown_snapshot_text'))),0),lessOrEquals(length(outputs('Markdown_snapshot_text')),12000),lessOrEquals(length(outputs('Markdown_snapshot_base64')),21332),greater(length(outputs('Avatar_snapshot_base64')),0),lessOrEquals(length(outputs('Avatar_snapshot_base64')),43688))",
+              "actions": {
+                "Require_snapshot_bounds_passed": {
+                  "type": "Compose",
+                  "inputs": "validated",
+                  "runAfter": {}
+                }
+              },
+              "else": {
+                "actions": {
+                  "Require_snapshot_bounds_stopped": {
+                    "type": "Terminate",
+                    "inputs": {
+                      "runStatus": "Failed",
+                      "runError": {
+                        "code": "PROFILE_SNAPSHOT_INVALID",
+                        "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                      }
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runAfter": {
+                "Markdown_snapshot_text": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Approval": {
+              "type": "OpenApiConnectionWebhook",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_approvals",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_approvals",
+                  "operationId": "StartAndWaitForAnApproval"
+                },
+                "parameters": {
+                  "approvalType": "Basic",
+                  "WebhookApprovalCreationInput/title": "VR Lab website: review the exact attached profile",
+                  "WebhookApprovalCreationInput/assignedTo": "@parameters('ProfileApprover')",
+                  "WebhookApprovalCreationInput/details": "Review both exact attachments in full. The receiver will preserve their bytes and place index.md at content/authors/FolderKey/_index.md and the image at content/authors/FolderKey/avatar.png or avatar.jpg (according to its extension); it will not rewrite or re-encode their contents. Approve only after you have verified separate recorded consent from the person for the exact final website preview and public image use; complete biography, valid role and public links; no private induction/access material or image metadata; and an immutable private ledger reservation for the submitted folder, exact file versions and SubmissionKey. This approves a proposed GitHub profile addition. Publication still requires PR review and merge. Reject anything incomplete or changed.",
+                  "WebhookApprovalCreationInput/enableNotifications": true,
+                  "WebhookApprovalCreationInput/enableReassignment": false,
+                  "WebhookApprovalCreationInput/attachments": [
+                    {
+                      "name": "index.md",
+                      "content": "@outputs('Markdown_snapshot_base64')"
+                    },
+                    {
+                      "name": "@outputs('Avatar_filename')",
+                      "content": "@outputs('Avatar_snapshot_base64')"
+                    }
+                  ]
+                },
+                "retryPolicy": {
+                  "type": "none"
+                }
+              },
+              "runAfter": {
+                "Require_snapshot_bounds": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              },
+              "limit": {
+                "timeout": "P7D"
+              }
+            },
+            "Require_one_response": {
+              "type": "If",
+              "expression": "@equals(length(coalesce(body('Approval')?['responses'],json('[]'))),1)",
+              "actions": {
+                "Require_one_response_passed": {
+                  "type": "Compose",
+                  "inputs": "validated",
+                  "runAfter": {}
+                }
+              },
+              "else": {
+                "actions": {
+                  "Require_one_response_stopped": {
+                    "type": "Terminate",
+                    "inputs": {
+                      "runStatus": "Failed",
+                      "runError": {
+                        "code": "PROFILE_APPROVAL_RESPONSE_INVALID",
+                        "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                      }
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runAfter": {
+                "Approval": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Require_exact_approval": {
+              "type": "If",
+              "expression": "@and(equals(length(coalesce(body('Approval')?['responses'],json('[]'))),1),equals(body('Approval')?['outcome'],'Approve'),equals(first(if(empty(body('Approval')?['responses']),json('[{}]'),coalesce(body('Approval')?['responses'],json('[]'))))?['approverResponse'],'Approve'),equals(toLower(trim(string(coalesce(first(if(empty(body('Approval')?['responses']),json('[{}]'),coalesce(body('Approval')?['responses'],json('[]'))))?['responder']?['email'],'')))),toLower(trim(parameters('ProfileApprover')))))",
+              "actions": {
+                "Require_exact_approval_passed": {
+                  "type": "Compose",
+                  "inputs": "validated",
+                  "runAfter": {}
+                }
+              },
+              "else": {
+                "actions": {
+                  "Require_exact_approval_stopped": {
+                    "type": "Terminate",
+                    "inputs": {
+                      "runStatus": "Failed",
+                      "runError": {
+                        "code": "PROFILE_APPROVAL_DENIED_OR_WRONG_RESPONDER",
+                        "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                      }
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runAfter": {
+                "Require_one_response": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Reread_markdown": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_sharepointonline",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                  "operationId": "GetFileContentByPath"
+                },
+                "parameters": {
+                  "dataset": "@parameters('ProfileSiteAddress')",
+                  "path": "@concat(parameters('ProfileRoot'),'/',outputs('Folder_key'),'/index.md')",
+                  "inferContentType": true
+                },
+                "retryPolicy": {
+                  "type": "exponential",
+                  "count": 3,
+                  "interval": "PT5S",
+                  "minimumInterval": "PT5S",
+                  "maximumInterval": "PT30S"
+                }
+              },
+              "runAfter": {
+                "Require_exact_approval": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Reread_avatar": {
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_sharepointonline",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+                  "operationId": "GetFileContentByPath"
+                },
+                "parameters": {
+                  "dataset": "@parameters('ProfileSiteAddress')",
+                  "path": "@concat(parameters('ProfileRoot'),'/',outputs('Folder_key'),'/',outputs('Avatar_filename'))",
+                  "inferContentType": true
+                },
+                "retryPolicy": {
+                  "type": "exponential",
+                  "count": 3,
+                  "interval": "PT5S",
+                  "minimumInterval": "PT5S",
+                  "maximumInterval": "PT30S"
+                }
+              },
+              "runAfter": {
+                "Reread_markdown": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Require_unchanged_snapshots": {
+              "type": "If",
+              "expression": "@and(equals(string(coalesce(body('Reread_markdown')?['$content'],'')),outputs('Markdown_snapshot_base64')),equals(string(coalesce(body('Reread_avatar')?['$content'],'')),outputs('Avatar_snapshot_base64')))",
+              "actions": {
+                "Require_unchanged_snapshots_passed": {
+                  "type": "Compose",
+                  "inputs": "validated",
+                  "runAfter": {}
+                }
+              },
+              "else": {
+                "actions": {
+                  "Require_unchanged_snapshots_stopped": {
+                    "type": "Terminate",
+                    "inputs": {
+                      "runStatus": "Failed",
+                      "runError": {
+                        "code": "PROFILE_CHANGED_DURING_APPROVAL",
+                        "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                      }
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runAfter": {
+                "Reread_avatar": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Client_payload": {
+              "type": "Compose",
+              "inputs": {
+                "schema_version": 1,
+                "request_id": "@outputs('Submission_key')",
+                "folder": "@outputs('Folder_key')",
+                "profile_markdown": "@outputs('Markdown_snapshot_text')",
+                "avatar": {
+                  "filename": "@outputs('Avatar_filename')",
+                  "content_base64": "@outputs('Avatar_snapshot_base64')"
+                },
+                "approval": {
+                  "profile_approved": true,
+                  "image_approved": true
+                }
+              },
+              "runAfter": {
+                "Require_unchanged_snapshots": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Serialized_payload": {
+              "type": "Compose",
+              "inputs": "@string(outputs('Client_payload'))",
+              "runAfter": {
+                "Client_payload": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Require_payload_bounds": {
+              "type": "If",
+              "expression": "@and(lessOrEquals(length(outputs('Serialized_payload')),60000),lessOrEquals(length(base64(outputs('Serialized_payload'))),80000))",
+              "actions": {
+                "Require_payload_bounds_passed": {
+                  "type": "Compose",
+                  "inputs": "validated",
+                  "runAfter": {}
+                }
+              },
+              "else": {
+                "actions": {
+                  "Require_payload_bounds_stopped": {
+                    "type": "Terminate",
+                    "inputs": {
+                      "runStatus": "Failed",
+                      "runError": {
+                        "code": "PROFILE_PAYLOAD_TOO_LARGE",
+                        "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                      }
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runAfter": {
+                "Serialized_payload": [
+                  "Succeeded"
+                ]
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "External_dispatch_enabled": {
+              "type": "If",
+              "expression": "@equals(parameters('EnableExternalDispatch'),true)",
+              "runAfter": {
+                "Require_payload_bounds": [
+                  "Succeeded"
+                ]
+              },
+              "actions": {
+                "Dispatch_approved_profile": {
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "connectionName": "shared_github",
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_github",
+                      "operationId": "CreateRepositoryDispatchEvent"
+                    },
+                    "parameters": {
+                      "repositoryOwner": "@parameters('GitHubOwner')",
+                      "repositoryName": "@parameters('GitHubRepository')",
+                      "event_type": "vr-lab-profile-approved-v1",
+                      "client_payload": "@outputs('Client_payload')"
+                    },
+                    "retryPolicy": {
+                      "type": "none"
+                    }
+                  },
+                  "runAfter": {},
+                  "runtimeConfiguration": {
+                    "secureData": {
+                      "properties": [
+                        "inputs",
+                        "outputs"
+                      ]
+                    }
+                  }
+                },
+                "Queued_unverified": {
+                  "type": "Compose",
+                  "inputs": {
+                    "status": "queued-unverified",
+                    "publication_verified": false
+                  },
+                  "runAfter": {
+                    "Dispatch_approved_profile": [
+                      "Succeeded"
+                    ]
+                  }
+                }
+              },
+              "else": {
+                "actions": {
+                  "Dispatch_disabled": {
+                    "type": "Compose",
+                    "inputs": {
+                      "status": "staged-dispatch-disabled",
+                      "publication_verified": false
+                    },
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Require_configuration": [
+              "Succeeded"
+            ]
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        },
+        "Catch_failure": {
+          "type": "Scope",
+          "runAfter": {
+            "Profile_sync": [
+              "Failed",
+              "TimedOut"
+            ]
+          },
+          "actions": {
+            "Optional_failure_notification": {
+              "type": "If",
+              "expression": "@and(equals(parameters('EnableCloudActions'),true),equals(parameters('EnableFailureNotifications'),true))",
+              "runAfter": {},
+              "actions": {
+                "Notify_same_named_operator": {
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "connectionName": "shared_office365",
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                      "operationId": "SendEmailV2"
+                    },
+                    "parameters": {
+                      "emailMessage/To": "@parameters('ProfileApprover')",
+                      "emailMessage/Subject": "VR Lab website profile sync: private operator review required",
+                      "emailMessage/Body": "<p>PROFILE_SYNC_FAILED_OR_TIMED_OUT</p><p>Inspect the private run and reconcile the private submission ledger before any retry. A dispatch failure or timeout may still have queued work. No publication has been verified.</p>",
+                      "emailMessage/Importance": "Normal"
+                    },
+                    "retryPolicy": {
+                      "type": "none"
+                    }
+                  },
+                  "runAfter": {},
+                  "runtimeConfiguration": {
+                    "secureData": {
+                      "properties": [
+                        "inputs",
+                        "outputs"
+                      ]
+                    }
+                  }
+                }
+              },
+              "else": {
+                "actions": {
+                  "Notification_disabled": {
+                    "type": "Compose",
+                    "inputs": "failure-notification-disabled",
+                    "runAfter": {}
+                  }
+                }
+              },
+              "runtimeConfiguration": {
+                "secureData": {
+                  "properties": [
+                    "inputs",
+                    "outputs"
+                  ]
+                }
+              }
+            },
+            "Stop_after_failure": {
+              "type": "Terminate",
+              "inputs": {
+                "runStatus": "Failed",
+                "runError": {
+                  "code": "PROFILE_SYNC_FAILED_OR_TIMED_OUT",
+                  "message": "Profile sync stopped. Inspect the private run and reconcile the private submission ledger before any retry."
+                }
+              },
+              "runAfter": {
+                "Optional_failure_notification": [
+                  "Succeeded",
+                  "Failed",
+                  "TimedOut",
+                  "Skipped"
+                ]
+              }
+            }
+          },
+          "runtimeConfiguration": {
+            "secureData": {
+              "properties": [
+                "inputs",
+                "outputs"
+              ]
+            }
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "connectionReferences": {
+      "shared_sharepointonline": {
+        "connectionName": "__SHARED_SHAREPOINTONLINE_CONNECTION_NAME__",
+        "source": "Embedded",
+        "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+      },
+      "shared_approvals": {
+        "connectionName": "__SHARED_APPROVALS_CONNECTION_NAME__",
+        "source": "Embedded",
+        "id": "/providers/Microsoft.PowerApps/apis/shared_approvals"
+      },
+      "shared_github": {
+        "connectionName": "__SHARED_GITHUB_CONNECTION_NAME__",
+        "source": "Embedded",
+        "id": "/providers/Microsoft.PowerApps/apis/shared_github"
+      },
+      "shared_office365": {
+        "connectionName": "__SHARED_OFFICE365_CONNECTION_NAME__",
+        "source": "Embedded",
+        "id": "/providers/Microsoft.PowerApps/apis/shared_office365"
+      }
+    }
+  }
+}

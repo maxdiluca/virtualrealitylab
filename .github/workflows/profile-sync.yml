@@ -1,0 +1,79 @@
+name: Approved website profile proposal
+
+'on':
+  repository_dispatch:
+    types: [vr-lab-profile-approved-v1]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions: {}
+
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install pinned receiver dependencies
+        run: python -m pip install --disable-pip-version-check -r scripts/profile_sync/requirements.txt
+      - name: Run synthetic and failure-path tests
+        run: python -B -m unittest discover -s scripts/profile_sync -p 'test_profile_sync.py' -v
+      - name: Validate disabled Power Automate definition
+        run: python -B scripts/profile_sync/powerautomate/test_powerautomate_template.py
+      - name: Validate disabled Microsoft-only manual handoff
+        run: python -B scripts/profile_sync/powerautomate/test_powerautomate_manual_handoff.py
+
+  propose-profile:
+    needs: synthetic-tests
+    if: >-
+      github.event_name == 'repository_dispatch' &&
+      github.repository == 'maxdiluca/virtualrealitylab' &&
+      github.ref == 'refs/heads/main' &&
+      github.event.sender.login == 'maxdiluca' &&
+      vars.PROFILE_SYNC_ENABLED == 'true'
+    environment: website-profile-review
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    concurrency:
+      group: website-profile-sync-write
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install pinned receiver dependencies
+        run: python -m pip install --disable-pip-version-check -r scripts/profile_sync/requirements.txt
+      - name: Install verified official extended Hugo
+        shell: bash
+        run: |
+          set -euo pipefail
+          install -d "$RUNNER_TEMP/profile-sync-hugo"
+          curl --fail --location --max-time 60 --silent --show-error --output "$RUNNER_TEMP/profile-sync-hugo.tar.gz" https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.tar.gz
+          printf '%s  %s\n' 416bcfbdf5f68469ec9644dbe507da50fc21b94b69a125b059d64ed2cb4d8c27 "$RUNNER_TEMP/profile-sync-hugo.tar.gz" | sha256sum --check --strict
+          tar -xzf "$RUNNER_TEMP/profile-sync-hugo.tar.gz" -C "$RUNNER_TEMP/profile-sync-hugo" hugo
+          printf '%s\n' "$RUNNER_TEMP/profile-sync-hugo" >> "$GITHUB_PATH"
+      - name: Validate exact approved bytes, build privately, and reconcile draft proposal
+        env:
+          PROFILE_SYNC_ENABLED: ${{ vars.PROFILE_SYNC_ENABLED }}
+          PROFILE_SYNC_REPOSITORY: maxdiluca/virtualrealitylab
+          PROFILE_SYNC_BASE_BRANCH: main
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B scripts/profile_sync/profile_sync.py --event-json "$GITHUB_EVENT_PATH" --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/profile-sync-stage-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" --publish

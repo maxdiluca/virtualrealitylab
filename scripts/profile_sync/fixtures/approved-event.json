@@ -1,0 +1,16 @@
+{
+  "action": "vr-lab-profile-approved-v1",
+  "sender": {"login": "maxdiluca"},
+  "repository": {"full_name": "maxdiluca/virtualrealitylab"},
+  "client_payload": {
+    "schema_version": 1,
+    "request_id": "synthetic-only-20261002-001",
+    "folder": "Synthetic_Member",
+    "profile_markdown": "---\ntitle: Synthetic Member\nauthors: [Synthetic_Member]\nsuperuser: false\nrole: Synthetic Project Student\norganizations:\n  - name: University of Birmingham\n    url: https://www.birmingham.ac.uk\ninterests: [null]\nsocial:\n  - icon: link\n    icon_pack: fas\n    link: null\nuser_groups: [Project Students]\n---\n\nThis entirely synthetic member explores how people perceive virtual environments. This biography contains no real person data.\n",
+    "avatar": {
+      "filename": "synthetic.png",
+      "content_base64": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAI0lEQVR4nGOUC6hgIAUwkaSaYVQDcYCJSHVwMKqBGEByKAEA8mgBBjzodkQAAAAASUVORK5CYII="
+    },
+    "approval": {"profile_approved": true, "image_approved": true}
+  }
+}

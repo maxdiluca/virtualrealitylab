@@ -4,7 +4,6 @@ authors:
   - "P_Paul_Counter"
 superuser: false
 role: "MPhil student"
-user_groups:
-  - "Project Students"
+user_groups: []
 link_profile: false
 ---

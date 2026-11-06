@@ -5,6 +5,16 @@
 ############################
 
 imports:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
+    mounts:
+      - source: assets
+        target: assets
+      - source: layouts
+        target: layouts
+        excludeFiles:
+          - _default/_markup/sitemap.xml
+      - source: layouts/_default/_markup/sitemap.xml
+        target: layouts/sitemap.xml
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5

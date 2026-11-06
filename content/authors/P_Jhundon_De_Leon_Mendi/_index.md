@@ -10,7 +10,7 @@ authors:
   - Jhundon_De_Leon_Mendi
 
 # Role/position
-role: Intern
+role: Learning Experiences Developer
 
 # Organizations/Affiliations
 organizations:
@@ -18,18 +18,18 @@ organizations:
     url: "https://www.birmingham.ac.uk/research/centres-institutes/ctl"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Aspiring Researcher in Extended Reality
+bio: LxD and XR Developer
 
 interests:
   - Virtual Reality
-  - Eye-Tracking
   - Equipment Management
   - Game Development
   - Human-Robotics Interaction
   - Learning Experience Design
   - Instructional Design
   - Artificial Intelligence
-  - Website Maintenance
+  - Educational Technology
+  - Learning Design
 
 education:
   courses:
@@ -74,26 +74,28 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Interns
+  - Collaborators
 ---
 
 
-**Jhundon** is pursuing a Master’s degree in Cognitive Neuroimaging and Data Science (Computational Neuroscience) jointly with the School of Psychology and School of Computer Science. His academic and professional journey is driven by a curiosity about how Virtual Reality (VR) can be leveraged to understand and influence human behavior within controlled virtual environments and development of educational content using digital technologies to enhance interactions.
+**Jhundon** is a Learning Experiences Developer at the Collaborative Teaching Laboratory (CTL). Having recently completed his Master’s degree in Cognitive Neuroimaging and Data Science (Computational Neuroscience) at the University of Birmingham, alongside a First-Class BSc in Computer Science—his work sits at the intersection of spatial computing, educational technology, and human behaviour. He is driven by a curiosity to understand how Extended Reality (XR) can be leveraged to build digital environments for academic research and to investigate the neurological and psychological impacts of immersive media.
 
 **Research and Academic Projects**
 
-- **Master’s Dissertation**: His current research centers on the hypothesis that the social map formed during free exploration can be mathematically reduced to create a localised “Optimal Social Environment.” This aims to reduce cognitive load and physical occlusion without sacrificing the user’s sense of Social Presence in VR.
+- **Master’s Dissertation**: His research tackled cognitive overload in chaotic educational Social VR settings. He developed and analysed a system utilising a Simulated Annealing algorithm to keep each student's view clear and optimised for objects of interest, without sacrificing social dynamics and peer presence.
 
-- **Professional Project**: His aims at the CTL is to established a framework to allow educators at the University from partner school to utilise XR technologies to deliver content involving 3D environments, complex interactions, or enhance the teaching for students.
 
 - **Bachelor’s Project**: Previously, he focused on creating a framework to test eye-tracking within VR. He developed a simulation to measure data quality in 3D interception tasks, aiding the creation of inbuilt eye-tracking tests for the VR-Lab with an emphasis on accuracy and hardware performance.
 
+- **Professional Project**: His ongoing aim at the CTL is to establish and refine frameworks that allow educators across the University to utilise XR technologies, delivering educational content that involves 3D environments and complex interactions to enhance student learning. As well as actively supporting the Immersive Teaching Laboratory to deliver content and assisting teaching.
+
+
 **Experiences**
 
-- **Collaborative Teaching Laboratory (CTL):** Jhundon currently serves as a Full-Time Learning Experience Developer. In this role, he creates educational resources used by students across nine STEM departments. He leverages his background as an XR developer to integrate Extended Reality technologies directly into university teaching.
+- **Collaborative Teaching Laboratory (CTL):** Jhundon currently serves as a full-time Learning Experiences Developer, having transitioned from an EdTech Intern in 2025. In this role, he brings a programmer's perspective to create educational resources used across STEM departments, integrating Extended Reality technologies directly into university teaching.
 
-- **VR Lab (2024–2025)**: He previously worked with the VR Lab, managing website maintenance and handling lab administration as his main focus was on the code maintainance for the ARME project.
+- **VR Lab**: Serving as a Research Assistant, he previously managed website maintenance and handled lab administration, with a main focus on code maintenance for the ARME project.
 
-Jhundon’s broader interests span Human-Computer Interaction, Robotics, Extended Realities, and Programming. He actively contributes to the academic community as an ambassador for the School of Computer Science. Within the student community, he has been a pivotal figure for the [Virtual Reality Society (UBVR)](https://www.guildofstudents.com/organisation/ubvr/). After serving as Chair for the 2023/24 and 2024/25 academic years—where he fostered a collaborative environment for XR enthusiasts, he now continues to support the society as **Secretary**, helping to develop resources and opportunities for students in this field.
+Jhundon’s broader interests span Human-Computer Interaction, Robotics, Extended Realities, and Programming. He contributed to the academic community as a Senior Ambassador for the School of Computer Science and a PGT Student Ambassador for the College of Life and Environmental Sciences (LES). Within the student community, he has been a figure for the [Virtual Reality Society (UBVR)](https://www.guildofstudents.com/organisation/ubvr/), where he supported the society as its **Chair** and **Secretary**, helping to develop resources and foster a collaborative environment for XR enthusiasts.
 
 Contact: **j.d.l.mendi@bham.ac.uk**

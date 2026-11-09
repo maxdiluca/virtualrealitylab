@@ -141,7 +141,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£799,581** (recorded). Existing CV/source value; BBSRC award; P&G partnership not counted again
+Valuation: **£799,581**
 
 
 Contribution evidence: appendix-grants.tex
@@ -152,7 +152,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **€100,000** (recorded). Existing CV/source value; 
+Valuation: **€100,000** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -163,7 +163,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£14,856.60** (recorded). Existing CV/source value; Original award
+Valuation: **£14,856.60** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -174,7 +174,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£21,672.54** (recorded). Existing CV/source value; 
+Valuation: **£21,672.54** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -185,9 +185,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
-
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
+Valuation: **Not costed** 
 
 Contribution evidence: appendix-grants.tex
 
@@ -197,7 +195,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: External partner; Birmingham allocation unknown.
 
-Valuation: **£9,516** (partner held recorded). Award to Nottingham; Birmingham allocation unknown.
+Valuation: **£9,516** 
+
 
 - Follow-up: Confirm any separately allocated Birmingham share.
 
@@ -209,7 +208,7 @@ Cloud: Award to Nottingham; Birmingham allocation unknown.
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£3,500** (recorded). Existing CV/source value; 
+Valuation: **£3,500** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -220,7 +219,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: External partner; Birmingham allocation unknown.
 
-Valuation: **€12,000** (partner held recorded). Trieste project value; Birmingham allocation unknown.
+Valuation: **€12,000** 
 
 - Follow-up: Confirm any separately allocated Birmingham share.
 
@@ -232,7 +231,7 @@ Cloud: Trieste project value; Birmingham allocation unknown.
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£15,000** (recorded). Existing CV/source value; 
+Valuation: **£15,000** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -243,7 +242,7 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£15,000** (recorded). Existing CV/source value; Birmingham project award
+Valuation: **£15,000** 
 
 
 Contribution evidence: appendix-grants.tex
@@ -254,11 +253,10 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
+
 
 - Follow-up: Confirm award value or item/model, quantity and period as applicable.
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -266,11 +264,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£3,000** (recorded approximate). CV records approximately £3,000. Counted once, not multiplied across 2024–2026; per-placement versus aggregate basis not specified.
+Valuation: **£3,000** 
 
-- Follow-up: Confirm exact amount and coverage; source is approximate.
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Academic_CV_sources.zip / appendix-grants.tex:108
 
@@ -278,10 +273,9 @@ Cloud: Academic_CV_sources.zip / appendix-grants.tex:108
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£10,000** (recorded approximate). Existing CV/source value; Approximate fellowship value
+Valuation: **£10,000** 
 
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -289,11 +283,8 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded ongoing**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£40,000** (recorded approximate). CV records approximately £40,000 for this fellowship. Counted once under AHRC, not again under Midlands4Cities; no extrapolation from 30% supervision share. This is not an independently confirmed Birmingham cash allocation.
+Valuation: **£40,000** 
 
-- Follow-up: Confirm exact amount and coverage; source is approximate.
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Academic_CV_sources.zip / appendix-grants.tex:110
 
@@ -301,10 +292,8 @@ Cloud: Academic_CV_sources.zip / appendix-grants.tex:110
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£40,000** (recorded). Existing CV/source value; Visiting fellowship
+Valuation: **£40,000** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -312,10 +301,8 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£2,000** (recorded). Existing CV/source value; 
+Valuation: **£2,000** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -323,10 +310,8 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **€90,000** (recorded). Existing CV/source value; 
+Valuation: **€90,000** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -334,11 +319,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -346,10 +329,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£6,370** (recorded). Existing CV/source value; 
+Valuation: **£6,370** 
 
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -357,10 +339,8 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£3,600** (recorded). Existing CV/source value; Birmingham project award
+Valuation: **£3,600** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -368,10 +348,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£1,700** (recorded). Existing CV/source value; 
+Valuation: **£1,700** 
 
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -379,11 +358,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -391,11 +368,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
-
-Contribution evidence: cv-diluca-2025.tex
 
 Cloud: Value or attribution not established
 
@@ -403,11 +377,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: cv-diluca-2025.tex
 
 Cloud: Value or attribution not established
 
@@ -415,17 +387,9 @@ Cloud: Value or attribution not established
 
 Status: **agreed delivery unconfirmed**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **US$47,500** (ai assisted estimate). 10 headsets × US$4,750 published hardware-and-controller price.
+Valuation: **US$47,500** 
 
-- Assumption: SRH-S1 is an inferred model based on the Siemens/Sony relationship; confirm actual model.
-- Assumption: Ten units are documented as agreed; delivery remains unconfirmed.
-- Assumption: Published 2025 launch/list cost; no software licence, freight, UK VAT or discount included.
-- Follow-up: SRH-S1 is an inferred model based on the Siemens/Sony relationship; confirm actual model.
-- Follow-up: Ten units are documented as agreed; delivery remains unconfirmed.
-- Follow-up: Published 2025 launch/list cost; no software licence, freight, UK VAT or discount included.
-- Cost source: [sony-launch](https://news.siemens.com/en-us/siemens-sony-ces-2025/) — SRH-S1 headset plus controllers advertised at US$4,750. Launch/list price benchmark, not donor invoice; excludes software.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed transaction value.
 
@@ -433,22 +397,8 @@ Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed t
 
 Status: **donated recorded**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£1,058** (ai assisted estimate). Scenario range: (Seaboard M £299 + Piano M £219) to (Seaboard 2 £1,099 + Piano £499). Midpoint (£518 + £1,598)/2 = £1,058.
+Valuation: **£1,058** 
 
-Scenario range: £518–£1,598.
-
-- Assumption: Two received items recorded as a waveboard and keyboard; precise models unknown.
-- Assumption: Assumes the waveboard is a Seaboard-family controller, not verified.
-- Assumption: Current/list-equivalent UK retail scenario, not actual donor invoice or donation-date value.
-- Assumption: The range reflects model alternatives, not a statistical confidence interval.
-- Follow-up: Two received items recorded as a waveboard and keyboard; precise models unknown.
-- Follow-up: Assumes the waveboard is a Seaboard-family controller, not verified.
-- Follow-up: Current/list-equivalent UK retail scenario, not actual donor invoice or donation-date value.
-- Follow-up: The range reflects model alternatives, not a statistical confidence interval.
-- Cost source: [roli-catalogue](https://roli.com/uk/product/collection/create/instruments) — Official catalogue indexed prices: Seaboard M £299, Seaboard 2 £1,099, Piano M £219, Piano £499. Page rendered without price cards on direct open; prices are search-index observations and need rechecking before procurement.
-- Cost source: [roli-rise2](https://d30pueezughrda.cloudfront.net/press/releases/SeaboardRISE2PressRelease.pdf) — Manufacturer launch release lists Seaboard RISE 2 at £1,099; supports upper Seaboard price benchmark.
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed transaction value.
 
@@ -456,11 +406,9 @@ Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed t
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£2,000** (recorded approximate). CV records approximately £2,000 of TikTok/ByteDance equipment support.
+Valuation: **£2,000** 
 
-- Follow-up: Confirm exact amount and coverage; source is approximate.
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Academic_CV_sources.zip / appendix-kte.tex:33
 
@@ -468,11 +416,9 @@ Cloud: Academic_CV_sources.zip / appendix-kte.tex:33
 
 Status: **donated recorded**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Identify movement-tracking equipment model and quantity; a Kinect and a laboratory motion-capture system have incomparable costs.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -480,20 +426,8 @@ Cloud: Value or attribution not established
 
 Status: **donated recorded**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **US$2,500** (ai assisted estimate). One identified Stratos Explore kit × US$2,500; uses the lower supplier benchmark. Price range US$2,500–2,750.95.
+Valuation: **US$2,500** 
 
-Scenario range: US$2,500–US$2,750.95.
-
-- Assumption: One kit costed; any additional donated haptic devices remain unvalued.
-- Assumption: 2020 donation valued using later supplier listings; not historical cost or second-hand fair value.
-- Assumption: No UK tax, freight or warranty uplift added; supplier tax treatments differ.
-- Follow-up: One kit costed; any additional donated haptic devices remain unvalued.
-- Follow-up: 2020 donation valued using later supplier listings; not historical cost or second-hand fair value.
-- Follow-up: No UK tax, freight or warranty uplift added; supplier tax treatments differ.
-- Cost source: [stratos-robotshop](https://www.robotshop.com/products/ultrahaptics-stratos-explore-development-kit) — Listed discontinued Stratos Explore kit US$2,500; supplier states US tariffs included. Benchmark only, not a currently available replacement quote.
-- Cost source: [stratos-sparkfun](https://www.sparkfun.com/ultrahaptics-stratos-explore.html) — Supplier lists Stratos Explore DEV-16661 retail price US$2,750.95. Benchmark only, not donation-date invoice.
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed transaction value.
 
@@ -501,11 +435,8 @@ Cloud: User-authorised assisted costing; explicitly estimated, not a confirmed t
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
-
-Contribution evidence: appendix-kte.tex
 
 Cloud: Value or attribution not established
 
@@ -513,11 +444,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Value or attribution not established
 
@@ -525,11 +454,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Record funded person-months, secondment terms, internships and any hardware separately; avoid overlap with the £5,000 Oculus award.
-
-Contribution evidence: appendix-kte.tex
 
 Cloud: Value or attribution not established
 
@@ -537,11 +463,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -549,10 +473,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£5,000** (recorded). Existing CV/source value; 
+Valuation: **£5,000** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -560,10 +482,8 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£5,000** (recorded). Existing CV/source value; Project value
+Valuation: **£5,000** 
 
-
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -571,10 +491,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£5,000** (recorded). Existing CV/source value; 
+Valuation: **£5,000** 
 
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -582,11 +501,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Value or attribution not established
 
@@ -594,10 +511,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: MyJAMS Ltd / JAMS.
 
-Valuation: **£25,000** (recorded). Existing CV/source value; MyJAMS Ltd; CreaTech Frontiers programme
+Valuation: **£25,000** 
 
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -605,10 +521,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: MyJAMS Ltd / JAMS.
 
-Valuation: **£15,000** (recorded). Existing CV/source value; MyJAMS Ltd; programme valuation of in-kind support
+Valuation: **£15,000** (
 
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Existing non-overlapping contribution
 
@@ -616,11 +531,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: MyJAMS Ltd / JAMS.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Obtain actual ICURe Explore budget; programme maximum is not evidence of the award amount.
 
-Contribution evidence: appendix-grants.tex
 
 Cloud: Value or attribution not established
 
@@ -628,11 +541,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: MyJAMS Ltd / JAMS.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Value or attribution not established
 
@@ -640,11 +551,9 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: External partner; Birmingham allocation unknown.
 
-Valuation: **£35,000** (partner held recorded). Award to partner school.
+Valuation: **£35,000** 
 
-- Follow-up: Confirm any separately allocated Birmingham share.
 
-Contribution evidence: appendix-kte.tex
 
 Cloud: Award to partner school.
 
@@ -652,11 +561,9 @@ Cloud: Award to partner school.
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
 
-Contribution evidence: cv-diluca-2025.tex
 
 Cloud: Value or attribution not established
 
@@ -664,11 +571,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm award value or item/model, quantity and period as applicable.
-
-Contribution evidence: https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language
 
 Cloud: Value or attribution not established
 
@@ -676,11 +580,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm studentship duration, fees/stipend and UoB/P&G funding split before assigning costs to either donor.
-
-Contribution evidence: https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/
 
 Cloud: Value or attribution not established
 
@@ -688,11 +589,9 @@ Cloud: Value or attribution not established
 
 Status: **user confirmed support**, recorded as of 2026-11-08. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Identify the number of Marco Polo visitors, institution, months and award rates.
 
-Contribution evidence: User confirmation in this conversation
 
 Cloud: Value or attribution not established
 
@@ -700,10 +599,8 @@ Cloud: Value or attribution not established
 
 Status: **awarded or supported**, recorded as of 2026-11-06. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£250** (recorded). Existing CV/source value; 
+Valuation: **£250** 
 
-
-Contribution evidence: University of Birmingham award announcement (28 June 2021) and VR Lab award post
 
 Cloud: Existing non-overlapping contribution
 
@@ -711,11 +608,9 @@ Cloud: Existing non-overlapping contribution
 
 Status: **user confirmed support**, recorded as of 2026-11-08. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **Not costed** (not costed). Insufficient cost or award information.
+Valuation: **Not costed** 
 
-- Follow-up: Confirm the form of Unity support; for licences, record edition, seats, term and whether an otherwise paid licence was waived.
 
-Contribution evidence: User confirmation in this conversation
 
 Cloud: Value or attribution not established
 
@@ -723,196 +618,8 @@ Cloud: Value or attribution not established
 
 Status: **user confirmed support**, recorded as of 2026-11-08. Recipient: Birmingham research or supervised researcher; see source.
 
-Valuation: **£81,129** (costing scenario pending inputs). Annual proxy £21,805 stipend + £5,238 home fees = £27,043; 3 years £81,129; 3.5 years £94,650.50; 4 years £108,172.
+Valuation: **£81,129** 
 
-Scenario range: £81,129–£108,172.
-
-- Assumption: Duration not confirmed; 3-year scenario is not a claim about the award.
-- Assumption: Flat 2026/27 UKRI benchmark throughout; excludes future increases, research costs and international fee supplements.
-- Follow-up: Duration not confirmed; 3-year scenario is not a claim about the award.
-- Cost source: [ukri-2026](https://www.ukri.org/manage-your-award/studentship-guidance/guidance-for-training-grant-holders/) — 2026/27 UKRI stipend £21,805 and home fee £5,238; £27,043 per year. Not evidence of a particular award duration or funder.
-
-Contribution evidence: User confirmation, 8 November 2026; Academic_CV_sources.zip, appendix-supervision.tex:10
 
 Cloud: ESRC attribution confirmed by user; funded duration and award value remain unconfirmed. Cost scenarios are not included in the cloud.
-
-### pipeline-01 — Work Your Way — Sony Research Award Program
-
-Status: **submitted outcome unconfirmed**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **US$150,000** (requested budget). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:54
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-02 — ATOUCH vision — APP70217
-
-Status: **in assessment as recorded**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **£1,590,142.40** (requested budget). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:55
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-03 — Technology-Mediated Music Timing workshop
-
-Status: **submitted outcome unconfirmed**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:56
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-04 — i-MOVE@Bham
-
-Status: **submitted outcome unconfirmed**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **£48,721** (requested budget). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:63
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-05 — DMIND+
-
-Status: **submission and outcome unconfirmed**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:64
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-06 — The AI maths student brain — APP121903
-
-Status: **in development**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:77
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-07 — Leverhulme Centre for anthropocentric technology
-
-Status: **in development**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:78
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-08 — Knife-carrying detection application
-
-Status: **in development**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:79
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-09 — JAMS: AI-driven Playvatar for group music
-
-Status: **in development**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **£1,100,000** (requested budget). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:80
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### pipeline-10 — Additional ICURe Exploit award
-
-Status: **award unconfirmed**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:135
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### closed-01 — PrendoSim 2.0
-
-Status: **unsuccessful**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:69
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### closed-02 — Walking together in virtual reality
-
-Status: **unsuccessful**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:70
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### closed-03 — BhamXR Nexus
-
-Status: **not funded separately**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **Not costed** (not costed). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:71
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### closed-04 — SHARE external infrastructure outline — APP112986
-
-Status: **unsuccessful**, recorded as of 2026-11-06. Recipient: Proposed project; not awarded income.
-
-Valuation: **£2,260,397.60** (requested budget). Requested/development budget only; not received funding.
-
-- Follow-up: Refresh award/application decision before changing status.
-
-Contribution evidence: Academic_CV_sources.zip / appendix-grants.tex:72
-
-Cloud: Unawarded or unconfirmed; excluded from supporter sizes and awarded totals.
-
-### support-55 — Anthropic support
-
-Status: **user confirmed support**, recorded as of 2026-11-08. Recipient: Lab; exact recipient to confirm.
-
-Valuation: **50,000** (user amount currency pending). User stated 50 k. Currency and form of contribution are to be verified from Daniele’s email and Teams correspondence.
-
-- Follow-up: Verify currency and contribution type from Daniele’s email and Teams messages.
-
-Contribution evidence: User confirmation in this conversation
-
-Cloud: Currency unconfirmed; 50,000 recorded without conversion or assigned weight.
 

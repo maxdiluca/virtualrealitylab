@@ -1,0 +1,145 @@
+.funding-page { max-width:1120px; padding-top:3.5rem; padding-bottom:3rem; font-size:.95rem; line-height:1.65; }
+.funding-intro { max-width:850px; margin-bottom:2.5rem; }
+.funding-intro h1 { margin:.4rem 0 1.2rem; }
+.funding-eyebrow { font-size:.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#126b65; }
+.funding-university { display:grid; grid-template-columns:240px 1fr; align-items:center; gap:2.5rem; padding:2rem; border:1px solid #d7e6e3; border-radius:12px; background:#f3f8f7; margin:0 0 3rem; }
+.funding-university > a { background:white; padding:1rem; border-radius:6px; }
+.funding-university img { width:100%; height:90px; object-fit:contain; }
+.funding-university h2 { margin-top:0; font-size:1.35rem; }
+.funding-university p { margin-bottom:.5rem; }
+.supporter-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin:1.5rem 0; }
+.supporter-tile { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:12px; min-height:154px; padding:18px 12px; border:1px solid #e0e5e8; border-radius:8px; background:#fff; color:#253b45; text-align:center; text-decoration:none !important; transition:border-color .15s; }
+.supporter-tile:hover, .supporter-tile:focus-visible { border-color:#177e76; outline-offset:3px; }
+.supporter-tile img { width:100%; max-width:160px; height:72px; object-fit:contain; color-scheme:light; }
+.supporter-caption { font-size:.65rem; line-height:1.35; }
+.supporter-name { font-size:.9rem; font-weight:600; line-height:1.4; }
+.funding-small { font-size:.78rem; color:#586570; }
+.funding-record { margin-top:3rem; }
+.funding-group { margin:.8rem 0; border:1px solid #dce3e6; border-radius:8px; scroll-margin-top:100px; }
+.funding-group > summary { padding:1.1rem 1.3rem; cursor:pointer; font-weight:600; }
+.funding-group > summary:focus-visible { outline:3px solid #177e76; outline-offset:3px; }
+.funding-count { float:right; font-size:.72rem; font-weight:400; color:#586570; padding-top:3px; }
+.funding-group-body { padding:.25rem 1.5rem 1.5rem; }
+.funding-group-body > p { font-size:.82rem; }
+.funding-entry { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.6fr); gap:2rem; padding:1.2rem 0; border-top:1px solid #e5e9eb; }
+.funding-years { display:block; font-size:.72rem; color:#586570; margin-bottom:.25rem; font-weight:400; }
+.funding-entry dd { margin:0; font-size:.83rem; }
+.funding-entry p { margin:0 0 .4rem; }
+.funding-entry .funding-sources { font-size:.72rem; }
+.funding-value { font-weight:600; }
+.funding-entries { margin-bottom:0; }
+.funding-collaborators { margin-top:2.5rem; }
+.funding-home { max-width:1120px; margin:auto; text-align:center; padding:0 15px; }
+.funding-home > p:not(.funding-eyebrow) { max-width:720px; margin:0 auto; }
+.funding-home .supporter-grid { grid-template-columns:repeat(6,minmax(0,1fr)); }
+.funding-home .lab-outline-button { margin-top:.5rem; }
+.dark .funding-university { background:#203732; border-color:#49655d; }
+.dark .funding-eyebrow { color:#98d7cc; }
+.dark .funding-small, .dark .funding-years, .dark .funding-count { color:#bdc9d1; }
+.dark .funding-group, .dark .funding-entry { border-color:#4b5660; }
+.dark .supporter-tile { color:#253b45; }
+.supporter-tile-dark, .dark .supporter-tile-dark { background:#243640; color:#fff; }
+@media (max-width:991px) {
+  .supporter-grid, .funding-home .supporter-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .funding-university { grid-template-columns:190px 1fr; gap:1.5rem; padding:1.5rem; }
+}
+@media (max-width:575px) {
+  .funding-page { padding-top:2rem; }
+  .funding-university { grid-template-columns:1fr; }
+  .funding-university > a { max-width:250px; }
+  .supporter-grid, .funding-home .supporter-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .supporter-tile { min-height:140px; }
+  .funding-entry { grid-template-columns:1fr; gap:.5rem; }
+  .funding-count { float:none; display:block; margin-left:1rem; }
+  .funding-group-body { padding:.25rem 1rem 1rem; }
+}
+
+/* Decorative variation reflects logo proportions, not monetary contribution. */
+.funding-wall { margin:1rem 0 2.5rem; }
+.supporter-cloud { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:22px 30px; max-width:960px; margin:2rem auto 2.5rem; padding:1rem 0; }
+.cloud-supporter { display:flex; align-items:center; justify-content:center; flex:0 1 auto; width:156px; min-height:76px; padding:8px; color:#254a53; text-align:center; text-decoration:none !important; border-radius:6px; font-size:1.05rem; font-weight:600; line-height:1.25; }
+.cloud-supporter img { display:block; width:100%; height:76px; object-fit:contain; color-scheme:light; }
+.cloud-size-1 { width:122px; font-size:.9rem; }
+.cloud-size-1 img { height:65px; }
+.cloud-size-2 { width:192px; font-size:1.3rem; }
+.cloud-size-2 img { height:85px; }
+.cloud-size-3 { width:142px; font-size:1.05rem; }
+.cloud-size-3 img { height:70px; }
+.cloud-supporter:hover { background:#f2f7f6; color:#126b65; }
+.cloud-supporter:focus-visible { outline:2px solid #177e76; outline-offset:5px; }
+.cloud-light-mark img { filter:brightness(.2); }
+.supporter-cloud-home { gap:20px; margin:1.25rem auto; }
+.funding-all-link { font-size:.85rem; }
+.dark .supporter-cloud { background:#fff; padding:1.5rem; border-radius:10px; }
+.dark .cloud-supporter { color:#254a53; }
+@media (max-width:575px) {
+  .supporter-cloud { gap:12px 14px; margin:1rem auto 1.5rem; }
+  .cloud-supporter { width:128px; min-height:64px; font-size:.95rem; padding:6px; }
+  .cloud-size-1 { width:100px; font-size:.8rem; }
+  .cloud-size-2 { width:155px; font-size:1.1rem; }
+  .cloud-size-3 { width:115px; font-size:.9rem; }
+  .cloud-supporter img { height:62px; }
+  .cloud-size-1 img { height:52px; }
+  .cloud-size-2 img { height:74px; }
+  .dark .supporter-cloud { padding:1rem .5rem; }
+}
+.supporter-cloud:not(.supporter-cloud-home) { max-width:900px; gap:18px 24px; }
+.cloud-supporter { flex-direction:column; }
+.cloud-supporter:nth-child(5n+1) { margin-inline:14px; }
+.cloud-supporter:nth-child(3n+1) { transform:translateY(-9px); }
+.cloud-supporter:nth-child(3n+2) { transform:translateY(8px); }
+.cloud-caption { display:block; max-width:170px; margin-top:6px; font-size:.55rem; font-weight:400; line-height:1.3; }
+@media (max-width:575px) {
+  .supporter-cloud:not(.supporter-cloud-home) { gap:12px 10px; }
+  .cloud-supporter:nth-child(5n+1) { margin-inline:0; }
+  .cloud-supporter:nth-child(n) { transform:none; }
+}
+
+.funding-weighted-cloud { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:28px 24px; width:100%; max-width:980px; margin:2rem auto; }
+.funding-bubble { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; flex:0 0 auto; --display-diameter:var(--funding-diameter); width:var(--display-diameter); color:#254a53; text-align:center; text-decoration:none !important; }
+.funding-bubble-disc { display:flex; align-items:center; justify-content:center; box-sizing:border-box; width:100%; height:var(--display-diameter); flex-shrink:0; border-radius:50%; background:#f0f6f5; padding:18%; }
+.funding-bubble-disc img { width:100%; height:100%; object-fit:contain; color-scheme:light; }
+.funding-wordmark { font-size:.8rem; font-weight:600; line-height:1.25; overflow-wrap:normal; }
+.funding-bubble-caption { display:block; font-size:.7rem; line-height:1.35; font-weight:500; }
+.funding-bubble:hover .funding-bubble-disc, .funding-bubble:focus-visible .funding-bubble-disc { background:#dceee9; }
+.funding-bubble:focus-visible { outline:2px solid #177e76; outline-offset:5px; border-radius:6px; }
+.funding-white-mark { filter:brightness(.2); }
+.funding-scale-notes { margin:1rem 0 2.5rem; font-size:.8rem; }
+.funding-scale-notes summary { cursor:pointer; color:#126b65; font-weight:600; padding:.75rem 0; }
+.funding-amount-list li { margin:.5rem 0; }
+.funding-further-heading { font-size:1.15rem; }
+.supporter-cloud-unweighted .cloud-supporter:nth-child(n) { width:130px; font-size:.85rem; margin:0; transform:none; }
+.supporter-cloud-unweighted .cloud-supporter img { height:60px; }
+.funding-home .funding-weighted-cloud { max-width:980px; gap:20px; }
+.funding-home .funding-bubble { --display-diameter:calc(var(--funding-diameter) * .7); }
+.dark .funding-weighted-cloud { background:#fff; border-radius:10px; padding:1rem; }
+.dark .funding-scale-notes summary { color:#98d7cc; }
+@media (max-width:575px) {
+  .funding-weighted-cloud { margin:1rem auto; }
+  .supporter-cloud-unweighted .cloud-supporter:nth-child(n) { width:115px; }
+}
+.funding-bubble-estimated .funding-bubble-disc { border:1px dotted #177e76; }
+.funding-costing { margin:.5rem 0; font-size:.75rem; }
+.funding-costing summary { cursor:pointer; color:#126b65; }
+.funding-costing ul { padding-left:1.2rem; }
+.dark .funding-costing summary { color:#98d7cc; }
+
+.cloud-caption { font-size:.7rem; line-height:1.35; }
+.dark .funding-bubble { color:#254a53; }
+@media (max-width:575px) {
+  .funding-weighted-cloud { gap:22px 14px; }
+  .funding-bubble { --display-diameter:calc(var(--funding-diameter) * .75); }
+  .funding-bubble-caption, .cloud-caption { font-size:.68rem; }
+  .funding-wordmark { font-size:.72rem; }
+  .funding-home .funding-bubble { --display-diameter:calc(var(--funding-diameter) * .7); }
+}
+.funding-bubble-disc:has(.funding-wordmark) { padding:10%; }
+.funding-wordmark { font-size:clamp(.6rem, calc(var(--display-diameter) * .1), .85rem); line-height:1.2; }
+/* Base-plus-proportional-area cloud: SVG scales all circles uniformly at every viewport. */
+svg.funding-weighted-cloud { display:block; max-width:900px; max-height:680px; overflow:visible; }
+svg.funding-weighted-cloud .funding-bubble { display:inline; width:auto; }
+.funding-bubble circle { fill:#f0f6f5; stroke:none; }
+.funding-bubble image { color-scheme:light; }
+.funding-bubble:hover circle, .funding-bubble:focus-visible circle { fill:#dceee9; }
+.funding-bubble-estimated circle { stroke:#177e76; stroke-width:1; stroke-dasharray:2 2; }
+.funding-home svg.funding-weighted-cloud { max-width:600px; max-height:330px; }

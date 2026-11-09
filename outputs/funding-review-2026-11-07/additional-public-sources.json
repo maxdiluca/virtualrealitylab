@@ -1,0 +1,39 @@
+[
+  {
+    "id": "support-49",
+    "group": "people",
+    "years": "2014",
+    "title": "Darren Rhodes’s visiting fellowship",
+    "supporters": [
+      "ntnu"
+    ],
+    "detail": "Young Researcher Visiting Fellowship at the Norwegian University of Science and Technology, linking time perception and language research.",
+    "value": "",
+    "url": "https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language"
+  },
+  {
+    "id": "support-50",
+    "group": "people",
+    "years": "2019–2022",
+    "title": "Davide Deflorio’s collaborative studentship",
+    "supporters": [
+      "uob",
+      "pg"
+    ],
+    "detail": "Joint University of Birmingham and Procter & Gamble studentship supporting research on tactile perception. Dates indicate doctoral supervision.",
+    "value": "",
+    "url": "https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/"
+  },
+  {
+    "id": "support-52",
+    "group": "people",
+    "years": "2021",
+    "title": "Katrina Galsworthy’s Marek Sinason Memorial Fund award",
+    "supporters": [
+      "marek-sinason"
+    ],
+    "detail": "Award supporting Katrina Galsworthy’s initial research on the ARME project. The fund was established in memory of Marek Sinason, a University of Birmingham PhD alumnus.",
+    "value": "£250",
+    "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set"
+  }
+]

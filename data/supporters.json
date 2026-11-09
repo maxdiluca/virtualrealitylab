@@ -1,0 +1,348 @@
+[
+  {
+    "id": "uob",
+    "name": "University of Birmingham",
+    "url": "https://www.birmingham.ac.uk/",
+    "logo": "/media/funders/uob.svg",
+    "wall": true,
+    "display_logo": "/media/funders/uob.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "epsrc",
+    "name": "EPSRC",
+    "url": "https://www.ukri.org/councils/epsrc/",
+    "logo": "/media/funders/epsrc.png",
+    "wall": true,
+    "display_logo": "/media/funders/epsrc.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "bbsrc",
+    "name": "BBSRC",
+    "url": "https://www.ukri.org/councils/bbsrc/",
+    "logo": "/media/funders/bbsrc.png",
+    "wall": true,
+    "display_logo": "/media/funders/bbsrc.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "ahrc",
+    "name": "AHRC",
+    "url": "https://www.ukri.org/councils/ahrc/",
+    "logo": "/media/funders/ahrc.png",
+    "wall": true,
+    "display_logo": "/media/funders/ahrc.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "esrc",
+    "name": "ESRC",
+    "url": "https://www.ukri.org/councils/esrc/",
+    "logo": "/media/funders/esrc.png",
+    "wall": true,
+    "display_logo": "/media/funders/esrc.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "eu",
+    "name": "European Union · Marie Curie / MSCA",
+    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+    "logo": "/media/funders/eu.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/eu.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "url": "https://about.google/",
+    "logo": "/media/funders/google.svg",
+    "wall": true,
+    "display_logo": "/media/funders/google.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "royal-society",
+    "name": "The Royal Society",
+    "url": "https://royalsociety.org/",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/royal-society.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "eps",
+    "name": "Experimental Psychology Society",
+    "url": "https://eps.ac.uk/",
+    "logo": "/media/funders/eps.png",
+    "wall": true,
+    "display_logo": "/media/funders/eps.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "daad",
+    "name": "DAAD",
+    "url": "https://www.daad.de/en/",
+    "logo": "/media/funders/daad.svg",
+    "wall": true,
+    "display_logo": "/media/funders/daad.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "erasmus",
+    "name": "Erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/",
+    "logo": "/media/funders/eu.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/erasmus.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "marco-polo",
+    "name": "Marco Polo",
+    "url": "/funding/#support-51",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/marco-polo.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "m4c",
+    "name": "Midlands4Cities",
+    "url": "https://www.midlands4cities.ac.uk/",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/m4c.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "ntnu",
+    "name": "NTNU",
+    "url": "https://www.ntnu.edu/",
+    "logo": "/media/funders/ntnu.svg",
+    "wall": true,
+    "display_logo": "/media/funders/ntnu.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "china",
+    "name": "Chinese government",
+    "url": "",
+    "logo": "",
+    "wall": false,
+    "display_logo": "/media/funders/acknowledgements/china.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "irc",
+    "name": "Irish Research Council",
+    "url": "https://research.ie/",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/irc.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "trieste",
+    "name": "University of Trieste / PRIN",
+    "url": "https://www.units.it/",
+    "logo": "/media/funders/trieste.svg",
+    "wall": true,
+    "dark_logo": true,
+    "display_logo": "/media/funders/trieste.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "pg",
+    "name": "Procter & Gamble",
+    "url": "https://us.pg.com/",
+    "logo": "/media/funders/pg.svg",
+    "wall": true,
+    "display_logo": "/media/funders/pg.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "gillette",
+    "name": "Gillette",
+    "url": "https://gillette.com/",
+    "logo": "/media/funders/gillette.png",
+    "wall": true,
+    "display_logo": "/media/funders/gillette.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "ansell",
+    "name": "Ansell",
+    "url": "https://www.ansell.com/gb/en",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/ansell.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "oculus",
+    "name": "Oculus",
+    "url": "/funding/#support-39",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/oculus.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "meta",
+    "name": "Facebook / Meta",
+    "url": "https://about.meta.com/",
+    "logo": "/media/funders/meta.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/meta.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "nhs",
+    "name": "NHS",
+    "url": "https://www.nhs.uk/",
+    "logo": "/media/funders/nhs.svg",
+    "wall": true,
+    "display_logo": "/media/funders/nhs.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "ultraleap",
+    "name": "Ultraleap",
+    "url": "https://www.ultraleap.com/",
+    "logo": "/media/funders/ultraleap.svg",
+    "wall": true,
+    "display_logo": "/media/funders/ultraleap.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "unity",
+    "name": "Unity",
+    "url": "https://unity.com/",
+    "logo": "/media/funders/unity.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/unity.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "roli",
+    "name": "ROLI",
+    "url": "https://roli.com/",
+    "logo": "/media/funders/roli.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/roli.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok / ByteDance",
+    "url": "https://www.bytedance.com/en/",
+    "logo": "/media/funders/tiktok.svg",
+    "wall": true,
+    "dark_logo": true,
+    "display_logo": "/media/funders/tiktok.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "url": "https://www.siemens.com/",
+    "logo": "/media/funders/siemens.svg",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/siemens.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "partplay",
+    "name": "PartPlay",
+    "url": "https://partplay.co.uk/",
+    "logo": "/media/funders/partplay.png",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/partplay.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "semanticaudio",
+    "name": "SemanticAudio",
+    "url": "/funding/#support-35",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/semanticaudio.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "obi",
+    "name": "Obirobotics",
+    "url": "https://www.obirobotics.com/",
+    "logo": "",
+    "wall": false,
+    "display_logo": "/media/funders/acknowledgements/obi.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "createch",
+    "name": "CreaTech Frontiers",
+    "url": "https://createchfrontiers.com/",
+    "logo": "/media/funders/createch.svg",
+    "wall": false,
+    "dark_logo": true,
+    "display_logo": "/media/funders/createch.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "icure",
+    "name": "Innovate UK · ICURe Explore",
+    "url": "https://www.icureprogramme.com/",
+    "logo": "/media/funders/icure.png",
+    "wall": false,
+    "dark_logo": true,
+    "display_logo": "/media/funders/icure.png",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "ventureversity",
+    "name": "VentureVersity · Research England",
+    "url": "https://ventureversity.org/",
+    "logo": "/media/funders/ventureversity.svg",
+    "wall": false,
+    "display_logo": "/media/funders/ventureversity.svg",
+    "artwork_type": "original_named_logo"
+  },
+  {
+    "id": "william-edwards",
+    "name": "William Edwards Educational Charity",
+    "url": "/funding/#support-47",
+    "logo": "",
+    "wall": false,
+    "display_logo": "/media/funders/acknowledgements/william-edwards.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "givaudan",
+    "name": "Givaudan",
+    "url": "https://www.givaudan.com/",
+    "logo": "/media/funders/givaudan.png",
+    "wall": false,
+    "display_logo": "/media/funders/acknowledgements/givaudan.svg",
+    "artwork_type": "symbol_with_embedded_name"
+  },
+  {
+    "id": "marek-sinason",
+    "name": "Marek Sinason Memorial Fund",
+    "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+    "logo": "",
+    "wall": true,
+    "display_logo": "/media/funders/acknowledgements/marek-sinason.svg",
+    "artwork_type": "name_only_image"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com/",
+    "logo": "/media/funders/anthropic.svg",
+    "wall": true,
+    "display_logo": "/media/funders/anthropic.svg",
+    "artwork_type": "original_named_logo"
+  }
+]

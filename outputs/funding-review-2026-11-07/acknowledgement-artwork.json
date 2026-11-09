@@ -1,0 +1,184 @@
+{
+  "eu": {
+    "asset": "/media/funders/acknowledgements/eu.svg",
+    "original_asset": "/media/funders/eu.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "European Union",
+      "Marie Curie / MSCA"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "royal-society": {
+    "asset": "/media/funders/acknowledgements/royal-society.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "The Royal",
+      "Society"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "erasmus": {
+    "asset": "/media/funders/acknowledgements/erasmus.svg",
+    "original_asset": "/media/funders/eu.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "Erasmus"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "marco-polo": {
+    "asset": "/media/funders/acknowledgements/marco-polo.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Marco Polo"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "m4c": {
+    "asset": "/media/funders/acknowledgements/m4c.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Midlands4Cities"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "china": {
+    "asset": "/media/funders/acknowledgements/china.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Chinese",
+      "government"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "irc": {
+    "asset": "/media/funders/acknowledgements/irc.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Irish",
+      "Research",
+      "Council"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "ansell": {
+    "asset": "/media/funders/acknowledgements/ansell.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Ansell"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "oculus": {
+    "asset": "/media/funders/acknowledgements/oculus.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Oculus"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "meta": {
+    "asset": "/media/funders/acknowledgements/meta.svg",
+    "original_asset": "/media/funders/meta.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "Facebook / Meta"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "unity": {
+    "asset": "/media/funders/acknowledgements/unity.svg",
+    "original_asset": "/media/funders/unity.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "Unity"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "roli": {
+    "asset": "/media/funders/acknowledgements/roli.svg",
+    "original_asset": "/media/funders/roli.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "ROLI"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "siemens": {
+    "asset": "/media/funders/acknowledgements/siemens.svg",
+    "original_asset": "/media/funders/siemens.svg",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "Siemens"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "partplay": {
+    "asset": "/media/funders/acknowledgements/partplay.svg",
+    "original_asset": "/media/funders/partplay.png",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "PartPlay"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "semanticaudio": {
+    "asset": "/media/funders/acknowledgements/semanticaudio.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "SemanticAudio"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "obi": {
+    "asset": "/media/funders/acknowledgements/obi.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Obirobotics"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "william-edwards": {
+    "asset": "/media/funders/acknowledgements/william-edwards.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "William",
+      "Edwards",
+      "Educational",
+      "Charity"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "givaudan": {
+    "asset": "/media/funders/acknowledgements/givaudan.svg",
+    "original_asset": "/media/funders/givaudan.png",
+    "method": "symbol_with_embedded_name",
+    "label_lines": [
+      "Givaudan"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  },
+  "marek-sinason": {
+    "asset": "/media/funders/acknowledgements/marek-sinason.svg",
+    "original_asset": null,
+    "method": "name_only_image",
+    "label_lines": [
+      "Marek",
+      "Sinason",
+      "Memorial",
+      "Fund"
+    ],
+    "note": "Website acknowledgement artwork; original mark retained. Added name is inside the standalone SVG image, not an HTML caption. Name-only artwork does not invent an organisation logo."
+  }
+}

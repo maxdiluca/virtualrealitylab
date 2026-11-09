@@ -1,0 +1,8 @@
+<section class="funding-home">
+  <p class="funding-eyebrow">Research, people and possibilities</p>
+  <h2>With thanks to our supporters</h2>
+  <p>We thank all our current and past funders and donors for supporting our research, students and facilities.</p>
+  <p class="funding-small">Selected supporters; sizes reflect funding, with a minimum size for visibility.</p>
+  {{ partial "funding-weighted-cloud.html" (dict "cloud" site.Data.funding_cloud.home "home" true) }}
+  <a class="funding-all-link" href="{{ "/funding/" | relURL }}">All supporters</a>
+</section>

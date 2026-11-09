@@ -1,0 +1,162 @@
+{
+  "uob": {
+    "asset": "/media/funders/uob.svg",
+    "source": "https://www.birmingham.ac.uk/Images/logos/uob/uob-uk-logo-light.svg",
+    "page": "https://www.birmingham.ac.uk/",
+    "bytes": 130500
+  },
+  "epsrc": {
+    "asset": "/media/funders/epsrc.png",
+    "source": "https://www.ukri.org/wp-content/uploads/2026/08/ukri-epsrc-square-logo.png",
+    "page": "https://www.ukri.org/councils/epsrc/",
+    "bytes": 33415
+  },
+  "bbsrc": {
+    "asset": "/media/funders/bbsrc.png",
+    "source": "https://www.ukri.org/wp-content/uploads/2026/08/ukri-bbsrc-square-logo.png",
+    "page": "https://www.ukri.org/councils/bbsrc/",
+    "bytes": 36383
+  },
+  "ahrc": {
+    "asset": "/media/funders/ahrc.png",
+    "source": "https://www.ukri.org/wp-content/uploads/2026/08/ukri-ahrc-square-logo.png",
+    "page": "https://www.ukri.org/councils/ahrc/",
+    "bytes": 25988
+  },
+  "esrc": {
+    "asset": "/media/funders/esrc.png",
+    "source": "https://www.ukri.org/wp-content/uploads/2026/08/ukri-esrc-square-logo.png",
+    "page": "https://www.ukri.org/councils/esrc/",
+    "bytes": 26166
+  },
+  "eu": {
+    "asset": "/media/funders/eu.svg",
+    "source": "https://marie-sklodowska-curie-actions.ec.europa.eu/profiles/custom/eac_profile/themes/eac_theme/images/eche/ec_flag.svg",
+    "page": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+    "bytes": 1108
+  },
+  "google": {
+    "asset": "/media/funders/google.svg",
+    "source": "https://www.gstatic.com/marketing-cms/assets/images/f5/d3/a7f9db7045429cb6dc6be56bdcbe/google-logo-about.svg",
+    "page": "https://about.google/",
+    "bytes": 3050
+  },
+  "eps": {
+    "asset": "/media/funders/eps.png",
+    "source": "https://i0.wp.com/eps.ac.uk/wp-content/uploads/2026/02/EPS80.png?fit=346%2C346&ssl=1",
+    "page": "https://eps.ac.uk/",
+    "bytes": 26320
+  },
+  "daad": {
+    "asset": "/media/funders/daad.svg",
+    "source": "https://www.daad.de/_nuxt/logo-small-light.BeMXrHNY.svg",
+    "page": "https://www.daad.de/en/",
+    "bytes": 2025
+  },
+  "pg": {
+    "asset": "/media/funders/pg.svg",
+    "source": "https://images.ctfassets.net/oggad6svuzkv/7znyJc3Y7SecEoKSYKWoaQ/4a24e9015c360799cfb072adcd92cc5e/P_G_Logo_RGB.svg",
+    "page": "https://us.pg.com/",
+    "bytes": 4998
+  },
+  "gillette": {
+    "asset": "/media/funders/gillette.png",
+    "source": "https://cdn11.bigcommerce.com/s-dukhrgn8mp/images/stencil/original/content/img/header/m.Logo_Gillette_Blue.png",
+    "page": "https://gillette.com/",
+    "bytes": 3330
+  },
+  "meta": {
+    "asset": "/media/funders/meta.svg",
+    "source": "https://static.xx.fbcdn.net/rsrc.php/yf/r/-7pQO6hUGK_.svg",
+    "page": "https://about.meta.com/",
+    "bytes": 8912
+  },
+  "nhs": {
+    "asset": "/media/funders/nhs.svg",
+    "source": "https://www.nhs.uk/static/nhsuk/img/favicons/favicon.25bc75538faa.svg",
+    "page": "https://www.nhs.uk/",
+    "bytes": 1676
+  },
+  "ultraleap": {
+    "asset": "/media/funders/ultraleap.svg",
+    "source": "https://www.ultraleap.com/assets/images/ultraleap-logo-black.svg",
+    "page": "https://www.ultraleap.com/",
+    "bytes": 5723
+  },
+  "roli": {
+    "asset": "/media/funders/roli.svg",
+    "source": "https://roli.com/favicon.svg",
+    "page": "https://roli.com/",
+    "bytes": 1530
+  },
+  "tiktok": {
+    "asset": "/media/funders/tiktok.svg",
+    "source": "https://www.bytedance.com/?locale=en",
+    "page": "https://www.bytedance.com/?locale=en",
+    "bytes": 7634,
+    "method": "Unmodified inline SVG from official page"
+  },
+  "siemens": {
+    "asset": "/media/funders/siemens.svg",
+    "source": "https://www.siemens.com/_static/favicon.svg",
+    "page": "https://www.siemens.com/",
+    "bytes": 753
+  },
+  "createch": {
+    "asset": "/media/funders/createch.svg",
+    "source": "https://createchfrontiers.com/wp-content/uploads/2025/08/Logo.svg",
+    "page": "https://createchfrontiers.com/",
+    "bytes": 7829
+  },
+  "partplay": {
+    "asset": "/media/funders/partplay.png",
+    "source": "https://partplay.co.uk/favicon.png",
+    "page": "https://partplay.co.uk/",
+    "bytes": 3705
+  },
+  "trieste": {
+    "asset": "/media/funders/trieste.svg",
+    "source": "https://portale.units.it/themes/custom/units_base/images/logo_100.svg",
+    "page": "https://www.units.it/",
+    "bytes": 1025036
+  },
+  "ntnu": {
+    "asset": "/media/funders/ntnu.svg",
+    "source": "https://www.ntnu.edu/o/ntnu-theme/images/ntnu-logo-web-v1.svg",
+    "page": "https://www.ntnu.edu/",
+    "bytes": 1993
+  },
+  "icure": {
+    "asset": "/media/funders/icure.png",
+    "source": "https://iuk-business-connect.org.uk/wp-content/uploads/2026/03/ICURe-logo_white_RGB.png",
+    "page": "https://www.icureprogramme.com/",
+    "bytes": 32283
+  },
+  "givaudan": {
+    "asset": "/media/funders/givaudan.png",
+    "source": "https://www.givaudan.com/modules/custom/givaudan_coveo/modules/givaudan_coveo_searches/images/givaudan_g.png",
+    "page": "https://www.givaudan.com/",
+    "bytes": 9253
+  },
+  "ventureversity": {
+    "asset": "/media/funders/ventureversity.svg",
+    "source": "https://ventureversity.org/",
+    "page": "https://ventureversity.org/",
+    "bytes": 7324,
+    "method": "Unmodified inline SVG from official page"
+  },
+  "unity": {
+    "asset": "/media/funders/unity.svg",
+    "source": "https://unity.com/icon.svg",
+    "page": "https://unity.com/",
+    "bytes": 645,
+    "method": "Unmodified official website brand icon"
+  },
+  "anthropic": {
+    "asset": "/media/funders/anthropic.svg",
+    "source": "https://www.anthropic.com/",
+    "page": "https://www.anthropic.com/",
+    "bytes": 2391,
+    "method": "Official header wordmark SVG; viewBox attribute case restored after HTML parsing. No added caption; wordmark already contains name."
+  }
+}

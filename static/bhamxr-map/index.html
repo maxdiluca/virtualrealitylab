@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore BhamXR research interests, expertise and connections across disciplines.">
+  <title>BhamXR expertise map</title>
+  <link rel="canonical" href="https://virtualrealitylab.netlify.app/bhamxr-map/">
+  <link rel="stylesheet" href="./map.css">
+  <script src="./map.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#member-browser">Skip to people</a>
+  <header class="site-header">
+    <a href="https://www.birmingham.ac.uk/research/centres-institutes/bhamxr">BhamXR <span>University of Birmingham</span></a>
+  </header>
+  <main id="bhamxr-map" class="expertise-map" data-members-url="./members.json" data-resize-parent-origins='["https://www.birmingham.ac.uk","https://birmingham.ac.uk"]'>
+    <header class="map-heading">
+      <p class="eyebrow">People &amp; research</p>
+      <h1 data-title>BhamXR expertise map</h1>
+      <p class="intro" data-intro>Explore research interests and expertise across BhamXR.</p>
+      <p class="map-meta" data-meta></p>
+    </header>
+    <div class="load-state" data-load-state role="status">
+      <p data-load-message>Loading the expertise map…</p>
+      <button class="text-button" type="button" data-retry hidden>Try again</button>
+    </div>
+    <noscript><p class="load-state">JavaScript is needed to explore this interactive map.</p></noscript>
+    <div data-content hidden>
+      <section class="themes-section" aria-labelledby="themes-title">
+        <div class="section-heading">
+          <h2 id="themes-title">Explore by theme</h2>
+          <button class="text-button" type="button" data-all aria-pressed="true">All people</button>
+        </div>
+        <div class="theme-map" data-theme-map>
+          <svg class="theme-lines" aria-hidden="true" focusable="false"></svg>
+          <div class="map-centre" aria-hidden="true"><strong>BhamXR</strong><span data-hub-count></span><small>Overlapping expertise</small></div>
+          <div class="theme-nodes" data-theme-nodes role="group" aria-label="Filter people by research theme"></div>
+        </div>
+        <p class="map-note">Select a theme to find people and shared interests. Connections represent overlapping theme assignments, not confirmed collaborations.</p>
+      </section>
+      <section id="member-browser" class="member-browser" aria-labelledby="browser-title" tabindex="-1">
+        <div class="browser-heading">
+          <div><h2 id="browser-title" data-group-title>All people</h2><p class="group-topics" data-group-topics></p></div>
+          <button class="text-button" type="button" data-reset>Reset filters</button>
+        </div>
+        <form class="search-form" role="search">
+          <label for="member-search">Find a person or area of expertise</label>
+          <div class="search-row">
+            <input id="member-search" type="search" autocomplete="off" placeholder="Name, interest, method or affiliation" aria-describedby="search-help" aria-controls="member-list">
+            <button class="text-button" type="button" data-clear hidden>Clear search</button>
+          </div>
+          <p id="search-help" class="search-help">Search within the selected theme, or choose All people to search the whole map.</p>
+        </form>
+        <div class="directory-layout">
+          <div class="directory">
+            <p class="result-status" data-result-status role="status" aria-live="polite" aria-atomic="true"></p>
+            <ul id="member-list" class="member-list" data-member-list aria-label="People"></ul>
+            <p class="no-results" data-no-results hidden>No matching people. Try another term or reset the filters.</p>
+          </div>
+          <section class="person-panel" aria-labelledby="person-title" data-person-panel>
+            <div class="empty-detail" data-empty-detail><p class="eyebrow">Member details</p><h3 id="person-title">Select a person</h3><p>Choose a name to explore their research interests, methods and connections across themes.</p></div>
+          </section>
+        </div>
+      </section>
+      <footer class="map-footer">Themes are provisional, overlapping descriptions of research interests and related expertise. Inclusion does not imply direct XR experience, an agreed collaboration or current availability.</footer>
+    </div>
+  </main>
+</body>
+</html>

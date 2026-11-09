@@ -1,0 +1,97 @@
+{{ define "main" }}
+<article class="funding-page container">
+  <header class="funding-intro">
+    <p class="funding-eyebrow">Supporting discovery since 2011</p>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  <section class="funding-wall" aria-labelledby="supporters-heading">
+    <h2 id="supporters-heading" class="sr-only">Our funders and supporters</h2>
+    <p class="funding-small">Larger circles indicate greater recorded and estimated support, with a minimum size for visibility. Dotted outlines indicate cost estimates; select a logo for details.</p>
+    {{ partial "funding-weighted-cloud.html" (dict "cloud" site.Data.funding_cloud.main "home" false) }}
+    <details class="funding-scale-notes">
+      <summary>Amounts and how the sizes are calculated</summary>
+      <p>Every circle has the same base area, plus an additional area proportional to contribution value. This keeps smaller contributors visible while preserving the order of funding amounts. Total circle areas are therefore not strictly proportional to funding. Recorded amounts and estimates are listed below.</p>
+      <p>Values combine recorded cash awards, source-recorded approximate values and estimated costs of donated equipment. Estimates use cited prices, quantities and explicit assumptions; they are not invoices or audited values. Agreed donations can be included before delivery and are identified as such. Birmingham allocations are used where available; awards held by other institutions and unawarded applications are excluded. Each contribution is counted once under its funder, including AHRC support delivered through CreaTech Frontiers to MyJAMS.</p>
+      <p>Euro and US-dollar amounts are converted to pounds using <a href="{{ site.Data.funding_weights.exchange_rates.source }}">ECB reference rates of 6 November 2026</a> (£0.83415 and US$1.1165 per euro). This provides a common visual scale, not historical accounting values. Approximate source amounts remain approximate. Unknown amounts are omitted, so these sizes do not represent each supporter’s complete contribution.</p>
+      <ul class="funding-amount-list">
+        {{ range site.Data.funding_cloud.main.items }}
+          <li><strong>{{ .name }}: {{ .amount_label }}</strong>{{ with .in_kind_gbp }} (includes approximately £{{ printf "%.0f" . }} of valued in-kind support){{ end }}.
+            {{ with .estimated_gbp }}Includes approximately £{{ printf "%.0f" . }} of assisted cost estimates.{{ end }}
+            {{ with .pending_delivery_gbp }}Includes an agreed donation; delivery is unconfirmed.{{ end }}
+            {{ range .records }}<a href="#{{ . }}">{{ range where site.Data.funding.records "id" . }}{{ .title }}{{ end }}</a>; {{ end }}
+            {{ with .unvalued_records }}<span>Additional support excluded from this amount because its value is unconfirmed: {{ range . }}<a href="#{{ . }}">{{ range where site.Data.funding.records "id" . }}{{ .title }}{{ end }}</a>{{ end }}.</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </details>
+    <h3 class="funding-further-heading">Further supporters and programmes</h3>
+    <p class="funding-small">We also thank these supporters and programmes, including ESRC for funding <a href="#support-54">Maisy Rapata’s PhD studentship</a>. These logos are shown without funding-based sizing because values are unconfirmed, awards are held by partners, or support is already counted under another funding organisation.</p>
+    <div class="supporter-cloud supporter-cloud-unweighted" role="list">
+      {{ range $i, $org := site.Data.funding_cloud.unweighted }}
+        {{ partial "funding-cloud-logo.html" (dict "org" $org "index" $i) }}
+      {{ end }}
+    </div>
+  </section>
+  <section aria-labelledby="record-heading" class="funding-record">
+    <h2 id="record-heading">What this support makes possible</h2>
+    <p>Explore support for our research, people and facilities at Birmingham since 2011, including work that preceded the present VR Lab.</p>
+    <p class="funding-small">The records below retain the original currencies and identify the recipient and type of support.</p>
+    {{ range site.Data.funding.groups }}
+      <details class="funding-group" id="{{ .id }}">
+        <summary><span>{{ .title }}</span><span class="funding-count">{{ len (where site.Data.funding.records "group" .id) }} entries</span></summary>
+        <div class="funding-group-body">
+          <p>{{ .intro }}</p>
+          {{ with .supporters }}
+            <div class="supporter-grid supporter-grid-small">
+              {{ range $id := . }}{{ range where site.Data.supporters "id" $id }}{{ partial "funding-logo.html" . }}{{ end }}{{ end }}
+            </div>
+          {{ end }}
+          <dl class="funding-entries">
+            {{ range where site.Data.funding.records "group" .id }}
+              <div class="funding-entry" id="{{ .id }}">
+                <dt><span class="funding-years">{{ .years }}</span>{{ .title }}</dt>
+                <dd>
+                  <p class="funding-sources">{{ range $i, $key := .supporters }}{{ if $i }} · {{ end }}{{ range where site.Data.supporters "id" $key }}{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ end }}{{ end }}</p>
+                  <p>{{ .detail }}</p>
+                  {{ with .value }}<p class="funding-value">{{ . }}</p>{{ end }}
+                  {{ with .costing }}
+                    <details class="funding-costing"><summary>Valuation basis</summary><p>{{ .summary }}</p>
+                      {{ with .assumptions }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+                      {{ with .sources }}<p>{{ range . }}<a href="{{ .url }}">{{ .label }}</a> · {{ end }}</p>{{ end }}
+                    </details>
+                  {{ end }}
+                  {{ with .url }}<p><a href="{{ . }}">Award or research record</a></p>{{ end }}
+                </dd>
+              </div>
+            {{ end }}
+          </dl>
+          {{ if eq .id "myjams" }}
+            <p>Related University research and development support includes <a href="#support-05">EPSRC ARME</a>, <a href="#support-09">BBSRC IAA AMUSER</a>, <a href="#support-08">EPSRC IAA MUSEX</a>, <a href="#support-27">UoB business-engagement funding</a> and <a href="#support-31">ROLI equipment donations</a>.</p>
+          {{ end }}
+        </div>
+      </details>
+    {{ end }}
+  </section>
+  <section class="funding-collaborators">
+    <h2>Wider collaboration</h2>
+    <p>We also thank the Museum of Music History, Kenilworth Town Council, Priors Field Primary School, Zubr and Innogence for their collaboration. Partner-held funding is acknowledged separately above.</p>
+  </section>
+  <p class="funding-small">Record reviewed {{ site.Data.funding.reviewed }}. <a href="{{ "/#contact" | relURL }}">Contact us about an acknowledgement</a>.</p>
+</article>
+<script>
+  (() => {
+    function revealSection() {
+      const section = document.getElementById(location.hash.slice(1));
+      if (!section) return;
+      const details = section.closest('details');
+      if (details) {
+        details.open = true;
+        requestAnimationFrame(() => section.scrollIntoView());
+      }
+    }
+    window.addEventListener('hashchange', revealSection);
+    revealSection();
+  })();
+</script>
+{{ end }}

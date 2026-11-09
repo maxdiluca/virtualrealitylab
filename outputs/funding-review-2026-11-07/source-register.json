@@ -1,0 +1,829 @@
+{
+  "archive": "/Users/m.diluca@bham.ac.uk/GitHub/cv-test/output/promotion-four-papers-2026-11-06/Academic_CV_sources.zip",
+  "sha256": "52ecedb4894ab109262b4d7b44742d96e13af73109c24ba17d411055d55ccfd9",
+  "records": [
+    {
+      "id": "support-01",
+      "group": "current",
+      "years": "2026–2030",
+      "title": "EXPLORA",
+      "supporters": [
+        "eu"
+      ],
+      "detail": "MSCA Doctoral Network; Massimiliano Di Luca is Birmingham PI.",
+      "value": "€348,738.12 EU contribution to Birmingham",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        107
+      ]
+    },
+    {
+      "id": "support-02",
+      "group": "current",
+      "years": "2026–2027",
+      "title": "Opportunity Commons",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "QR Enhancing Research Culture Fund; project lead.",
+      "value": "£24,970",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        44
+      ]
+    },
+    {
+      "id": "support-03",
+      "group": "current",
+      "years": "2026–2027",
+      "title": "BhamXR Futures Network+",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "AI-Mediated Virtual Worlds; lead applicant and Network Lead.",
+      "value": "£25,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        45
+      ]
+    },
+    {
+      "id": "support-04",
+      "group": "current",
+      "years": "2024–2028",
+      "title": "Input Vault and Text Entry XR",
+      "supporters": [
+        "google"
+      ],
+      "detail": "Three academic gifts: Input Vault (2024–2026 and 2025–2028) and Text Entry XR (2026).",
+      "value": "US$55,000 across three gifts",
+      "source": "cv-diluca-2025.tex",
+      "source_lines": [
+        486
+      ]
+    },
+    {
+      "id": "support-05",
+      "group": "research",
+      "years": "2021–2025",
+      "title": "Augmented Reality for Music Ensemble (ARME)",
+      "supporters": [
+        "epsrc"
+      ],
+      "detail": "EPSRC research award; principal investigator. PartPlay and SemanticAudio contributed partnership support.",
+      "value": "£738,438 allocated to Birmingham within a £1,183,465 award",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        47
+      ]
+    },
+    {
+      "id": "support-06",
+      "group": "research",
+      "years": "2018–2021",
+      "title": "Ageing effects on texture perception",
+      "supporters": [
+        "bbsrc",
+        "pg"
+      ],
+      "detail": "BBSRC research award with Procter & Gamble; co-investigator, with Alan Wing as PI.",
+      "value": "£799,581 awarded to Birmingham",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        48
+      ]
+    },
+    {
+      "id": "support-07",
+      "group": "research",
+      "years": "2012–2016",
+      "title": "Temporal information in crossmodal stimuli (TICS)",
+      "supporters": [
+        "eu"
+      ],
+      "detail": "Marie Curie Career Integration Grant; principal investigator.",
+      "value": "€100,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        49
+      ]
+    },
+    {
+      "id": "support-08",
+      "group": "research",
+      "years": "2024–2025",
+      "title": "Music Ensemble Exhibition (MUSEX / AMuSEx)",
+      "supporters": [
+        "epsrc"
+      ],
+      "detail": "EPSRC IAA Follow-on Fund; principal investigator.",
+      "value": "£14,856.60 original award",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        85
+      ]
+    },
+    {
+      "id": "support-09",
+      "group": "research",
+      "years": "2023–2024",
+      "title": "App-based MUSic Ensemble Rehearsal (AMUSER)",
+      "supporters": [
+        "bbsrc"
+      ],
+      "detail": "BBSRC Impact Acceleration Account; principal investigator.",
+      "value": "£21,672.54",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        86
+      ]
+    },
+    {
+      "id": "support-10",
+      "group": "research",
+      "years": "2021–2023",
+      "title": "Adaptive tactile test system (ATTS)",
+      "supporters": [
+        "bbsrc",
+        "obi"
+      ],
+      "detail": "BBSRC Impact Acceleration Account with Obirobotics; co-investigator. Value not established.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        87
+      ]
+    },
+    {
+      "id": "support-11",
+      "group": "research",
+      "years": "2021–2022",
+      "title": "Seeing How You Feel",
+      "supporters": [
+        "esrc",
+        "irc"
+      ],
+      "detail": "Multisensory enhancement of touch in ageing; Birmingham co-investigator on an ESRC–IRC collaboration.",
+      "value": "£9,516 ESRC award to the University of Nottingham",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        119
+      ]
+    },
+    {
+      "id": "support-12",
+      "group": "research",
+      "years": "2020–2022",
+      "title": "Lazy Susan",
+      "supporters": [
+        "eps"
+      ],
+      "detail": "Technology for multisensory research at a distance; principal investigator.",
+      "value": "£3,500",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        120
+      ]
+    },
+    {
+      "id": "support-13",
+      "group": "research",
+      "years": "2013–2014",
+      "title": "Apprendimento visuotattile",
+      "supporters": [
+        "trieste"
+      ],
+      "detail": "University of Trieste / PRIN collaboration with Paolo Gallina; co-investigator.",
+      "value": "€12,000 project value; Birmingham share not established",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        121
+      ]
+    },
+    {
+      "id": "support-14",
+      "group": "research",
+      "years": "2012–2013",
+      "title": "Haptic perception of softness",
+      "supporters": [
+        "royal-society"
+      ],
+      "detail": "Royal Society seed funding; principal investigator.",
+      "value": "£15,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        122
+      ]
+    },
+    {
+      "id": "support-15",
+      "group": "research",
+      "years": "2011–2012",
+      "title": "Grasping uncertainty in robots and humans",
+      "supporters": [
+        "epsrc"
+      ],
+      "detail": "EPSRC seed funding with Jeremy Wyatt; co-investigator.",
+      "value": "£15,000 project value",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        123
+      ]
+    },
+    {
+      "id": "support-16",
+      "group": "people",
+      "years": "2026",
+      "title": "Music performance capture",
+      "supporters": [
+        "epsrc"
+      ],
+      "detail": "Two-month EPSRC Vacation Internship awarded to Christopher Jones under Di Luca’s supervision.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        106
+      ]
+    },
+    {
+      "id": "support-17",
+      "group": "people",
+      "years": "2024–2026",
+      "title": "Birmingham Summer Undergraduate Research Experience (BSURE)",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "Funded undergraduate research placements; co-investigator and internship supervisor. The CV records approximately £3,000 without specifying a per-student or programme-wide basis.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        108
+      ],
+      "costing_register": "records/funding/contributions.json#support-17",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-18",
+      "group": "people",
+      "years": "2024",
+      "title": "Brazil Institute fellowship",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "Fellowship for Hugo Tremonte de Carvalho; co-investigator.",
+      "value": "Approximately £10,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        109
+      ]
+    },
+    {
+      "id": "support-19",
+      "group": "people",
+      "years": "2023–2026",
+      "title": "Composition based on multisensory perception",
+      "supporters": [
+        "ahrc",
+        "m4c"
+      ],
+      "detail": "AHRC Midlands4Cities doctoral fellowship for Christiana Palandri; Di Luca is a co-supervisor.",
+      "value": "Approximately £40,000 recorded in the CV; not a confirmed Birmingham allocation",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        110
+      ],
+      "costing_register": "records/funding/contributions.json#support-19",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-20",
+      "group": "people",
+      "years": "2017–2018",
+      "title": "Haptic rendering in VR",
+      "supporters": [
+        "china"
+      ],
+      "detail": "Chinese government support for a one-year visiting postdoctoral fellowship; host PI. The CV does not identify the funding agency.",
+      "value": "£40,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        111
+      ]
+    },
+    {
+      "id": "support-21",
+      "group": "people",
+      "years": "2015",
+      "title": "Psychophysical experimentation",
+      "supporters": [
+        "erasmus"
+      ],
+      "detail": "Erasmus internship support. The supervision record identifies Eleni Markouli as an Erasmus intern.",
+      "value": "£2,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        112
+      ]
+    },
+    {
+      "id": "support-22",
+      "group": "people",
+      "years": "2013–2015",
+      "title": "Dynamic modelling of haptic perception",
+      "supporters": [
+        "daad"
+      ],
+      "detail": "DAAD postdoctoral fellowship; host PI. Markus Rank is identified in the line-management record.",
+      "value": "€90,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        113
+      ]
+    },
+    {
+      "id": "support-23",
+      "group": "university",
+      "years": "2025",
+      "title": "Birmingham Virtual Worlds Network+",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "IDR Accelerator Network+ award; co-applicant, with Martin Wählisch as lead applicant.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        46
+      ]
+    },
+    {
+      "id": "support-24",
+      "group": "university",
+      "years": "2026",
+      "title": "SHARE bid preparation",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "Interdisciplinary Bid Development Fund; lead applicant. This internal award supported preparation of the later external proposal.",
+      "value": "£6,370",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        95
+      ]
+    },
+    {
+      "id": "support-25",
+      "group": "university",
+      "years": "2025",
+      "title": "Artificial-touch bid preparation",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "Interdisciplinary Bid Development Fund; co-applicant on the project led by Michael Adams.",
+      "value": "£3,600 project award",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        96
+      ]
+    },
+    {
+      "id": "support-26",
+      "group": "university",
+      "years": "2026",
+      "title": "Impact Mentoring Programme workshops",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "IAA Impact Mentoring Programme support towards two workshops.",
+      "value": "£1,700",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        101
+      ]
+    },
+    {
+      "id": "support-27",
+      "group": "university",
+      "years": "2025",
+      "title": "Exploration of gesture-based music performance",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "LES Business Engagement Pump Priming award for ARME work with ROLI; award confirmed 28 May 2025.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        128
+      ]
+    },
+    {
+      "id": "support-28",
+      "group": "university",
+      "years": "2022–2023",
+      "title": "Shared VR facilities",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "College approval for shared VR equipment in 2022 and establishment of the Gisbert Kapp VR Lab in 2023.",
+      "value": "",
+      "source": "cv-diluca-2025.tex",
+      "source_lines": [
+        728
+      ]
+    },
+    {
+      "id": "support-29",
+      "group": "university",
+      "years": "2026",
+      "title": "Joint interdisciplinary workshop planning",
+      "supporters": [
+        "uob"
+      ],
+      "detail": "Institute of Advanced Studies support for planning a joint workshop with i-MOVE and Creative and Cultural Industries; no cash value recorded.",
+      "value": "",
+      "source": "cv-diluca-2025.tex",
+      "source_lines": [
+        725
+      ]
+    },
+    {
+      "id": "support-30",
+      "group": "industry",
+      "years": "2026",
+      "title": "Immersive education headsets",
+      "supporters": [
+        "siemens"
+      ],
+      "detail": "Siemens agreed to donate ten Sony XR headsets to the University through The Birmingham Project. Receipt is not established by the CV.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        131
+      ],
+      "costing_register": "records/funding/contributions.json#support-30",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-31",
+      "group": "industry",
+      "years": "2025",
+      "title": "Music technology equipment",
+      "supporters": [
+        "roli"
+      ],
+      "detail": "A waveboard and keyboard donated by ROLI and recorded as received.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        134
+      ],
+      "costing_register": "records/funding/contributions.json#support-31",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-32",
+      "group": "industry",
+      "years": "2022",
+      "title": "Equipment support",
+      "supporters": [
+        "tiktok"
+      ],
+      "detail": "TikTok / ByteDance equipment support.",
+      "value": "Approximately £2,000 recorded in the CV",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        33
+      ],
+      "costing_register": "records/funding/contributions.json#support-32",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-33",
+      "group": "industry",
+      "years": "2021",
+      "title": "Movement-tracking equipment",
+      "supporters": [
+        "nhs"
+      ],
+      "detail": "NHS equipment donation for research and evaluation; the donating NHS organisation is not named in the CV.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        138
+      ]
+    },
+    {
+      "id": "support-34",
+      "group": "industry",
+      "years": "2020",
+      "title": "Haptic devices for student projects",
+      "supporters": [
+        "ultraleap"
+      ],
+      "detail": "Ultraleap donated haptic devices, including a Stratos Explore development kit.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        139
+      ],
+      "costing_register": "records/funding/contributions.json#support-34",
+      "valuation_reviewed": "2026-11-08"
+    },
+    {
+      "id": "support-35",
+      "group": "industry",
+      "years": "2019",
+      "title": "SemanticAudio partnership",
+      "supporters": [
+        "semanticaudio"
+      ],
+      "detail": "In-kind partner support for grant development; the CV records approximately £40,000. Delivery and valuation basis are not specified.",
+      "value": "",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        36
+      ]
+    },
+    {
+      "id": "support-36",
+      "group": "industry",
+      "years": "2015–2019",
+      "title": "PartPlay partnership",
+      "supporters": [
+        "partplay"
+      ],
+      "detail": "In-kind support for music-technology grant activity; the CV records approximately £100,000. Delivery and valuation basis are not specified.",
+      "value": "",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        37
+      ]
+    },
+    {
+      "id": "support-37",
+      "group": "industry",
+      "years": "2015–2019",
+      "title": "Oculus / Facebook research partnership",
+      "supporters": [
+        "oculus",
+        "meta"
+      ],
+      "detail": "Secondment support, internships and research collaborations during Di Luca’s Birmingham appointment; aggregate financial value unavailable.",
+      "value": "",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        38
+      ]
+    },
+    {
+      "id": "support-38",
+      "group": "industry",
+      "years": "2015–2016",
+      "title": "Industrial-glove research",
+      "supporters": [
+        "ansell"
+      ],
+      "detail": "Funding for collaborative research on user-based functional assessment of industrial gloves; amount unconfirmed.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        140
+      ]
+    },
+    {
+      "id": "support-39",
+      "group": "industry",
+      "years": "2015",
+      "title": "Softness with pinch grasp",
+      "supporters": [
+        "oculus"
+      ],
+      "detail": "Oculus VR research support; principal investigator.",
+      "value": "£5,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        141
+      ]
+    },
+    {
+      "id": "support-40",
+      "group": "industry",
+      "years": "2014–2015",
+      "title": "Analysis of squeezing movements",
+      "supporters": [
+        "pg"
+      ],
+      "detail": "Procter & Gamble research collaboration; co-investigator.",
+      "value": "£5,000 project value",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        142
+      ]
+    },
+    {
+      "id": "support-41",
+      "group": "industry",
+      "years": "2014",
+      "title": "Roughness perception during simulated self-touch",
+      "supporters": [
+        "gillette"
+      ],
+      "detail": "Gillette research support; principal investigator.",
+      "value": "£5,000",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        143
+      ]
+    },
+    {
+      "id": "support-42",
+      "group": "industry",
+      "years": "Since 2014",
+      "title": "Procter & Gamble partnership",
+      "supporters": [
+        "pg"
+      ],
+      "detail": "Support included research, colleagues, a PhD scholarship, symposia, research visits and grant activity. The CV’s approximately £300,000 aggregate mixes funding and in-kind support and may overlap individual awards.",
+      "value": "",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        40
+      ]
+    },
+    {
+      "id": "support-43",
+      "group": "myjams",
+      "years": "2026–2027",
+      "title": "MyJAMS: Augmented Ensemble",
+      "supporters": [
+        "createch",
+        "ahrc"
+      ],
+      "detail": "CreaTech Frontiers Live & Immersive Innovation Fund, funded by AHRC/UKRI. Award recipient: MyJAMS Ltd.",
+      "value": "£25,000 to MyJAMS Ltd",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        129
+      ],
+      "url": "https://createchfrontiers.com/meet-the-10-businesses-awarded-funding-through-the-live-immersive-innovation-fund/"
+    },
+    {
+      "id": "support-44",
+      "group": "myjams",
+      "years": "2026",
+      "title": "CreaTech Frontiers Growth Lab",
+      "supporters": [
+        "createch",
+        "ahrc"
+      ],
+      "detail": "MyJAMS completed the ten-week CreaTech Frontiers Growth Lab, delivered with Digital Catapult and funded by AHRC/UKRI.",
+      "value": "In-kind support valued by the programme at £15,000",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        9
+      ],
+      "url": "https://createchfrontiers.com/welcoming-the-first-cohort-to-the-createch-frontiers-growth-lab-led-by-digital-catapult/"
+    },
+    {
+      "id": "support-45",
+      "group": "myjams",
+      "years": "2024–2025",
+      "title": "ICURe Explore",
+      "supporters": [
+        "icure"
+      ],
+      "detail": "JAMS participation in Innovate UK’s ICURe Explore programme, supporting market exploration and commercialisation.",
+      "value": "",
+      "source": "appendix-grants.tex",
+      "source_lines": [
+        137
+      ]
+    },
+    {
+      "id": "support-46",
+      "group": "myjams",
+      "years": "2026",
+      "title": "VentureVersity Shape",
+      "supporters": [
+        "ventureversity"
+      ],
+      "detail": "MyJAMS selected for the Shape stage of VentureVersity, part of the Research England-supported Forging Ahead programme. Commercialisation support; no cash award recorded.",
+      "value": "",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        7
+      ]
+    },
+    {
+      "id": "support-47",
+      "group": "partners",
+      "years": "2025–2026",
+      "title": "Priors Field Primary School equipment",
+      "supporters": [
+        "william-edwards"
+      ],
+      "detail": "William Edwards Educational Charity equipment grant awarded to the school for collaborative heritage activity involving Kenilworth Town Council.",
+      "value": "Approximately £35,000 to the school",
+      "source": "appendix-kte.tex",
+      "source_lines": [
+        19
+      ]
+    },
+    {
+      "id": "support-48",
+      "group": "partners",
+      "years": "2026",
+      "title": "VR stress-assessment collaboration",
+      "supporters": [
+        "givaudan"
+      ],
+      "detail": "Givaudan awarded funding to Innogence. Di Luca leads study design and scientific oversight; the Birmingham allocation is not established.",
+      "value": "",
+      "source": "cv-diluca-2025.tex",
+      "source_lines": [
+        717
+      ]
+    },
+    {
+      "id": "support-51",
+      "group": "people",
+      "years": "Previous support",
+      "title": "Italian student research visits",
+      "supporters": [
+        "marco-polo"
+      ],
+      "detail": "Marco Polo funding supported Italian students working with Massimiliano Di Luca at Birmingham.",
+      "value": "",
+      "source": "User confirmation in this conversation",
+      "source_date": "2026-11-07",
+      "source_quote": "Italian students came with Marco Polo funding",
+      "qualification": "Specific recipients, dates, amounts and administering institution were not supplied. No institution, website or logo has been inferred."
+    },
+    {
+      "id": "support-52",
+      "group": "people",
+      "years": "2021",
+      "title": "Katrina Galsworthy’s Marek Sinason Memorial Fund award",
+      "supporters": [
+        "marek-sinason"
+      ],
+      "detail": "Award supporting Katrina Galsworthy’s initial research on the ARME project. The fund was established in memory of Marek Sinason, a University of Birmingham PhD alumnus.",
+      "value": "£250",
+      "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+      "source": "University of Birmingham award announcement (28 June 2021) and VR Lab award post",
+      "source_url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+      "supporting_url": "https://virtualrealitylab.netlify.app/post/marek-sinason-memorial-fund/",
+      "source_local": "content/post/Marek-Sinason-Memorial-Fund/index.md",
+      "retrieved": "2026-11-07",
+      "qualification": "Award in memory of alumnus Marek Sinason. Public sources do not identify the donor or establish that Marek personally made a donation. The user recollection is a likely match, not independently confirmed as the intended award."
+    },
+    {
+      "id": "support-53",
+      "group": "industry",
+      "years": "",
+      "title": "Unity support",
+      "supporters": [
+        "unity"
+      ],
+      "detail": "We thank Unity for supporting the lab.",
+      "value": "",
+      "source": "User confirmation in this conversation",
+      "source_date": "2026-11-07",
+      "source_quote": "Oculus. Ultraleap. Unity",
+      "qualification": "User identifies Unity as a supporter. Type, date, amount and recipient of support are unspecified; software usage in local project descriptions is not evidence of a donation or grant."
+    },
+    {
+      "id": "support-54",
+      "group": "people",
+      "years": "Current support",
+      "title": "Maisy Rapata’s PhD studentship",
+      "supporters": [
+        "esrc"
+      ],
+      "detail": "The Economic and Social Research Council (ESRC) funds Maisy Rapata’s PhD studentship at the University of Birmingham, supervised by Massimiliano Di Luca.",
+      "value": "",
+      "source": "User confirmation, 8 November 2026; Academic_CV_sources.zip, appendix-supervision.tex:10",
+      "source_quote": "Maisy if from esrc",
+      "source_date": "2026-11-08",
+      "supporting_source": "content/authors/RA_Maisy_Rapata/_index.md confirms name spelling; CV records PhD supervision since 2026.",
+      "qualification": "Funder corrected to ESRC by the user. Award amount and funded duration remain unconfirmed; supervision start is not treated as an award date. Excluded from monetary sizing pending value.",
+      "costing_register": "records/funding/contributions.json#support-54",
+      "valuation_reviewed": "2026-11-08",
+      "previous_source_quote": "EPS is funding Maysy’s PhD studentship"
+    },
+    {
+      "id": "support-55",
+      "group": "industry",
+      "years": "",
+      "title": "Anthropic support",
+      "supporters": [
+        "anthropic"
+      ],
+      "detail": "We thank Anthropic for supporting the lab.",
+      "value": "",
+      "source": "User confirmation in this conversation",
+      "source_date": "2026-11-08",
+      "source_quote": "Add Anthropic",
+      "qualification": "Supporter confirmed by user; contribution type, quantity, period and amount unspecified. Do not assume API credits, licences or a cash grant."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+{{- $labels := dict "article-journal" "Journal article" "paper-conference" "Conference paper" "preprint" "Preprint" "other" "Other publication" "editorial" "Editorial" -}}
+{{- index $labels . | default (. | humanize) -}}

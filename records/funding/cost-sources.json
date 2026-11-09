@@ -1,0 +1,34 @@
+{
+  "ukri-2026": {
+    "url": "https://www.ukri.org/manage-your-award/studentship-guidance/guidance-for-training-grant-holders/",
+    "observed": "2026-11-08",
+    "basis": "2026/27 UKRI stipend £21,805 and home fee £5,238; £27,043 per year. Not evidence of a particular award duration or funder."
+  },
+  "sony-launch": {
+    "url": "https://news.siemens.com/en-us/siemens-sony-ces-2025/",
+    "observed": "2026-11-08",
+    "published": "2025-01-07",
+    "basis": "SRH-S1 headset plus controllers advertised at US$4,750. Launch/list price benchmark, not donor invoice; excludes software."
+  },
+  "stratos-robotshop": {
+    "url": "https://www.robotshop.com/products/ultrahaptics-stratos-explore-development-kit",
+    "observed": "2026-11-08",
+    "basis": "Listed discontinued Stratos Explore kit US$2,500; supplier states US tariffs included. Benchmark only, not a currently available replacement quote."
+  },
+  "stratos-sparkfun": {
+    "url": "https://www.sparkfun.com/ultrahaptics-stratos-explore.html",
+    "observed": "2026-11-08",
+    "basis": "Supplier lists Stratos Explore DEV-16661 retail price US$2,750.95. Benchmark only, not donation-date invoice."
+  },
+  "roli-catalogue": {
+    "url": "https://roli.com/uk/product/collection/create/instruments",
+    "observed": "2026-11-08",
+    "basis": "Official catalogue indexed prices: Seaboard M £299, Seaboard 2 £1,099, Piano M £219, Piano £499. Page rendered without price cards on direct open; prices are search-index observations and need rechecking before procurement."
+  },
+  "roli-rise2": {
+    "url": "https://d30pueezughrda.cloudfront.net/press/releases/SeaboardRISE2PressRelease.pdf",
+    "observed": "2026-11-08",
+    "published": "2022-03-30",
+    "basis": "Manufacturer launch release lists Seaboard RISE 2 at £1,099; supports upper Seaboard price benchmark."
+  }
+}

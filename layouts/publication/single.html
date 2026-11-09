@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="publication-database publication-detail container">
+  <p><a href="{{ "/publication/" | relURL }}">← All publications</a></p>
+  <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><a href="{{ "/publication/" | relURL }}?type={{ index .Params.publication_types 0 }}">{{ partial "publication-type-label" (index .Params.publication_types 0) }}</a>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
+  <h1>{{ .Title }}</h1>
+  {{ partial "publication-citation" . }}
+  <div class="publication-links">{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
+  {{ with .Params.abstract }}<h2>Abstract</h2><p>{{ . | markdownify }}</p>{{ end }}
+  <div class="article-style">{{ .Content }}</div>
+</article>
+{{ end }}

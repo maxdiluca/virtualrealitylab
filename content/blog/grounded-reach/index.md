@@ -56,9 +56,11 @@ image:
 
   <p>The passive mechanisms resist motion but cannot actively push or pull the arm. Shoulder movement can still carry the hand through a virtual surface. The prototype also requires tethered power, and extended-wear comfort remains to be evaluated. GroundedReach is intended to complement controllers for nearby object interaction; the results do not demonstrate complete physical constraint or suitability for precision positioning.</p>
 
-  <h2>Paper and video</h2>
+  <h2>Paper, award and video</h2>
 
   <p><em>GroundedReach: Enabling Body-grounded Haptic Experience in Virtual Reality with an Elbow Wearable Haptic Device</em>, by Yilong Lin, Tianze Xie, Yuxin Ma, Daniele Giunchi, Mike J. Sinclair, Seungwoo Je and Eyal Ofek, is listed as accepted/in press in <em>IEEE Transactions on Visualization and Computer Graphics</em>, associated with ISMAR 2026. Read the <a href="https://research.birmingham.ac.uk/en/publications/groundedreach-enabling-body-grounded-haptic-experience-in-virtual/" target="_blank" rel="noopener">publication record</a> or <a href="https://pure-oai.bham.ac.uk/ws/portalfiles/portal/311720419/ismar26a-sub1203-cam-i5.pdf" target="_blank" rel="noopener">accepted manuscript</a>.</p>
+
+  <p>The paper received a PLA Best Paper Award for April–June 2026, as announced to the authors on 2 October 2026.</p>
 
   <figure class="lab-blog-video">
     <div class="lab-blog-video-frame">

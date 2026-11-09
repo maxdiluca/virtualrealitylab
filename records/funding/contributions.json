@@ -1,0 +1,3270 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-08",
+  "purpose": "Persistent lab contribution and funding pipeline register; records all known contributions including work in progress. Not an accounting ledger.",
+  "valuation_policy": "Recorded award values take priority. AI-assisted estimates use identifiable quantities and cited price/rate benchmarks with assumptions and ranges. Unknown is not zero. Requested budgets are never treated as awarded funding.",
+  "exchange_rates": {
+    "date": "2026-11-06",
+    "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.eu.html",
+    "gbp_per_eur": 0.83415,
+    "usd_per_eur": 1.1165,
+    "method": "Single-date GBP equivalents for visual comparison; not historical accounting values or inflation-adjusted amounts."
+  },
+  "entries": [
+    {
+      "id": "support-01",
+      "public_record": "support-01",
+      "title": "EXPLORA",
+      "period": "2026–2030",
+      "supporters": [
+        "eu"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_ongoing",
+      "status_as_of": "2026-11-06",
+      "status_basis": "MSCA Doctoral Network; Massimiliano Di Luca is Birmingham PI.",
+      "original_value": "€348,738.12 EU contribution to Birmingham",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 348738.12,
+        "currency": "EUR",
+        "low": 348738.12,
+        "high": 348738.12,
+        "method": "Existing CV/source value; Birmingham contribution",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "eu",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-01",
+        "group": "current",
+        "years": "2026–2030",
+        "title": "EXPLORA",
+        "supporters": [
+          "eu"
+        ],
+        "detail": "MSCA Doctoral Network; Massimiliano Di Luca is Birmingham PI.",
+        "value": "€348,738.12 EU contribution to Birmingham",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          107
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-02",
+      "public_record": "support-02",
+      "title": "Opportunity Commons",
+      "period": "2026–2027",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_ongoing",
+      "status_as_of": "2026-11-06",
+      "status_basis": "QR Enhancing Research Culture Fund; project lead.",
+      "original_value": "£24,970",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 24970,
+        "currency": "GBP",
+        "low": 24970,
+        "high": 24970,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-02",
+        "group": "current",
+        "years": "2026–2027",
+        "title": "Opportunity Commons",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "QR Enhancing Research Culture Fund; project lead.",
+        "value": "£24,970",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          44
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-03",
+      "public_record": "support-03",
+      "title": "BhamXR Futures Network+",
+      "period": "2026–2027",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_ongoing",
+      "status_as_of": "2026-11-06",
+      "status_basis": "AI-Mediated Virtual Worlds; lead applicant and Network Lead.",
+      "original_value": "£25,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 25000,
+        "currency": "GBP",
+        "low": 25000,
+        "high": 25000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-03",
+        "group": "current",
+        "years": "2026–2027",
+        "title": "BhamXR Futures Network+",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "AI-Mediated Virtual Worlds; lead applicant and Network Lead.",
+        "value": "£25,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          45
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-04",
+      "public_record": "support-04",
+      "title": "Input Vault and Text Entry XR",
+      "period": "2024–2028",
+      "supporters": [
+        "google"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_ongoing",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Three academic gifts: Input Vault (2024–2026 and 2025–2028) and Text Entry XR (2026).",
+      "original_value": "US$55,000 across three gifts",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 55000,
+        "currency": "USD",
+        "low": 55000,
+        "high": 55000,
+        "method": "Existing CV/source value; Three gifts",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "google",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-04",
+        "group": "current",
+        "years": "2024–2028",
+        "title": "Input Vault and Text Entry XR",
+        "supporters": [
+          "google"
+        ],
+        "detail": "Three academic gifts: Input Vault (2024–2026 and 2025–2028) and Text Entry XR (2026).",
+        "value": "US$55,000 across three gifts",
+        "source": "cv-diluca-2025.tex",
+        "source_lines": [
+          486
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-05",
+      "public_record": "support-05",
+      "title": "Augmented Reality for Music Ensemble (ARME)",
+      "period": "2021–2025",
+      "supporters": [
+        "epsrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "EPSRC research award; principal investigator. PartPlay and SemanticAudio contributed partnership support.",
+      "original_value": "£738,438 allocated to Birmingham within a £1,183,465 award",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 738438,
+        "currency": "GBP",
+        "low": 738438,
+        "high": 738438,
+        "method": "Existing CV/source value; Birmingham allocation only",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "epsrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-05",
+        "group": "research",
+        "years": "2021–2025",
+        "title": "Augmented Reality for Music Ensemble (ARME)",
+        "supporters": [
+          "epsrc"
+        ],
+        "detail": "EPSRC research award; principal investigator. PartPlay and SemanticAudio contributed partnership support.",
+        "value": "£738,438 allocated to Birmingham within a £1,183,465 award",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          47
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-06",
+      "public_record": "support-06",
+      "title": "Ageing effects on texture perception",
+      "period": "2018–2021",
+      "supporters": [
+        "bbsrc",
+        "pg"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "BBSRC research award with Procter & Gamble; co-investigator, with Alan Wing as PI.",
+      "original_value": "£799,581 awarded to Birmingham",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 799581,
+        "currency": "GBP",
+        "low": 799581,
+        "high": 799581,
+        "method": "Existing CV/source value; BBSRC award; P&G partnership not counted again",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "bbsrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-06",
+        "group": "research",
+        "years": "2018–2021",
+        "title": "Ageing effects on texture perception",
+        "supporters": [
+          "bbsrc",
+          "pg"
+        ],
+        "detail": "BBSRC research award with Procter & Gamble; co-investigator, with Alan Wing as PI.",
+        "value": "£799,581 awarded to Birmingham",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          48
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-07",
+      "public_record": "support-07",
+      "title": "Temporal information in crossmodal stimuli (TICS)",
+      "period": "2012–2016",
+      "supporters": [
+        "eu"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Marie Curie Career Integration Grant; principal investigator.",
+      "original_value": "€100,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 100000,
+        "currency": "EUR",
+        "low": 100000,
+        "high": 100000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "eu",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-07",
+        "group": "research",
+        "years": "2012–2016",
+        "title": "Temporal information in crossmodal stimuli (TICS)",
+        "supporters": [
+          "eu"
+        ],
+        "detail": "Marie Curie Career Integration Grant; principal investigator.",
+        "value": "€100,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          49
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-08",
+      "public_record": "support-08",
+      "title": "Music Ensemble Exhibition (MUSEX / AMuSEx)",
+      "period": "2024–2025",
+      "supporters": [
+        "epsrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "EPSRC IAA Follow-on Fund; principal investigator.",
+      "original_value": "£14,856.60 original award",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 14856.6,
+        "currency": "GBP",
+        "low": 14856.6,
+        "high": 14856.6,
+        "method": "Existing CV/source value; Original award",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "epsrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-08",
+        "group": "research",
+        "years": "2024–2025",
+        "title": "Music Ensemble Exhibition (MUSEX / AMuSEx)",
+        "supporters": [
+          "epsrc"
+        ],
+        "detail": "EPSRC IAA Follow-on Fund; principal investigator.",
+        "value": "£14,856.60 original award",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          85
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-09",
+      "public_record": "support-09",
+      "title": "App-based MUSic Ensemble Rehearsal (AMUSER)",
+      "period": "2023–2024",
+      "supporters": [
+        "bbsrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "BBSRC Impact Acceleration Account; principal investigator.",
+      "original_value": "£21,672.54",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 21672.54,
+        "currency": "GBP",
+        "low": 21672.54,
+        "high": 21672.54,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "bbsrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-09",
+        "group": "research",
+        "years": "2023–2024",
+        "title": "App-based MUSic Ensemble Rehearsal (AMUSER)",
+        "supporters": [
+          "bbsrc"
+        ],
+        "detail": "BBSRC Impact Acceleration Account; principal investigator.",
+        "value": "£21,672.54",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          86
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-10",
+      "public_record": "support-10",
+      "title": "Adaptive tactile test system (ATTS)",
+      "period": "2021–2023",
+      "supporters": [
+        "bbsrc",
+        "obi"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "BBSRC Impact Acceleration Account with Obirobotics; co-investigator. Value not established.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-10",
+        "group": "research",
+        "years": "2021–2023",
+        "title": "Adaptive tactile test system (ATTS)",
+        "supporters": [
+          "bbsrc",
+          "obi"
+        ],
+        "detail": "BBSRC Impact Acceleration Account with Obirobotics; co-investigator. Value not established.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          87
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-11",
+      "public_record": "support-11",
+      "title": "Seeing How You Feel",
+      "period": "2021–2022",
+      "supporters": [
+        "esrc",
+        "irc"
+      ],
+      "recipient": "External partner; Birmingham allocation unknown",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Multisensory enhancement of touch in ageing; Birmingham co-investigator on an ESRC–IRC collaboration.",
+      "original_value": "£9,516 ESRC award to the University of Nottingham",
+      "valuation": {
+        "classification": "partner_held_recorded",
+        "amount": 9516,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Award to Nottingham; Birmingham allocation unknown.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Award to Nottingham; Birmingham allocation unknown."
+      },
+      "evidence": {
+        "id": "support-11",
+        "group": "research",
+        "years": "2021–2022",
+        "title": "Seeing How You Feel",
+        "supporters": [
+          "esrc",
+          "irc"
+        ],
+        "detail": "Multisensory enhancement of touch in ageing; Birmingham co-investigator on an ESRC–IRC collaboration.",
+        "value": "£9,516 ESRC award to the University of Nottingham",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          119
+        ]
+      },
+      "follow_up": [
+        "Confirm any separately allocated Birmingham share."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-12",
+      "public_record": "support-12",
+      "title": "Lazy Susan",
+      "period": "2020–2022",
+      "supporters": [
+        "eps"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Technology for multisensory research at a distance; principal investigator.",
+      "original_value": "£3,500",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 3500,
+        "currency": "GBP",
+        "low": 3500,
+        "high": 3500,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "eps",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-12",
+        "group": "research",
+        "years": "2020–2022",
+        "title": "Lazy Susan",
+        "supporters": [
+          "eps"
+        ],
+        "detail": "Technology for multisensory research at a distance; principal investigator.",
+        "value": "£3,500",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          120
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-13",
+      "public_record": "support-13",
+      "title": "Apprendimento visuotattile",
+      "period": "2013–2014",
+      "supporters": [
+        "trieste"
+      ],
+      "recipient": "External partner; Birmingham allocation unknown",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "University of Trieste / PRIN collaboration with Paolo Gallina; co-investigator.",
+      "original_value": "€12,000 project value; Birmingham share not established",
+      "valuation": {
+        "classification": "partner_held_recorded",
+        "amount": 12000,
+        "currency": "EUR",
+        "low": null,
+        "high": null,
+        "method": "Trieste project value; Birmingham allocation unknown.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Trieste project value; Birmingham allocation unknown."
+      },
+      "evidence": {
+        "id": "support-13",
+        "group": "research",
+        "years": "2013–2014",
+        "title": "Apprendimento visuotattile",
+        "supporters": [
+          "trieste"
+        ],
+        "detail": "University of Trieste / PRIN collaboration with Paolo Gallina; co-investigator.",
+        "value": "€12,000 project value; Birmingham share not established",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          121
+        ]
+      },
+      "follow_up": [
+        "Confirm any separately allocated Birmingham share."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-14",
+      "public_record": "support-14",
+      "title": "Haptic perception of softness",
+      "period": "2012–2013",
+      "supporters": [
+        "royal-society"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Royal Society seed funding; principal investigator.",
+      "original_value": "£15,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 15000,
+        "currency": "GBP",
+        "low": 15000,
+        "high": 15000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "royal-society",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-14",
+        "group": "research",
+        "years": "2012–2013",
+        "title": "Haptic perception of softness",
+        "supporters": [
+          "royal-society"
+        ],
+        "detail": "Royal Society seed funding; principal investigator.",
+        "value": "£15,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          122
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-15",
+      "public_record": "support-15",
+      "title": "Grasping uncertainty in robots and humans",
+      "period": "2011–2012",
+      "supporters": [
+        "epsrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "EPSRC seed funding with Jeremy Wyatt; co-investigator.",
+      "original_value": "£15,000 project value",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 15000,
+        "currency": "GBP",
+        "low": 15000,
+        "high": 15000,
+        "method": "Existing CV/source value; Birmingham project award",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "epsrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-15",
+        "group": "research",
+        "years": "2011–2012",
+        "title": "Grasping uncertainty in robots and humans",
+        "supporters": [
+          "epsrc"
+        ],
+        "detail": "EPSRC seed funding with Jeremy Wyatt; co-investigator.",
+        "value": "£15,000 project value",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          123
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-16",
+      "public_record": "support-16",
+      "title": "Music performance capture",
+      "period": "2026",
+      "supporters": [
+        "epsrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Two-month EPSRC Vacation Internship awarded to Christopher Jones under Di Luca’s supervision.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-16",
+        "group": "people",
+        "years": "2026",
+        "title": "Music performance capture",
+        "supporters": [
+          "epsrc"
+        ],
+        "detail": "Two-month EPSRC Vacation Internship awarded to Christopher Jones under Di Luca’s supervision.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          106
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-17",
+      "public_record": "support-17",
+      "title": "Birmingham Summer Undergraduate Research Experience (BSURE)",
+      "period": "2024–2026",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Funded undergraduate research placements; co-investigator and internship supervisor.",
+      "original_value": "",
+      "valuation": {
+        "classification": "recorded_approximate",
+        "amount": 3000,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "CV records approximately £3,000. Counted once, not multiplied across 2024–2026; per-placement versus aggregate basis not specified.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded_approximate",
+        "source_location": "Academic_CV_sources.zip / appendix-grants.tex:108"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Academic_CV_sources.zip / appendix-grants.tex:108"
+      },
+      "evidence": {
+        "id": "support-17",
+        "group": "people",
+        "years": "2024–2026",
+        "title": "Birmingham Summer Undergraduate Research Experience (BSURE)",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "Funded undergraduate research placements; co-investigator and internship supervisor. The CV records approximately £3,000 without specifying a per-student or programme-wide basis.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          108
+        ]
+      },
+      "follow_up": [
+        "Confirm exact amount and coverage; source is approximate."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-18",
+      "public_record": "support-18",
+      "title": "Brazil Institute fellowship",
+      "period": "2024",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Fellowship for Hugo Tremonte de Carvalho; co-investigator.",
+      "original_value": "Approximately £10,000",
+      "valuation": {
+        "classification": "recorded_approximate",
+        "amount": 10000,
+        "currency": "GBP",
+        "low": 10000,
+        "high": 10000,
+        "method": "Existing CV/source value; Approximate fellowship value",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-18",
+        "group": "people",
+        "years": "2024",
+        "title": "Brazil Institute fellowship",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "Fellowship for Hugo Tremonte de Carvalho; co-investigator.",
+        "value": "Approximately £10,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          109
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-19",
+      "public_record": "support-19",
+      "title": "Composition based on multisensory perception",
+      "period": "2023–2026",
+      "supporters": [
+        "ahrc",
+        "m4c"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_ongoing",
+      "status_as_of": "2026-11-06",
+      "status_basis": "AHRC Midlands4Cities doctoral fellowship for Christiana Palandri; Di Luca is a co-supervisor.",
+      "original_value": "",
+      "valuation": {
+        "classification": "recorded_approximate",
+        "amount": 40000,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "CV records approximately £40,000 for this fellowship. Counted once under AHRC, not again under Midlands4Cities; no extrapolation from 30% supervision share. This is not an independently confirmed Birmingham cash allocation.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded_approximate",
+        "source_location": "Academic_CV_sources.zip / appendix-grants.tex:110"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "ahrc",
+        "reason": "Academic_CV_sources.zip / appendix-grants.tex:110"
+      },
+      "evidence": {
+        "id": "support-19",
+        "group": "people",
+        "years": "2023–2026",
+        "title": "Composition based on multisensory perception",
+        "supporters": [
+          "ahrc",
+          "m4c"
+        ],
+        "detail": "AHRC Midlands4Cities doctoral fellowship for Christiana Palandri; Di Luca is a co-supervisor.",
+        "value": "Approximately £40,000 recorded in the CV; not a confirmed Birmingham allocation",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          110
+        ]
+      },
+      "follow_up": [
+        "Confirm exact amount and coverage; source is approximate."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-20",
+      "public_record": "support-20",
+      "title": "Haptic rendering in VR",
+      "period": "2017–2018",
+      "supporters": [
+        "china"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Chinese government support for a one-year visiting postdoctoral fellowship; host PI.",
+      "original_value": "£40,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 40000,
+        "currency": "GBP",
+        "low": 40000,
+        "high": 40000,
+        "method": "Existing CV/source value; Visiting fellowship",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "china",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-20",
+        "group": "people",
+        "years": "2017–2018",
+        "title": "Haptic rendering in VR",
+        "supporters": [
+          "china"
+        ],
+        "detail": "Chinese government support for a one-year visiting postdoctoral fellowship; host PI. The CV does not identify the funding agency.",
+        "value": "£40,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          111
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-21",
+      "public_record": "support-21",
+      "title": "Psychophysical experimentation",
+      "period": "2015",
+      "supporters": [
+        "erasmus"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Erasmus support for psychophysical experimentation, including Eleni Markouli’s internship.",
+      "original_value": "£2,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 2000,
+        "currency": "GBP",
+        "low": 2000,
+        "high": 2000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "erasmus",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-21",
+        "group": "people",
+        "years": "2015",
+        "title": "Psychophysical experimentation",
+        "supporters": [
+          "erasmus"
+        ],
+        "detail": "Erasmus internship support. The supervision record identifies Eleni Markouli as an Erasmus intern.",
+        "value": "£2,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          112
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-22",
+      "public_record": "support-22",
+      "title": "Dynamic modelling of haptic perception",
+      "period": "2013–2015",
+      "supporters": [
+        "daad"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "DAAD postdoctoral fellowship for dynamic modelling of haptic perception; Markus Rank worked with Di Luca at Birmingham.",
+      "original_value": "€90,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 90000,
+        "currency": "EUR",
+        "low": 90000,
+        "high": 90000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "daad",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-22",
+        "group": "people",
+        "years": "2013–2015",
+        "title": "Dynamic modelling of haptic perception",
+        "supporters": [
+          "daad"
+        ],
+        "detail": "DAAD postdoctoral fellowship; host PI. Markus Rank is identified in the line-management record.",
+        "value": "€90,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          113
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-23",
+      "public_record": "support-23",
+      "title": "Birmingham Virtual Worlds Network+",
+      "period": "2025",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "IDR Accelerator Network+ award; co-applicant, with Martin Wählisch as lead applicant.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-23",
+        "group": "university",
+        "years": "2025",
+        "title": "Birmingham Virtual Worlds Network+",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "IDR Accelerator Network+ award; co-applicant, with Martin Wählisch as lead applicant.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          46
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-24",
+      "public_record": "support-24",
+      "title": "SHARE bid preparation",
+      "period": "2026",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Interdisciplinary Bid Development Fund; lead applicant. This internal award supported preparation of the later external proposal.",
+      "original_value": "£6,370",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 6370,
+        "currency": "GBP",
+        "low": 6370,
+        "high": 6370,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-24",
+        "group": "university",
+        "years": "2026",
+        "title": "SHARE bid preparation",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "Interdisciplinary Bid Development Fund; lead applicant. This internal award supported preparation of the later external proposal.",
+        "value": "£6,370",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          95
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-25",
+      "public_record": "support-25",
+      "title": "Artificial-touch bid preparation",
+      "period": "2025",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Interdisciplinary Bid Development Fund; co-applicant on the project led by Michael Adams.",
+      "original_value": "£3,600 project award",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 3600,
+        "currency": "GBP",
+        "low": 3600,
+        "high": 3600,
+        "method": "Existing CV/source value; Birmingham project award",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-25",
+        "group": "university",
+        "years": "2025",
+        "title": "Artificial-touch bid preparation",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "Interdisciplinary Bid Development Fund; co-applicant on the project led by Michael Adams.",
+        "value": "£3,600 project award",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          96
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-26",
+      "public_record": "support-26",
+      "title": "Impact Mentoring Programme workshops",
+      "period": "2026",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "IAA Impact Mentoring Programme support towards two workshops.",
+      "original_value": "£1,700",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 1700,
+        "currency": "GBP",
+        "low": 1700,
+        "high": 1700,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "uob",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-26",
+        "group": "university",
+        "years": "2026",
+        "title": "Impact Mentoring Programme workshops",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "IAA Impact Mentoring Programme support towards two workshops.",
+        "value": "£1,700",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          101
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-27",
+      "public_record": "support-27",
+      "title": "Exploration of gesture-based music performance",
+      "period": "2025",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "LES Business Engagement Pump Priming award for ARME work with ROLI; award confirmed 28 May 2025.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-27",
+        "group": "university",
+        "years": "2025",
+        "title": "Exploration of gesture-based music performance",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "LES Business Engagement Pump Priming award for ARME work with ROLI; award confirmed 28 May 2025.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          128
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-28",
+      "public_record": "support-28",
+      "title": "Shared VR facilities",
+      "period": "2022–2023",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "College approval for shared VR equipment in 2022 and establishment of the Gisbert Kapp VR Lab in 2023.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-28",
+        "group": "university",
+        "years": "2022–2023",
+        "title": "Shared VR facilities",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "College approval for shared VR equipment in 2022 and establishment of the Gisbert Kapp VR Lab in 2023.",
+        "value": "",
+        "source": "cv-diluca-2025.tex",
+        "source_lines": [
+          728
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-29",
+      "public_record": "support-29",
+      "title": "Joint interdisciplinary workshop planning",
+      "period": "2026",
+      "supporters": [
+        "uob"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Institute of Advanced Studies support for planning a joint workshop with i-MOVE and Creative and Cultural Industries; no cash value recorded.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-29",
+        "group": "university",
+        "years": "2026",
+        "title": "Joint interdisciplinary workshop planning",
+        "supporters": [
+          "uob"
+        ],
+        "detail": "Institute of Advanced Studies support for planning a joint workshop with i-MOVE and Creative and Cultural Industries; no cash value recorded.",
+        "value": "",
+        "source": "cv-diluca-2025.tex",
+        "source_lines": [
+          725
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-30",
+      "public_record": "support-30",
+      "title": "Immersive education headsets",
+      "period": "2026",
+      "supporters": [
+        "siemens"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "agreed_delivery_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Siemens agreed to donate ten Sony XR headsets to the University through The Birmingham Project. Donation agreement; delivery to be confirmed.",
+      "original_value": "",
+      "valuation": {
+        "classification": "ai_assisted_estimate",
+        "amount": 47500,
+        "currency": "USD",
+        "low": null,
+        "high": null,
+        "method": "10 headsets × US$4,750 published hardware-and-controller price.",
+        "assumptions": [
+          "SRH-S1 is an inferred model based on the Siemens/Sony relationship; confirm actual model.",
+          "Ten units are documented as agreed; delivery remains unconfirmed.",
+          "Published 2025 launch/list cost; no software licence, freight, UK VAT or discount included."
+        ],
+        "cost_sources": [
+          "sony-launch"
+        ],
+        "confidence": "low",
+        "estimated_on": "2026-11-08",
+        "actual_donor_cost": false
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": true,
+        "attributed_to": "siemens",
+        "reason": "User-authorised assisted costing; explicitly estimated, not a confirmed transaction value."
+      },
+      "evidence": {
+        "id": "support-30",
+        "group": "industry",
+        "years": "2026",
+        "title": "Immersive education headsets",
+        "supporters": [
+          "siemens"
+        ],
+        "detail": "Siemens agreed to donate ten Sony XR headsets to the University through The Birmingham Project. Receipt is not established by the CV.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          131
+        ]
+      },
+      "follow_up": [
+        "SRH-S1 is an inferred model based on the Siemens/Sony relationship; confirm actual model.",
+        "Ten units are documented as agreed; delivery remains unconfirmed.",
+        "Published 2025 launch/list cost; no software licence, freight, UK VAT or discount included."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-31",
+      "public_record": "support-31",
+      "title": "Music technology equipment",
+      "period": "2025",
+      "supporters": [
+        "roli"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "donated_recorded",
+      "status_as_of": "2026-11-06",
+      "status_basis": "A waveboard and keyboard donated by ROLI and recorded as received.",
+      "original_value": "",
+      "valuation": {
+        "classification": "ai_assisted_estimate",
+        "amount": 1058,
+        "currency": "GBP",
+        "low": 518,
+        "high": 1598,
+        "method": "Scenario range: (Seaboard M £299 + Piano M £219) to (Seaboard 2 £1,099 + Piano £499). Midpoint (£518 + £1,598)/2 = £1,058.",
+        "assumptions": [
+          "Two received items recorded as a waveboard and keyboard; precise models unknown.",
+          "Assumes the waveboard is a Seaboard-family controller, not verified.",
+          "Current/list-equivalent UK retail scenario, not actual donor invoice or donation-date value.",
+          "The range reflects model alternatives, not a statistical confidence interval."
+        ],
+        "cost_sources": [
+          "roli-catalogue",
+          "roli-rise2"
+        ],
+        "confidence": "low",
+        "estimated_on": "2026-11-08",
+        "actual_donor_cost": false
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": true,
+        "attributed_to": "roli",
+        "reason": "User-authorised assisted costing; explicitly estimated, not a confirmed transaction value."
+      },
+      "evidence": {
+        "id": "support-31",
+        "group": "industry",
+        "years": "2025",
+        "title": "Music technology equipment",
+        "supporters": [
+          "roli"
+        ],
+        "detail": "A waveboard and keyboard donated by ROLI and recorded as received.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          134
+        ]
+      },
+      "follow_up": [
+        "Two received items recorded as a waveboard and keyboard; precise models unknown.",
+        "Assumes the waveboard is a Seaboard-family controller, not verified.",
+        "Current/list-equivalent UK retail scenario, not actual donor invoice or donation-date value.",
+        "The range reflects model alternatives, not a statistical confidence interval."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-32",
+      "public_record": "support-32",
+      "title": "Equipment support",
+      "period": "2022",
+      "supporters": [
+        "tiktok"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "TikTok / ByteDance equipment support.",
+      "original_value": "",
+      "valuation": {
+        "classification": "recorded_approximate",
+        "amount": 2000,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "CV records approximately £2,000 of TikTok/ByteDance equipment support.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded_approximate",
+        "source_location": "Academic_CV_sources.zip / appendix-kte.tex:33"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": true,
+        "attributed_to": "tiktok",
+        "reason": "Academic_CV_sources.zip / appendix-kte.tex:33"
+      },
+      "evidence": {
+        "id": "support-32",
+        "group": "industry",
+        "years": "2022",
+        "title": "Equipment support",
+        "supporters": [
+          "tiktok"
+        ],
+        "detail": "TikTok / ByteDance equipment support.",
+        "value": "Approximately £2,000 recorded in the CV",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          33
+        ]
+      },
+      "follow_up": [
+        "Confirm exact amount and coverage; source is approximate."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-33",
+      "public_record": "support-33",
+      "title": "Movement-tracking equipment",
+      "period": "2021",
+      "supporters": [
+        "nhs"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "donated_recorded",
+      "status_as_of": "2026-11-06",
+      "status_basis": "NHS equipment donation for research on movement tracking and evaluation.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-33",
+        "group": "industry",
+        "years": "2021",
+        "title": "Movement-tracking equipment",
+        "supporters": [
+          "nhs"
+        ],
+        "detail": "NHS equipment donation for research and evaluation; the donating NHS organisation is not named in the CV.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          138
+        ]
+      },
+      "follow_up": [
+        "Identify movement-tracking equipment model and quantity; a Kinect and a laboratory motion-capture system have incomparable costs."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-34",
+      "public_record": "support-34",
+      "title": "Haptic devices for student projects",
+      "period": "2020",
+      "supporters": [
+        "ultraleap"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "donated_recorded",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Ultraleap donated haptic devices, including a Stratos Explore development kit.",
+      "original_value": "",
+      "valuation": {
+        "classification": "ai_assisted_estimate",
+        "amount": 2500,
+        "currency": "USD",
+        "low": 2500,
+        "high": 2750.95,
+        "method": "One identified Stratos Explore kit × US$2,500; uses the lower supplier benchmark. Price range US$2,500–2,750.95.",
+        "assumptions": [
+          "One kit costed; any additional donated haptic devices remain unvalued.",
+          "2020 donation valued using later supplier listings; not historical cost or second-hand fair value.",
+          "No UK tax, freight or warranty uplift added; supplier tax treatments differ."
+        ],
+        "cost_sources": [
+          "stratos-robotshop",
+          "stratos-sparkfun"
+        ],
+        "confidence": "medium",
+        "estimated_on": "2026-11-08",
+        "actual_donor_cost": false
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": true,
+        "attributed_to": "ultraleap",
+        "reason": "User-authorised assisted costing; explicitly estimated, not a confirmed transaction value."
+      },
+      "evidence": {
+        "id": "support-34",
+        "group": "industry",
+        "years": "2020",
+        "title": "Haptic devices for student projects",
+        "supporters": [
+          "ultraleap"
+        ],
+        "detail": "Ultraleap donated haptic devices, including a Stratos Explore development kit.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          139
+        ]
+      },
+      "follow_up": [
+        "One kit costed; any additional donated haptic devices remain unvalued.",
+        "2020 donation valued using later supplier listings; not historical cost or second-hand fair value.",
+        "No UK tax, freight or warranty uplift added; supplier tax treatments differ."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-35",
+      "public_record": "support-35",
+      "title": "SemanticAudio partnership",
+      "period": "2019",
+      "supporters": [
+        "semanticaudio"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "In-kind partner support for music-technology grant development.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-35",
+        "group": "industry",
+        "years": "2019",
+        "title": "SemanticAudio partnership",
+        "supporters": [
+          "semanticaudio"
+        ],
+        "detail": "In-kind partner support for grant development; the CV records approximately £40,000. Delivery and valuation basis are not specified.",
+        "value": "",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          36
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-36",
+      "public_record": "support-36",
+      "title": "PartPlay partnership",
+      "period": "2015–2019",
+      "supporters": [
+        "partplay"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "In-kind partnership support for music-technology grant activity.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-36",
+        "group": "industry",
+        "years": "2015–2019",
+        "title": "PartPlay partnership",
+        "supporters": [
+          "partplay"
+        ],
+        "detail": "In-kind support for music-technology grant activity; the CV records approximately £100,000. Delivery and valuation basis are not specified.",
+        "value": "",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          37
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-37",
+      "public_record": "support-37",
+      "title": "Oculus / Facebook research partnership",
+      "period": "2015–2019",
+      "supporters": [
+        "oculus",
+        "meta"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Secondment support, internships and research collaborations during Di Luca’s Birmingham appointment; aggregate financial value unavailable.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-37",
+        "group": "industry",
+        "years": "2015–2019",
+        "title": "Oculus / Facebook research partnership",
+        "supporters": [
+          "oculus",
+          "meta"
+        ],
+        "detail": "Secondment support, internships and research collaborations during Di Luca’s Birmingham appointment; aggregate financial value unavailable.",
+        "value": "",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          38
+        ]
+      },
+      "follow_up": [
+        "Record funded person-months, secondment terms, internships and any hardware separately; avoid overlap with the £5,000 Oculus award."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-38",
+      "public_record": "support-38",
+      "title": "Industrial-glove research",
+      "period": "2015–2016",
+      "supporters": [
+        "ansell"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Funding for collaborative research on user-based functional assessment of industrial gloves; amount unconfirmed.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-38",
+        "group": "industry",
+        "years": "2015–2016",
+        "title": "Industrial-glove research",
+        "supporters": [
+          "ansell"
+        ],
+        "detail": "Funding for collaborative research on user-based functional assessment of industrial gloves; amount unconfirmed.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          140
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-39",
+      "public_record": "support-39",
+      "title": "Softness with pinch grasp",
+      "period": "2015",
+      "supporters": [
+        "oculus"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Oculus VR research support; principal investigator.",
+      "original_value": "£5,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 5000,
+        "currency": "GBP",
+        "low": 5000,
+        "high": 5000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "oculus",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-39",
+        "group": "industry",
+        "years": "2015",
+        "title": "Softness with pinch grasp",
+        "supporters": [
+          "oculus"
+        ],
+        "detail": "Oculus VR research support; principal investigator.",
+        "value": "£5,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          141
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-40",
+      "public_record": "support-40",
+      "title": "Analysis of squeezing movements",
+      "period": "2014–2015",
+      "supporters": [
+        "pg"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Procter & Gamble research collaboration; co-investigator.",
+      "original_value": "£5,000 project value",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 5000,
+        "currency": "GBP",
+        "low": 5000,
+        "high": 5000,
+        "method": "Existing CV/source value; Project value",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "pg",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-40",
+        "group": "industry",
+        "years": "2014–2015",
+        "title": "Analysis of squeezing movements",
+        "supporters": [
+          "pg"
+        ],
+        "detail": "Procter & Gamble research collaboration; co-investigator.",
+        "value": "£5,000 project value",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          142
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-41",
+      "public_record": "support-41",
+      "title": "Roughness perception during simulated self-touch",
+      "period": "2014",
+      "supporters": [
+        "gillette"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Gillette research support; principal investigator.",
+      "original_value": "£5,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 5000,
+        "currency": "GBP",
+        "low": 5000,
+        "high": 5000,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "gillette",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-41",
+        "group": "industry",
+        "years": "2014",
+        "title": "Roughness perception during simulated self-touch",
+        "supporters": [
+          "gillette"
+        ],
+        "detail": "Gillette research support; principal investigator.",
+        "value": "£5,000",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          143
+        ]
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-42",
+      "public_record": "support-42",
+      "title": "Procter & Gamble partnership",
+      "period": "Since 2014",
+      "supporters": [
+        "pg"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Support for research, colleagues, a PhD scholarship, symposia, research visits and grant activity.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-42",
+        "group": "industry",
+        "years": "Since 2014",
+        "title": "Procter & Gamble partnership",
+        "supporters": [
+          "pg"
+        ],
+        "detail": "Support included research, colleagues, a PhD scholarship, symposia, research visits and grant activity. The CV’s approximately £300,000 aggregate mixes funding and in-kind support and may overlap individual awards.",
+        "value": "",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          40
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-43",
+      "public_record": "support-43",
+      "title": "MyJAMS: Augmented Ensemble",
+      "period": "2026–2027",
+      "supporters": [
+        "createch",
+        "ahrc"
+      ],
+      "recipient": "MyJAMS Ltd / JAMS",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "CreaTech Frontiers Live & Immersive Innovation Fund, funded by AHRC/UKRI. Award recipient: MyJAMS Ltd.",
+      "original_value": "£25,000 to MyJAMS Ltd",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 25000,
+        "currency": "GBP",
+        "low": 25000,
+        "high": 25000,
+        "method": "Existing CV/source value; MyJAMS Ltd; CreaTech Frontiers programme",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "ahrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-43",
+        "group": "myjams",
+        "years": "2026–2027",
+        "title": "MyJAMS: Augmented Ensemble",
+        "supporters": [
+          "createch",
+          "ahrc"
+        ],
+        "detail": "CreaTech Frontiers Live & Immersive Innovation Fund, funded by AHRC/UKRI. Award recipient: MyJAMS Ltd.",
+        "value": "£25,000 to MyJAMS Ltd",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          129
+        ],
+        "url": "https://createchfrontiers.com/meet-the-10-businesses-awarded-funding-through-the-live-immersive-innovation-fund/"
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-44",
+      "public_record": "support-44",
+      "title": "CreaTech Frontiers Growth Lab",
+      "period": "2026",
+      "supporters": [
+        "createch",
+        "ahrc"
+      ],
+      "recipient": "MyJAMS Ltd / JAMS",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "MyJAMS completed the ten-week CreaTech Frontiers Growth Lab, delivered with Digital Catapult and funded by AHRC/UKRI.",
+      "original_value": "In-kind support valued by the programme at £15,000",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 15000,
+        "currency": "GBP",
+        "low": 15000,
+        "high": 15000,
+        "method": "Existing CV/source value; MyJAMS Ltd; programme valuation of in-kind support",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": true,
+        "attributed_to": "ahrc",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-44",
+        "group": "myjams",
+        "years": "2026",
+        "title": "CreaTech Frontiers Growth Lab",
+        "supporters": [
+          "createch",
+          "ahrc"
+        ],
+        "detail": "MyJAMS completed the ten-week CreaTech Frontiers Growth Lab, delivered with Digital Catapult and funded by AHRC/UKRI.",
+        "value": "In-kind support valued by the programme at £15,000",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          9
+        ],
+        "url": "https://createchfrontiers.com/welcoming-the-first-cohort-to-the-createch-frontiers-growth-lab-led-by-digital-catapult/"
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-45",
+      "public_record": "support-45",
+      "title": "ICURe Explore",
+      "period": "2024–2025",
+      "supporters": [
+        "icure"
+      ],
+      "recipient": "MyJAMS Ltd / JAMS",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "JAMS participation in Innovate UK’s ICURe Explore programme, supporting market exploration and commercialisation.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-45",
+        "group": "myjams",
+        "years": "2024–2025",
+        "title": "ICURe Explore",
+        "supporters": [
+          "icure"
+        ],
+        "detail": "JAMS participation in Innovate UK’s ICURe Explore programme, supporting market exploration and commercialisation.",
+        "value": "",
+        "source": "appendix-grants.tex",
+        "source_lines": [
+          137
+        ]
+      },
+      "follow_up": [
+        "Obtain actual ICURe Explore budget; programme maximum is not evidence of the award amount."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-46",
+      "public_record": "support-46",
+      "title": "VentureVersity Shape",
+      "period": "2026",
+      "supporters": [
+        "ventureversity"
+      ],
+      "recipient": "MyJAMS Ltd / JAMS",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "MyJAMS selected for the Shape stage of VentureVersity, part of the Research England-supported Forging Ahead programme. Commercialisation support; no cash award recorded.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-46",
+        "group": "myjams",
+        "years": "2026",
+        "title": "VentureVersity Shape",
+        "supporters": [
+          "ventureversity"
+        ],
+        "detail": "MyJAMS selected for the Shape stage of VentureVersity, part of the Research England-supported Forging Ahead programme. Commercialisation support; no cash award recorded.",
+        "value": "",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          7
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-47",
+      "public_record": "support-47",
+      "title": "Priors Field Primary School equipment",
+      "period": "2025–2026",
+      "supporters": [
+        "william-edwards"
+      ],
+      "recipient": "External partner; Birmingham allocation unknown",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "William Edwards Educational Charity equipment grant awarded to the school for collaborative heritage activity involving Kenilworth Town Council.",
+      "original_value": "Approximately £35,000 to the school",
+      "valuation": {
+        "classification": "partner_held_recorded",
+        "amount": 35000,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Award to partner school.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Award to partner school."
+      },
+      "evidence": {
+        "id": "support-47",
+        "group": "partners",
+        "years": "2025–2026",
+        "title": "Priors Field Primary School equipment",
+        "supporters": [
+          "william-edwards"
+        ],
+        "detail": "William Edwards Educational Charity equipment grant awarded to the school for collaborative heritage activity involving Kenilworth Town Council.",
+        "value": "Approximately £35,000 to the school",
+        "source": "appendix-kte.tex",
+        "source_lines": [
+          19
+        ]
+      },
+      "follow_up": [
+        "Confirm any separately allocated Birmingham share."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-48",
+      "public_record": "support-48",
+      "title": "VR stress-assessment collaboration",
+      "period": "2026",
+      "supporters": [
+        "givaudan"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Givaudan awarded funding to Innogence. Di Luca leads study design and scientific oversight; the Birmingham allocation is not established.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-48",
+        "group": "partners",
+        "years": "2026",
+        "title": "VR stress-assessment collaboration",
+        "supporters": [
+          "givaudan"
+        ],
+        "detail": "Givaudan awarded funding to Innogence. Di Luca leads study design and scientific oversight; the Birmingham allocation is not established.",
+        "value": "",
+        "source": "cv-diluca-2025.tex",
+        "source_lines": [
+          717
+        ]
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-49",
+      "public_record": "support-49",
+      "title": "Darren Rhodes’s visiting fellowship",
+      "period": "2014",
+      "supporters": [
+        "ntnu"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Young Researcher Visiting Fellowship at the Norwegian University of Science and Technology, linking time perception and language research.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "source": "https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language",
+        "source_type": "Public award or research record; see additional-public-sources.json"
+      },
+      "follow_up": [
+        "Confirm award value or item/model, quantity and period as applicable."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-50",
+      "public_record": "support-50",
+      "title": "Davide Deflorio’s collaborative studentship",
+      "period": "2019–2022",
+      "supporters": [
+        "uob",
+        "pg"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Joint University of Birmingham and Procter & Gamble studentship supporting research on tactile perception. Dates indicate doctoral supervision.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "source": "https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/",
+        "source_type": "Public award or research record; see additional-public-sources.json"
+      },
+      "follow_up": [
+        "Confirm studentship duration, fees/stipend and UoB/P&G funding split before assigning costs to either donor."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-51",
+      "public_record": "support-51",
+      "title": "Italian student research visits",
+      "period": "Previous support",
+      "supporters": [
+        "marco-polo"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "user_confirmed_support",
+      "status_as_of": "2026-11-08",
+      "status_basis": "Marco Polo funding supported Italian students working with Massimiliano Di Luca at Birmingham.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-51",
+        "group": "people",
+        "years": "Previous support",
+        "title": "Italian student research visits",
+        "supporters": [
+          "marco-polo"
+        ],
+        "detail": "Marco Polo funding supported Italian students working with Massimiliano Di Luca at Birmingham.",
+        "value": "",
+        "source": "User confirmation in this conversation",
+        "source_date": "2026-11-07",
+        "source_quote": "Italian students came with Marco Polo funding",
+        "qualification": "Specific recipients, dates, amounts and administering institution were not supplied. No institution, website or logo has been inferred."
+      },
+      "follow_up": [
+        "Identify the number of Marco Polo visitors, institution, months and award rates."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-52",
+      "public_record": "support-52",
+      "title": "Katrina Galsworthy’s Marek Sinason Memorial Fund award",
+      "period": "2021",
+      "supporters": [
+        "marek-sinason"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "awarded_or_supported",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Award supporting Katrina Galsworthy’s initial research on the ARME project. The fund was established in memory of Marek Sinason, a University of Birmingham PhD alumnus.",
+      "original_value": "£250",
+      "valuation": {
+        "classification": "recorded",
+        "amount": 250,
+        "currency": "GBP",
+        "low": 250,
+        "high": 250,
+        "method": "Existing CV/source value; ",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": true,
+        "attributed_to": "marek-sinason",
+        "reason": "Existing non-overlapping contribution"
+      },
+      "evidence": {
+        "id": "support-52",
+        "group": "people",
+        "years": "2021",
+        "title": "Katrina Galsworthy’s Marek Sinason Memorial Fund award",
+        "supporters": [
+          "marek-sinason"
+        ],
+        "detail": "Award supporting Katrina Galsworthy’s initial research on the ARME project. The fund was established in memory of Marek Sinason, a University of Birmingham PhD alumnus.",
+        "value": "£250",
+        "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+        "source": "University of Birmingham award announcement (28 June 2021) and VR Lab award post",
+        "source_url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+        "supporting_url": "https://virtualrealitylab.netlify.app/post/marek-sinason-memorial-fund/",
+        "source_local": "content/post/Marek-Sinason-Memorial-Fund/index.md",
+        "retrieved": "2026-11-07",
+        "qualification": "Award in memory of alumnus Marek Sinason. Public sources do not identify the donor or establish that Marek personally made a donation. The user recollection is a likely match, not independently confirmed as the intended award."
+      },
+      "follow_up": [],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-53",
+      "public_record": "support-53",
+      "title": "Unity support",
+      "period": "",
+      "supporters": [
+        "unity"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "user_confirmed_support",
+      "status_as_of": "2026-11-08",
+      "status_basis": "We thank Unity for supporting the lab.",
+      "original_value": "",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Insufficient cost or award information.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "unassigned"
+      },
+      "kind": "in-kind",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Value or attribution not established"
+      },
+      "evidence": {
+        "id": "support-53",
+        "group": "industry",
+        "years": "",
+        "title": "Unity support",
+        "supporters": [
+          "unity"
+        ],
+        "detail": "We thank Unity for supporting the lab.",
+        "value": "",
+        "source": "User confirmation in this conversation",
+        "source_date": "2026-11-07",
+        "source_quote": "Oculus. Ultraleap. Unity",
+        "qualification": "User identifies Unity as a supporter. Type, date, amount and recipient of support are unspecified; software usage in local project descriptions is not evidence of a donation or grant."
+      },
+      "follow_up": [
+        "Confirm the form of Unity support; for licences, record edition, seats, term and whether an otherwise paid licence was waived."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-54",
+      "public_record": "support-54",
+      "title": "Maisy Rapata’s PhD studentship",
+      "period": "Current support",
+      "supporters": [
+        "esrc"
+      ],
+      "recipient": "Birmingham research or supervised researcher; see source",
+      "status": "user_confirmed_support",
+      "status_as_of": "2026-11-08",
+      "status_basis": "The Economic and Social Research Council (ESRC) funds Maisy Rapata’s PhD studentship at the University of Birmingham, supervised by Massimiliano Di Luca.",
+      "original_value": "",
+      "valuation": {
+        "classification": "costing_scenario_pending_inputs",
+        "amount": 81129,
+        "currency": "GBP",
+        "low": 81129,
+        "high": 108172,
+        "method": "Annual proxy £21,805 stipend + £5,238 home fees = £27,043; 3 years £81,129; 3.5 years £94,650.50; 4 years £108,172.",
+        "assumptions": [
+          "Duration not confirmed; 3-year scenario is not a claim about the award.",
+          "Flat 2026/27 UKRI benchmark throughout; excludes future increases, research costs and international fee supplements."
+        ],
+        "cost_sources": [
+          "ukri-2026"
+        ],
+        "confidence": "low",
+        "estimated_on": "2026-11-08",
+        "actual_donor_cost": false
+      },
+      "kind": "cash",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "ESRC attribution confirmed by user; funded duration and award value remain unconfirmed. Cost scenarios are not included in the cloud."
+      },
+      "evidence": {
+        "id": "support-54",
+        "group": "people",
+        "years": "Current support",
+        "title": "Maisy Rapata’s PhD studentship",
+        "supporters": [
+          "esrc"
+        ],
+        "detail": "The Economic and Social Research Council (ESRC) funds Maisy Rapata’s PhD studentship at the University of Birmingham, supervised by Massimiliano Di Luca.",
+        "value": "",
+        "source": "User confirmation, 8 November 2026; Academic_CV_sources.zip, appendix-supervision.tex:10",
+        "source_quote": "Maisy if from esrc",
+        "source_date": "2026-11-08",
+        "supporting_source": "content/authors/RA_Maisy_Rapata/_index.md confirms name spelling; CV records PhD supervision since 2026.",
+        "qualification": "Funder corrected to ESRC by the user. Award amount and funded duration remain unconfirmed; supervision start is not treated as an award date. Excluded from monetary sizing pending value.",
+        "previous_source_quote": "EPS is funding Maysy’s PhD studentship"
+      },
+      "follow_up": [
+        "Duration not confirmed; 3-year scenario is not a claim about the award."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-01",
+      "public_record": null,
+      "title": "Work Your Way — Sony Research Award Program",
+      "period": "15 September 2026",
+      "supporters": [
+        "Sony"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "submitted_outcome_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "requested_budget",
+        "amount": 150000,
+        "currency": "USD",
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:54"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-02",
+      "public_record": null,
+      "title": "ATOUCH vision — APP70217",
+      "period": "29 June 2026; assessment recorded 1 November 2026",
+      "supporters": [
+        "EPSRC"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "in_assessment_as_recorded",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "requested_budget",
+        "amount": 1590142.4,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:55"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-03",
+      "public_record": null,
+      "title": "Technology-Mediated Music Timing workshop",
+      "period": "9 March 2026",
+      "supporters": [
+        "Experimental Psychology Society"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "submitted_outcome_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:56"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-04",
+      "public_record": null,
+      "title": "i-MOVE@Bham",
+      "period": "4 March 2025",
+      "supporters": [
+        "UoB IDR Network+"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "submitted_outcome_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "requested_budget",
+        "amount": 48721,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:63"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-05",
+      "public_record": null,
+      "title": "DMIND+",
+      "period": "2025",
+      "supporters": [
+        "UoB IDR Network+"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "submission_and_outcome_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:64"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-06",
+      "public_record": null,
+      "title": "The AI maths student brain — APP121903",
+      "period": "In preparation in reviewed CV",
+      "supporters": [
+        "ESRC"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "in_development",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:77"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-07",
+      "public_record": null,
+      "title": "Leverhulme Centre for anthropocentric technology",
+      "period": "In development in reviewed CV",
+      "supporters": [
+        "Leverhulme"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "in_development",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:78"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-08",
+      "public_record": null,
+      "title": "Knife-carrying detection application",
+      "period": "In development in reviewed CV",
+      "supporters": [
+        "IS-8 / public-safety route"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "in_development",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:79"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-09",
+      "public_record": null,
+      "title": "JAMS: AI-driven Playvatar for group music",
+      "period": "In preparation in reviewed CV",
+      "supporters": [
+        "EPSRC"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "in_development",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "requested_budget",
+        "amount": 1100000,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:80"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "pipeline-10",
+      "public_record": null,
+      "title": "Additional ICURe Exploit award",
+      "period": "2025 activity; additional award unconfirmed",
+      "supporters": [
+        "ICURe / Innovate UK"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "award_unconfirmed",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:135"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "closed-01",
+      "public_record": null,
+      "title": "PrendoSim 2.0",
+      "period": "25 September 2026",
+      "supporters": [
+        "Amazon Research Robotics"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "unsuccessful",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:69"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "closed-02",
+      "public_record": null,
+      "title": "Walking together in virtual reality",
+      "period": "2023",
+      "supporters": [
+        "AHRC"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "unsuccessful",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:70"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "closed-03",
+      "public_record": null,
+      "title": "BhamXR Nexus",
+      "period": "17 March 2025",
+      "supporters": [
+        "UoB IDR Network+"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "not_funded_separately",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "not_costed",
+        "amount": null,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:71"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "closed-04",
+      "public_record": null,
+      "title": "SHARE external infrastructure outline — APP112986",
+      "period": "3 August 2026",
+      "supporters": [
+        "EPSRC"
+      ],
+      "recipient": "Proposed project; not awarded income",
+      "status": "unsuccessful",
+      "status_as_of": "2026-11-06",
+      "status_basis": "Latest reviewed CV source snapshot, not a fresh portal decision check.",
+      "valuation": {
+        "classification": "requested_budget",
+        "amount": 2260397.6,
+        "currency": "GBP",
+        "low": null,
+        "high": null,
+        "method": "Requested/development budget only; not received funding.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "source_recorded"
+      },
+      "kind": "prospective",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Unawarded or unconfirmed; excluded from supporter sizes and awarded totals."
+      },
+      "evidence": {
+        "source": "Academic_CV_sources.zip / appendix-grants.tex:72"
+      },
+      "follow_up": [
+        "Refresh award/application decision before changing status."
+      ],
+      "updated": "2026-11-08"
+    },
+    {
+      "id": "support-55",
+      "public_record": "support-55",
+      "title": "Anthropic support",
+      "period": "Not specified",
+      "supporters": [
+        "anthropic"
+      ],
+      "recipient": "Lab; exact recipient to confirm",
+      "status": "user_confirmed_support",
+      "status_as_of": "2026-11-08",
+      "status_basis": "We thank Anthropic for supporting the lab.",
+      "original_value": "",
+      "valuation": {
+        "classification": "user_amount_currency_pending",
+        "amount": 50000,
+        "currency": null,
+        "low": null,
+        "high": null,
+        "method": "User stated 50 k. Currency and form of contribution are to be verified from Daniele’s email and Teams correspondence.",
+        "assumptions": [],
+        "cost_sources": [],
+        "confidence": "amount_user_confirmed_currency_unverified"
+      },
+      "kind": "unspecified",
+      "cloud": {
+        "include": false,
+        "attributed_to": null,
+        "reason": "Currency unconfirmed; 50,000 recorded without conversion or assigned weight."
+      },
+      "evidence": {
+        "source": "User confirmation in this conversation",
+        "source_date": "2026-11-08",
+        "source_quote": "Add Anthropic",
+        "qualification": "Supporter confirmed by user; contribution type, quantity, period and amount unspecified. Do not assume API credits, licences or a cash grant.",
+        "amount_source_quote": "50 k",
+        "amount_source_date": "2026-11-08"
+      },
+      "follow_up": [
+        "Verify currency and contribution type from Daniele’s email and Teams messages."
+      ],
+      "updated": "2026-11-08"
+    }
+  ]
+}

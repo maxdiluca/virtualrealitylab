@@ -1,0 +1,564 @@
+{
+  "basis": "Recorded award values take priority. AI-assisted estimates use identifiable quantities and cited price/rate benchmarks with assumptions and ranges. Unknown is not zero. Requested budgets are never treated as awarded funding.",
+  "exchange_rates": {
+    "date": "2026-11-06",
+    "source": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.eu.html",
+    "gbp_per_eur": 0.83415,
+    "usd_per_eur": 1.1165,
+    "method": "Single-date GBP equivalents for visual comparison; not historical accounting values or inflation-adjusted amounts."
+  },
+  "contributions": [
+    {
+      "record": "support-01",
+      "supporter": "eu",
+      "amount": 348738.12,
+      "currency": "EUR",
+      "kind": "cash",
+      "note": "Existing CV/source value; Birmingham contribution",
+      "classification": "recorded",
+      "low": 348738.12,
+      "high": 348738.12,
+      "status": "awarded_ongoing",
+      "assumptions": []
+    },
+    {
+      "record": "support-02",
+      "supporter": "uob",
+      "amount": 24970,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 24970,
+      "high": 24970,
+      "status": "awarded_ongoing",
+      "assumptions": []
+    },
+    {
+      "record": "support-03",
+      "supporter": "uob",
+      "amount": 25000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 25000,
+      "high": 25000,
+      "status": "awarded_ongoing",
+      "assumptions": []
+    },
+    {
+      "record": "support-04",
+      "supporter": "google",
+      "amount": 55000,
+      "currency": "USD",
+      "kind": "cash",
+      "note": "Existing CV/source value; Three gifts",
+      "classification": "recorded",
+      "low": 55000,
+      "high": 55000,
+      "status": "awarded_ongoing",
+      "assumptions": []
+    },
+    {
+      "record": "support-05",
+      "supporter": "epsrc",
+      "amount": 738438,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Birmingham allocation only",
+      "classification": "recorded",
+      "low": 738438,
+      "high": 738438,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-06",
+      "supporter": "bbsrc",
+      "amount": 799581,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; BBSRC award; P&G partnership not counted again",
+      "classification": "recorded",
+      "low": 799581,
+      "high": 799581,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-07",
+      "supporter": "eu",
+      "amount": 100000,
+      "currency": "EUR",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 100000,
+      "high": 100000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-08",
+      "supporter": "epsrc",
+      "amount": 14856.6,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Original award",
+      "classification": "recorded",
+      "low": 14856.6,
+      "high": 14856.6,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-09",
+      "supporter": "bbsrc",
+      "amount": 21672.54,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 21672.54,
+      "high": 21672.54,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-12",
+      "supporter": "eps",
+      "amount": 3500,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 3500,
+      "high": 3500,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-14",
+      "supporter": "royal-society",
+      "amount": 15000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 15000,
+      "high": 15000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-15",
+      "supporter": "epsrc",
+      "amount": 15000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Birmingham project award",
+      "classification": "recorded",
+      "low": 15000,
+      "high": 15000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-17",
+      "supporter": "uob",
+      "amount": 3000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "CV records approximately £3,000. Counted once, not multiplied across 2024–2026; per-placement versus aggregate basis not specified.",
+      "classification": "recorded_approximate",
+      "low": null,
+      "high": null,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-18",
+      "supporter": "uob",
+      "amount": 10000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Approximate fellowship value",
+      "classification": "recorded_approximate",
+      "low": 10000,
+      "high": 10000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-19",
+      "supporter": "ahrc",
+      "amount": 40000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "CV records approximately £40,000 for this fellowship. Counted once under AHRC, not again under Midlands4Cities; no extrapolation from 30% supervision share. This is not an independently confirmed Birmingham cash allocation.",
+      "classification": "recorded_approximate",
+      "low": null,
+      "high": null,
+      "status": "awarded_ongoing",
+      "assumptions": []
+    },
+    {
+      "record": "support-20",
+      "supporter": "china",
+      "amount": 40000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Visiting fellowship",
+      "classification": "recorded",
+      "low": 40000,
+      "high": 40000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-21",
+      "supporter": "erasmus",
+      "amount": 2000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 2000,
+      "high": 2000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-22",
+      "supporter": "daad",
+      "amount": 90000,
+      "currency": "EUR",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 90000,
+      "high": 90000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-24",
+      "supporter": "uob",
+      "amount": 6370,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 6370,
+      "high": 6370,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-25",
+      "supporter": "uob",
+      "amount": 3600,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Birmingham project award",
+      "classification": "recorded",
+      "low": 3600,
+      "high": 3600,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-26",
+      "supporter": "uob",
+      "amount": 1700,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 1700,
+      "high": 1700,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-30",
+      "supporter": "siemens",
+      "amount": 47500,
+      "currency": "USD",
+      "kind": "in-kind",
+      "note": "10 headsets × US$4,750 published hardware-and-controller price.",
+      "classification": "ai_assisted_estimate",
+      "low": null,
+      "high": null,
+      "status": "agreed_delivery_unconfirmed",
+      "assumptions": [
+        "SRH-S1 is an inferred model based on the Siemens/Sony relationship; confirm actual model.",
+        "Ten units are documented as agreed; delivery remains unconfirmed.",
+        "Published 2025 launch/list cost; no software licence, freight, UK VAT or discount included."
+      ]
+    },
+    {
+      "record": "support-31",
+      "supporter": "roli",
+      "amount": 1058,
+      "currency": "GBP",
+      "kind": "in-kind",
+      "note": "Scenario range: (Seaboard M £299 + Piano M £219) to (Seaboard 2 £1,099 + Piano £499). Midpoint (£518 + £1,598)/2 = £1,058.",
+      "classification": "ai_assisted_estimate",
+      "low": 518,
+      "high": 1598,
+      "status": "donated_recorded",
+      "assumptions": [
+        "Two received items recorded as a waveboard and keyboard; precise models unknown.",
+        "Assumes the waveboard is a Seaboard-family controller, not verified.",
+        "Current/list-equivalent UK retail scenario, not actual donor invoice or donation-date value.",
+        "The range reflects model alternatives, not a statistical confidence interval."
+      ]
+    },
+    {
+      "record": "support-32",
+      "supporter": "tiktok",
+      "amount": 2000,
+      "currency": "GBP",
+      "kind": "in-kind",
+      "note": "CV records approximately £2,000 of TikTok/ByteDance equipment support.",
+      "classification": "recorded_approximate",
+      "low": null,
+      "high": null,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-34",
+      "supporter": "ultraleap",
+      "amount": 2500,
+      "currency": "USD",
+      "kind": "in-kind",
+      "note": "One identified Stratos Explore kit × US$2,500; uses the lower supplier benchmark. Price range US$2,500–2,750.95.",
+      "classification": "ai_assisted_estimate",
+      "low": 2500,
+      "high": 2750.95,
+      "status": "donated_recorded",
+      "assumptions": [
+        "One kit costed; any additional donated haptic devices remain unvalued.",
+        "2020 donation valued using later supplier listings; not historical cost or second-hand fair value.",
+        "No UK tax, freight or warranty uplift added; supplier tax treatments differ."
+      ]
+    },
+    {
+      "record": "support-39",
+      "supporter": "oculus",
+      "amount": 5000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 5000,
+      "high": 5000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-40",
+      "supporter": "pg",
+      "amount": 5000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; Project value",
+      "classification": "recorded",
+      "low": 5000,
+      "high": 5000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-41",
+      "supporter": "gillette",
+      "amount": 5000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 5000,
+      "high": 5000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-43",
+      "supporter": "ahrc",
+      "amount": 25000,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; MyJAMS Ltd; CreaTech Frontiers programme",
+      "classification": "recorded",
+      "low": 25000,
+      "high": 25000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-44",
+      "supporter": "ahrc",
+      "amount": 15000,
+      "currency": "GBP",
+      "kind": "in-kind",
+      "note": "Existing CV/source value; MyJAMS Ltd; programme valuation of in-kind support",
+      "classification": "recorded",
+      "low": 15000,
+      "high": 15000,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    },
+    {
+      "record": "support-52",
+      "supporter": "marek-sinason",
+      "amount": 250,
+      "currency": "GBP",
+      "kind": "cash",
+      "note": "Existing CV/source value; ",
+      "classification": "recorded",
+      "low": 250,
+      "high": 250,
+      "status": "awarded_or_supported",
+      "assumptions": []
+    }
+  ],
+  "excluded_valued_records": [
+    {
+      "record": "support-11",
+      "reason": "Award to Nottingham; Birmingham allocation unknown."
+    },
+    {
+      "record": "support-13",
+      "reason": "Trieste project value; Birmingham allocation unknown."
+    },
+    {
+      "record": "support-47",
+      "reason": "Award to partner school."
+    }
+  ],
+  "unvalued_contributions": [
+    {
+      "record": "support-10",
+      "supporter": "bbsrc",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-10",
+      "supporter": "obi",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-16",
+      "supporter": "epsrc",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-23",
+      "supporter": "uob",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-27",
+      "supporter": "uob",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-28",
+      "supporter": "uob",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-29",
+      "supporter": "uob",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-33",
+      "supporter": "nhs",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-35",
+      "supporter": "semanticaudio",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-36",
+      "supporter": "partplay",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-37",
+      "supporter": "oculus",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-37",
+      "supporter": "meta",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-38",
+      "supporter": "ansell",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-42",
+      "supporter": "pg",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-45",
+      "supporter": "icure",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-46",
+      "supporter": "ventureversity",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-48",
+      "supporter": "givaudan",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-49",
+      "supporter": "ntnu",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-50",
+      "supporter": "uob",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-50",
+      "supporter": "pg",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-51",
+      "supporter": "marco-polo",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-53",
+      "supporter": "unity",
+      "reason": "Value or attribution not established"
+    },
+    {
+      "record": "support-54",
+      "supporter": "esrc",
+      "reason": "ESRC attribution confirmed by user; funded duration and award value remain unconfirmed. Cost scenarios are not included in the cloud."
+    },
+    {
+      "record": "support-55",
+      "supporter": "anthropic",
+      "reason": "Currency unconfirmed; 50,000 recorded without conversion or assigned weight."
+    }
+  ]
+}

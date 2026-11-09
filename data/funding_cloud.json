@@ -1,0 +1,800 @@
+{
+  "main": {
+    "width": 516.7663304075388,
+    "height": 509.64995055924595,
+    "items": [
+      {
+        "id": "bbsrc",
+        "name": "BBSRC",
+        "gbp": 821253.54,
+        "records": [
+          "support-06",
+          "support-09"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-10"
+        ],
+        "r": 100.0,
+        "x": 255.2347019145211,
+        "y": 250.50288283266252,
+        "amount_label": "≈£821,254",
+        "label": "BBSRC: ≈£821,254 in recorded and estimated support; excludes additional support with unconfirmed value: Adaptive tactile test system (ATTS)",
+        "href": "#support-06",
+        "logo": "/media/funders/bbsrc.png",
+        "dark_logo": false,
+        "lines": [
+          "BBSRC"
+        ]
+      },
+      {
+        "id": "epsrc",
+        "name": "EPSRC",
+        "gbp": 768294.6,
+        "records": [
+          "support-05",
+          "support-08",
+          "support-15"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-16"
+        ],
+        "r": 97.06275397044801,
+        "x": 411.70357643709076,
+        "y": 378.3680121902804,
+        "amount_label": "≈£768,295",
+        "label": "EPSRC: ≈£768,295 in recorded and estimated support; excludes additional support with unconfirmed value: Music performance capture",
+        "href": "#support-05",
+        "logo": "/media/funders/epsrc.png",
+        "dark_logo": false,
+        "lines": [
+          "EPSRC"
+        ]
+      },
+      {
+        "id": "eu",
+        "name": "European Union · Marie Curie / MSCA",
+        "gbp": 374314.90279799997,
+        "records": [
+          "support-01",
+          "support-07"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 71.5200993340146,
+        "x": 79.52009933401462,
+        "y": 233.6393588837763,
+        "amount_label": "≈£374,315",
+        "label": "European Union · Marie Curie / MSCA: ≈£374,315 in recorded and estimated support",
+        "href": "#support-01",
+        "logo": "/media/funders/acknowledgements/eu.svg",
+        "dark_logo": false,
+        "lines": [
+          "European Union",
+          "· Marie",
+          "Curie /",
+          "MSCA"
+        ]
+      },
+      {
+        "id": "ahrc",
+        "name": "AHRC",
+        "gbp": 80000,
+        "records": [
+          "support-19",
+          "support-43",
+          "support-44"
+        ],
+        "in_kind_gbp": 15000,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 43.57029561808156,
+        "x": 330.3571973790795,
+        "y": 122.28193807254385,
+        "amount_label": "≈£80,000",
+        "label": "AHRC: ≈£80,000 in recorded and estimated support",
+        "href": "#support-19",
+        "logo": "/media/funders/ahrc.png",
+        "dark_logo": false,
+        "lines": [
+          "AHRC"
+        ]
+      },
+      {
+        "id": "daad",
+        "name": "DAAD",
+        "gbp": 75073.5,
+        "records": [
+          "support-22"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 42.947943164087384,
+        "x": 242.31579817419347,
+        "y": 397.92439390261507,
+        "amount_label": "≈£75,074",
+        "label": "DAAD: ≈£75,074 in recorded and estimated support",
+        "href": "#support-22",
+        "logo": "/media/funders/daad.svg",
+        "dark_logo": false,
+        "lines": [
+          "DAAD"
+        ]
+      },
+      {
+        "id": "uob",
+        "name": "University of Birmingham",
+        "gbp": 74640,
+        "records": [
+          "support-02",
+          "support-03",
+          "support-17",
+          "support-18",
+          "support-24",
+          "support-25",
+          "support-26"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-23",
+          "support-27",
+          "support-28",
+          "support-29",
+          "support-50"
+        ],
+        "r": 42.892747941936136,
+        "x": 400.8758114681512,
+        "y": 224.72174228404612,
+        "amount_label": "≈£74,640",
+        "label": "University of Birmingham: ≈£74,640 in recorded and estimated support; excludes additional support with unconfirmed value: Birmingham Virtual Worlds Network+; Exploration of gesture-based music performance; Shared VR facilities; Joint interdisciplinary workshop planning; Davide Deflorio’s collaborative studentship",
+        "href": "#support-02",
+        "logo": "/media/funders/uob.svg",
+        "dark_logo": false,
+        "lines": [
+          "University of",
+          "Birmingham"
+        ]
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "gbp": 41091.13300492611,
+        "records": [
+          "support-04"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 38.381128353628306,
+        "x": 200.1607811785841,
+        "y": 118.09871652823037,
+        "amount_label": "≈£41,091",
+        "label": "Google: ≈£41,091 in recorded and estimated support",
+        "href": "#support-04",
+        "logo": "/media/funders/google.svg",
+        "dark_logo": false,
+        "lines": [
+          "Google"
+        ]
+      },
+      {
+        "id": "china",
+        "name": "Chinese government",
+        "gbp": 40000,
+        "records": [
+          "support-20"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 38.22545395575452,
+        "x": 141.7337203693554,
+        "y": 338.0101807470877,
+        "amount_label": "≈£40,000",
+        "label": "Chinese government: ≈£40,000 in recorded and estimated support",
+        "href": "#support-20",
+        "logo": "/media/funders/acknowledgements/china.svg",
+        "dark_logo": false,
+        "lines": [
+          "Chinese government"
+        ]
+      },
+      {
+        "id": "siemens",
+        "name": "Siemens",
+        "gbp": 35487.79668607254,
+        "records": [
+          "support-30"
+        ],
+        "in_kind_gbp": 35487.79668607254,
+        "estimated_gbp": 35487.79668607254,
+        "pending_delivery_gbp": 35487.79668607254,
+        "r": 37.57484002279869,
+        "x": 263.16547993041485,
+        "y": 64.27425248796334,
+        "amount_label": "≈£35,488",
+        "label": "Siemens: ≈£35,488 in recorded and estimated support; includes approximately £35,488 in AI-assisted cost estimates; includes an agreed donation with delivery unconfirmed",
+        "href": "#support-30",
+        "logo": "/media/funders/acknowledgements/siemens.svg",
+        "dark_logo": false,
+        "lines": [
+          "Siemens"
+        ]
+      },
+      {
+        "id": "royal-society",
+        "name": "The Royal Society",
+        "gbp": 15000,
+        "records": [
+          "support-14"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 34.46657074320443,
+        "x": 122.40524324221468,
+        "y": 130.9523290538446,
+        "amount_label": "≈£15,000",
+        "label": "The Royal Society: ≈£15,000 in recorded and estimated support",
+        "href": "#support-14",
+        "logo": "/media/funders/acknowledgements/royal-society.svg",
+        "dark_logo": false,
+        "lines": [
+          "The Royal",
+          "Society"
+        ]
+      },
+      {
+        "id": "gillette",
+        "name": "Gillette",
+        "gbp": 5000,
+        "records": [
+          "support-41"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 32.8427795149168,
+        "x": 160.16993354531522,
+        "y": 414.9494997480288,
+        "amount_label": "≈£5,000",
+        "label": "Gillette: ≈£5,000 in recorded and estimated support",
+        "href": "#support-41",
+        "logo": "/media/funders/gillette.png",
+        "dark_logo": false,
+        "lines": [
+          "Gillette"
+        ]
+      },
+      {
+        "id": "oculus",
+        "name": "Oculus",
+        "gbp": 5000,
+        "records": [
+          "support-39"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-37"
+        ],
+        "r": 32.8427795149168,
+        "x": 411.9644633809787,
+        "y": 142.3373528766396,
+        "amount_label": "≈£5,000",
+        "label": "Oculus: ≈£5,000 in recorded and estimated support; excludes additional support with unconfirmed value: Oculus / Facebook research partnership",
+        "href": "#support-39",
+        "logo": "/media/funders/acknowledgements/oculus.svg",
+        "dark_logo": false,
+        "lines": [
+          "Oculus"
+        ]
+      },
+      {
+        "id": "pg",
+        "name": "Procter & Gamble",
+        "gbp": 5000,
+        "records": [
+          "support-40"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-42",
+          "support-50"
+        ],
+        "r": 32.8427795149168,
+        "x": 65.66728992808956,
+        "y": 343.21855741235004,
+        "amount_label": "≈£5,000",
+        "label": "Procter & Gamble: ≈£5,000 in recorded and estimated support; excludes additional support with unconfirmed value: Procter & Gamble partnership; Davide Deflorio’s collaborative studentship",
+        "href": "#support-40",
+        "logo": "/media/funders/pg.svg",
+        "dark_logo": false,
+        "lines": [
+          "Procter &",
+          "Gamble"
+        ]
+      },
+      {
+        "id": "eps",
+        "name": "Experimental Psychology Society",
+        "gbp": 3500,
+        "records": [
+          "support-12"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 32.5922339888785,
+        "x": 300.40316070474313,
+        "y": 458.2522759256774,
+        "amount_label": "≈£3,500",
+        "label": "Experimental Psychology Society: ≈£3,500 in recorded and estimated support",
+        "href": "#support-12",
+        "logo": "/media/funders/eps.png",
+        "dark_logo": false,
+        "lines": [
+          "Experimental Psychology",
+          "Society"
+        ]
+      },
+      {
+        "id": "erasmus",
+        "name": "Erasmus",
+        "gbp": 2000,
+        "records": [
+          "support-21"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 32.33974747128022,
+        "x": 151.86928348633552,
+        "y": 59.4542233943767,
+        "amount_label": "≈£2,000",
+        "label": "Erasmus: ≈£2,000 in recorded and estimated support",
+        "href": "#support-21",
+        "logo": "/media/funders/acknowledgements/erasmus.svg",
+        "dark_logo": false,
+        "lines": [
+          "Erasmus"
+        ]
+      },
+      {
+        "id": "tiktok",
+        "name": "TikTok / ByteDance",
+        "gbp": 2000,
+        "records": [
+          "support-32"
+        ],
+        "in_kind_gbp": 2000,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 32.33974747128022,
+        "x": 476.14052946362625,
+        "y": 259.7015433245504,
+        "amount_label": "≈£2,000",
+        "label": "TikTok / ByteDance: ≈£2,000 in recorded and estimated support",
+        "href": "#support-32",
+        "logo": "/media/funders/tiktok.svg",
+        "dark_logo": true,
+        "lines": [
+          "TikTok /",
+          "ByteDance"
+        ]
+      },
+      {
+        "id": "ultraleap",
+        "name": "Ultraleap",
+        "gbp": 1867.7787729511865,
+        "records": [
+          "support-34"
+        ],
+        "in_kind_gbp": 1867.7787729511865,
+        "estimated_gbp": 1867.7787729511865,
+        "pending_delivery_gbp": 0,
+        "r": 32.31739681636284,
+        "x": 337.36911290097606,
+        "y": 40.317396816362844,
+        "amount_label": "≈£1,868",
+        "label": "Ultraleap: ≈£1,868 in recorded and estimated support; includes approximately £1,868 in AI-assisted cost estimates",
+        "href": "#support-34",
+        "logo": "/media/funders/ultraleap.svg",
+        "dark_logo": false,
+        "lines": [
+          "Ultraleap"
+        ]
+      },
+      {
+        "id": "roli",
+        "name": "ROLI",
+        "gbp": 1058,
+        "records": [
+          "support-31"
+        ],
+        "in_kind_gbp": 1058,
+        "estimated_gbp": 1058,
+        "pending_delivery_gbp": 0,
+        "r": 32.18017327457649,
+        "x": 204.19061181543478,
+        "y": 469.4697772846695,
+        "amount_label": "≈£1,058",
+        "label": "ROLI: ≈£1,058 in recorded and estimated support; includes approximately £1,058 in AI-assisted cost estimates",
+        "href": "#support-31",
+        "logo": "/media/funders/acknowledgements/roli.svg",
+        "dark_logo": false,
+        "lines": [
+          "ROLI"
+        ]
+      },
+      {
+        "id": "marek-sinason",
+        "name": "Marek Sinason Memorial Fund",
+        "gbp": 250,
+        "records": [
+          "support-52"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 32.04266543708984,
+        "x": 472.0373687438117,
+        "y": 187.79240798429592,
+        "amount_label": "≈£250",
+        "label": "Marek Sinason Memorial Fund: ≈£250 in recorded and estimated support",
+        "href": "#support-52",
+        "logo": "/media/funders/acknowledgements/marek-sinason.svg",
+        "dark_logo": false,
+        "lines": [
+          "Marek Sinason",
+          "Memorial Fund"
+        ]
+      }
+    ]
+  },
+  "home": {
+    "width": 516.7663304075388,
+    "height": 411.7131779861264,
+    "items": [
+      {
+        "id": "bbsrc",
+        "name": "BBSRC",
+        "gbp": 821253.54,
+        "records": [
+          "support-06",
+          "support-09"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-10"
+        ],
+        "r": 100.0,
+        "x": 255.2347019145211,
+        "y": 178.78529465806045,
+        "amount_label": "≈£821,254",
+        "label": "BBSRC: ≈£821,254 in recorded and estimated support; excludes additional support with unconfirmed value: Adaptive tactile test system (ATTS)",
+        "href": "#support-06",
+        "logo": "/media/funders/bbsrc.png",
+        "dark_logo": false,
+        "lines": [
+          "BBSRC"
+        ]
+      },
+      {
+        "id": "epsrc",
+        "name": "EPSRC",
+        "gbp": 768294.6,
+        "records": [
+          "support-05",
+          "support-08",
+          "support-15"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-16"
+        ],
+        "r": 97.06275397044801,
+        "x": 411.70357643709076,
+        "y": 306.65042401567837,
+        "amount_label": "≈£768,295",
+        "label": "EPSRC: ≈£768,295 in recorded and estimated support; excludes additional support with unconfirmed value: Music performance capture",
+        "href": "#support-05",
+        "logo": "/media/funders/epsrc.png",
+        "dark_logo": false,
+        "lines": [
+          "EPSRC"
+        ]
+      },
+      {
+        "id": "eu",
+        "name": "European Union · Marie Curie / MSCA",
+        "gbp": 374314.90279799997,
+        "records": [
+          "support-01",
+          "support-07"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 71.5200993340146,
+        "x": 79.52009933401462,
+        "y": 161.92177070917424,
+        "amount_label": "≈£374,315",
+        "label": "European Union · Marie Curie / MSCA: ≈£374,315 in recorded and estimated support",
+        "href": "#support-01",
+        "logo": "/media/funders/acknowledgements/eu.svg",
+        "dark_logo": false,
+        "lines": [
+          "European Union",
+          "· Marie",
+          "Curie /",
+          "MSCA"
+        ]
+      },
+      {
+        "id": "daad",
+        "name": "DAAD",
+        "gbp": 75073.5,
+        "records": [
+          "support-22"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 42.947943164087384,
+        "x": 364.3325347271608,
+        "y": 78.81698530161829,
+        "amount_label": "≈£75,074",
+        "label": "DAAD: ≈£75,074 in recorded and estimated support",
+        "href": "#support-22",
+        "logo": "/media/funders/daad.svg",
+        "dark_logo": false,
+        "lines": [
+          "DAAD"
+        ]
+      },
+      {
+        "id": "uob",
+        "name": "University of Birmingham",
+        "gbp": 74640,
+        "records": [
+          "support-02",
+          "support-03",
+          "support-17",
+          "support-18",
+          "support-24",
+          "support-25",
+          "support-26"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "unvalued_records": [
+          "support-23",
+          "support-27",
+          "support-28",
+          "support-29",
+          "support-50"
+        ],
+        "r": 42.892747941936136,
+        "x": 165.25016492284269,
+        "y": 296.18539304981334,
+        "amount_label": "≈£74,640",
+        "label": "University of Birmingham: ≈£74,640 in recorded and estimated support; excludes additional support with unconfirmed value: Birmingham Virtual Worlds Network+; Exploration of gesture-based music performance; Shared VR facilities; Joint interdisciplinary workshop planning; Davide Deflorio’s collaborative studentship",
+        "href": "#support-02",
+        "logo": "/media/funders/uob.svg",
+        "dark_logo": false,
+        "lines": [
+          "University of",
+          "Birmingham"
+        ]
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "gbp": 41091.13300492611,
+        "records": [
+          "support-04"
+        ],
+        "in_kind_gbp": 0,
+        "estimated_gbp": 0,
+        "pending_delivery_gbp": 0,
+        "r": 38.381128353628306,
+        "x": 200.1607811785841,
+        "y": 46.3811283536283,
+        "amount_label": "≈£41,091",
+        "label": "Google: ≈£41,091 in recorded and estimated support",
+        "href": "#support-04",
+        "logo": "/media/funders/google.svg",
+        "dark_logo": false,
+        "lines": [
+          "Google"
+        ]
+      }
+    ]
+  },
+  "unweighted": [
+    {
+      "id": "esrc",
+      "name": "ESRC",
+      "url": "https://www.ukri.org/councils/esrc/",
+      "logo": "/media/funders/esrc.png",
+      "wall": true,
+      "display_logo": "/media/funders/esrc.png",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "marco-polo",
+      "name": "Marco Polo",
+      "url": "/funding/#support-51",
+      "logo": "",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/marco-polo.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "m4c",
+      "name": "Midlands4Cities",
+      "url": "https://www.midlands4cities.ac.uk/",
+      "logo": "",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/m4c.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "ntnu",
+      "name": "NTNU",
+      "url": "https://www.ntnu.edu/",
+      "logo": "/media/funders/ntnu.svg",
+      "wall": true,
+      "display_logo": "/media/funders/ntnu.svg",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "irc",
+      "name": "Irish Research Council",
+      "url": "https://research.ie/",
+      "logo": "",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/irc.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "trieste",
+      "name": "University of Trieste / PRIN",
+      "url": "https://www.units.it/",
+      "logo": "/media/funders/trieste.svg",
+      "wall": true,
+      "dark_logo": true,
+      "display_logo": "/media/funders/trieste.svg",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "ansell",
+      "name": "Ansell",
+      "url": "https://www.ansell.com/gb/en",
+      "logo": "",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/ansell.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "meta",
+      "name": "Facebook / Meta",
+      "url": "https://about.meta.com/",
+      "logo": "/media/funders/meta.svg",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/meta.svg",
+      "artwork_type": "symbol_with_embedded_name"
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "url": "https://www.nhs.uk/",
+      "logo": "/media/funders/nhs.svg",
+      "wall": true,
+      "display_logo": "/media/funders/nhs.svg",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "url": "https://unity.com/",
+      "logo": "/media/funders/unity.svg",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/unity.svg",
+      "artwork_type": "symbol_with_embedded_name"
+    },
+    {
+      "id": "partplay",
+      "name": "PartPlay",
+      "url": "https://partplay.co.uk/",
+      "logo": "/media/funders/partplay.png",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/partplay.svg",
+      "artwork_type": "symbol_with_embedded_name"
+    },
+    {
+      "id": "semanticaudio",
+      "name": "SemanticAudio",
+      "url": "/funding/#support-35",
+      "logo": "",
+      "wall": true,
+      "display_logo": "/media/funders/acknowledgements/semanticaudio.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "obi",
+      "name": "Obirobotics",
+      "url": "https://www.obirobotics.com/",
+      "logo": "",
+      "wall": false,
+      "display_logo": "/media/funders/acknowledgements/obi.svg",
+      "artwork_type": "name_only_image"
+    },
+    {
+      "id": "createch",
+      "name": "CreaTech Frontiers",
+      "url": "https://createchfrontiers.com/",
+      "logo": "/media/funders/createch.svg",
+      "wall": false,
+      "dark_logo": true,
+      "display_logo": "/media/funders/createch.svg",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "icure",
+      "name": "Innovate UK · ICURe Explore",
+      "url": "https://www.icureprogramme.com/",
+      "logo": "/media/funders/icure.png",
+      "wall": false,
+      "dark_logo": true,
+      "display_logo": "/media/funders/icure.png",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "ventureversity",
+      "name": "VentureVersity · Research England",
+      "url": "https://ventureversity.org/",
+      "logo": "/media/funders/ventureversity.svg",
+      "wall": false,
+      "display_logo": "/media/funders/ventureversity.svg",
+      "artwork_type": "original_named_logo"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/",
+      "logo": "/media/funders/anthropic.svg",
+      "wall": true,
+      "display_logo": "/media/funders/anthropic.svg",
+      "artwork_type": "original_named_logo"
+    }
+  ],
+  "scale": {
+    "type": "base_plus_proportional_area",
+    "maximum_gbp": 821253.54,
+    "formula": "diameter = sqrt(64^2 + (200^2 - 64^2) * value / maximum)",
+    "proportional_area": false,
+    "base_diameter": 64,
+    "maximum_diameter": 200,
+    "units": "SVG viewBox units; uniformly scaled to fit the viewport"
+  },
+  "total_gbp": 2350831.25126195
+}

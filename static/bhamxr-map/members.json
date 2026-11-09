@@ -1,0 +1,2244 @@
+{
+  "updated": "2026-10-27",
+  "title": "BhamXR expertise map",
+  "intro": "Explore the research interests and expertise of the Birmingham Extended Reality network. Find people working on related questions and discover connections across disciplines.",
+  "groups": [
+    {
+      "id": "perception",
+      "short": "Perception & action",
+      "label": "Perception, cognition & action",
+      "topics": "Multisensory perception · haptics · attention · motor control · social cognition"
+    },
+    {
+      "id": "health",
+      "short": "Health & wellbeing",
+      "label": "Health, rehabilitation & wellbeing",
+      "topics": "Rehabilitation · pain · neurodiversity · mental health · digital wellbeing"
+    },
+    {
+      "id": "learning",
+      "short": "Learning & training",
+      "label": "Learning & professional training",
+      "topics": "Pedagogy · immersive simulation · professional practice · learning evaluation"
+    },
+    {
+      "id": "culture",
+      "short": "Arts & heritage",
+      "label": "Arts, heritage & performance",
+      "topics": "Music · immersive performance · digital cultures · heritage · storytelling"
+    },
+    {
+      "id": "ai",
+      "short": "AI & engineering",
+      "label": "AI, robotics & engineering",
+      "topics": "XR interfaces · computer vision · robotics · simulation · materials and design"
+    },
+    {
+      "id": "society",
+      "short": "Society & governance",
+      "label": "Society, governance & inclusion",
+      "topics": "Social interaction · ethics · law · public policy · digital identity · participation"
+    },
+    {
+      "id": "enabling",
+      "short": "Delivery & facilities",
+      "label": "Technical delivery, facilities & partnerships",
+      "topics": "XR development · motion capture · digitisation · research infrastructure · industry engagement"
+    }
+  ],
+  "people": [
+    {
+      "id": "aaron-cox",
+      "name": "Aaron Cox",
+      "affiliation": "University of Birmingham — Birmingham Transformative Humanities Lab",
+      "summary": "Supports BTHL research infrastructure and is listed as a motion-capture modality lead.",
+      "interests": [
+        "research infrastructure",
+        "motion capture"
+      ],
+      "methods": [
+        "IT systems",
+        "motion-capture support"
+      ],
+      "groups": [
+        "enabling"
+      ]
+    },
+    {
+      "id": "adam-matthews",
+      "name": "Adam Matthews",
+      "affiliation": "School of Education",
+      "summary": "Studies how technology and media shape formal and informal learning, knowledge production and access.",
+      "interests": [
+        "digital education",
+        "learning environments",
+        "knowledge access"
+      ],
+      "methods": [
+        "learning design",
+        "discourse analysis"
+      ],
+      "groups": [
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "adrian-j-wright",
+      "name": "Adrian J Wright",
+      "affiliation": "School of Chemistry",
+      "summary": "Works in inorganic and materials chemistry; previously directed the Collaborative Teaching Laboratory and has extensive laboratory teaching experience.",
+      "interests": [
+        "materials chemistry",
+        "STEM laboratory teaching"
+      ],
+      "methods": [],
+      "groups": [
+        "ai",
+        "learning"
+      ]
+    },
+    {
+      "id": "aengus-ward",
+      "name": "Aengus Ward",
+      "affiliation": "University of Birmingham — Modern Languages / BTHL",
+      "summary": "Works on medieval Spanish texts and digital scholarly editing, including eye-tracking studies of manuscripts; is academic director of BTHL.",
+      "interests": [
+        "digital humanities",
+        "medieval Iberian studies",
+        "textual editing"
+      ],
+      "methods": [
+        "digital editions",
+        "eye tracking",
+        "humanities research infrastructure"
+      ],
+      "groups": [
+        "culture",
+        "enabling"
+      ]
+    },
+    {
+      "id": "alan-wing",
+      "name": "Alan Wing",
+      "affiliation": "School of Psychology",
+      "summary": "Researches anticipatory movement control and sensory integration; listed publications also address musical ensemble timing and stroke rehabilitation.",
+      "interests": [
+        "movement control",
+        "touch",
+        "musical synchronisation"
+      ],
+      "methods": [],
+      "groups": [
+        "perception",
+        "culture",
+        "health"
+      ]
+    },
+    {
+      "id": "ales-leonardis",
+      "name": "Ales Leonardis",
+      "affiliation": "University of Birmingham — Computer Science",
+      "summary": "Researches robust computer vision, object and scene recognition, visual learning and tracking in cognitive systems and robotics.",
+      "interests": [
+        "computer vision",
+        "robotics",
+        "scene understanding"
+      ],
+      "methods": [
+        "visual learning",
+        "object tracking",
+        "3D generative models"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ali-khatibi",
+      "name": "Ali Khatibi",
+      "affiliation": "University of Birmingham — Psychology / CHBH",
+      "summary": "Researches chronic pain, cognitive biases and human neuroimaging, including brain–spinal-cord processes during motor learning.",
+      "interests": [
+        "chronic pain",
+        "cognitive biases",
+        "pain and motor learning"
+      ],
+      "methods": [
+        "neuroimaging",
+        "fMRI"
+      ],
+      "groups": [
+        "health",
+        "perception"
+      ]
+    },
+    {
+      "id": "ali-mazaheri",
+      "name": "Ali Mazaheri",
+      "affiliation": "School of Psychology",
+      "summary": "Investigates neurobiological vulnerability to postoperative delirium, chronic pain, opioid dependence and dementia in older surgical patients.",
+      "interests": [
+        "postoperative delirium",
+        "chronic pain",
+        "dementia"
+      ],
+      "methods": [],
+      "groups": [
+        "health",
+        "perception"
+      ]
+    },
+    {
+      "id": "alireza-rastegarpanah",
+      "name": "Alireza Rastegarpanah",
+      "affiliation": "Aston University; University of Birmingham — honorary research fellow",
+      "summary": "Researches robotics, machine vision and human–robot collaboration, including automated battery disassembly and transferring robot policies from simulation to physical systems.",
+      "interests": [
+        "robotics",
+        "human-robot collaboration",
+        "sustainable manufacturing"
+      ],
+      "methods": [
+        "machine vision",
+        "machine learning",
+        "robotic manipulation"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "andrew-bagshaw",
+      "name": "Andrew Bagshaw",
+      "affiliation": "School of Psychology",
+      "summary": "Investigates sleep, epilepsy and ongoing brain activity, developing methods for simultaneous EEG and fMRI.",
+      "interests": [
+        "sleep",
+        "epilepsy",
+        "ongoing brain activity"
+      ],
+      "methods": [
+        "EEG",
+        "fMRI"
+      ],
+      "groups": [
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "andrew-j-bremner",
+      "name": "Andrew J. Bremner",
+      "affiliation": "School of Psychology",
+      "summary": "Studies how infants develop multisensory perception, touch and awareness of their bodies in relation to the environment.",
+      "interests": [
+        "multisensory development",
+        "touch perception",
+        "body perception"
+      ],
+      "methods": [],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "andrew-schofield",
+      "name": "Andrew Schofield",
+      "affiliation": "Aston University — Psychology",
+      "summary": "Studies visual perception with related interests in computer vision and machine learning, including neural networks.",
+      "interests": [
+        "visual perception",
+        "computer vision",
+        "machine learning"
+      ],
+      "methods": [
+        "perceptual experiments",
+        "neural networks"
+      ],
+      "groups": [
+        "perception",
+        "ai"
+      ]
+    },
+    {
+      "id": "andy-jones",
+      "name": "Andy Jones",
+      "affiliation": "Earth Sciences",
+      "summary": "Leads the Lapworth Museum digitisation programme, specialising in photogrammetry and structured light scanning.",
+      "interests": [
+        "museum digitisation",
+        "geological collections"
+      ],
+      "methods": [
+        "photogrammetry",
+        "structured light scanning"
+      ],
+      "groups": [
+        "culture",
+        "enabling"
+      ]
+    },
+    {
+      "id": "anis-zarrad",
+      "name": "Anis Zarrad",
+      "affiliation": "School of Computer Science, Dubai campus",
+      "summary": "Researches collaborative virtual environments for teaching and learning, search-based software engineering, and machine learning for software testing.",
+      "interests": [
+        "collaborative virtual environments",
+        "software engineering",
+        "educational technology"
+      ],
+      "methods": [
+        "machine learning",
+        "software testing",
+        "search-based methods"
+      ],
+      "groups": [
+        "ai",
+        "learning"
+      ]
+    },
+    {
+      "id": "annie-mahtani",
+      "name": "Annie Mahtani",
+      "affiliation": "University of Birmingham, Music / BEAST",
+      "summary": "Electroacoustic composition, sound art and performance using multichannel audio and environmental recordings; co-director of BEAST.",
+      "interests": [
+        "electroacoustic composition",
+        "spatial sound",
+        "environmental sound",
+        "performance"
+      ],
+      "methods": [
+        "multichannel audio",
+        "field recording",
+        "site-specific installation"
+      ],
+      "groups": [
+        "culture"
+      ]
+    },
+    {
+      "id": "anthony-murphy",
+      "name": "Anthony Murphy",
+      "affiliation": "School of Psychology",
+      "summary": "Researches policing, violent-crime investigation and clinical management in psychiatric care, with a focus on victims and service users.",
+      "interests": [
+        "forensic psychology",
+        "violent crime",
+        "psychiatric care"
+      ],
+      "methods": [],
+      "groups": [
+        "health",
+        "society"
+      ]
+    },
+    {
+      "id": "arindam-dutta",
+      "name": "Arindam Dutta",
+      "affiliation": "University of Birmingham — VR Lab",
+      "summary": "Works as a developer on immersive music technology. His lab profile lists interests in VR, haptics, UI/UX and game development.",
+      "interests": [
+        "virtual reality",
+        "haptics",
+        "UI/UX",
+        "game development"
+      ],
+      "methods": [
+        "software development"
+      ],
+      "groups": [
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "artur-brzozowski",
+      "name": "Artur Brzozowski",
+      "affiliation": "School of Psychology",
+      "summary": "Researches mechanisms underlying aggressive behaviour and self-regulation, alongside forensic psychology teaching.",
+      "interests": [
+        "aggressive behaviour",
+        "self regulation"
+      ],
+      "methods": [],
+      "groups": [
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "balvinder-sunny-khambay",
+      "name": "Balvinder (Sunny) Khambay",
+      "affiliation": "University of Birmingham — School of Dentistry",
+      "summary": "Works on orthodontics and three-dimensional assessment of facial form and movement, including surgical outcomes, alongside specialist dental teaching.",
+      "interests": [
+        "orthodontics",
+        "facial shape and movement",
+        "orthognathic surgery",
+        "dental education"
+      ],
+      "methods": [
+        "three-dimensional facial imaging",
+        "facial motion capture",
+        "assessment of surgical outcomes"
+      ],
+      "groups": [
+        "health"
+      ]
+    },
+    {
+      "id": "ben-spatz",
+      "name": "Ben Spatz",
+      "affiliation": "University of Birmingham — Creative Industries / BTHL",
+      "summary": "Develops embodied and artistic research methods, particularly video. Serves as the BTHL academic lead for XR and video.",
+      "interests": [
+        "embodied research",
+        "artistic practice",
+        "videographic methods"
+      ],
+      "methods": [
+        "practice research",
+        "video",
+        "performance documentation"
+      ],
+      "groups": [
+        "culture",
+        "enabling"
+      ]
+    },
+    {
+      "id": "biao-cai",
+      "name": "Biao Cai",
+      "affiliation": "School of Metallurgy and Materials",
+      "summary": "Leads research on processing, recycling and characterisation of metallic materials.",
+      "interests": [
+        "sustainable metallurgy",
+        "metal recycling",
+        "materials processing"
+      ],
+      "methods": [
+        "materials characterisation"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "carmel-mevorach",
+      "name": "Carmel Mevorach",
+      "affiliation": "School of Psychology",
+      "summary": "Studies top-down attention and how autistic traits and ageing influence attentional mechanisms.",
+      "interests": [
+        "attention control",
+        "autistic traits",
+        "ageing"
+      ],
+      "methods": [],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "caroline-oliver",
+      "name": "Caroline Oliver",
+      "affiliation": "School of Psychology",
+      "summary": "Registered forensic psychologist and practitioner who directs postgraduate forensic psychology programmes; specific research topics require confirmation.",
+      "interests": [
+        "forensic psychology"
+      ],
+      "methods": [
+        "forensic practice"
+      ],
+      "groups": [
+        "society",
+        "learning"
+      ]
+    },
+    {
+      "id": "cesar-alan-contreras",
+      "name": "Cesar Alan Contreras",
+      "affiliation": "University of Birmingham — Metallurgy and Materials; Extreme Robotics Lab",
+      "summary": "Researches robotic teleoperation and variable autonomy, including mixed-reality interfaces for electric-vehicle battery disassembly.",
+      "interests": [
+        "mixed reality teleoperation",
+        "variable autonomy",
+        "robotic disassembly",
+        "human-robot collaboration"
+      ],
+      "methods": [
+        "robotic control",
+        "force feedback",
+        "object segmentation",
+        "ROS and Unity"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "chris-baber",
+      "name": "Chris Baber",
+      "affiliation": "School of Computer Science",
+      "summary": "Studies how people interact and form teams with intelligent technologies, including sensor-based human-technology interaction.",
+      "interests": [
+        "human-technology interaction",
+        "human-AI teams"
+      ],
+      "methods": [
+        "sensor-based interaction"
+      ],
+      "groups": [
+        "ai",
+        "perception"
+      ]
+    },
+    {
+      "id": "chris-miall",
+      "name": "Chris Miall",
+      "affiliation": "School of Psychology",
+      "summary": "Studies sensorimotor learning, predictive control and how somatosensory loss affects movement and cognition.",
+      "interests": [
+        "sensorimotor control",
+        "cerebellum",
+        "somatosensory loss"
+      ],
+      "methods": [],
+      "groups": [
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "clare-mullett",
+      "name": "Clare Mullett",
+      "affiliation": "University of Birmingham — University Collections",
+      "summary": "Leads University Collections, with expertise in curating exhibitions, interpreting and caring for collections, public engagement and collections-based teaching.",
+      "interests": [
+        "museum collections",
+        "cultural heritage",
+        "public engagement",
+        "object-based teaching"
+      ],
+      "methods": [
+        "curation",
+        "collections interpretation and management",
+        "exhibition development"
+      ],
+      "groups": [
+        "culture",
+        "learning",
+        "enabling"
+      ]
+    },
+    {
+      "id": "clayton-hickey",
+      "name": "Clayton Hickey",
+      "affiliation": "School of Psychology",
+      "summary": "Uses cognitive neuroscience methods to investigate how prior experience shapes sensing and perception.",
+      "interests": [
+        "perception",
+        "prior experience"
+      ],
+      "methods": [
+        "fMRI",
+        "EEG",
+        "MEG",
+        "eye tracking",
+        "brain stimulation"
+      ],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "dagmar-fraser",
+      "name": "Dagmar Fraser",
+      "affiliation": "University of Birmingham — Psychology / CHBH / BTHL",
+      "summary": "Provides MRI research support and contributes motion-capture expertise through BTHL. Chairs the University MATLAB user group.",
+      "interests": [
+        "human movement measurement",
+        "neuroimaging support"
+      ],
+      "methods": [
+        "MRI support",
+        "motion capture",
+        "MATLAB"
+      ],
+      "groups": [
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "daniele-giunchi",
+      "name": "Daniele Giunchi",
+      "affiliation": "University of Birmingham — Computer Science",
+      "summary": "Designs intelligent immersive interfaces, including speech, gaze and gesture interaction, collaborative VR/AR and neural methods for scene understanding.",
+      "interests": [
+        "intelligent XR interfaces",
+        "collaborative VR",
+        "scene understanding"
+      ],
+      "methods": [
+        "deep learning",
+        "multimodal interaction",
+        "speech-driven programming",
+        "3D visualisation"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "davinia-fernandez-espejo",
+      "name": "Davinia Fernández-Espejo",
+      "affiliation": "University of Birmingham — Psychology",
+      "summary": "Investigates consciousness and severe brain injury using neuroimaging, brain stimulation and behavioural approaches, translating findings into assessment and treatment research.",
+      "interests": [
+        "consciousness",
+        "brain injury",
+        "neurorehabilitation"
+      ],
+      "methods": [
+        "MRI",
+        "fMRI",
+        "tDCS",
+        "behavioural experiments"
+      ],
+      "groups": [
+        "health",
+        "perception"
+      ]
+    },
+    {
+      "id": "deborah-falla",
+      "name": "Deborah Falla",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Uses electrophysiological measures to investigate human movement control and adaptation in pain, injury and fatigue.",
+      "interests": [
+        "spinal pain",
+        "musculoskeletal rehabilitation",
+        "movement control"
+      ],
+      "methods": [
+        "electrophysiology"
+      ],
+      "groups": [
+        "health",
+        "perception"
+      ]
+    },
+    {
+      "id": "diar-abdlkarim",
+      "name": "Diar Abdlkarim",
+      "affiliation": "University of Birmingham — Psychology / VR Lab",
+      "summary": "Develops immersive systems for sensory feedback, motor training and interaction, with expertise in haptics, hand tracking, motion capture and XR training.",
+      "interests": [
+        "sensorimotor control",
+        "haptics",
+        "XR interaction",
+        "neurorehabilitation"
+      ],
+      "methods": [
+        "motion capture",
+        "hand tracking",
+        "XR development",
+        "training"
+      ],
+      "groups": [
+        "perception",
+        "health",
+        "enabling"
+      ]
+    },
+    {
+      "id": "dietmar-heinke",
+      "name": "Dietmar Heinke",
+      "affiliation": "School of Psychology",
+      "summary": "Combines experimental psychology with theoretical and computational modelling in interdisciplinary brain research.",
+      "interests": [
+        "brain function",
+        "cognitive modelling"
+      ],
+      "methods": [
+        "experimental psychology",
+        "computational modelling"
+      ],
+      "groups": [
+        "perception",
+        "ai"
+      ]
+    },
+    {
+      "id": "dorothy-butchard",
+      "name": "Dorothy Butchard",
+      "affiliation": "University of Birmingham, English Literature",
+      "summary": "Studies creative responses to technological change, digital wellbeing and surveillance; co-leads work on worldbuilding and ethical game design.",
+      "interests": [
+        "digital cultures",
+        "digital wellbeing",
+        "surveillance",
+        "worldbuilding and ethical games"
+      ],
+      "methods": [
+        "literary and cultural analysis",
+        "interdisciplinary creative workshops"
+      ],
+      "groups": [
+        "culture",
+        "society",
+        "health"
+      ]
+    },
+    {
+      "id": "duc-truong-pham",
+      "name": "Duc Truong Pham",
+      "affiliation": "University of Birmingham — Mechanical Engineering",
+      "summary": "Research spans manufacturing, robotics, automation and intelligent engineering systems. His institutional record includes bio-inspired optimisation and earlier projects involving VR and intelligent product manuals.",
+      "interests": [
+        "advanced manufacturing",
+        "robotics and automation",
+        "intelligent systems",
+        "engineering optimisation"
+      ],
+      "methods": [
+        "robot vision",
+        "neural-network modelling",
+        "bio-inspired optimisation"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "edina-harbinja",
+      "name": "Edina Harbinja",
+      "affiliation": "University of Birmingham — Birmingham Law School",
+      "summary": "Studies the legal and societal implications of digital technologies, with expertise in privacy, digital legacy, digital property and the regulation of emerging technologies.",
+      "interests": [
+        "technology law",
+        "digital privacy",
+        "post-mortem digital rights",
+        "digital legacy",
+        "AI and platform regulation"
+      ],
+      "methods": [
+        "legal and policy analysis"
+      ],
+      "groups": [
+        "society"
+      ]
+    },
+    {
+      "id": "edwin-kyi",
+      "name": "Edwin Kyi",
+      "affiliation": "Collaborative Teaching Laboratory",
+      "summary": "Develops digital learning experiences, including VR, interactive simulations and multimedia laboratory teaching resources, and supports staff training.",
+      "interests": [
+        "immersive teaching",
+        "STEM education",
+        "learning experience design"
+      ],
+      "methods": [
+        "VR teaching models",
+        "interactive simulations",
+        "multimedia production"
+      ],
+      "groups": [
+        "learning",
+        "enabling"
+      ]
+    },
+    {
+      "id": "erin-sullivan",
+      "name": "Erin Sullivan",
+      "affiliation": "University of Birmingham, Shakespeare Institute",
+      "summary": "Studies Shakespeare, emotion and digital performance; leads Shakespeare Arcade, investigating video-game adaptations for secondary education.",
+      "interests": [
+        "digital performance",
+        "Shakespeare adaptations",
+        "emotion",
+        "games for education"
+      ],
+      "methods": [
+        "performance and adaptation studies",
+        "historical and cultural analysis"
+      ],
+      "groups": [
+        "culture",
+        "learning"
+      ]
+    },
+    {
+      "id": "evguenni-penksik",
+      "name": "Evguenni Penksik",
+      "affiliation": "BhamXR / ARME project (role described in 2025 event)",
+      "summary": "ARME software development, real-time graphics, audio-video integration and avatar synchronisation, connecting immersive systems with music.",
+      "interests": [
+        "real-time avatars",
+        "immersive music",
+        "virtual and augmented reality"
+      ],
+      "methods": [
+        "3D graphics",
+        "audio-video integration",
+        "machine learning",
+        "game development"
+      ],
+      "groups": [
+        "ai",
+        "culture",
+        "enabling"
+      ]
+    },
+    {
+      "id": "eyal-ofek",
+      "name": "Eyal Ofek",
+      "affiliation": "School of Computer Science",
+      "summary": "Develops sensing and computer-vision approaches for mixed reality and HCI, including haptics, accessible VR and collaboration.",
+      "interests": [
+        "mixed reality",
+        "haptics",
+        "inclusive collaboration"
+      ],
+      "methods": [
+        "computer vision",
+        "sensing",
+        "haptic rendering"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "felipe-orihuela-espina",
+      "name": "Felipe Orihuela-Espina",
+      "affiliation": "University of Birmingham — Computer Science",
+      "summary": "Develops computational methods for optical neuroimaging and interpretation of brain activity, particularly fNIRS.",
+      "interests": [
+        "optical neuroimaging",
+        "brain function",
+        "computational neuroimaging"
+      ],
+      "methods": [
+        "fNIRS",
+        "data analysis",
+        "mathematical modelling"
+      ],
+      "groups": [
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "finola-kerrigan",
+      "name": "Finola Kerrigan",
+      "affiliation": "Department of Marketing",
+      "summary": "Studies marketing and consumption, including film marketing, branding, digital identity and ethics, using qualitative and creative methods.",
+      "interests": [
+        "marketing and consumption",
+        "digital identity",
+        "ethics"
+      ],
+      "methods": [
+        "qualitative research",
+        "creative methods"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "francesco-ripanti",
+      "name": "Francesco Ripanti",
+      "affiliation": "University of Birmingham — History",
+      "summary": "Studies heritage, community participation and wellbeing; develops and evaluates digital storytelling and heritage activities, including Minecraft Education environments.",
+      "interests": [
+        "digital heritage",
+        "community archaeology",
+        "heritage and wellbeing"
+      ],
+      "methods": [
+        "participatory research",
+        "qualitative interviews",
+        "digital storytelling",
+        "evaluation"
+      ],
+      "groups": [
+        "culture",
+        "health",
+        "society"
+      ]
+    },
+    {
+      "id": "heather-flowe",
+      "name": "Heather Flowe",
+      "affiliation": "School of Psychology",
+      "summary": "Develops forensic technology and memory methods, including 3D interactive lineups, and researches memory evidence in sexual-violence investigations.",
+      "interests": [
+        "eyewitness memory",
+        "sexual violence",
+        "forensic identification"
+      ],
+      "methods": [
+        "3D interactive lineups",
+        "VR",
+        "experimental psychology"
+      ],
+      "groups": [
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "henry-chapman",
+      "name": "Henry Chapman",
+      "affiliation": "Classics, Ancient History and Archaeology",
+      "summary": "Uses digital and spatial technologies to study past landscapes and heritage, including virtual museums and applications in galleries, libraries and archives.",
+      "interests": [
+        "landscape archaeology",
+        "digital heritage",
+        "museum collections"
+      ],
+      "methods": [
+        "digital spatial modelling",
+        "GIS"
+      ],
+      "groups": [
+        "culture"
+      ]
+    },
+    {
+      "id": "holly-gowland",
+      "name": "Holly Gowland",
+      "affiliation": "University of Birmingham — Music",
+      "summary": "Investigates sound and urban space through electroacoustic and spatial composition, using BEAST and MiniBEAST facilities.",
+      "interests": [
+        "spatial audio",
+        "electroacoustic composition",
+        "sonic urbanism",
+        "changing urban environments"
+      ],
+      "methods": [
+        "multichannel composition",
+        "sound diffusion",
+        "practice-based research",
+        "field recording"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "hyojin-park",
+      "name": "Hyojin Park",
+      "affiliation": "School of Psychology",
+      "summary": "Studies neural oscillations in attention and memory, with current interests in audiovisual speech processing, integration and communication.",
+      "interests": [
+        "audiovisual speech",
+        "memory",
+        "neural oscillations"
+      ],
+      "methods": [],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "hyung-jin-chang",
+      "name": "Hyung Jin Chang",
+      "affiliation": "School of Computer Science",
+      "summary": "Researches human-centred AI and computer vision for intelligent, interactive robotic systems.",
+      "interests": [
+        "human-centred AI",
+        "interactive robotics"
+      ],
+      "methods": [
+        "computer vision"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ian-apperly",
+      "name": "Ian Apperly",
+      "affiliation": "School of Psychology",
+      "summary": "Studies how people understand others’ perspectives, how these abilities develop and why they differ between individuals.",
+      "interests": [
+        "perspective taking",
+        "theory of mind",
+        "neurodiversity"
+      ],
+      "methods": [
+        "experimental psychology"
+      ],
+      "groups": [
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "ivan-wall",
+      "name": "Ivan Wall",
+      "affiliation": "University of Birmingham — Immunology and Immunotherapy",
+      "summary": "Combines regenerative medicine and bioprocessing with VR training for medicines manufacturing and education, through FourPlus and advanced-therapy training initiatives.",
+      "interests": [
+        "regenerative medicine",
+        "bioprocessing",
+        "workforce training"
+      ],
+      "methods": [
+        "VR training simulation",
+        "cell manufacturing",
+        "skills development"
+      ],
+      "groups": [
+        "learning",
+        "health"
+      ]
+    },
+    {
+      "id": "jane-e-raymond",
+      "name": "Jane E. Raymond",
+      "affiliation": "School of Psychology",
+      "summary": "Studies responses to complex visual information, including attention across space and time and its interactions with emotion, learning and reward.",
+      "interests": [
+        "visual cognition",
+        "attention",
+        "emotion and reward"
+      ],
+      "methods": [],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "jason-stafford",
+      "name": "Jason Stafford",
+      "affiliation": "University of Birmingham — Mechanical Engineering",
+      "summary": "Researches fluid dynamics and advanced-materials processing. His work also combines pollution simulation with immersive visualisation to communicate environmental exposure risks.",
+      "interests": [
+        "thermofluids",
+        "multiphase fluid dynamics",
+        "advanced materials",
+        "air-pollution exposure"
+      ],
+      "methods": [
+        "computational fluid dynamics",
+        "large-eddy simulation",
+        "immersive data visualisation"
+      ],
+      "groups": [
+        "ai",
+        "health"
+      ]
+    },
+    {
+      "id": "jennifer-cook",
+      "name": "Jennifer Cook",
+      "affiliation": "School of Psychology",
+      "summary": "Investigates action and social cognition in autistic and typically developing adults, including movement kinematics, perception and imitation.",
+      "interests": [
+        "action perception",
+        "social cognition",
+        "autism"
+      ],
+      "methods": [],
+      "groups": [
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "jessica-pykett",
+      "name": "Jessica Pykett",
+      "affiliation": "University of Birmingham — Geography, Earth and Environmental Sciences",
+      "summary": "Studies governance, emotion, public policy and urban wellbeing, including how neuroscience and digital technologies shape social and political life.",
+      "interests": [
+        "social and political geography",
+        "digital affective governance",
+        "urban wellbeing",
+        "ethics of emerging technology"
+      ],
+      "methods": [
+        "critical social analysis",
+        "interdisciplinary research"
+      ],
+      "groups": [
+        "society"
+      ]
+    },
+    {
+      "id": "jessica-woodhams",
+      "name": "Jessica Woodhams",
+      "affiliation": "School of Psychology",
+      "summary": "Researches policing and sexual offending with law-enforcement partners and founded the Crime Linkage International Network.",
+      "interests": [
+        "policing",
+        "sexual offending",
+        "crime linkage"
+      ],
+      "methods": [
+        "practitioner co-production"
+      ],
+      "groups": [
+        "society"
+      ]
+    },
+    {
+      "id": "jhundon-de-leon-mendi",
+      "name": "Jhundon de Leon Mendi",
+      "affiliation": "University of Birmingham — Collaborative Teaching Laboratory / VR Lab",
+      "summary": "Develops educational XR resources and studies social presence in VR, with experience in eye-tracking evaluation, interactive environments and learning design.",
+      "interests": [
+        "XR learning",
+        "social VR",
+        "human-computer interaction"
+      ],
+      "methods": [
+        "XR development",
+        "eye tracking",
+        "instructional design"
+      ],
+      "groups": [
+        "learning",
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "joanna-bucknall",
+      "name": "Joanna Bucknall",
+      "affiliation": "University of Birmingham — Creative Industries",
+      "summary": "Researches and creates immersive, participatory performance, audience experience and gamification; co-founded the Immersive Experience Network.",
+      "interests": [
+        "immersive performance",
+        "audience participation",
+        "experience design"
+      ],
+      "methods": [
+        "practice research",
+        "performance documentation",
+        "audience research"
+      ],
+      "groups": [
+        "culture"
+      ]
+    },
+    {
+      "id": "jon-catling",
+      "name": "Jon Catling",
+      "affiliation": "School of Psychology",
+      "summary": "Researches language acquisition, young people’s health and relationships between cognition, physical function and mental health in older adults.",
+      "interests": [
+        "language acquisition",
+        "young people’s health",
+        "ageing"
+      ],
+      "methods": [
+        "research design",
+        "statistical analysis"
+      ],
+      "groups": [
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "jonathan-seville",
+      "name": "Jonathan Seville",
+      "affiliation": "School of Chemical Engineering",
+      "summary": "Studies the design, manufacture and use of structured products, including foods, pharmaceuticals and consumer goods.",
+      "interests": [
+        "formulation engineering",
+        "structured products"
+      ],
+      "methods": [],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "joseph-galea",
+      "name": "Joseph Galea",
+      "affiliation": "School of Psychology",
+      "summary": "Studies motor control and learning in health and disease, including reward-based learning and planning sequential actions.",
+      "interests": [
+        "motor learning",
+        "reward",
+        "sequential action"
+      ],
+      "methods": [
+        "behavioural experiments",
+        "brain imaging",
+        "brain stimulation",
+        "computational modelling"
+      ],
+      "groups": [
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "karen-yeung",
+      "name": "Karen Yeung",
+      "affiliation": "Birmingham Law School and School of Computer Science",
+      "summary": "Studies the legal, ethical, social and democratic implications of AI, robotics and other emerging technologies.",
+      "interests": [
+        "technology governance",
+        "AI ethics",
+        "algorithmic accountability"
+      ],
+      "methods": [
+        "legal analysis",
+        "interdisciplinary ethics"
+      ],
+      "groups": [
+        "society",
+        "ai"
+      ]
+    },
+    {
+      "id": "kate-woodcock",
+      "name": "Kate Woodcock",
+      "affiliation": "University of Birmingham — Psychology",
+      "summary": "Develops and evaluates support for young people, with expertise in neurodiversity, emotion regulation and social belonging. Her listed research includes augmented social play in schools.",
+      "interests": [
+        "youth mental health",
+        "neurodiversity",
+        "emotion regulation",
+        "social belonging"
+      ],
+      "methods": [
+        "co-design",
+        "digital interventions",
+        "arts-informed interventions",
+        "evaluation"
+      ],
+      "groups": [
+        "health",
+        "learning"
+      ]
+    },
+    {
+      "id": "katie-potts",
+      "name": "Katie Potts",
+      "affiliation": "University of Birmingham — BhamXR / Computer Science research",
+      "summary": "Co-authored a study describing development of a VR sensory-room application for sensory difficulties. The evidence concerns design and research potential, rather than proven therapeutic efficacy.",
+      "interests": [
+        "VR sensory rooms",
+        "autism",
+        "sensory accessibility"
+      ],
+      "methods": [
+        "VR application research"
+      ],
+      "groups": [
+        "health",
+        "enabling"
+      ]
+    },
+    {
+      "id": "kit-windows-yule",
+      "name": "Kit Windows-Yule",
+      "affiliation": "School of Chemical Engineering",
+      "summary": "Develops experimental and numerical methods for particulate, fluid and multiphase systems.",
+      "interests": [
+        "particle dynamics",
+        "multiphase systems",
+        "digital particle technology"
+      ],
+      "methods": [
+        "experimental methods",
+        "numerical modelling"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "lauren-e-j-thomas-seale",
+      "name": "Lauren E. J. Thomas-Seale",
+      "affiliation": "Department of Mechanical Engineering",
+      "summary": "Has interdisciplinary interests in design, additive manufacture and elastography, aligned with biomedical and manufacturing research.",
+      "interests": [
+        "design",
+        "additive manufacturing",
+        "elastography"
+      ],
+      "methods": [],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "leonardo-stella",
+      "name": "Leonardo Stella",
+      "affiliation": "School of Computer Science",
+      "summary": "Researches game theory, systems and control, multi-agent learning and optimisation across several application domains.",
+      "interests": [
+        "multi-agent learning",
+        "control",
+        "opinion dynamics"
+      ],
+      "methods": [
+        "game theory",
+        "optimisation",
+        "systems modelling"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "maisy-rapata",
+      "name": "Maisy Rapata",
+      "affiliation": "University of Birmingham — Psychology / VR Lab",
+      "summary": "Works on XR text entry and AI-based optimisation of physics-based VR interactions. Her lab profile lists motion capture and mobile development as interests.",
+      "interests": [
+        "XR text entry",
+        "physics-based VR interaction",
+        "AI optimisation"
+      ],
+      "methods": [
+        "XR text-entry research",
+        "AI-based interaction optimisation"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "marcus-perlman",
+      "name": "Marcus Perlman",
+      "affiliation": "University of Birmingham — Linguistics and Communication",
+      "summary": "Investigates iconicity in communication, language learning and language evolution, including gesture and vocal expression. Co-investigates a project translating this research into inclusive digital storytelling for autistic children.",
+      "interests": [
+        "language and cognition",
+        "iconicity",
+        "multimodal communication",
+        "gesture and prosody",
+        "language learning and evolution",
+        "inclusive digital storytelling"
+      ],
+      "methods": [
+        "psycholinguistic experiments",
+        "multimodal corpus analysis"
+      ],
+      "groups": [
+        "perception",
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "maria-witek",
+      "name": "Maria Witek",
+      "affiliation": "Department of Music",
+      "summary": "Studies musical rhythm, emotion and movement, including disabled and neurodiverse DJs; contributes to the ARME virtual-ensemble rehearsal project.",
+      "interests": [
+        "music cognition",
+        "rhythm and timing",
+        "disability and neurodiversity"
+      ],
+      "methods": [
+        "experimental psychology",
+        "participatory research",
+        "digital music analysis"
+      ],
+      "groups": [
+        "culture",
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "mark-elliott",
+      "name": "Mark Elliott",
+      "affiliation": "University of Birmingham — Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Measures and models movement and physiology for digital health, using wearable sensors, motion capture and smartphones.",
+      "interests": [
+        "human movement",
+        "digital health",
+        "physical function"
+      ],
+      "methods": [
+        "wearable sensors",
+        "motion capture",
+        "smartphone sensing",
+        "movement modelling"
+      ],
+      "groups": [
+        "health",
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "martin-russell",
+      "name": "Martin Russell",
+      "affiliation": "School of Computer Science",
+      "summary": "Research interests concern speech and language science and technology.",
+      "interests": [
+        "speech and language technology"
+      ],
+      "methods": [],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "martin-wahlisch",
+      "name": "Martin Wählisch",
+      "affiliation": "University of Birmingham — Government and Computer Science",
+      "summary": "Studies emerging technologies in peacebuilding and global affairs, including AI governance, VR/XR, digital diplomacy and futures thinking.",
+      "interests": [
+        "PeaceTech",
+        "digital diplomacy",
+        "AI governance",
+        "XR in public affairs"
+      ],
+      "methods": [
+        "futures thinking",
+        "XR experience production",
+        "policy analysis"
+      ],
+      "groups": [
+        "society",
+        "ai"
+      ]
+    },
+    {
+      "id": "masoumeh-mansouri",
+      "name": "Masoumeh Mansouri",
+      "affiliation": "School of Computer Science",
+      "summary": "Develops hybrid knowledge-representation and reasoning methods for robotics, integrating planning, scheduling and spatial-temporal reasoning.",
+      "interests": [
+        "robotics",
+        "knowledge representation",
+        "automated planning"
+      ],
+      "methods": [
+        "task and motion planning",
+        "temporal and spatial reasoning"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "massimiliano-di-luca",
+      "name": "Massimiliano Di Luca",
+      "affiliation": "School of Psychology",
+      "summary": "Studies multisensory perception and action, temporal integration and visual-haptic interaction; publications also address VR locomotion, hand tracking and XR text entry.",
+      "interests": [
+        "multisensory perception",
+        "visual-haptic interaction",
+        "XR interaction"
+      ],
+      "methods": [
+        "psychophysics",
+        "Bayesian modelling",
+        "signal processing"
+      ],
+      "groups": [
+        "perception",
+        "ai"
+      ]
+    },
+    {
+      "id": "matt-hayler",
+      "name": "Matt Hayler",
+      "affiliation": "Department of English Literature",
+      "summary": "Studies digital cultures, technology and embodiment, including electronic literature and research supervision on videogames and VR.",
+      "interests": [
+        "digital cultures",
+        "embodiment",
+        "posthumanism"
+      ],
+      "methods": [
+        "critical theory",
+        "phenomenology",
+        "digital humanities"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "matteo-fuoli",
+      "name": "Matteo Fuoli",
+      "affiliation": "University of Birmingham — Linguistics and Communication",
+      "summary": "Combines corpus linguistics, experiments, data science and discourse analysis to study trust, AI and societal communication, including deceptive and manipulative language.",
+      "interests": [
+        "language and trust",
+        "discourse and communication",
+        "artificial intelligence",
+        "deceptive communication"
+      ],
+      "methods": [
+        "corpus linguistics",
+        "experimental methods",
+        "discourse analysis",
+        "data science"
+      ],
+      "groups": [
+        "society",
+        "ai"
+      ]
+    },
+    {
+      "id": "maxime-adjigble",
+      "name": "Maxime Adjigble",
+      "affiliation": "University of Birmingham — Extreme Robotics Lab",
+      "summary": "Works in robotics engineering, with published research combining autonomous grasp planning and haptic cues for assisted telemanipulation.",
+      "interests": [
+        "robotic grasping",
+        "telemanipulation"
+      ],
+      "methods": [
+        "grasp planning",
+        "haptic cues",
+        "robotics engineering"
+      ],
+      "groups": [
+        "ai",
+        "enabling"
+      ]
+    },
+    {
+      "id": "melissa-colloff",
+      "name": "Melissa Colloff",
+      "affiliation": "School of Psychology",
+      "summary": "Studies applied memory and cognition, using psychological research and statistical modelling to examine legal-system decisions.",
+      "interests": [
+        "memory",
+        "legal decision making"
+      ],
+      "methods": [
+        "statistical modelling"
+      ],
+      "groups": [
+        "perception",
+        "society"
+      ]
+    },
+    {
+      "id": "mike-adams",
+      "name": "Mike Adams",
+      "affiliation": "School of Chemical Engineering",
+      "summary": "Studies tribology and sensory perception, including skin friction and touch; work also includes materials modelling and pressure-ulcer mechanisms.",
+      "interests": [
+        "tactile perception",
+        "skin friction",
+        "tribology"
+      ],
+      "methods": [
+        "materials simulation",
+        "finite element analysis",
+        "interfacial engineering"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "mohammed-bahja",
+      "name": "Mohammed Bahja",
+      "affiliation": "University of Birmingham — Computer Science",
+      "summary": "Co-authored development of a VR sensory-room application aimed at sensory difficulties, alongside teaching-focused computer-science work.",
+      "interests": [
+        "VR sensory environments",
+        "accessible technology"
+      ],
+      "methods": [
+        "VR application research"
+      ],
+      "groups": [
+        "health",
+        "enabling"
+      ]
+    },
+    {
+      "id": "mohan-sridharan",
+      "name": "Mohan Sridharan",
+      "affiliation": "University of Edinburgh — Informatics; University of Birmingham — honorary professor",
+      "summary": "Develops reasoning and learning methods for adaptive robots and human–robot collaboration. Current primary appointment is at Edinburgh, with a Birmingham honorary affiliation.",
+      "interests": [
+        "human-robot collaboration",
+        "cognitive systems",
+        "explainable AI"
+      ],
+      "methods": [
+        "knowledge representation",
+        "logical reasoning",
+        "machine learning",
+        "control systems"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "neil-cooke",
+      "name": "Neil Cooke",
+      "affiliation": "Department of Electronic, Electrical and Systems Engineering",
+      "summary": "Has research and teaching experience in engineering education, VR, affective computing and multimodal physiological signals, including defence simulation and medical informatics.",
+      "interests": [
+        "engineering education",
+        "affective computing",
+        "simulation"
+      ],
+      "methods": [
+        "physiological signal processing",
+        "VR",
+        "AI",
+        "visualisation"
+      ],
+      "groups": [
+        "learning",
+        "ai"
+      ]
+    },
+    {
+      "id": "panagiotis-andriotis",
+      "name": "Panagiotis Andriotis",
+      "affiliation": "School of Computer Science",
+      "summary": "Conducts interdisciplinary research into cybersecurity, human factors, and mobile and ubiquitous computing.",
+      "interests": [
+        "cybersecurity",
+        "human factors",
+        "mobile computing"
+      ],
+      "methods": [
+        "digital forensics"
+      ],
+      "groups": [
+        "ai",
+        "society"
+      ]
+    },
+    {
+      "id": "peter-langdon",
+      "name": "Peter Langdon",
+      "affiliation": "University of Birmingham — Health Services Management Centre; Intellectual Disabilities Research Institute",
+      "summary": "Develops and evaluates psychological interventions for people with intellectual and developmental disabilities. His publications also address co-created VR scenarios for autistic adults preparing for job interviews.",
+      "interests": [
+        "intellectual and developmental disabilities",
+        "autistic mental health",
+        "psychological therapies",
+        "inclusive interview training"
+      ],
+      "methods": [
+        "clinical trials",
+        "intervention adaptation and evaluation",
+        "co-created VR scenarios"
+      ],
+      "groups": [
+        "health",
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "phil-jones",
+      "name": "Phil Jones",
+      "affiliation": "School of Geography, Earth and Environmental Sciences",
+      "summary": "Develops qualitative research methods using VR, AR, games, wearables and other technologies to study cities, embodiment, creativity and regeneration.",
+      "interests": [
+        "urban environments",
+        "embodiment",
+        "arts and creativity"
+      ],
+      "methods": [
+        "VR and AR methods",
+        "qualitative GIS",
+        "mobile interviewing",
+        "wearables"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "raffaello-da-campo",
+      "name": "Raffaello Da Campo",
+      "affiliation": "Business Engagement",
+      "summary": "University Business Engagement Partner for international industry partnerships, listed by the Europe Hub.",
+      "interests": [
+        "industry partnerships",
+        "international collaboration"
+      ],
+      "methods": [],
+      "groups": [
+        "enabling"
+      ]
+    },
+    {
+      "id": "rasha-bayoumi",
+      "name": "Rasha Bayoumi",
+      "affiliation": "School of Psychology, Dubai campus",
+      "summary": "Health psychologist researching reproductive health, pregnancy loss, gender-based violence and quality of life.",
+      "interests": [
+        "women’s health",
+        "reproductive health",
+        "quality of life"
+      ],
+      "methods": [],
+      "groups": [
+        "health"
+      ]
+    },
+    {
+      "id": "raymond-reynolds",
+      "name": "Raymond Reynolds",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Researches human motor control, including sensorimotor control of balance, reaching and tremor.",
+      "interests": [
+        "balance",
+        "reaching",
+        "tremor"
+      ],
+      "methods": [],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "rebecca-roach",
+      "name": "Rebecca Roach",
+      "affiliation": "University of Birmingham, English Literature",
+      "summary": "Studies literature, digital media and conversational computing, with an explicit interest in digital research ethics.",
+      "interests": [
+        "digital cultures",
+        "literature and computing",
+        "conversational computing",
+        "digital research ethics"
+      ],
+      "methods": [
+        "literary and media history",
+        "archival research"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "richard-j-davies",
+      "name": "Richard J. Davies",
+      "affiliation": "University of Birmingham — Civil Engineering",
+      "summary": "Works on building information modelling, digital twins and project management; co-authored evaluation of CAVE versus real built-environment tasks.",
+      "interests": [
+        "building information modelling",
+        "heritage BIM",
+        "digital twins",
+        "project and risk management"
+      ],
+      "methods": [
+        "systems thinking",
+        "project management",
+        "immersive built-environment evaluation"
+      ],
+      "groups": [
+        "ai",
+        "enabling"
+      ]
+    },
+    {
+      "id": "rishika-sahgal",
+      "name": "Rishika Sahgal",
+      "affiliation": "University of Birmingham — Birmingham Law School",
+      "summary": "Researches human rights, displacement and participation. With collaborators, she has used VR-supported community workshops to investigate gender-based violence and women’s experiences of urban public space.",
+      "interests": [
+        "human rights",
+        "displacement and housing rights",
+        "spatial justice",
+        "gender-based violence"
+      ],
+      "methods": [
+        "comparative legal analysis",
+        "VR-supported community workshops"
+      ],
+      "groups": [
+        "society"
+      ]
+    },
+    {
+      "id": "robert-stone",
+      "name": "Robert Stone",
+      "affiliation": "School of Engineering",
+      "summary": "Works on XR and human factors, with applications in defence and medical training, rehabilitation, heritage and robotic telepresence.",
+      "interests": [
+        "XR",
+        "human-centred design",
+        "professional simulation"
+      ],
+      "methods": [
+        "human factors",
+        "VR and MR",
+        "telepresence"
+      ],
+      "groups": [
+        "ai",
+        "learning",
+        "health",
+        "culture"
+      ]
+    },
+    {
+      "id": "roberta-roberts",
+      "name": "Roberta Roberts",
+      "affiliation": "School of Psychology",
+      "summary": "Investigates how skin mechanics and exploratory hand movements contribute to touch perception in younger and older adults.",
+      "interests": [
+        "touch perception",
+        "manual exploration",
+        "ageing"
+      ],
+      "methods": [
+        "psychophysics",
+        "behavioural experiments"
+      ],
+      "groups": [
+        "perception"
+      ]
+    },
+    {
+      "id": "rosie-graham",
+      "name": "Rosie Graham",
+      "affiliation": "Department of English Literature",
+      "summary": "Examines digital platforms and services in their cultural and philosophical contexts, including the relationships between search, language and programming.",
+      "interests": [
+        "digital culture",
+        "search engines",
+        "language and programming"
+      ],
+      "methods": [
+        "critical theory"
+      ],
+      "groups": [
+        "culture",
+        "society"
+      ]
+    },
+    {
+      "id": "russell-beale",
+      "name": "Russell Beale",
+      "affiliation": "University of Birmingham, Computer Science",
+      "summary": "Human-computer interaction, usability and intelligent interactive systems, with interests in mobile computing and e-learning.",
+      "interests": [
+        "human-computer interaction",
+        "interactive systems and society",
+        "AI in interaction",
+        "e-learning"
+      ],
+      "methods": [
+        "usability evaluation",
+        "intelligent agents",
+        "neural networks"
+      ],
+      "groups": [
+        "ai",
+        "society",
+        "learning"
+      ]
+    },
+    {
+      "id": "rustam-stolkin",
+      "name": "Rustam Stolkin",
+      "affiliation": "School of Metallurgy and Materials",
+      "summary": "Researches advanced robotics and AI for extreme environments, including vision, sensing, grasping and manipulation.",
+      "interests": [
+        "robotics",
+        "extreme environments",
+        "robot manipulation"
+      ],
+      "methods": [
+        "vision and sensing",
+        "AI",
+        "robotic grasping"
+      ],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "sang-hoon-yeo",
+      "name": "Sang-Hoon Yeo",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Uses robotics and VR to study sensorimotor coordination, learning and muscle mechanics, with interests in motor diagnosis and rehabilitation.",
+      "interests": [
+        "motor control",
+        "hand-eye coordination",
+        "rehabilitation"
+      ],
+      "methods": [
+        "virtual reality",
+        "robotics",
+        "musculoskeletal modelling"
+      ],
+      "groups": [
+        "perception",
+        "health",
+        "ai"
+      ]
+    },
+    {
+      "id": "sarah-aldred",
+      "name": "Sarah Aldred",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Studies how exercise affects redox homeostasis in health and disease, including dementia, cardiovascular disease and psychosis.",
+      "interests": [
+        "exercise",
+        "oxidative stress",
+        "ageing and disease"
+      ],
+      "methods": [],
+      "groups": [
+        "health"
+      ]
+    },
+    {
+      "id": "scott-wilson",
+      "name": "Scott Wilson",
+      "affiliation": "University of Birmingham — Music / BEAST",
+      "summary": "Composes and develops immersive audio and interactive musical systems, with expertise in multichannel sound, live coding, sonification and SuperCollider.",
+      "interests": [
+        "immersive audio",
+        "electroacoustic music",
+        "interactive sound"
+      ],
+      "methods": [
+        "spatial audio",
+        "live coding",
+        "sonification",
+        "SuperCollider"
+      ],
+      "groups": [
+        "culture",
+        "enabling"
+      ]
+    },
+    {
+      "id": "shinyi-chloe-chiou",
+      "name": "Shinyi Chloe Chiou",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Named University contact for a home-based arm-crank exercise study for people with spinal cord injury; broader expertise requires confirmation.",
+      "interests": [
+        "spinal cord injury",
+        "home exercise rehabilitation"
+      ],
+      "methods": [],
+      "groups": [
+        "health"
+      ]
+    },
+    {
+      "id": "soomin-oh",
+      "name": "Soomin Oh",
+      "affiliation": "University of Birmingham — International Development",
+      "summary": "Studies public opinion, international aid and unequal provision of public goods, with expertise in survey design, statistical analysis and impact evaluation.",
+      "interests": [
+        "public attitudes",
+        "international cooperation",
+        "spatial inequality"
+      ],
+      "methods": [
+        "survey design",
+        "statistical analysis",
+        "impact evaluation"
+      ],
+      "groups": [
+        "society"
+      ]
+    },
+    {
+      "id": "sophie-sowden-carvalho",
+      "name": "Sophie Sowden-Carvalho",
+      "affiliation": "School of Psychology",
+      "summary": "Studies social cognition across the lifespan and in autism, conduct disorder and Parkinson’s disease, using a cross-cultural approach.",
+      "interests": [
+        "social cognition",
+        "autism",
+        "lifespan development"
+      ],
+      "methods": [
+        "experimental psychology",
+        "cross-cultural research"
+      ],
+      "groups": [
+        "perception",
+        "society",
+        "health"
+      ]
+    },
+    {
+      "id": "stephan-lautenschlager",
+      "name": "Stephan Lautenschlager",
+      "affiliation": "University of Birmingham — Geography, Earth and Environmental Sciences",
+      "summary": "Reconstructs extinct organisms and investigates biomechanical function through CT, digital restoration, 3D visualisation and computational simulation.",
+      "interests": [
+        "palaeobiology",
+        "functional morphology",
+        "digital reconstruction"
+      ],
+      "methods": [
+        "CT scanning",
+        "3D visualisation",
+        "finite element analysis",
+        "biomechanical simulation"
+      ],
+      "groups": [
+        "enabling"
+      ]
+    },
+    {
+      "id": "stephane-de-brito",
+      "name": "Stephane De Brito",
+      "affiliation": "School of Psychology",
+      "summary": "Studies interacting social, cognitive, affective and neurocognitive mechanisms in antisocial behaviour and early adversity.",
+      "interests": [
+        "aggressive behaviour",
+        "antisocial behaviour",
+        "early adversity"
+      ],
+      "methods": [],
+      "groups": [
+        "perception",
+        "health",
+        "society"
+      ]
+    },
+    {
+      "id": "stephanie-burnett-heyes",
+      "name": "Stephanie Burnett Heyes",
+      "affiliation": "School of Psychology",
+      "summary": "Studies adolescent and young-adult social cognition, emotion, decisions and mental health; supervision interests include VR interventions for adolescent issues.",
+      "interests": [
+        "adolescent social cognition",
+        "emotion",
+        "wellbeing"
+      ],
+      "methods": [
+        "experimental psychology"
+      ],
+      "groups": [
+        "perception",
+        "health",
+        "society"
+      ]
+    },
+    {
+      "id": "stuart-macgregor",
+      "name": "Stuart MacGregor",
+      "affiliation": "BhamXR early career researcher listing; current role to confirm",
+      "summary": "Co-authored work on text input and keyboards in XR. This supports a narrow topic assignment; broader expertise and current role require confirmation.",
+      "interests": [
+        "XR text input",
+        "spatial computing"
+      ],
+      "methods": [],
+      "groups": [
+        "ai"
+      ]
+    },
+    {
+      "id": "tarsem-singh-cooner",
+      "name": "Tarsem Singh Cooner",
+      "affiliation": "Department of Social Work and Social Care",
+      "summary": "Develops immersive 360-degree video and blended-learning approaches for relationship-based social work and child-protection practice.",
+      "interests": [
+        "social work",
+        "child protection",
+        "professional learning"
+      ],
+      "methods": [
+        "360-degree video",
+        "blended learning",
+        "multimedia development"
+      ],
+      "groups": [
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "theodoros-arvanitis",
+      "name": "Theodoros Arvanitis",
+      "affiliation": "University of Birmingham — Electronic, Electrical and Systems Engineering",
+      "summary": "Researches digital health technology and medical imaging, with publications on AI-assisted image analysis, clinical decision support and health-information modelling. His record also includes earlier work on VR in biomedicine.",
+      "interests": [
+        "digital health",
+        "medical imaging",
+        "clinical decision support",
+        "AI in healthcare"
+      ],
+      "methods": [
+        "medical image analysis",
+        "machine learning",
+        "health-information modelling"
+      ],
+      "groups": [
+        "health",
+        "ai"
+      ]
+    },
+    {
+      "id": "theresa-powell",
+      "name": "Theresa Powell",
+      "affiliation": "School of Psychology",
+      "summary": "Researches rehabilitation after acquired brain injury, including engagement, compensatory memory strategies, outcomes and route learning.",
+      "interests": [
+        "brain injury rehabilitation",
+        "memory compensation",
+        "navigation"
+      ],
+      "methods": [],
+      "groups": [
+        "health",
+        "perception"
+      ]
+    },
+    {
+      "id": "tom-harrison",
+      "name": "Tom Harrison",
+      "affiliation": "University of Birmingham — Education",
+      "summary": "Researches character education, virtue ethics and ethical digital behaviour, including emerging AI and virtual-reality technologies.",
+      "interests": [
+        "character education",
+        "virtue ethics",
+        "digital wisdom",
+        "digital life"
+      ],
+      "methods": [
+        "educational programme development",
+        "intervention evaluation"
+      ],
+      "groups": [
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "ulysses-bernardet",
+      "name": "Ulysses Bernardet",
+      "affiliation": "Aston University",
+      "summary": "Connects psychological and neural models of behaviour and emotion with VR/MR; research includes a virtual breathing coach.",
+      "interests": [
+        "biologically grounded HCI",
+        "virtual humans",
+        "behaviour and emotion"
+      ],
+      "methods": [
+        "VR/MR",
+        "computational modelling",
+        "usability evaluation"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "health"
+      ]
+    },
+    {
+      "id": "victoria-goodyear",
+      "name": "Victoria Goodyear",
+      "affiliation": "School of Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Studies how social media and digital technologies shape young people’s physical activity, health and wellbeing; has expertise in pedagogy and school-based qualitative research.",
+      "interests": [
+        "digital health",
+        "young people",
+        "physical activity"
+      ],
+      "methods": [
+        "qualitative research",
+        "pedagogy",
+        "professional training"
+      ],
+      "groups": [
+        "health",
+        "learning",
+        "society"
+      ]
+    },
+    {
+      "id": "ying-feng",
+      "name": "Ying Feng",
+      "affiliation": "University of Birmingham — Sport, Exercise and Rehabilitation Sciences",
+      "summary": "Studies responses to AI agents, robots and avatars in sport, fitness and digital health, with expertise in consumer psychology and digital anthropomorphism.",
+      "interests": [
+        "human-agent interaction",
+        "consumer wellbeing",
+        "sport technology",
+        "digital anthropomorphism"
+      ],
+      "methods": [
+        "experiments",
+        "quantitative methods",
+        "mixed methods"
+      ],
+      "groups": [
+        "society",
+        "ai",
+        "health"
+      ]
+    },
+    {
+      "id": "yuehang-lin",
+      "name": "Yuehang Lin",
+      "affiliation": "University of Birmingham — School of Computer Science; VR Lab",
+      "summary": "Develops interactive XR software and haptic hardware, including Unity simulations, device integration and 3D-printed prototypes.",
+      "interests": [
+        "virtual reality",
+        "haptic feedback",
+        "human-computer interaction",
+        "computer vision"
+      ],
+      "methods": [
+        "Unity development",
+        "hardware prototyping",
+        "3D printing",
+        "Arduino integration",
+        "haptic device design"
+      ],
+      "groups": [
+        "ai",
+        "perception",
+        "enabling"
+      ]
+    },
+    {
+      "id": "ziyun-ding",
+      "name": "Ziyun Ding",
+      "affiliation": "Department of Mechanical Engineering",
+      "summary": "Works on muscle-tendon and neuro-musculoskeletal dynamics to improve mobility, independence and quality of life.",
+      "interests": [
+        "mobility",
+        "musculoskeletal impairments",
+        "neurological impairments"
+      ],
+      "methods": [],
+      "groups": [
+        "health",
+        "ai"
+      ]
+    }
+  ]
+}

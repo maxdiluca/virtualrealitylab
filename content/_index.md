@@ -90,6 +90,8 @@ sections:
           </div>
         </div>
 
+  - block: funding-supporters
+
   - block: hero
     content:
       title: Visitor information

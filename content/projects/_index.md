@@ -12,7 +12,7 @@ We study how humans perceive, act and collaborate in immersive environments, the
 
 Our work combines psychophysics, computational modelling, human-computer interaction, machine learning, real-time motion analysis and applied design. The lab collaborates across psychology, computer science, music technology, robotics, sport, healthcare and the creative industries.
 
-For an overview of the funders, industry partners and cultural organisations that support this work, see the [Funding page](/funding/).
+We gratefully acknowledge the organisations that support our research, students and facilities. Explore current and previous support on our [Funding & supporters page](/funding/).
 
 ---
 

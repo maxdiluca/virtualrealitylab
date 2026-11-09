@@ -1,0 +1,30 @@
+{{/* Count only the publications supplied by the archive, once per topic per record. */}}
+{{ $topics := dict }}
+{{ $maxCount := 1 }}
+{{ range . }}
+  {{ range .GetTerms "tags" }}
+    {{ $key := lower .LinkTitle }}
+    {{ $count := add (index $topics $key | default (dict "count" 0)).count 1 }}
+    {{ $topics = merge $topics (dict $key (dict "label" $key "count" $count "url" .RelPermalink)) }}
+    {{ $maxCount = math.Max $maxCount $count }}
+  {{ end }}
+{{ end }}
+{{ with $topics }}
+<nav class="publication-topics" aria-labelledby="publication-topics-heading">
+  <div class="publication-topics-heading">
+    <h2 id="publication-topics-heading">Explore by topic</h2>
+    <a class="publication-topic-clear" href="{{ "/publication/" | relURL }}" hidden>All topics</a>
+  </div>
+  <p class="publication-topics-help">Select a topic to explore related publications. Larger words indicate more publications in this collection; counts cover all years.</p>
+  <div class="publication-topic-cloud">
+    {{ range $index, $topic := sort . "label" }}
+      {{ $weight := 0.0 }}
+      {{ if gt $maxCount 1 }}{{ $weight = div (math.Log $topic.count) (math.Log $maxCount) }}{{ end }}
+      <a class="publication-topic publication-topic-palette-{{ mod $index 6 }}" href="{{ .url }}" data-topic="{{ .label }}" style="--topic-size: {{ printf "%.3f" (add 0.85 (mul 0.95 $weight)) }}rem;" aria-label="{{ .label }}: {{ .count }} {{ cond (eq .count 1) "publication" "publications" }}">
+        <span>{{ .label }}</span><span class="publication-topic-count" aria-hidden="true">{{ .count }}</span>
+      </a>
+    {{ end }}
+  </div>
+  <p class="publication-topic-selection" hidden>Selected topic: <strong></strong></p>
+</nav>
+{{ end }}

@@ -1270,3 +1270,9 @@ html.dark .media-hub-links a {
     height: 210px;
   }
 }
+
+// Funding acknowledgements shared by the homepage and full record.
+@import "funding";
+
+// Searchable publication archive and individual publication records.
+@import "publications";

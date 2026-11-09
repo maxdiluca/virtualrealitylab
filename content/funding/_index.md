@@ -1,38 +1,7 @@
 ---
-title: Funding 
-view: compact
-
-header:
-  caption: ""
-  image: ""
+title: Funding & supporters
+summary: Thanking the organisations that have supported our research, students and facilities at Birmingham since 2011.
+type: funding
 ---
 
-Funding for our work comes from:
- 
-- **EPSRC**  
-- **BBSRC**  
-- **NHS**  
-- **Google Research**  
-- **Marie Skłodowska-Curie**  
-- **MSC Doctoral Networks**  
-- **Royal Society**
-
-alongside support and collaboration with industry partners such as:
-
-- **Google**  
-- **Meta / Facebook / Oculus**  
-- **Procter & Gamble**  
-- **Ansell Gloves**  
-- **Gillette**  
-- **ROLI**  
-- **Givaudan**  
-- **PartPlay**
-- **Zubr**
-- **Innogence**
-
-and cultural and charitable partners including:
-
-- **Museum of Music History**  
-- **Kenilworth Town Council**
-
----
+We thank all our current and past funders and donors for supporting our research, students and facilities at the University of Birmingham.

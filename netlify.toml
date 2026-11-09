@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify --cleanDestinationDir -b $URL"
+  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $URL"
   publish = "public"
 
 [build.environment]
@@ -10,10 +10,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --cleanDestinationDir --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
+  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
@@ -100,3 +100,12 @@
   to = "https://massimilianodiluca.info"
   status = 301
   force = true
+
+# BhamXR can be embedded by the University while the rest of VRLab retains
+# its generated X-Frame-Options protection. Enforced frame-ancestors takes
+# precedence over X-Frame-Options in current standards-conforming browsers.
+[[headers]]
+  for = "/bhamxr-map/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'self' https://www.birmingham.ac.uk https://birmingham.ac.uk"
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -1,0 +1,9 @@
+{{ $org := .org }}
+{{ $image := $org.display_logo | default $org.logo }}
+<a role="listitem" class="cloud-supporter cloud-size-{{ mod .index 4 }}{{ if $org.dark_logo }} cloud-light-mark{{ end }}" href="{{ $org.url | default "/funding/#record-heading" }}" aria-label="{{ $org.name }}" title="{{ $org.name }}">
+  {{ if $image }}
+    <img src="{{ $image | relURL }}" alt="{{ $org.name }}" loading="lazy" width="180" height="90">
+  {{ else }}
+    <span>{{ $org.name }}</span>
+  {{ end }}
+</a>

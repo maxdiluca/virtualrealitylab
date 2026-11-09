@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $pages := sort .RegularPages.ByWeight "Params.publication_year" "desc" }}
+{{ $years := slice }}
+{{ $types := slice }}
+{{ range $pages }}
+  {{ $years = $years | append (.Params.publication_year | default (.Date.Format "2006")) }}
+  {{ range .Params.publication_types }}{{ $types = $types | append . }}{{ end }}
+{{ end }}
+<section class="publication-database container" aria-labelledby="publications-heading">
+  <header class="publication-intro">
+    <p class="lab-section-kicker">VR Lab research</p>
+    <h1 id="publications-heading">{{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  {{ partial "publication-topic-cloud" $pages }}
+  <form class="publication-filters" role="search" aria-label="Search publications" hidden>
+    <div class="publication-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" placeholder="Title, author or venue" autocomplete="off"></div>
+    <div><label for="publication-type">Publication type</label><select id="publication-type"><option value="">All types</option>{{ range sort (uniq $types) }}<option value="{{ . }}">{{ partial "publication-type-label" . }}</option>{{ end }}</select></div>
+    <div><label for="publication-year">Year</label><select id="publication-year"><option value="">All years</option>{{ range sort (uniq $years) "value" "desc" }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></div>
+    <button type="reset">Reset</button>
+  </form>
+  <p id="publication-count" class="publication-count" role="status" aria-live="polite">{{ len $pages }} publications</p>
+  <div class="publication-results">
+    {{ range $pages }}
+    {{ $authorNames := slice }}
+    {{ range .Params.authors }}
+      {{ $profile := site.GetPage (printf "/authors/%s" .) }}
+      {{ if $profile }}{{ $authorNames = $authorNames | append $profile.Title }}{{ else }}{{ $authorNames = $authorNames | append . }}{{ end }}
+    {{ end }}
+    <article data-topics="{{ .Params.tags | default slice | jsonify }}" data-authors="{{ delimit $authorNames " " }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
+      <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><span>{{ partial "publication-type-label" (index .Params.publication_types 0) }}</span>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ partial "publication-citation" . }}
+      <div class="publication-links"><a href="{{ .RelPermalink }}">Details</a>{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
+    </article>
+    {{ end }}
+  </div>
+  <p id="publication-empty" hidden>No publications match these filters. Try another search or reset the filters.</p>
+  <noscript><p>All publications are shown. Enable JavaScript to search and filter this collection.</p></noscript>
+</section>
+{{ $script := resources.Get "js/publications.js" | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+{{ end }}

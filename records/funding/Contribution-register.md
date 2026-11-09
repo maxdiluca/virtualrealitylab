@@ -78,7 +78,7 @@ Pipeline statuses reflect the dated CV snapshot unless stated otherwise; they ha
 | closed-02 | Walking together in virtual reality | unsuccessful | Not costed | Excluded |
 | closed-03 | BhamXR Nexus | not funded separately | Not costed | Excluded |
 | closed-04 | SHARE external infrastructure outline — APP112986 | unsuccessful | £2,260,397.60 — requested budget | Excluded |
-| support-55 | Anthropic support | user confirmed support | 50,000 — user amount currency pending | Excluded |
+| support-55 | OpenAI support | user confirmed support | Not costed | Excluded |
 
 ## Costing assumptions and outstanding work
 

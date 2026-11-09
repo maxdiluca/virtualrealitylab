@@ -1,0 +1,30 @@
+{
+  "status": "disabled-manual-handoff-draft-native-schema-and-runtime-approval-pending",
+  "definitionParameterValues": {
+    "EnableCloudActions": false,
+    "EnableFailureNotifications": false,
+    "ProfileSiteAddress": "__PROFILE_SITE_ADDRESS__",
+    "ProfileRoot": "/__PROFILE_ROOT__",
+    "ProfileApprover": "__PROFILE_APPROVER_UPN__",
+    "GitHubOwner": "__GITHUB_OWNER__",
+    "GitHubRepository": "__GITHUB_REPOSITORY__",
+    "EnableHandoffNotifications": false
+  },
+  "connectionReferences": {
+    "shared_sharepointonline": {
+      "connectionName": "__SHARED_SHAREPOINTONLINE_CONNECTION_NAME__",
+      "source": "Embedded",
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline"
+    },
+    "shared_approvals": {
+      "connectionName": "__SHARED_APPROVALS_CONNECTION_NAME__",
+      "source": "Embedded",
+      "id": "/providers/Microsoft.PowerApps/apis/shared_approvals"
+    },
+    "shared_office365": {
+      "connectionName": "__SHARED_OFFICE365_CONNECTION_NAME__",
+      "source": "Embedded",
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    }
+  }
+}

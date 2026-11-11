@@ -7,6 +7,7 @@ authors:
 superuser: true
 
 role: Associate Professor in Psychology and Computer Science
+profile_url: "https://massimilianodiluca.info"
 
 badges:
   - Head of Lab
@@ -17,12 +18,10 @@ user_groups:
   - Affiliated Faculty
 ---
 
-
-
 <script>
   window.location.replace("https://massimilianodiluca.info");
 </script>
 <noscript>
   <meta http-equiv="refresh" content="0; url=https://massimilianodiluca.info">
 </noscript>
-<p>Redirecting to <a href="https://massimilianodiluca.info">massimilianodiluca.info</a>.</p>
+<p>Redirecting to <a href="https://massimilianodiluca.info">https://massimilianodiluca.info</a>.</p>

@@ -47,3 +47,11 @@ user_groups:
 # Volunteer Research Assistants (V)
 # Alumni (A)
 ---
+
+<script>
+  window.location.replace("https://www.birmingham.ac.uk/staff/profiles/social-policy/cooner-tarsem-singh");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.birmingham.ac.uk/staff/profiles/social-policy/cooner-tarsem-singh">
+</noscript>
+<p>Redirecting to <a href="https://www.birmingham.ac.uk/staff/profiles/social-policy/cooner-tarsem-singh">https://www.birmingham.ac.uk/staff/profiles/social-policy/cooner-tarsem-singh</a>.</p>

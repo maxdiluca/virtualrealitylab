@@ -1,6 +1,7 @@
 ---
 title: Mark Elliott
 role: Associate Professor in Human Movement Analytics
+profile_url: "https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark"
 
 authors:
 - Mark_Elliott
@@ -24,7 +25,7 @@ interests:
 social:
 - icon: web
   icon_pack: fab
-  link: https://www.birmingham.ac.uk/schools/sport-exercise/staff/profile?ReferenceId=208921&Name=dr-mark-elliott
+  link: https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/dr_mte
@@ -41,3 +42,11 @@ email: ""
 user_groups:
 - Affiliated Faculty
 ---
+
+<script>
+  window.location.replace("https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark">
+</noscript>
+<p>Redirecting to <a href="https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark">https://www.birmingham.ac.uk/staff/profiles/sportex/elliott-mark</a>.</p>

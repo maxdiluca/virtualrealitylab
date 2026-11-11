@@ -11,6 +11,7 @@ superuser: false
 
 # Role/position
 role: Associate Professor of Transformative Technologies, Innovation and Global Affairs
+profile_url: "https://www.birmingham.ac.uk/staff/profiles/gov/waehlisch-martin"
 
 # Organizations/Affiliations
 organizations:
@@ -43,6 +44,14 @@ social:
 user_groups:
   - Affiliated Faculty
 ---
+
+<script>
+  window.location.replace("https://www.birmingham.ac.uk/staff/profiles/gov/waehlisch-martin");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.birmingham.ac.uk/staff/profiles/gov/waehlisch-martin">
+</noscript>
+<p>Redirecting to <a href="https://www.birmingham.ac.uk/staff/profiles/gov/waehlisch-martin">https://www.birmingham.ac.uk/staff/profiles/gov/waehlisch-martin</a>.</p>
 
 Dr Martin Wählisch is Associate Professor of Transformative Technologies, Innovation and Global Affairs at the University of Birmingham, with a dual appointment across the School of Government and the School of Computer Science. His research explores how emerging technologies, AI governance, digital peacebuilding and VR/XR can support diplomacy, international relations and public affairs.
 

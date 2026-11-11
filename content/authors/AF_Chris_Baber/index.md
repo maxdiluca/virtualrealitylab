@@ -33,3 +33,11 @@ social:
 user_groups:
   - Affiliated Faculty
 ---
+
+<script>
+  window.location.replace("https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/baber-chris");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/baber-chris">
+</noscript>
+<p>Redirecting to <a href="https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/baber-chris">https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/baber-chris</a>.</p>

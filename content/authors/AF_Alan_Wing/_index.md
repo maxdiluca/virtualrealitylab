@@ -11,7 +11,7 @@ superuser: false
 
 # Role/position
 role: Professor of Human Movement
-link_profile: true
+profile_url: "https://www.birmingham.ac.uk/staff/profiles/psychology/wing-alan"
 
 # Organizations/Affiliations
 organizations:
@@ -43,3 +43,11 @@ user_groups:
 - Affiliated Faculty
 
 ---
+
+<script>
+  window.location.replace("https://www.birmingham.ac.uk/staff/profiles/psychology/wing-alan");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.birmingham.ac.uk/staff/profiles/psychology/wing-alan">
+</noscript>
+<p>Redirecting to <a href="https://www.birmingham.ac.uk/staff/profiles/psychology/wing-alan">https://www.birmingham.ac.uk/staff/profiles/psychology/wing-alan</a>.</p>

@@ -10,6 +10,7 @@ authors: Hyunyoung_Kim
 
 # Role/position
 role: Lecturer in Computer Science
+profile_url: "https://www.hyunyoung.kim/"
 
 # Organizations/Affiliations
 organizations:
@@ -54,5 +55,13 @@ user_groups:
 # Volunteer Research Assistants (V)
 # Alumni (A)
 ---
+
+<script>
+  window.location.replace("https://www.hyunyoung.kim/");
+</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=https://www.hyunyoung.kim/">
+</noscript>
+<p>Redirecting to <a href="https://www.hyunyoung.kim/">https://www.hyunyoung.kim/</a>.</p>
 
 I am a Lecturer in Computer Science in the School of Computer Science at the University of Birmingham. I am interested in providing tools for everyone to fabricate interactive objects for their unique problems. My research method encompasses developing fabrication tools, proposing novel applications such as shape-changing interfaces using on the tools, and conducting user studies to identify usability problems of the tools. I have experience both in academia and industry, focusing on HCI and UX design. I have a strong academic record since my PhD, publishing full papers at CHI and UIST. I am also supervising three PhD students and actively involved academic communities. I have been working in five different countries (UK, Denmark, France, Germany, and South Korea), broadening my research skills and network.

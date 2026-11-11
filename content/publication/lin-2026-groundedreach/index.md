@@ -57,4 +57,14 @@ keywords:
 keywords_kind: published
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Elbow-worn haptic device and control diagram for resisting contact with virtual obstacles.
+  caption: GroundedReach resists elbow movement to simulate contact with grounded virtual objects. The diagram shows
+    the device and its force-control process.
+  credit: Lin et al. (2026)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf
+  source_label: Figure 1, accepted manuscript
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

@@ -63,4 +63,15 @@ abstract_license: CC BY 4.0
 funding_statement: Supported by MICS through the European Union’s NextGenerationEU programme and Italy’s PNRR (Mission
   4, Component 2, Investment 1.3).
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Mirrored histogram comparing quiz scores for the control and smartphone AR conditions, with twelve participants
+    in each group.
+  caption: Quiz-score distributions in the smartphone AR and control conditions. This comparison combines AR and
+    facial embodiment; it does not isolate embodiment alone.
+  credit: Low et al. (2025)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf
+  source_label: Figure 3
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

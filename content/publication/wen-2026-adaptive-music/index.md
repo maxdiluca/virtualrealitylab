@@ -56,4 +56,14 @@ keywords:
 keywords_kind: published
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Archery task diagram showing adaptive music prompts at four arrow counts alongside a fixed-music condition.
+  caption: The VR archery experiment compares a fixed soundtrack with music that changes as the available arrows
+    decrease.
+  credit: Wen et al. (2026)
+  source: https://discovery.ucl.ac.uk/id/eprint/10224338/1/VGTC_Tuning_Immersion_and_Performance_with_Adaptive_Generative_Music_in_VR.pdf
+  source_label: Figure 1, accepted manuscript
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

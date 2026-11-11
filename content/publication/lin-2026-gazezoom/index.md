@@ -54,4 +54,13 @@ funding_projects:
 abstract_license: CC BY 4.0
 funding_statement: Supported by the IITP–ITRC programme, funded by the Korean Ministry of Science and ICT.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Three illustrated techniques combining gaze with bimanual gestures, unimanual gestures, and head movement.
+  caption: GazeZoom combines gaze with two-handed, one-handed or head-based input for panning and zooming.
+  credit: Lin et al. (2026)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

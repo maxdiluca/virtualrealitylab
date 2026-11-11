@@ -6,6 +6,7 @@
   {{ partial "publication-metrics" . }}
   {{ partial "publication-citation" . }}
   <div class="publication-links">{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
+  {{ partial "publication-illustration" . }}
   {{ with .Params.abstract }}
   <section class="publication-detail-section" aria-labelledby="abstract-heading">
     <h2 id="abstract-heading">{{ if eq $.Params.abstract_kind "summary" }}Summary{{ else if eq $.Params.abstract_kind "editorial-summary" }}Editorial overview{{ else if eq $.Params.abstract_kind "overview" }}Workshop overview{{ else }}Abstract{{ end }}</h2>

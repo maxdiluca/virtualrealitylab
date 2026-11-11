@@ -60,4 +60,14 @@ keywords:
 keywords_kind: published
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: A near-eye keyboard and a sequence showing gaze-based area selection followed by finger movement on a phone.
+  caption: Implicit Gaze+Slide combines gaze-based keyboard targeting with a finger slide on a phone to refine the
+    selected character.
+  credit: Rapata et al. (2026)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

@@ -46,4 +46,13 @@ keywords:
 keywords_kind: published
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Illustrations of a VR user colliding with obstacles, the haptic belt hardware, and proximity feedback.
+  caption: 'Haptic-belt concept: signalling nearby virtual obstacles and lower-body collisions during VR interaction.'
+  credit: Abdlkarim et al. (2026)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

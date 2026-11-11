@@ -47,4 +47,14 @@ keywords:
 - haptics
 - human augmentation
 keywords_kind: editorial
+illustration:
+  file: illustration.jpg
+  alt: Workshop participants seated at a table during a group discussion, with one participant holding a microphone.
+  caption: Participants discussing virtual embodiment and wearable robotics at the Augmented Body Parts workshop,
+    CHI 2026.
+  credit: ETRI EnSeption (2026)
+  source: https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/
+  source_label: Workshop report
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
 ---

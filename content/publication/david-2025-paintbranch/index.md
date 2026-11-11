@@ -53,4 +53,14 @@ funding_projects:
   role: Research support
 funding_statement: Supported by Fundação para a Ciência e a Tecnologia through LARSyS and by the European Union’s
   Horizon 2020 programme.
+illustration:
+  file: illustration.jpg
+  alt: Three VR screenshots showing the save control, a painting snapshot and a branching version timeline.
+  caption: 'PaintBranch’s branching interface: saving a painting, taking a snapshot and revisiting earlier versions.
+    Illustrated using Figure 3 from the 2026 journal extension.'
+  credit: David et al. (2026)
+  source: https://link.springer.com/article/10.1007/s42979-026-04980-z
+  source_label: Figure 3, journal extension
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

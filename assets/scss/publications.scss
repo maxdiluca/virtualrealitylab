@@ -35,6 +35,13 @@
 }
 .publication-detail { max-width: 900px; min-height: 60vh; }
 .publication-detail {
+  .publication-illustration {
+    clear: both; margin: 2rem 0;
+    > a { display: block; text-align: center; }
+    img { display: inline-block; width: auto; height: auto; max-width: 100%; max-height: 560px; background: #fff; }
+    figcaption { margin-top: .8rem; font-size: .85rem; line-height: 1.6; }
+    figcaption p { margin-bottom: .35rem; }
+  }
   .publication-detail-section { clear: both; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #d9e3ef; }
   .publication-source { font-size: .78rem; line-height: 1.6; margin-top: .7rem; }
   .publication-keywords { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; padding: 0; }

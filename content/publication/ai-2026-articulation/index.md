@@ -61,4 +61,14 @@ funding_projects:
   role: Computing infrastructure
 funding_statement: Supported by Amazon Research Awards and an unrestricted charitable donation from Meta to the
   University of Birmingham. Computing resources were provided by Baskerville.
+illustration:
+  file: illustration.png
+  alt: Pipeline for initial 3D Gaussian reconstruction and joint optimisation of static and moving object representations.
+  caption: AiM separates static geometry and moving parts using an initial multi-view scan and a video of object
+    interaction.
+  credit: Ai et al. (2026)
+  source: https://arxiv.org/html/2603.02910
+  source_label: Figure 3, preprint
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

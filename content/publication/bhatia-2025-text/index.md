@@ -75,4 +75,14 @@ abstract_license: CC BY 4.0
 funding_statement: Supported by Google, the Max Planck Institute for Intelligent Systems, VILLUM FONDEN, EPSRC and
   the National Science Foundation.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Three-panel overview of XR text-entry methods, attributes and metrics, and the TEXT collection.
+  caption: TEXT brings together XR text-entry techniques, interaction attributes and evaluation measures in a searchable
+    collection.
+  credit: Bhatia et al. (2025)
+  source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

@@ -61,4 +61,15 @@ keywords:
 keywords_kind: published
 abstract_license: CC BY 4.0
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Diagram contrasting MR-guided training with subsequent catheter-placement assessment on a physical skull
+    model.
+  caption: Mixed-reality guidance during training, followed by skill-retention assessment using a physical skull
+    and catheter.
+  credit: Cascarano et al. (2025)
+  source: https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

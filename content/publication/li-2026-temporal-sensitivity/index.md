@@ -56,4 +56,15 @@ funding_projects:
 abstract_license: CC BY 4.0
 funding_statement: Supported by TICS and ARME.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: 'Four six-event sequences: auditory-consistent, auditory-inconsistent, visual-consistent, and visual-inconsistent,
+    with 700-millisecond intervals.'
+  caption: Auditory and visual sequences used to test timing judgments. The final event either retains or switches
+    sensory modality.
+  credit: Li and Di Luca (2026)
+  source: https://link.springer.com/article/10.1007/s00221-026-07371-1
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

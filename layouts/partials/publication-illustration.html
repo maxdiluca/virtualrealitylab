@@ -1,0 +1,16 @@
+{{ with .Params.illustration }}
+  {{ $illustration := . }}
+  {{ with $.Resources.GetMatch .file }}
+  <figure class="publication-illustration">
+    <a href="{{ .RelPermalink }}" aria-label="View full-size illustration">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $illustration.alt }}" loading="lazy" decoding="async">
+    </a>
+    <figcaption>
+      <p>{{ $illustration.caption }}</p>
+      <p class="publication-source">{{ $illustration.credit }} · <a href="{{ $illustration.source }}">{{ $illustration.source_label }}</a> · <a href="{{ $illustration.license_url }}">{{ $illustration.license }}</a></p>
+    </figcaption>
+  </figure>
+  {{ else }}
+    {{ errorf "Missing publication illustration %q on %s" .file $.File.Path }}
+  {{ end }}
+{{ end }}

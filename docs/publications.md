@@ -43,6 +43,12 @@ All 26 records now include source-backed descriptive content. See the [enrichmen
 
 The publication archive searches abstracts, keywords, confirmed project names and grant identifiers as well as citations. The detail page displays visitor-facing information and source attribution without requiring JavaScript. Licensed abstracts include a license link; summaries and workshop/editorial overviews are labelled separately. Funding projects can link to an existing local project, a grant record, or the paper acknowledgement where no independent project page is established. The `docs/` directory is not included in the generated website; it is maintainer documentation, not confidential storage.
 
+## Publication illustrations
+
+Individual entries may include an `illustration` object with `file`, `alt`, `caption`, `credit`, `source`, `source_label`, `license`, and `license_url`. The image is a page-bundle resource named `illustration.*`, rather than a theme `featured` image, so it is not added to publication lists. Figures retain their original aspect ratio and link to the full-size resource. A missing declared image fails the build.
+
+Check the licence for the specific image and any third-party credits. Article open access does not automatically cover separately credited figures or promotional website artwork. Unresolved candidates are tracked in [the illustration review](publication-illustrations-2026-11-11.md); do not add generated substitutes, pending notices, or unlicensed images to public entries. The user requested that images remain pending until permission is confirmed.
+
 ## Publication metrics
 
 Only individual publication pages embed Altmetric donuts and Dimensions small-circle citation badges. The publication list contains no badges and loads neither provider script. Each badge uses the publication's `doi`, or `preprint_doi` with a visible “Preprint metrics” label when no publication DOI exists. Records without either identifier omit the badges. No counts are stored or estimated locally.

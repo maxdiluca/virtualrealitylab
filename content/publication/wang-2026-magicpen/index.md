@@ -47,4 +47,15 @@ keywords:
 - Virtual Reality
 - Stylus Interaction
 keywords_kind: author-page
+illustration:
+  file: illustration.png
+  alt: MagicPen user and mechanical components, with diagrams of stylus extension and retraction above and below
+    the table.
+  caption: MagicPen’s variable-length stylus provides physical support while extending or retracting during three-dimensional
+    interaction.
+  credit: Wang et al. (2026)
+  source: https://rayleigh-lin.top/publications/magicpen
+  source_label: Figure 1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

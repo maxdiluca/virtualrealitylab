@@ -43,4 +43,15 @@ keywords:
 - large language model
 - speech interface
 keywords_kind: published
+illustration:
+  file: illustration.jpg
+  alt: Diagram showing scene understanding, window workspace and speech, pointing and head direction feeding an
+    LLM.
+  caption: System architecture combining scene understanding, window state and user behaviour to interpret multimodal
+    window-placement requests.
+  credit: Bovo et al. (2025)
+  source: https://arxiv.org/html/2511.02378
+  source_label: Figure 1, preprint
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

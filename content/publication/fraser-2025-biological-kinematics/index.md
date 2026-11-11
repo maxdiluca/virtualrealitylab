@@ -65,4 +65,15 @@ abstract_license: CC BY 4.0
 funding_statement: The research was supported by the European Research Council through Brain2Bee. Massimiliano Di
   Luca received partial support from EPSRC through ARME.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Plot relating angular frequency to the power-law exponent, alongside example trajectories including spirals,
+    loops and an ellipse.
+  caption: Relationship between trajectory shape, angular frequency and the power-law exponent in the analytical
+    framework discussed in the review.
+  credit: Fraser, Di Luca and Cook (2025)
+  source: https://link.springer.com/article/10.1007/s00221-025-07065-0
+  source_label: Figure 4
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

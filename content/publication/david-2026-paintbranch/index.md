@@ -69,4 +69,13 @@ abstract_license: CC BY 4.0
 funding_statement: Supported by Fundação para a Ciência e a Tecnologia and the European Union’s Horizon 2020 programme.
   FCT/FCCN (b-on) also supported open-access publication.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.jpg
+  alt: PaintBranch timeline of saved artwork above a VR painting selected for continued work.
+  caption: Selecting an earlier version of a collaborative painting in PaintBranch’s branching interface.
+  credit: David et al. (2026)
+  source: https://link.springer.com/article/10.1007/s42979-026-04980-z
+  source_label: Figure 4
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

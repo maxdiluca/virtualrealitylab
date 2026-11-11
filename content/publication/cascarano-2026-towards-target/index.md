@@ -57,4 +57,15 @@ keywords_kind: published
 abstract_license: CC BY 4.0
 funding_statement: Open-access publication was supported by the University of Bologna under the CRUI-CARE agreement.
 abstract_license_url: https://creativecommons.org/licenses/by/4.0/
+illustration:
+  file: illustration.png
+  alt: Three panels showing the tracked skull and catheter, the MR display, and a participant using the NeuroMix
+    system.
+  caption: 'NeuroMix testing apparatus: tracked physical instruments, the mixed-reality view, and a participant
+    performing catheter placement on a skull model.'
+  credit: Cascarano et al. (2026)
+  source: https://link.springer.com/article/10.1007/s10055-026-01338-x
+  source_label: Figure 2
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
 ---

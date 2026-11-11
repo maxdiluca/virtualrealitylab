@@ -1,0 +1,416 @@
+{
+  "review_date": "2026-11-11",
+  "policy": "Use confirmed reusable images only. Leave other entries image-free pending permission; no generated substitutes.",
+  "entries": {
+    "abdlkarim-2026-belt-and-whistles": {
+      "status": "added",
+      "file": "content/publication/abdlkarim-2026-belt-and-whistles/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1545,
+        543
+      ],
+      "sha256": "dee5469b73ec749993f65847a1c5de9b1f0537e20d2087f371a04b673ffeba7f",
+      "pdf_page_and_clip": [
+        1,
+        [
+          50,
+          282,
+          565,
+          463
+        ]
+      ]
+    },
+    "bhatia-2025-text": {
+      "status": "added",
+      "file": "content/publication/bhatia-2025-text/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1530,
+        591
+      ],
+      "sha256": "bb95a13f27e4c7a95e796dfb27877314dbc857b45ac4065f33792ec28966a2a3",
+      "pdf_page_and_clip": [
+        1,
+        [
+          52,
+          363,
+          562,
+          560
+        ]
+      ]
+    },
+    "cascarano-2025-see-it-hear-it": {
+      "status": "added",
+      "file": "content/publication/cascarano-2025-see-it-hear-it/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf",
+      "asset_source": "https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1527,
+        540
+      ],
+      "sha256": "69735bae7553602369498a7c86a129e27bd048921528e8eeda901cf10d0dde5e",
+      "pdf_page_and_clip": [
+        1,
+        [
+          52,
+          378,
+          561,
+          558
+        ]
+      ]
+    },
+    "lin-2026-gazezoom": {
+      "status": "added",
+      "file": "content/publication/lin-2026-gazezoom/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1536,
+        537
+      ],
+      "sha256": "e966d2e66f22e33d936e997747afec4741d0e88565dd85c5b7ed4b00aef7924c",
+      "pdf_page_and_clip": [
+        1,
+        [
+          50,
+          316,
+          562,
+          495
+        ]
+      ]
+    },
+    "lin-2026-groundedreach": {
+      "status": "added",
+      "file": "content/publication/lin-2026-groundedreach/illustration.png",
+      "selected": "Figure 1, accepted manuscript",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1548,
+        540
+      ],
+      "sha256": "89d8a0755d1aa2e90a4c6eba5ea7bf39aae6d1b527e1a508ec5c0d332f5bc570",
+      "pdf_page_and_clip": [
+        1,
+        [
+          48,
+          127,
+          564,
+          307
+        ]
+      ]
+    },
+    "low-2025-smartphone-embodiment": {
+      "status": "added",
+      "file": "content/publication/low-2025-smartphone-embodiment/illustration.png",
+      "selected": "Figure 3",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        732,
+        657
+      ],
+      "sha256": "f20cbaf200b37af594ca395cf9e56a1e002cf22f0859d405a76ad9440af14150",
+      "pdf_page_and_clip": [
+        6,
+        [
+          53,
+          118,
+          297,
+          337
+        ]
+      ],
+      "rejected": "Figures 1 and 2 incorporate a historical photograph credited to NPR; chose the paper’s own quiz-score plot instead."
+    },
+    "rapata-2026-implicit-gaze-slide": {
+      "status": "added",
+      "file": "content/publication/rapata-2026-implicit-gaze-slide/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf",
+      "asset_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1536,
+        510
+      ],
+      "sha256": "59255ef29e81e549e3e45be972489084322eb30d07bd38c1463ad534a59c42ec",
+      "pdf_page_and_clip": [
+        1,
+        [
+          50,
+          350,
+          562,
+          520
+        ]
+      ]
+    },
+    "wen-2026-adaptive-music": {
+      "status": "added",
+      "file": "content/publication/wen-2026-adaptive-music/illustration.png",
+      "selected": "Figure 1, accepted manuscript",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://discovery.ucl.ac.uk/id/eprint/10224338/1/VGTC_Tuning_Immersion_and_Performance_with_Adaptive_Generative_Music_in_VR.pdf",
+      "asset_source": "https://discovery.ucl.ac.uk/id/eprint/10224338/1/VGTC_Tuning_Immersion_and_Performance_with_Adaptive_Generative_Music_in_VR.pdf",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://discovery.ucl.ac.uk/id/eprint/10224338/",
+      "processing": "Figure isolated from PDF page, rendered at 216 dpi; figure content and labels unchanged.",
+      "size": [
+        1422,
+        621
+      ],
+      "sha256": "c77b5b63c0b5565a6bd5c6dee9c9c533a5c83c5b2422a7afd9abdf9ca41a00a7",
+      "pdf_page_and_clip": [
+        0,
+        [
+          73,
+          128,
+          547,
+          335
+        ]
+      ]
+    },
+    "cascarano-2026-towards-target": {
+      "status": "added",
+      "file": "content/publication/cascarano-2026-towards-target/illustration.png",
+      "selected": "Figure 2",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://link.springer.com/article/10.1007/s10055-026-01338-x",
+      "asset_source": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10055-026-01338-x/MediaObjects/10055_2026_1338_Fig2_HTML.png",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://link.springer.com/article/10.1007/s10055-026-01338-x",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        1500,
+        603
+      ],
+      "sha256": "945b8a2ea2f104358dacc37fd86bafc1b93b7fda69ee3df59c41266e3aaffb8f"
+    },
+    "li-2026-temporal-sensitivity": {
+      "status": "added",
+      "file": "content/publication/li-2026-temporal-sensitivity/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://link.springer.com/article/10.1007/s00221-026-07371-1",
+      "asset_source": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00221-026-07371-1/MediaObjects/221_2026_7371_Fig1_HTML.png",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://link.springer.com/article/10.1007/s00221-026-07371-1",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        1499,
+        742
+      ],
+      "sha256": "992c1a7527a051fc8c8d9e7f8fc73cebbd89992ea586178cbb2d6ec88d48af6a"
+    },
+    "fraser-2025-biological-kinematics": {
+      "status": "added",
+      "file": "content/publication/fraser-2025-biological-kinematics/illustration.png",
+      "selected": "Figure 4",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://link.springer.com/article/10.1007/s00221-025-07065-0",
+      "asset_source": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00221-025-07065-0/MediaObjects/221_2025_7065_Fig4_HTML.png",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://link.springer.com/article/10.1007/s00221-025-07065-0",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        1882,
+        1280
+      ],
+      "sha256": "494fb967f87c0418e0f67a158a606df6b8cc1eabb0169e36ac323b7db4b66d38",
+      "rejected": "Figures 2 and 3 carry separate adapted-with-permission credits; chose Figure 4 instead."
+    },
+    "david-2025-paintbranch": {
+      "status": "added",
+      "file": "content/publication/david-2025-paintbranch/illustration.jpg",
+      "selected": "Figure 3, journal extension",
+      "rationale": "The 2025 manuscript has no verified reuse licence; the corresponding interface is available under CC BY in the 2026 extension and is explicitly credited as such.",
+      "source": "https://link.springer.com/article/10.1007/s42979-026-04980-z",
+      "asset_source": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42979-026-04980-z/MediaObjects/42979_2026_4980_Fig3_HTML.jpg",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://link.springer.com/article/10.1007/s42979-026-04980-z",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        2029,
+        452
+      ],
+      "sha256": "150af73872e2512b6c8c4d2a3ea4eb4cdc1d42c8b7d142c7b6a122d64617a9f9"
+    },
+    "david-2026-paintbranch": {
+      "status": "added",
+      "file": "content/publication/david-2026-paintbranch/illustration.jpg",
+      "selected": "Figure 4",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://link.springer.com/article/10.1007/s42979-026-04980-z",
+      "asset_source": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42979-026-04980-z/MediaObjects/42979_2026_4980_Fig4_HTML.jpg",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://link.springer.com/article/10.1007/s42979-026-04980-z",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        1498,
+        1344
+      ],
+      "sha256": "7046f95c32aa3a35e647363eda2913dd6fc774ab08c6683808507e3009075b98"
+    },
+    "bovo-2025-put-that-there": {
+      "status": "added",
+      "file": "content/publication/bovo-2025-put-that-there/illustration.jpg",
+      "selected": "Figure 1, preprint",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://arxiv.org/html/2511.02378",
+      "asset_source": "https://arxiv.org/html/2511.02378v1/figures/architecture.jpg",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://arxiv.org/html/2511.02378",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        512,
+        258
+      ],
+      "sha256": "3d238704ac107e2e3fd5a7e32feca84059a252f8e413dd6a1debaa0b842872b6"
+    },
+    "ai-2026-articulation": {
+      "status": "added",
+      "file": "content/publication/ai-2026-articulation/illustration.png",
+      "selected": "Figure 3, preprint",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://arxiv.org/html/2603.02910",
+      "asset_source": "https://arxiv.org/html/2603.02910v1/figures_framework1.png",
+      "license": "CC BY-NC-SA 4.0",
+      "license_evidence": "https://arxiv.org/html/2603.02910",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        961,
+        462
+      ],
+      "sha256": "87137f5e9208232c016a8d3848c3b8ac6681a41de2cb0af98d3d541bed137484"
+    },
+    "yi-2026-augmented-body-parts": {
+      "status": "added",
+      "file": "content/publication/yi-2026-augmented-body-parts/illustration.jpg",
+      "selected": "Workshop report",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/",
+      "asset_source": "https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/discussion.jpg",
+      "license": "CC BY-NC-ND 4.0",
+      "license_evidence": "https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/",
+      "processing": "Complete source image; no crop or content alteration.",
+      "size": [
+        1616,
+        1080
+      ],
+      "sha256": "e20698714606d05399df9a50b3bd6b9b12a7bb1183cf56519320c4830c98f9a1"
+    },
+    "wang-2026-magicpen": {
+      "status": "added",
+      "file": "content/publication/wang-2026-magicpen/illustration.png",
+      "selected": "Figure 1",
+      "rationale": "Directly illustrates the method, interface, apparatus or workshop; source and reuse terms checked.",
+      "source": "https://rayleigh-lin.top/publications/magicpen",
+      "asset_source": "/blog/magicpen/featured.png",
+      "license": "CC BY 4.0",
+      "license_evidence": "https://api.crossref.org/works/10.1145/3830398.3830535",
+      "processing": "Existing lab copy of Figure 1; no alteration. Publisher-deposited metadata specifies CC BY 4.0 for the paper.",
+      "size": [
+        1024,
+        675
+      ],
+      "sha256": "a18c0967fc15096f6d5dd6a1286ae4788e618698b470562264c5470983447d86"
+    },
+    "chang-2025-hapticwings": {
+      "status": "pending",
+      "candidate": "Paper Figure 2: top view of the weight-shifting device.",
+      "source": "https://www.researchgate.net/figure/Top-view-of-HapticWings-The-angular-mechanism-right-bottom-is-actuated-by-a-servo_fig1_393429986",
+      "reason": "The paper is confirmed CC BY by Birmingham Pure, but the paper figure could not be retrieved. The accessible promotional teaser is not demonstrably the licensed paper figure; its separate reuse permission is unconfirmed."
+    },
+    "jeon-2026-swapsense": {
+      "status": "pending",
+      "candidate": "Author-page teaser showing the headset force-sensing application.",
+      "source": "https://rayleigh-lin.top/publications/swapsense",
+      "reason": "No reuse licence established for the author-page image."
+    },
+    "lin-2025-forearm-gestures": {
+      "status": "pending",
+      "candidate": "Figure 1: gesture-controlled virtual forearm deformation.",
+      "source": "https://drive.google.com/file/d/1-rs0c5xb2PdAM3YNt_hkD3B8t4gLbZ_K/view",
+      "reason": "IEEE copyright restrictions in the author-deposited paper; no reusable figure licence established."
+    },
+    "gatti-2025-virtual-campfire": {
+      "status": "pending",
+      "candidate": "Figure 1: story prompt, generated image and resulting AIsop campfire scene.",
+      "source": "https://discovery.ucl.ac.uk/id/eprint/10204631/1/AIsop_short_paper%20%282%29.pdf",
+      "reason": "No image reuse licence established in the manuscript or UCL record."
+    },
+    "grubert-2026-xr-mediation": {
+      "status": "pending",
+      "candidate": "Figure 1: nursing, multi-arm supervision and collaborative assembly scenarios.",
+      "source": "https://arxiv.org/html/2607.25047",
+      "reason": "arXiv perpetual non-exclusive licence does not grant third-party figure reuse."
+    },
+    "hauck-2025-reachvox": {
+      "status": "pending",
+      "candidate": "Figure 1: remote human–robot collaboration with a reachability visualisation.",
+      "source": "https://pokristensson.com/pubs/HauckEtAlISMAR2025.pdf",
+      "reason": "IEEE copyright restrictions; no reusable figure licence established."
+    },
+    "giunchi-2025-xrworks": {
+      "status": "pending",
+      "candidate": "Workshop website banner; direct image retrieval and visual assessment incomplete.",
+      "source": "https://sites.google.com/view/xrworks25/home",
+      "reason": "No reuse licence found on the workshop website; institutional manuscript access is restricted. Banner retrieval returned HTTP 403."
+    },
+    "yusuf-2025-uncertainty": {
+      "status": "pending",
+      "candidate": "Figure 1 (printed page 58): UAV and non-combustible objects in the laboratory demonstration.",
+      "source": "https://www.sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf",
+      "reason": "Proceedings do not establish a reusable licence for this paper’s figures."
+    },
+    "colecchia-2025-immersive-healthcare-editorial": {
+      "status": "pending",
+      "candidate": "Publisher Research Topic cover photograph; no article-specific research figure.",
+      "source": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full",
+      "reason": "The editorial contains no original figures. The separate publisher cover photograph has no verified image-specific reuse permission; the article CC BY licence alone does not establish rights to site artwork."
+    }
+  },
+  "validation": {
+    "build": "passed",
+    "illustrated_pages": 17,
+    "pending_entries": 9,
+    "image_assets_and_attribution": "passed",
+    "bibliographic_and_scientific_content_preserved": true,
+    "archive_images_and_badges": false,
+    "browser_check": "GroundedReach illustration and caption visually checked",
+    "deployment": "not deployed"
+  }
+}

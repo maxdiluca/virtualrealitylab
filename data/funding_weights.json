@@ -557,7 +557,7 @@
     },
     {
       "record": "support-55",
-      "supporter": "anthropic",
+      "supporter": "openai",
       "reason": "Currency unconfirmed; 50,000 recorded without conversion or assigned weight."
     }
   ]

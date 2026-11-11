@@ -2,7 +2,7 @@
 {{ $image := $org.display_logo | default $org.logo }}
 <a class="supporter-tile{{ if $org.dark_logo }} supporter-tile-dark{{ end }}" href="{{ $org.url | default "/funding/#record-heading" }}" aria-label="{{ $org.name }}">
   {{ if $image }}
-    <img src="{{ $image | relURL }}" alt="{{ $org.name }}" loading="lazy" width="160" height="80">
+    <img src="{{ $image | relURL }}" alt="{{ $org.name }}" loading="lazy">
   {{ else }}
     <span class="supporter-name">{{ $org.name }}</span>
   {{ end }}

@@ -1,0 +1,8 @@
+{{- $text := . -}}
+{{- range site.Data.funding_people -}}
+  {{- $person := . -}}
+  {{- with site.GetPage (printf "/authors/%s" .profile) -}}
+    {{- $text = replace $text $person.name (printf "[%s](%s)" $person.name .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- $text | markdownify -}}

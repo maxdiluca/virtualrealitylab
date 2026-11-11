@@ -1,11 +1,11 @@
 {{ $home := .home }}
 {{ $cloud := .cloud }}
-<svg class="funding-weighted-cloud" viewBox="0 0 {{ $cloud.width }} {{ $cloud.height }}" role="group" aria-label="Funding cloud; circle sizes reflect funding with a minimum size for visibility">
+<svg class="funding-weighted-cloud" viewBox="0 0 {{ $cloud.width }} {{ $cloud.height }}" preserveAspectRatio="xMidYMid meet" role="group" aria-label="Our funders and supporters">
   {{ range $cloud.items }}
     {{ $href := .href }}
     {{ if $home }}{{ $href = printf "/funding/%s" .href }}{{ end }}
-    <a href="{{ $href }}" aria-label="{{ .label }}" class="funding-bubble{{ if .estimated_gbp }} funding-bubble-estimated{{ end }}" data-supporter="{{ .id }}" data-gbp="{{ .gbp }}">
-      <title>{{ .label }}. Select to view the award record.</title>
+    <a href="{{ $href }}" aria-label="{{ .name }}" class="funding-bubble" data-supporter="{{ .id }}">
+      <title>{{ .name }}</title>
       <circle cx="{{ .x }}" cy="{{ .y }}" r="{{ .r }}" />
       {{ $size := mul .r 1.4 }}
       <image href="{{ .logo | relURL }}" x="{{ sub .x (div $size 2) }}" y="{{ sub .y (div $size 2) }}" width="{{ $size }}" height="{{ $size }}" preserveAspectRatio="xMidYMid meet" {{ if .dark_logo }}class="funding-white-mark"{{ end }} />

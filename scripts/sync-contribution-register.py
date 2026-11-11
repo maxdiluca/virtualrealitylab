@@ -1,6 +1,7 @@
 """Export the contribution register and derive public costing inputs without counting bids."""
 import csv
 import json
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +54,7 @@ for entry in register["entries"]:
 
 assert set(public) == {e["public_record"] for e in register["entries"] if e["public_record"]}
 (ROOT / "data/funding_weights.json").write_text(json.dumps(weights, indent=2, ensure_ascii=False) + "\n")
-funding["reviewed"] = "8 November 2026"
+funding["reviewed"] = date.fromisoformat(register["updated"]).strftime("%-d %B %Y")
 funding_path.write_text(json.dumps(funding, indent=2, ensure_ascii=False) + "\n")
 
 fields = ["id", "title", "supporters", "period", "status", "status_as_of", "value_type", "amount", "currency", "low", "high", "cloud_included", "method", "assumptions", "follow_up"]

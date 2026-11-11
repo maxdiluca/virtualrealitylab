@@ -337,12 +337,12 @@
     "artwork_type": "name_only_image"
   },
   {
-    "id": "anthropic",
-    "name": "Anthropic",
-    "url": "https://www.anthropic.com/",
-    "logo": "/media/funders/anthropic.svg",
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com/",
+    "logo": "/media/funders/openai.png",
     "wall": true,
-    "display_logo": "/media/funders/anthropic.svg",
+    "display_logo": "/media/funders/openai.png",
     "artwork_type": "original_named_logo"
   }
 ]

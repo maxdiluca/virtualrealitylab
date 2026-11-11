@@ -1,5 +1,5 @@
 {
-  "reviewed": "8 November 2026",
+  "reviewed": "11 November 2026",
   "since": 2011,
   "groups": [
     {
@@ -10,7 +10,7 @@
     {
       "id": "myjams",
       "title": "MyJAMS funding and commercialisation",
-      "intro": "We thank the funders and programmes supporting MyJAMS Ltd and the preceding JAMS commercialisation project. The £25,000 company grant and £15,000 of in-kind accelerator support are separate contributions.",
+      "intro": "We thank the funders and programmes supporting MyJAMS Ltd and the preceding JAMS commercialisation project.",
       "supporters": [
         "createch",
         "ahrc",
@@ -57,8 +57,15 @@
       "supporters": [
         "eu"
       ],
-      "detail": "MSCA Doctoral Network; Massimiliano Di Luca is Birmingham PI.",
-      "value": "€348,738.12 EU contribution to Birmingham"
+      "detail": "MSCA Doctoral Network. Birmingham PI: Massimiliano Di Luca.",
+      "value": "€348,738.12 EU contribution to Birmingham",
+      "links": [
+        {
+          "label": "EXPLORA doctoral network",
+          "url": "https://explora-network.github.io/web/index.html",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-02",
@@ -68,8 +75,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "QR Enhancing Research Culture Fund; project lead.",
-      "value": "£24,970"
+      "detail": "QR Enhancing Research Culture Fund. Project lead: Massimiliano Di Luca.",
+      "value": "£24,970",
+      "links": [
+        {
+          "label": "University of Birmingham website",
+          "url": "https://www.birmingham.ac.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-03",
@@ -79,8 +93,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "AI-Mediated Virtual Worlds; lead applicant and Network Lead.",
-      "value": "£25,000"
+      "detail": "AI-Mediated Virtual Worlds. Lead applicant and Network Lead: Massimiliano Di Luca.",
+      "value": "£25,000",
+      "links": [
+        {
+          "label": "BhamXR network",
+          "url": "https://www.birmingham.ac.uk/research/centres-institutes/bhamxr",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-04",
@@ -90,8 +111,15 @@
       "supporters": [
         "google"
       ],
-      "detail": "Three academic gifts: Input Vault (2024–2026 and 2025–2028) and Text Entry XR (2026).",
-      "value": "US$55,000 across three gifts"
+      "detail": "Three academic gifts: Input Vault (2024–2026 and 2025–2028) and Text Entry XR (2026). PI: Massimiliano Di Luca.",
+      "value": "US$55,000 across three gifts",
+      "links": [
+        {
+          "label": "Related paper: Text Entry for XR Trove (TEXT)",
+          "url": "/publication/bhatia-2025-text/",
+          "priority": 10
+        }
+      ]
     },
     {
       "id": "support-05",
@@ -101,8 +129,45 @@
       "supporters": [
         "epsrc"
       ],
-      "detail": "EPSRC research award; principal investigator. PartPlay and SemanticAudio contributed partnership support.",
-      "value": "£738,438 allocated to Birmingham within a £1,183,465 award"
+      "detail": "EPSRC research award. PI: Massimiliano Di Luca. Co-Is: Alan Wing, Maria Witek, Mark Elliott and Ryan Stables. PartPlay and SemanticAudio contributed partnership support.",
+      "value": "£738,438 allocated to Birmingham within a £1,183,465 award",
+      "links": [
+        {
+          "label": "Related paper: Temporal sensitivity and perceived timing",
+          "url": "/publication/li-2026-temporal-sensitivity/",
+          "priority": 10
+        },
+        {
+          "label": "Related paper: Biological kinematics",
+          "url": "/publication/fraser-2025-biological-kinematics/",
+          "priority": 10
+        },
+        {
+          "label": "Related paper: A Kalman Filter Model for synchronisation in musical ensembles",
+          "url": "https://massimilianodiluca.info/publication/carvalho-2024-kalman/",
+          "priority": 20
+        },
+        {
+          "label": "EPSRC award",
+          "url": "https://gtr.ukri.org/projects?ref=EP/V034987/1",
+          "priority": 30
+        },
+        {
+          "label": "Adaptive Metronome — code",
+          "url": "https://github.com/arme-project/AdaptiveMetronome",
+          "priority": 40
+        },
+        {
+          "label": "Virtuoso Strings — dataset and code",
+          "url": "https://github.com/arme-project/virtuoso-strings",
+          "priority": 40
+        },
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-06",
@@ -113,8 +178,30 @@
         "bbsrc",
         "pg"
       ],
-      "detail": "BBSRC research award with Procter & Gamble; co-investigator, with Alan Wing as PI.",
-      "value": "£799,581 awarded to Birmingham"
+      "detail": "BBSRC research award with Procter & Gamble. PI: Alan Wing. Co-Is: Massimiliano Di Luca and Roberta Roberts.",
+      "value": "£799,581 awarded to Birmingham",
+      "links": [
+        {
+          "label": "Related paper: Contact forces in roughness discrimination",
+          "url": "https://massimilianodiluca.info/publication/roberts-2020/",
+          "priority": 20
+        },
+        {
+          "label": "Related paper: Skin properties and afferent density in tactile spatial acuity",
+          "url": "https://massimilianodiluca.info/publication/deflorio-2022-skin-properties/",
+          "priority": 20
+        },
+        {
+          "label": "BBSRC award",
+          "url": "https://gtr.ukri.org/projects?ref=BB/R003971/1",
+          "priority": 30
+        },
+        {
+          "label": "Ageing Touch project",
+          "url": "https://aging-touch.netlify.app/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-07",
@@ -124,8 +211,15 @@
       "supporters": [
         "eu"
       ],
-      "detail": "Marie Curie Career Integration Grant; principal investigator.",
-      "value": "€100,000"
+      "detail": "Marie Curie Career Integration Grant. PI: Massimiliano Di Luca.",
+      "value": "€100,000",
+      "links": [
+        {
+          "label": "Related paper: Optimal Perceived Timing",
+          "url": "https://massimilianodiluca.info/publication/di-luca-2016/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-08",
@@ -135,8 +229,25 @@
       "supporters": [
         "epsrc"
       ],
-      "detail": "EPSRC IAA Follow-on Fund; principal investigator.",
-      "value": "£14,856.60 original award"
+      "detail": "EPSRC IAA Follow-on Fund. PI: Massimiliano Di Luca.",
+      "value": "£14,856.60 original award",
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        },
+        {
+          "label": "Impact Acceleration Awards",
+          "url": "/post/impactfunding/",
+          "priority": 60
+        },
+        {
+          "label": "ARME follow-on funding",
+          "url": "https://arme-project.co.uk/post/further-funding-activities-myjams/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-09",
@@ -146,8 +257,25 @@
       "supporters": [
         "bbsrc"
       ],
-      "detail": "BBSRC Impact Acceleration Account; principal investigator.",
-      "value": "£21,672.54"
+      "detail": "BBSRC Impact Acceleration Account. PI: Massimiliano Di Luca. Co-Is: Alan Wing and Maria Witek.",
+      "value": "£21,672.54",
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        },
+        {
+          "label": "Impact Acceleration Awards",
+          "url": "/post/impactfunding/",
+          "priority": 60
+        },
+        {
+          "label": "ARME follow-on funding",
+          "url": "https://arme-project.co.uk/post/further-funding-activities-myjams/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-10",
@@ -158,8 +286,20 @@
         "bbsrc",
         "obi"
       ],
-      "detail": "BBSRC Impact Acceleration Account with Obirobotics; co-investigator. Value not established.",
-      "value": ""
+      "detail": "BBSRC Impact Acceleration Account with Obirobotics. PI: Alan Wing. Research team: Massimiliano Di Luca, W. W. L. Chua and Roberta Roberts.",
+      "value": "",
+      "links": [
+        {
+          "label": "ATTS project",
+          "url": "https://research.birmingham.ac.uk/en/projects/bbsrc-iaa-adaptive-tactile-test-system-atts/",
+          "priority": 50
+        },
+        {
+          "label": "Touch Assessment Workshop",
+          "url": "https://adaptivetouchtesting.netlify.app/event/workshop/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-11",
@@ -170,8 +310,20 @@
         "esrc",
         "irc"
       ],
-      "detail": "Multisensory enhancement of touch in ageing; Birmingham co-investigator on an ESRC–IRC collaboration.",
-      "value": "£9,516 ESRC award to the University of Nottingham"
+      "detail": "Multisensory enhancement of touch in ageing; an ESRC–IRC collaboration. UK lead: Harriet Allen. Irish lead: Fiona Newell. Birmingham Co-I: Massimiliano Di Luca.",
+      "value": "£9,516 ESRC award to the University of Nottingham",
+      "links": [
+        {
+          "label": "ESRC award",
+          "url": "https://gtr.ukri.org/projects?ref=ES/V007904/1",
+          "priority": 30
+        },
+        {
+          "label": "ESRC–IRC research partnerships",
+          "url": "https://research.ie/partnerships/uk-research-and-innovation-ukri-2/",
+          "priority": 30
+        }
+      ]
     },
     {
       "id": "support-12",
@@ -181,8 +333,20 @@
       "supporters": [
         "eps"
       ],
-      "detail": "Technology for multisensory research at a distance; principal investigator.",
-      "value": "£3,500"
+      "detail": "Technology for multisensory research at a distance. PI: Massimiliano Di Luca. Co-I: Alan Wing.",
+      "value": "£3,500",
+      "links": [
+        {
+          "label": "Lazy Susan — code and build instructions",
+          "url": "https://github.com/maxdiluca/LazySusan",
+          "priority": 40
+        },
+        {
+          "label": "Lazy Susan project",
+          "url": "/projects/lazysusan/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-13",
@@ -192,8 +356,15 @@
       "supporters": [
         "trieste"
       ],
-      "detail": "University of Trieste / PRIN collaboration with Paolo Gallina; co-investigator.",
-      "value": "€12,000 project value; Birmingham share not established"
+      "detail": "University of Trieste / PRIN collaboration with Paolo Gallina. Co-I: Massimiliano Di Luca.",
+      "value": "€12,000 project value; Birmingham share not established",
+      "links": [
+        {
+          "label": "Related paper: Progressive co-adaptation in human-machine interaction",
+          "url": "https://massimilianodiluca.info/publication/gallina-2015/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-14",
@@ -203,8 +374,15 @@
       "supporters": [
         "royal-society"
       ],
-      "detail": "Royal Society seed funding; principal investigator.",
-      "value": "£15,000"
+      "detail": "Royal Society seed funding. PI: Massimiliano Di Luca.",
+      "value": "£15,000",
+      "links": [
+        {
+          "label": "Related paper: Perceived Softness of Composite Objects",
+          "url": "https://massimilianodiluca.info/publication/di-luca-2014-a/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-15",
@@ -214,8 +392,15 @@
       "supporters": [
         "epsrc"
       ],
-      "detail": "EPSRC seed funding with Jeremy Wyatt; co-investigator.",
-      "value": "£15,000 project value"
+      "detail": "EPSRC seed funding with Jeremy Wyatt. Co-I: Massimiliano Di Luca.",
+      "value": "£15,000 project value",
+      "links": [
+        {
+          "label": "Related paper: Exploratory reach-to-grasp trajectories for uncertain object poses",
+          "url": "https://massimilianodiluca.info/publication/zito-2012/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-16",
@@ -225,8 +410,20 @@
       "supporters": [
         "epsrc"
       ],
-      "detail": "Two-month EPSRC Vacation Internship awarded to Christopher Jones under Di Luca’s supervision.",
-      "value": ""
+      "detail": "Two-month EPSRC Vacation Internship awarded to Christopher Jared Jones. Supervisor: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        },
+        {
+          "label": "ARME datasets and software",
+          "url": "https://arme-project.co.uk/outcomes/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-17",
@@ -236,11 +433,23 @@
       "supporters": [
         "uob"
       ],
-      "detail": "Funded undergraduate research placements; co-investigator and internship supervisor.",
+      "detail": "Funded undergraduate research placements. Co-I and internship supervisor: Massimiliano Di Luca.",
       "value": "Approximately £3,000 (CV estimate)",
       "costing": {
         "summary": "CV records approximately £3,000. Counted once, not multiplied across 2024–2026; per-placement versus aggregate basis not specified."
-      }
+      },
+      "links": [
+        {
+          "label": "BSURE programme",
+          "url": "https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure",
+          "priority": 50
+        },
+        {
+          "label": "BSURE 2025 at the VR Lab",
+          "url": "/post/bsure-2025/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-18",
@@ -250,11 +459,18 @@
       "supporters": [
         "uob"
       ],
-      "detail": "Fellowship for Hugo Tremonte de Carvalho; co-investigator.",
+      "detail": "Fellowship for Hugo Tremonte de Carvalho. Co-I: Massimiliano Di Luca.",
       "value": "Approximately £10,000 (CV estimate)",
       "costing": {
         "summary": "Existing CV/source value; Approximate fellowship value"
-      }
+      },
+      "links": [
+        {
+          "label": "Related paper: A Kalman Filter Model for synchronisation in musical ensembles",
+          "url": "https://massimilianodiluca.info/publication/carvalho-2024-kalman/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-19",
@@ -265,11 +481,23 @@
         "ahrc",
         "m4c"
       ],
-      "detail": "AHRC Midlands4Cities doctoral fellowship for Christiana Palandri; Di Luca is a co-supervisor.",
+      "detail": "AHRC Midlands4Cities doctoral fellowship for Cristiana Palandri. Co-supervisor: Massimiliano Di Luca.",
       "value": "Approximately £40,000 (CV estimate)",
       "costing": {
         "summary": "CV records approximately £40,000 for this fellowship. Counted once under AHRC, not again under Midlands4Cities; no extrapolation from 30% supervision share. This is not an independently confirmed Birmingham cash allocation."
-      }
+      },
+      "links": [
+        {
+          "label": "Cristiana Palandri — Midlands4Cities project",
+          "url": "https://www.midlands4cities.ac.uk/student_profile/cristiana-palandri/",
+          "priority": 30
+        },
+        {
+          "label": "OUROBOROS: when spatial sound becomes tangible",
+          "url": "/blog/ouroboros/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-20",
@@ -279,8 +507,15 @@
       "supporters": [
         "china"
       ],
-      "detail": "Chinese government support for a one-year visiting postdoctoral fellowship; host PI.",
-      "value": "£40,000"
+      "detail": "Chinese government support for a one-year visiting postdoctoral fellowship. Host PI: Massimiliano Di Luca.",
+      "value": "£40,000",
+      "links": [
+        {
+          "label": "VR Lab haptics research",
+          "url": "/projects/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-21",
@@ -291,7 +526,14 @@
         "erasmus"
       ],
       "detail": "Erasmus support for psychophysical experimentation, including Eleni Markouli’s internship.",
-      "value": "£2,000"
+      "value": "£2,000",
+      "links": [
+        {
+          "label": "Related paper: Modality-specific temporal constraints for state-dependent interval timing",
+          "url": "https://massimilianodiluca.info/publication/fornaciai-2018/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-22",
@@ -301,8 +543,15 @@
       "supporters": [
         "daad"
       ],
-      "detail": "DAAD postdoctoral fellowship for dynamic modelling of haptic perception; Markus Rank worked with Di Luca at Birmingham.",
-      "value": "€90,000"
+      "detail": "DAAD postdoctoral fellowship for Markus Rank. Host PI: Massimiliano Di Luca.",
+      "value": "€90,000",
+      "links": [
+        {
+          "label": "Related paper: Speed/accuracy tradeoff in force perception",
+          "url": "https://massimilianodiluca.info/publication/rank-2015/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-23",
@@ -312,8 +561,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "IDR Accelerator Network+ award; co-applicant, with Martin Wählisch as lead applicant.",
-      "value": ""
+      "detail": "IDR Accelerator Network+ award. Lead applicant: Martin Wählisch. Co-applicant: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "BhamXR network",
+          "url": "https://www.birmingham.ac.uk/research/centres-institutes/bhamxr",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-24",
@@ -323,8 +579,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "Interdisciplinary Bid Development Fund; lead applicant. This internal award supported preparation of the later external proposal.",
-      "value": "£6,370"
+      "detail": "Interdisciplinary Bid Development Fund. Lead applicant: Massimiliano Di Luca. This internal award supported preparation of the later external proposal.",
+      "value": "£6,370",
+      "links": [
+        {
+          "label": "University of Birmingham website",
+          "url": "https://www.birmingham.ac.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-25",
@@ -334,8 +597,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "Interdisciplinary Bid Development Fund; co-applicant on the project led by Michael Adams.",
-      "value": "£3,600 project award"
+      "detail": "Interdisciplinary Bid Development Fund. Project lead: Michael Adams. Co-applicants: Massimiliano Di Luca and Carl Anthony.",
+      "value": "£3,600 project award",
+      "links": [
+        {
+          "label": "University of Birmingham website",
+          "url": "https://www.birmingham.ac.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-26",
@@ -346,7 +616,14 @@
         "uob"
       ],
       "detail": "IAA Impact Mentoring Programme support towards two workshops.",
-      "value": "£1,700"
+      "value": "£1,700",
+      "links": [
+        {
+          "label": "University of Birmingham website",
+          "url": "https://www.birmingham.ac.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-27",
@@ -356,8 +633,20 @@
       "supporters": [
         "uob"
       ],
-      "detail": "LES Business Engagement Pump Priming award for ARME work with ROLI; award confirmed 28 May 2025.",
-      "value": ""
+      "detail": "LES Business Engagement Pump Priming award for ARME work with ROLI. Applicant: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        },
+        {
+          "label": "ARME follow-on funding",
+          "url": "https://arme-project.co.uk/post/further-funding-activities-myjams/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-28",
@@ -368,7 +657,14 @@
         "uob"
       ],
       "detail": "College approval for shared VR equipment in 2022 and establishment of the Gisbert Kapp VR Lab in 2023.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "VR Lab facilities and equipment",
+          "url": "/resources/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-29",
@@ -378,8 +674,15 @@
       "supporters": [
         "uob"
       ],
-      "detail": "Institute of Advanced Studies support for planning a joint workshop with i-MOVE and Creative and Cultural Industries; no cash value recorded.",
-      "value": ""
+      "detail": "Institute of Advanced Studies support for planning a joint workshop with i-MOVE and Creative and Cultural Industries.",
+      "value": "",
+      "links": [
+        {
+          "label": "BhamXR network",
+          "url": "https://www.birmingham.ac.uk/research/centres-institutes/bhamxr",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-30",
@@ -404,7 +707,14 @@
             "url": "https://news.siemens.com/en-us/siemens-sony-ces-2025/"
           }
         ]
-      }
+      },
+      "links": [
+        {
+          "label": "The Birmingham Project",
+          "url": "https://www.intranet.birmingham.ac.uk/student/careers/skills-development/birmingham-project/index.aspx",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-31",
@@ -414,7 +724,7 @@
       "supporters": [
         "roli"
       ],
-      "detail": "A waveboard and keyboard donated by ROLI and recorded as received.",
+      "detail": "A waveboard and keyboard donated by ROLI.",
       "value": "Estimated £1,058 (scenario range £518–£1,598)",
       "costing": {
         "summary": "Scenario range: (Seaboard M £299 + Piano M £219) to (Seaboard 2 £1,099 + Piano £499). Midpoint (£518 + £1,598)/2 = £1,058.",
@@ -434,7 +744,14 @@
             "url": "https://d30pueezughrda.cloudfront.net/press/releases/SeaboardRISE2PressRelease.pdf"
           }
         ]
-      }
+      },
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-32",
@@ -448,7 +765,14 @@
       "value": "Approximately £2,000 (CV estimate)",
       "costing": {
         "summary": "CV records approximately £2,000 of TikTok/ByteDance equipment support."
-      }
+      },
+      "links": [
+        {
+          "label": "VR Lab facilities and equipment",
+          "url": "/resources/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-33",
@@ -458,8 +782,15 @@
       "supporters": [
         "nhs"
       ],
-      "detail": "NHS equipment donation for research on movement tracking and evaluation.",
-      "value": ""
+      "detail": "NHS equipment donation for research on movement tracking and evaluation. PI: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "VR Lab facilities and equipment",
+          "url": "/resources/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-34",
@@ -469,7 +800,7 @@
       "supporters": [
         "ultraleap"
       ],
-      "detail": "Ultraleap donated haptic devices, including a Stratos Explore development kit.",
+      "detail": "Ultraleap donated haptic devices, including a Stratos Explore development kit. PI: Massimiliano Di Luca.",
       "value": "Estimated US$2,500 (scenario range US$2,500–US$2,750.95)",
       "costing": {
         "summary": "One identified Stratos Explore kit × US$2,500; uses the lower supplier benchmark. Price range US$2,500–2,750.95.",
@@ -488,7 +819,14 @@
             "url": "https://www.sparkfun.com/ultrahaptics-stratos-explore.html"
           }
         ]
-      }
+      },
+      "links": [
+        {
+          "label": "VR Lab facilities and equipment",
+          "url": "/resources/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-35",
@@ -499,7 +837,19 @@
         "semanticaudio"
       ],
       "detail": "In-kind partner support for music-technology grant development.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "Adaptive Metronome — code",
+          "url": "https://github.com/arme-project/AdaptiveMetronome",
+          "priority": 40
+        },
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-36",
@@ -510,7 +860,14 @@
         "partplay"
       ],
       "detail": "In-kind partnership support for music-technology grant activity.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "ARME project",
+          "url": "https://arme-project.co.uk/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-37",
@@ -521,8 +878,15 @@
         "oculus",
         "meta"
       ],
-      "detail": "Secondment support, internships and research collaborations during Di Luca’s Birmingham appointment; aggregate financial value unavailable.",
-      "value": ""
+      "detail": "Secondment support, internships and research collaborations during Massimiliano Di Luca’s Birmingham appointment.",
+      "value": "",
+      "links": [
+        {
+          "label": "Related paper: Perceptual Limits of Visual-Haptic Simultaneity in Virtual Reality Interactions",
+          "url": "https://massimilianodiluca.info/publication/di-luca-2019/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-38",
@@ -532,8 +896,15 @@
       "supporters": [
         "ansell"
       ],
-      "detail": "Funding for collaborative research on user-based functional assessment of industrial gloves; amount unconfirmed.",
-      "value": ""
+      "detail": "Collaborative research on user-based functional assessment of industrial gloves. Co-I: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "Ansell website",
+          "url": "https://www.ansell.com/gb/en",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-39",
@@ -543,8 +914,15 @@
       "supporters": [
         "oculus"
       ],
-      "detail": "Oculus VR research support; principal investigator.",
-      "value": "£5,000"
+      "detail": "Oculus VR research support. PI: Massimiliano Di Luca.",
+      "value": "£5,000",
+      "links": [
+        {
+          "label": "Related paper: Perceived Softness of Composite Objects",
+          "url": "https://massimilianodiluca.info/publication/di-luca-2014-a/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-40",
@@ -554,8 +932,15 @@
       "supporters": [
         "pg"
       ],
-      "detail": "Procter & Gamble research collaboration; co-investigator.",
-      "value": "£5,000 project value"
+      "detail": "Procter & Gamble research collaboration. Co-PI: Massimiliano Di Luca.",
+      "value": "£5,000 project value",
+      "links": [
+        {
+          "label": "Procter & Gamble website",
+          "url": "https://us.pg.com/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-41",
@@ -565,8 +950,15 @@
       "supporters": [
         "gillette"
       ],
-      "detail": "Gillette research support; principal investigator.",
-      "value": "£5,000"
+      "detail": "Gillette research support. PI: Massimiliano Di Luca.",
+      "value": "£5,000",
+      "links": [
+        {
+          "label": "Gillette website",
+          "url": "https://gillette.com/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-42",
@@ -577,7 +969,19 @@
         "pg"
       ],
       "detail": "Support for research, colleagues, a PhD scholarship, symposia, research visits and grant activity.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "Related paper: Skin properties and afferent density in tactile spatial acuity",
+          "url": "https://massimilianodiluca.info/publication/deflorio-2022-skin-properties/",
+          "priority": 20
+        },
+        {
+          "label": "Related paper: Contact forces in roughness discrimination",
+          "url": "https://massimilianodiluca.info/publication/roberts-2020/",
+          "priority": 20
+        }
+      ]
     },
     {
       "id": "support-43",
@@ -590,7 +994,24 @@
       ],
       "detail": "CreaTech Frontiers Live & Immersive Innovation Fund, funded by AHRC/UKRI. Award recipient: MyJAMS Ltd.",
       "value": "£25,000 to MyJAMS Ltd",
-      "url": "https://createchfrontiers.com/meet-the-10-businesses-awarded-funding-through-the-live-immersive-innovation-fund/"
+      "url": "https://createchfrontiers.com/meet-the-10-businesses-awarded-funding-through-the-live-immersive-innovation-fund/",
+      "links": [
+        {
+          "label": "MyJAMS",
+          "url": "https://myjamsltd.netlify.app/",
+          "priority": 50
+        },
+        {
+          "label": "CreaTech Frontiers award announcement",
+          "url": "https://createchfrontiers.com/meet-the-10-businesses-awarded-funding-through-the-live-immersive-innovation-fund/",
+          "priority": 60
+        },
+        {
+          "label": "MyJAMS CreaTech award announcement",
+          "url": "https://arme-project.co.uk/post/myjams-createch-live-immersive-grant/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-44",
@@ -603,7 +1024,19 @@
       ],
       "detail": "MyJAMS completed the ten-week CreaTech Frontiers Growth Lab, delivered with Digital Catapult and funded by AHRC/UKRI.",
       "value": "In-kind support valued by the programme at £15,000",
-      "url": "https://createchfrontiers.com/welcoming-the-first-cohort-to-the-createch-frontiers-growth-lab-led-by-digital-catapult/"
+      "url": "https://createchfrontiers.com/welcoming-the-first-cohort-to-the-createch-frontiers-growth-lab-led-by-digital-catapult/",
+      "links": [
+        {
+          "label": "MyJAMS",
+          "url": "https://myjamsltd.netlify.app/",
+          "priority": 50
+        },
+        {
+          "label": "CreaTech Frontiers Growth Lab announcement",
+          "url": "https://createchfrontiers.com/welcoming-the-first-cohort-to-the-createch-frontiers-growth-lab-led-by-digital-catapult/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-45",
@@ -614,7 +1047,19 @@
         "icure"
       ],
       "detail": "JAMS participation in Innovate UK’s ICURe Explore programme, supporting market exploration and commercialisation.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "MyJAMS",
+          "url": "https://myjamsltd.netlify.app/",
+          "priority": 50
+        },
+        {
+          "label": "ARME and ICURe Explore",
+          "url": "/post/icure/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-46",
@@ -624,8 +1069,15 @@
       "supporters": [
         "ventureversity"
       ],
-      "detail": "MyJAMS selected for the Shape stage of VentureVersity, part of the Research England-supported Forging Ahead programme. Commercialisation support; no cash award recorded.",
-      "value": ""
+      "detail": "MyJAMS selected for the Shape stage of VentureVersity, part of the Research England-supported Forging Ahead programme.",
+      "value": "",
+      "links": [
+        {
+          "label": "MyJAMS",
+          "url": "https://myjamsltd.netlify.app/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-47",
@@ -636,7 +1088,14 @@
         "william-edwards"
       ],
       "detail": "William Edwards Educational Charity equipment grant awarded to the school for collaborative heritage activity involving Kenilworth Town Council.",
-      "value": "Approximately £35,000 to the school"
+      "value": "Approximately £35,000 to the school",
+      "links": [
+        {
+          "label": "Kenilworth Revealed collaboration",
+          "url": "https://arme-project.co.uk/post/kenilworth-revealed-myjams/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-48",
@@ -646,8 +1105,15 @@
       "supporters": [
         "givaudan"
       ],
-      "detail": "Givaudan awarded funding to Innogence. Di Luca leads study design and scientific oversight; the Birmingham allocation is not established.",
-      "value": ""
+      "detail": "Givaudan supported Innogence’s VR stress-assessment collaboration. Study design and scientific oversight: Massimiliano Di Luca.",
+      "value": "",
+      "links": [
+        {
+          "label": "Givaudan website",
+          "url": "https://www.givaudan.com/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-49",
@@ -659,7 +1125,19 @@
       ],
       "detail": "Young Researcher Visiting Fellowship at the Norwegian University of Science and Technology, linking time perception and language research.",
       "value": "",
-      "url": "https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language"
+      "url": "https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language",
+      "links": [
+        {
+          "label": "Related paper: Optimal Perceived Timing",
+          "url": "https://massimilianodiluca.info/publication/di-luca-2016/",
+          "priority": 20
+        },
+        {
+          "label": "Visiting fellowship announcement",
+          "url": "https://www.birmingham.ac.uk/news-archive/2014/researcher-to-explore-the-links-between-time-perception-and-language",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-50",
@@ -670,9 +1148,21 @@
         "uob",
         "pg"
       ],
-      "detail": "Joint University of Birmingham and Procter & Gamble studentship supporting research on tactile perception. Dates indicate doctoral supervision.",
+      "detail": "Joint University of Birmingham and Procter & Gamble studentship supporting Davide Deflorio’s research on tactile perception.",
       "value": "",
-      "url": "https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/"
+      "url": "https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/",
+      "links": [
+        {
+          "label": "Related paper: Skin properties and afferent density in tactile spatial acuity",
+          "url": "https://massimilianodiluca.info/publication/deflorio-2022-skin-properties/",
+          "priority": 20
+        },
+        {
+          "label": "University publication record",
+          "url": "https://research.birmingham.ac.uk/en/publications/skin-properties-and-afferent-density-in-the-deterioration-of-tact/",
+          "priority": 30
+        }
+      ]
     },
     {
       "id": "support-51",
@@ -683,7 +1173,14 @@
         "marco-polo"
       ],
       "detail": "Marco Polo funding supported Italian students working with Massimiliano Di Luca at Birmingham.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "Research and collaborations",
+          "url": "https://massimilianodiluca.info/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-52",
@@ -695,7 +1192,19 @@
       ],
       "detail": "Award supporting Katrina Galsworthy’s initial research on the ARME project. The fund was established in memory of Marek Sinason, a University of Birmingham PhD alumnus.",
       "value": "£250",
-      "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set"
+      "url": "https://www.birmingham.ac.uk/news-archive/2021/newly-established-marek-sinason-memorial-fund-advances-psychology-graduates-research-skill-set",
+      "links": [
+        {
+          "label": "Related paper: Phase Correction in Simulated Music Ensemble",
+          "url": "https://arme-project.co.uk/publication/2023_trf2/",
+          "priority": 20
+        },
+        {
+          "label": "Marek Sinason Memorial Fund award",
+          "url": "/post/marek-sinason-memorial-fund/",
+          "priority": 60
+        }
+      ]
     },
     {
       "id": "support-53",
@@ -706,7 +1215,14 @@
         "unity"
       ],
       "detail": "We thank Unity for supporting the lab.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "Unity website",
+          "url": "https://unity.com/",
+          "priority": 50
+        }
+      ]
     },
     {
       "id": "support-54",
@@ -717,18 +1233,32 @@
         "esrc"
       ],
       "detail": "The Economic and Social Research Council (ESRC) funds Maisy Rapata’s PhD studentship at the University of Birmingham, supervised by Massimiliano Di Luca.",
-      "value": ""
+      "value": "",
+      "links": [
+        {
+          "label": "Related paper: Implicit Gaze+Slide",
+          "url": "/publication/rapata-2026-implicit-gaze-slide/",
+          "priority": 10
+        }
+      ]
     },
     {
       "id": "support-55",
       "group": "industry",
       "years": "",
-      "title": "Anthropic support",
+      "title": "OpenAI support",
       "supporters": [
-        "anthropic"
+        "openai"
       ],
-      "detail": "We thank Anthropic for supporting the lab.",
-      "value": ""
+      "detail": "We thank OpenAI for supporting the lab.",
+      "value": "",
+      "links": [
+        {
+          "label": "OpenAI website",
+          "url": "https://openai.com/",
+          "priority": 50
+        }
+      ]
     }
   ]
 }

@@ -24,6 +24,10 @@ tags:
   - Robotics
   - VR Lab
 featured: true
+image:
+  caption: "A panoramic view of the Virtual Reality Lab. Photograph from the lab's existing media collection."
+  alt_text: "Panoramic view of the Virtual Reality Lab, showing workstations, VR equipment and overhead tracking cameras."
+  focal_point: Center
 ---
 
 Visit the **Virtual Reality Lab** as part of the Robotics Institute's tour of Psychology research facilities on **Wednesday 11 November 2026, 13:00–15:00 GMT**.

@@ -14,7 +14,7 @@
   </header>
   {{ partial "publication-topic-cloud" $pages }}
   <form class="publication-filters" role="search" aria-label="Search publications" hidden>
-    <div class="publication-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" placeholder="Title, author or venue" autocomplete="off"></div>
+    <div class="publication-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" placeholder="Title, author, keyword or grant" autocomplete="off"></div>
     <div><label for="publication-type">Publication type</label><select id="publication-type"><option value="">All types</option>{{ range sort (uniq $types) }}<option value="{{ . }}">{{ partial "publication-type-label" . }}</option>{{ end }}</select></div>
     <div><label for="publication-year">Year</label><select id="publication-year"><option value="">All years</option>{{ range sort (uniq $years) "value" "desc" }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></div>
     <button type="reset">Reset</button>
@@ -27,7 +27,7 @@
       {{ $profile := site.GetPage (printf "/authors/%s" .) }}
       {{ if $profile }}{{ $authorNames = $authorNames | append $profile.Title }}{{ else }}{{ $authorNames = $authorNames | append . }}{{ end }}
     {{ end }}
-    <article data-topics="{{ .Params.tags | default slice | jsonify }}" data-authors="{{ delimit $authorNames " " }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
+    <article data-topics="{{ .Params.tags | default slice | jsonify }}" data-authors="{{ delimit $authorNames " " }}" data-research="{{ dict "abstract" .Params.abstract "keywords" .Params.keywords "funding" .Params.funding_projects | jsonify }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
       <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><span>{{ partial "publication-type-label" (index .Params.publication_types 0) }}</span>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ partial "publication-citation" . }}

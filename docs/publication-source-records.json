@@ -1,0 +1,323 @@
+{
+  "review_date": "2026-11-11",
+  "purpose": "Maintainer-only source and verification records; excluded from the generated website.",
+  "publications": {
+    "abdlkarim-2026-belt-and-whistles": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked published PDF. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf",
+      "funding_projects": []
+    },
+    "ai-2026-articulation": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://research.birmingham.ac.uk/en/publications/articulation-in-motion-prior-free-part-mobility-analysis-for-arti/"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The acknowledgements identify an Amazon Research Award and a Meta donation. Baskerville computing support is acknowledged separately from direct project funding.",
+      "funding_sources": [
+        "https://arxiv.org/html/2603.02910"
+      ],
+      "keywords_source": "https://arxiv.org/html/2603.02910"
+    },
+    "bhatia-2025-text": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The paper acknowledges Google, the Max Planck Institute for Intelligent Systems, VILLUM FONDEN, EPSRC and NSF. It does not identify which Google gift supported the work; no particular gift has been inferred.",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf"
+    },
+    "bovo-2025-put-that-there": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://cris.unibo.it/handle/11585/1026455",
+        "https://arxiv.org/abs/2511.02378"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked arXiv full text. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://arxiv.org/html/2511.02378"
+      ],
+      "keywords_source": "https://arxiv.org/html/2511.02378",
+      "funding_projects": [],
+      "previous_summary": "This paper revisits multimodal window control in extended reality using a large language model. The system combines scene semantics, application state, speech, pointing and head orientation to determine window-placement actions. Users can issue direct instructions, refer to objects through speech and gestures, or express a broader task goal. The contribution is a context-sensitive interaction approach for organising an immersive workspace; it is not presented here as evidence of a measured productivity improvement."
+    },
+    "cascarano-2025-see-it-hear-it": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked author-deposited PDF. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf"
+      ],
+      "keywords_source": "https://stintipacchio.github.io/files/See%20It%20and%20Hear%20It.pdf",
+      "funding_projects": []
+    },
+    "cascarano-2026-towards-target": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "declared-none",
+      "funding_note": "The funding section explicitly states that the research received no specific grant. Open-access publication support was provided by the University of Bologna under the CRUI-CARE agreement; this is publication support rather than a research-project award.",
+      "funding_sources": [
+        "https://link.springer.com/article/10.1007/s10055-026-01338-x"
+      ],
+      "keywords_source": "https://link.springer.com/article/10.1007/s10055-026-01338-x",
+      "funding_projects": []
+    },
+    "chang-2025-hapticwings": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "unverified",
+      "funding_note": "The full-text funding acknowledgement could not be verified from the accessible sources.",
+      "funding_sources": [],
+      "keywords_source": "https://research.birmingham.ac.uk/en/publications/hapticwings-enhancing-the-experience-of-extra-wing-motions-in-vir/",
+      "funding_projects": []
+    },
+    "colecchia-2025-immersive-healthcare-editorial": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://bura.brunel.ac.uk/handle/2438/30668",
+        "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked publisher full text. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full"
+      ],
+      "keywords_source": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full",
+      "funding_projects": [],
+      "previous_summary": "This editorial introduces a collection on machine learning and immersive technologies in healthcare. It discusses interdisciplinary collaboration, ethical and stakeholder considerations, practical system development, medical education and wellbeing. The authors identify a need for human-centred and participatory design, inclusive evaluation and further clinical validation. This is an editorial synthesis of the collection, rather than an original empirical study."
+    },
+    "david-2025-paintbranch": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://researchportal.ulisboa.pt/en/publications/paintbranch-asynchronous-collaborative-art-in-virtual-reality/"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "Acknowledgements in the 2025 conference paper identify FCT/LARSyS and the Horizon 2020 award below. These identifiers are retained separately from the 2026 article.",
+      "funding_sources": [
+        "https://discovery.ucl.ac.uk/id/eprint/10205685/1/IEEE_VR_2025_poster__Asynchronous_Collaborative_Art_Creation%20%2815%29.pdf"
+      ],
+      "keywords_source": "https://ubiq.online/publication/paintbranch/"
+    },
+    "david-2026-paintbranch": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/giunchi-daniele",
+        "https://doi.org/10.1007/s42979-026-04980-z"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The article identifies two FCT projects and a Horizon 2020 award. FCT/FCCN (b-on) is additionally credited for open-access publication support.",
+      "funding_sources": [
+        "https://link.springer.com/article/10.1007/s42979-026-04980-z"
+      ],
+      "keywords_source": "https://link.springer.com/article/10.1007/s42979-026-04980-z"
+    },
+    "fraser-2025-biological-kinematics": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The project received ERC funding. EPSRC support is specifically attributed to Massimiliano Di Luca, rather than described as funding for the whole project.",
+      "funding_sources": [
+        "https://link.springer.com/article/10.1007/s00221-025-07065-0"
+      ],
+      "keywords_source": "https://link.springer.com/article/10.1007/s00221-025-07065-0"
+    },
+    "gatti-2025-virtual-campfire": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The accepted manuscript acknowledges the European Union Horizon 2020 grant below.",
+      "funding_sources": [
+        "https://discovery.ucl.ac.uk/id/eprint/10204631/1/AIsop_short_paper%20%282%29.pdf"
+      ],
+      "keywords_source": "https://discovery.ucl.ac.uk/id/eprint/10204631/"
+    },
+    "giunchi-2025-xrworks": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "unverified",
+      "funding_note": "The institutional record makes the abstract available but lists the manuscript under embargo until 31 December 2027. The funding acknowledgement could not be checked.",
+      "funding_sources": [],
+      "keywords_source": "https://cris.unibo.it/handle/11585/1026454",
+      "funding_projects": [],
+      "previous_summary": "This workshop overview describes xrWORKS’25, held with ISMAR 2025, and its focus on extended reality for professional knowledge work. It outlines the accepted contributions and research themes, including immersive workspaces, AI-supported interaction, ergonomics and specialised applications. Its purpose is to describe the workshop and its research agenda, rather than report a single controlled experiment."
+    },
+    "grubert-2026-xr-mediation": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://research.birmingham.ac.uk/en/publications/extended-reality-as-a-mediation-layer-for-situated-human-control-/"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The preprint acknowledges MAPPLE (2025–2028). The attribution is based on the preprint acknowledgement.",
+      "funding_sources": [
+        "https://arxiv.org/html/2607.25047"
+      ],
+      "keywords_source": "https://arxiv.org/html/2607.25047"
+    },
+    "hauck-2025-reachvox": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ofek-eyal"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked author-deposited PDF. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://pokristensson.com/pubs/HauckEtAlISMAR2025.pdf"
+      ],
+      "keywords_source": "https://pokristensson.com/pubs/HauckEtAlISMAR2025.pdf",
+      "funding_projects": []
+    },
+    "jeon-2026-swapsense": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://rayleigh-lin.top/publications/swapsense"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "unverified",
+      "funding_note": "The full-text funding acknowledgement could not be verified from the accessible sources.",
+      "funding_sources": [],
+      "keywords_source": "https://rayleigh-lin.top/publications/swapsense",
+      "funding_projects": [],
+      "previous_summary": "SwapSense separates a reusable camera-based force sensor from interchangeable passive haptic components. A neural network estimates contact force from deformation images, while attached modules change how the interface feels. The evaluation examines generalisation across users and adaptation to previously unseen components. A perceptual study also characterises five haptic augmentations. The author record reports that adaptation used no more than a quarter of the target component’s data and less than 15 minutes of fine-tuning."
+    },
+    "li-2026-temporal-sensitivity": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The published funding statement names TICS and ARME.",
+      "funding_sources": [
+        "https://link.springer.com/article/10.1007/s00221-026-07371-1"
+      ],
+      "keywords_source": "https://link.springer.com/article/10.1007/s00221-026-07371-1"
+    },
+    "lin-2025-forearm-gestures": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The manuscript acknowledges the NRF award below, funded by the Korean government (MSIT). A specific project title was not established.",
+      "funding_sources": [
+        "https://drive.google.com/file/d/1-rs0c5xb2PdAM3YNt_hkD3B8t4gLbZ_K/view"
+      ],
+      "keywords_source": "https://drive.google.com/file/d/1-rs0c5xb2PdAM3YNt_hkD3B8t4gLbZ_K/view"
+    },
+    "lin-2026-gazezoom": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The acknowledgement identifies an IITP–ITRC award funded by the Korean Ministry of Science and ICT. A more specific project title was not established.",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf"
+    },
+    "lin-2026-groundedreach": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://research.birmingham.ac.uk/en/publications/groundedreach-enabling-body-grounded-haptic-experience-in-virtual/"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked accepted manuscript. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/325791914/GroundedReach_Enabling_Body-grounded_Haptic_Experience_in_Virtual_Reality_with_an_Elbow_Wearable_Haptic_Device.pdf",
+      "funding_projects": []
+    },
+    "low-2025-smartphone-embodiment": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/giunchi-daniele",
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "verified",
+      "funding_note": "The acknowledgements identify MICS, supported by the European Union’s NextGenerationEU through Italy’s PNRR (Mission 4, Component 2, Investment 1.3).",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf"
+    },
+    "rapata-2026-implicit-gaze-slide": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/giunchi-daniele",
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ofek-eyal"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked published PDF. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf"
+      ],
+      "keywords_source": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/322819826/RapataMM2026Implicit.pdf",
+      "funding_projects": []
+    },
+    "wang-2026-magicpen": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/giunchi-daniele",
+        "https://rayleigh-lin.top/publications/magicpen"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "unverified",
+      "funding_note": "The full-text funding acknowledgement could not be verified from the accessible sources.",
+      "funding_sources": [],
+      "keywords_source": "https://rayleigh-lin.top/publications/magicpen",
+      "funding_projects": [],
+      "previous_summary": "MagicPen changes its length while remaining in contact with a physical surface, allowing a stylus to provide grounded feedback during VR modelling and drawing. A compliant mode follows geometry being edited, whereas a rigid mode constrains movement to an existing virtual surface. Three studies compare it with mid-air interaction in depth positioning and drawing tasks. The author record reports improved depth positioning and support for perceiving geometry through surface contact."
+    },
+    "wen-2026-adaptive-music": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ofek-eyal"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked accepted manuscript. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://discovery.ucl.ac.uk/id/eprint/10224338/1/VGTC_Tuning_Immersion_and_Performance_with_Adaptive_Generative_Music_in_VR.pdf"
+      ],
+      "keywords_source": "https://discovery.ucl.ac.uk/id/eprint/10224338/",
+      "funding_projects": []
+    },
+    "yi-2026-augmented-body-parts": {
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "metadata-only",
+      "funding_note": "Publisher-deposited Crossref metadata lists ETRI award 25YR1900. The paper’s acknowledgement was not accessible, so the grant-to-project relationship has not been independently verified from the paper. The organiser separately links the workshop to its extended-artificial-bodies project.",
+      "funding_sources": [
+        "https://api.crossref.org/works/10.1145/3772363.3778688"
+      ],
+      "keywords_source": "https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/",
+      "funding_projects": [
+        {
+          "name": "ETRI award 25YR1900",
+          "url": "https://api.crossref.org/works/10.1145/3772363.3778688",
+          "funder": "Electronics and Telecommunications Research Institute",
+          "grant": "25YR1900",
+          "role": "Publisher metadata; acknowledgement unverified"
+        }
+      ],
+      "previous_summary": "This CHI workshop brings together research on virtual embodiment, wearable robotics, haptics and human augmentation. It examines how experience with unusual virtual bodies can inform the design and control of physical additions such as extra arms or tails. The programme combines a keynote, discussion of participants’ work and group activities to develop a shared research agenda. This record describes a workshop contribution, rather than an empirical evaluation of a robotic device."
+    },
+    "yusuf-2025-uncertainty": {
+      "metadata_checked": "2026-11-09",
+      "metadata_sources": [
+        "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ofek-eyal"
+      ],
+      "enrichment_checked": "2026-11-11",
+      "funding_status": "not-stated",
+      "funding_note": "No research funding statement was identified in the checked paper in the conference proceedings (printed pages 58–61). This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://www.sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf"
+      ],
+      "keywords_source": "https://www.sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf",
+      "funding_projects": []
+    }
+  }
+}

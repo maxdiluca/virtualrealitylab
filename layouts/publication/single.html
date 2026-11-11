@@ -3,9 +3,34 @@
   <p><a href="{{ "/publication/" | relURL }}">← All publications</a></p>
   <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><a href="{{ "/publication/" | relURL }}?type={{ index .Params.publication_types 0 }}">{{ partial "publication-type-label" (index .Params.publication_types 0) }}</a>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
   <h1>{{ .Title }}</h1>
+  {{ partial "publication-metrics" . }}
   {{ partial "publication-citation" . }}
   <div class="publication-links">{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
-  {{ with .Params.abstract }}<h2>Abstract</h2><p>{{ . | markdownify }}</p>{{ end }}
+  {{ with .Params.abstract }}
+  <section class="publication-detail-section" aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading">{{ if eq $.Params.abstract_kind "summary" }}Summary{{ else if eq $.Params.abstract_kind "editorial-summary" }}Editorial overview{{ else if eq $.Params.abstract_kind "overview" }}Workshop overview{{ else }}Abstract{{ end }}</h2>
+    <p>{{ . | markdownify }}</p>
+    <p class="publication-source">{{ if eq $.Params.abstract_kind "accepted" }}Abstract from the accepted manuscript. {{ end }}<a href="{{ $.Params.abstract_source }}">{{ if eq $.Params.abstract_kind "overview" }}About the workshop{{ else }}Read more{{ end }}</a>{{ with $.Params.abstract_license }} · Abstract reproduced under <a href="{{ $.Params.abstract_license_url }}">{{ . }}</a>.{{ end }}</p>
+  </section>
+  {{ end }}
+  {{ with .Params.keywords }}
+  <section class="publication-detail-section" aria-labelledby="keywords-heading">
+    <h2 id="keywords-heading">{{ if eq $.Params.keywords_kind "editorial" }}Topics{{ else if eq $.Params.keywords_kind "author-page" }}Author keywords{{ else }}Keywords{{ end }}</h2>
+    <ul class="publication-keywords">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+  </section>
+  {{ end }}
+  {{ with .Params.funding_statement }}
+  <section class="publication-detail-section" aria-labelledby="funding-heading">
+    <h2 id="funding-heading">Funding and support</h2>
+    <p>{{ . }}</p>
+    {{ with $.Params.funding_projects }}
+    <ul class="publication-funding-projects">
+      {{ range . }}<li><a href="{{ .url | relURL }}">{{ .name }}</a>{{ with .funder }}<span>{{ . }}</span>{{ end }}{{ with .grant }}<span>Grant: {{ . }}</span>{{ end }}{{ with .role }}<span class="publication-source">{{ . }}</span>{{ end }}</li>{{ end }}
+    </ul>
+    {{ end }}
+  </section>
+  {{ end }}
   <div class="article-style">{{ .Content }}</div>
 </article>
+{{ partial "publication-metrics-scripts" (slice .) }}
 {{ end }}

@@ -18,15 +18,29 @@ publication_status: ''
 links:
 - name: DOI
   url: https://doi.org/10.3389/fdata.2025.1567941
+- name: Full text
+  url: https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full
 summary: Frontiers in Big Data, 8, Article 1567941, 2025.
 draft: false
 tags:
 - artificial intelligence
 - extended reality
 - digital healthcare
-metadata_checked: '2026-11-09'
-metadata_sources:
-- https://bura.brunel.ac.uk/handle/2438/30668
-- https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full
 doi: 10.3389/fdata.2025.1567941
+abstract: This editorial introduces a collection on machine learning and immersive technologies in healthcare. It
+  discusses interdisciplinary collaboration, ethical and stakeholder considerations, practical system development,
+  medical education and wellbeing. The authors identify a need for human-centred and participatory design, inclusive
+  evaluation and further clinical validation.
+abstract_kind: editorial-summary
+abstract_source: https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full
+keywords:
+- digital innovation for health and wellbeing
+- interdisciplinary collaboration
+- artificial intelligence
+- immersive technologies
+- machine learning
+- virtual reality
+- augmented reality
+- mixed reality
+keywords_kind: published
 ---

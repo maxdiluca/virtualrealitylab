@@ -12,7 +12,7 @@
   const selection = root.querySelector('.publication-topic-selection');
   let topic = '';
   const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const records = [...root.querySelectorAll('.publication-record')].map(element => ({ element, topics: (JSON.parse(element.dataset.topics || "[]") || []).map(normalize), text: normalize(element.textContent + " " + element.dataset.authors + " " + (element.dataset.topics || "")) }));
+  const records = [...root.querySelectorAll('.publication-record')].map(element => ({ element, topics: (JSON.parse(element.dataset.topics || "[]") || []).map(normalize), text: normalize(element.textContent + " " + element.dataset.authors + " " + (element.dataset.topics || "") + " " + (element.dataset.research || "")) }));
   function readURL() {
     const params = new URLSearchParams(location.search);
     search.value = params.get('publication_query') || '';

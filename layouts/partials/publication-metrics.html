@@ -1,0 +1,8 @@
+{{ $doi := .Params.doi | default .Params.preprint_doi }}
+{{ with $doi }}
+<div class="publication-metrics" role="group" aria-label="{{ if $.Params.doi }}Publication metrics{{ else }}Preprint metrics{{ end }}">
+  {{ if not $.Params.doi }}<span class="publication-metrics-label">Preprint metrics</span>{{ end }}
+  <span class="__dimensions_badge_embed__" data-doi="{{ . }}" data-hide-zero-citations="true" data-style="small_circle" data-legend="hover-right"></span>
+  <div class="altmetric-embed" data-doi="{{ . }}" data-badge-type="donut" data-badge-popover="left" data-link-target="_blank" data-hide-no-mentions="true"></div>
+</div>
+{{ end }}

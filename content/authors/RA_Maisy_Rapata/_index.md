@@ -10,7 +10,7 @@ authors:
   - Maisy_Rapata
 
 # Role/position
-role: Research Assistant
+role: PhD student
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: MSc Human Computer Interaction
+bio: PhD student at the University of Birmingham
 
 interests:
   - Virtual Reality
@@ -59,10 +59,10 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Research Assistants
+  - PhD Students
 ---
 
-Hello! I'm a research assistant at the School of Psychology.
+Hello! I'm a PhD student at the School of Psychology.
 
 I am currently collaborating on two projects:
 A **text entry project** in partnership with Google. An **AI-based optimization environment** focusing on enhancing physics-based interactions in virtual reality (VR).

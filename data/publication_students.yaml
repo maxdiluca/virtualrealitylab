@@ -20,12 +20,16 @@ P_Jiaqi_Tang:
   checked: '2026-11-15'
   source: /author/jiaqi-tang/
 RA_Maisy_Rapata:
-  status: former
-  label: Former MSc student
+  status: current
+  label: PhD student
+  profile_group: PhD Students
+  profile_role: PhD student
   checked: '2026-11-15'
-  source: https://github.com/maxdiluca/virtualrealitylab/blob/781a48a/content/authors/Maisy_Rapata/_index.md
-  programme: Human-Computer Interaction
-  period: '2023–2024'
+  source: /author/maisy-rapata/
+  verification: Current PhD status confirmed by Max Di Luca on 15 November 2026.
+  previous_programme: MSc Human-Computer Interaction
+  previous_period: '2023–2024'
+  previous_source: https://github.com/maxdiluca/virtualrealitylab/blob/781a48a/content/authors/Maisy_Rapata/_index.md
 RA_Arindam_Dutta:
   status: former
   label: Former MSc student

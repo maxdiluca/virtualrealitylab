@@ -59,7 +59,7 @@ rapata-2026-implicit-gaze-slide:
   - topic: gesture interaction
     reason: The abstract discusses visible mid-air gestures as existing approaches; the proposed input uses gaze
       and finger sliding.
-  source_hash: 0fd536492ca68521b58d37298c07b279db76ea3b15ba3085a72854ddfcd9822f
+  source_hash: 6d876300cd63d1f7191fd006281b6b94bd4e876ddfcd98c5957038e33af0b47c
 yi-2026-augmented-body-parts:
   include:
   - topic: haptics

@@ -1,4 +1,4 @@
-# Verified lab-profile roles, not affiliations or roles at the time of a study.
+# Verified current roles and historical lab studentship, not study-time affiliations.
 # Exact author IDs only; new publications using these IDs inherit highlighting.
 PHD_Hao_Ai:
   status: current
@@ -17,7 +17,35 @@ PHD_Yilong_Lin:
 P_Jiaqi_Tang:
   status: former
   label: Former BSc student
-  profile_group: Alumni Project Students
-  profile_role: BSc Computer Science
   checked: '2026-11-15'
   source: /author/jiaqi-tang/
+RA_Maisy_Rapata:
+  status: former
+  label: Former MSc student
+  checked: '2026-11-15'
+  source: https://github.com/maxdiluca/virtualrealitylab/blob/781a48a/content/authors/Maisy_Rapata/_index.md
+  programme: Human-Computer Interaction
+  period: '2023–2024'
+RA_Arindam_Dutta:
+  status: former
+  label: Former MSc student
+  checked: '2026-11-15'
+  source: https://github.com/maxdiluca/virtualrealitylab/blob/431b304/content/authors/Arindam%20Dutta/_index.md
+  programme: Human-Computer Interaction
+  period: '2023–2024'
+RA_Devika_Mukherjee:
+  status: former
+  label: Former MSc student
+  checked: '2026-11-15'
+  source: https://eyalofek.org/students/
+  programme: Human-Computer Interaction
+  period: '2024–2025'
+  education_source: https://uk.linkedin.com/in/devika-mukherjee-3bb5b020a
+AP_Mehrta_Fateme_Eslami:
+  status: former
+  label: Former MSc student
+  checked: '2026-11-15'
+  source: https://eyalofek.org/students/
+  programme: Artificial Intelligence
+  period: '2024–2025'
+  education_source: https://uk.linkedin.com/in/fateme-eslami-014179219

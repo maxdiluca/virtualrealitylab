@@ -6,10 +6,12 @@
     {{- if not $profile -}}
       {{- errorf "Student author %s has no profile" $id -}}
     {{- else -}}
-      {{- if or (not (in $profile.Params.user_groups .profile_group)) (ne $profile.Params.role .profile_role) -}}
+      {{/* Historical studentship survives subsequent employment changes. */}}
+      {{- if and (eq .status "current") (or (not (in ($profile.Params.user_groups | default slice) (.profile_group | default ""))) (ne $profile.Params.role .profile_role)) -}}
         {{- errorf "Student role for %s changed: recheck data/publication_students.yaml" $id -}}
       {{- end -}}
       {{- if not (in (slice "current" "former") .status) -}}{{- errorf "Invalid student status for %s" $id -}}{{- end -}}
+      {{- if not (and .source .checked) -}}{{- errorf "Student author %s needs dated evidence" $id -}}{{- end -}}
       {{- $students = $students | append (dict "profile" $profile "label" .label "status" .status) -}}
     {{- end -}}
   {{- end -}}

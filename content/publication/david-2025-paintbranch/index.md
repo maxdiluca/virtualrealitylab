@@ -22,6 +22,8 @@ links:
   url: https://ubiq.online/publication/paintbranch/
 - name: Full text (accepted manuscript)
   url: https://discovery.ucl.ac.uk/id/eprint/10205685/1/IEEE_VR_2025_poster__Asynchronous_Collaborative_Art_Creation%20%2815%29.pdf
+- name: Extended study (2026)
+  url: /publication/david-2026-paintbranch/
 summary: 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), 2025.
 draft: false
 doi: 10.1109/VRW66409.2025.00306

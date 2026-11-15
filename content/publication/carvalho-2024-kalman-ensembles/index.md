@@ -21,7 +21,7 @@ links:
   url: https://doi.org/10.5281/zenodo.14877411
 - name: Full text
   url: https://zenodo.org/record/14877411/files/000069.pdf
-- name: Conference record
+- name: Poster, slides and talk
   url: https://ismir2024program.ismir.net/poster_347.html
 - name: Preprint
   url: https://arxiv.org/abs/2411.05971

@@ -24,6 +24,8 @@ links:
   url: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/264715910/3706598.3713382.pdf
 - name: TEXT database
   url: https://xrtexttrove.github.io/
+- name: Video
+  url: https://www.youtube.com/watch?v=6k33QtPLktw
 summary: 'CHI ''25: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, 2025.'
 draft: false
 doi: 10.1145/3706598.3713382

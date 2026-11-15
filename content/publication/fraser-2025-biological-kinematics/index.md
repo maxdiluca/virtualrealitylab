@@ -17,7 +17,7 @@ links:
   url: https://doi.org/10.1007/s00221-025-07065-0
 - name: Full text
   url: https://link.springer.com/article/10.1007/s00221-025-07065-0
-- name: Analysis code
+- name: Data and analysis code
   url: https://github.com/dagmarfraser/velocity-curvature-power-law-protocol
 summary: Experimental Brain Research, 2025.
 draft: false

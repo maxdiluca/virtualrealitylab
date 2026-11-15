@@ -4,12 +4,12 @@ date: '2026-01-01'
 publication_year: 2026
 weight: 6
 authors:
-- H. Ai
+- PHD_Hao_Ai
 - W. Chang
 - J. Jiao
 - A. Leonardis
 - AF_Eyal_Ofec
-citation_authors: H. Ai, W. Chang, J. Jiao, A. Leonardis, and **[E. Ofek](/author/eyal-ofek/)**.
+citation_authors: '**[H. Ai](/author/hao-ai/)**, W. Chang, J. Jiao, A. Leonardis, and **[E. Ofek](/author/eyal-ofek/)**.'
 publication_types:
 - paper-conference
 publication: '*The Fourteenth International Conference on Learning Representations (ICLR 2026)*, accepted/in press,
@@ -24,6 +24,12 @@ links:
   url: https://arxiv.org/html/2603.02910
 - name: Research project
   url: https://haoai-1997.github.io/AiM/
+- name: Code
+  url: https://github.com/haoai-1997/AiM
+- name: Dataset
+  url: https://huggingface.co/datasets/hobbyaih/aimdataset
+- name: Supplementary material
+  url: https://github.com/haoai-1997/haoai-1997.github.io/blob/main/AiM/supp.pdf
 summary: The Fourteenth International Conference on Learning Representations (ICLR 2026), 2026.
 draft: false
 tags:

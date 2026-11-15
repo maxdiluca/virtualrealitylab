@@ -27,6 +27,8 @@ links:
   url: https://enseptionteam.github.io/blog/workshop-chi2026-augmented-body-parts/
 - name: Workshop
   url: https://sites.google.com/view/augmented-body-parts
+- name: Workshop contributions
+  url: https://sites.google.com/view/augmented-body-parts/accepted-papers
 summary: 'CHI EA ''26: Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems, 2026.'
 draft: false
 doi: 10.1145/3772363.3778688

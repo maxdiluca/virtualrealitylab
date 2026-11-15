@@ -1,0 +1,23 @@
+# Verified lab-profile roles, not affiliations or roles at the time of a study.
+# Exact author IDs only; new publications using these IDs inherit highlighting.
+PHD_Hao_Ai:
+  status: current
+  label: PhD student
+  profile_group: PhD Students
+  profile_role: PhD student in Computer Science
+  checked: '2026-11-15'
+  source: https://haoai-1997.github.io/
+PHD_Yilong_Lin:
+  status: current
+  label: PhD student
+  profile_group: PhD Students
+  profile_role: Ph.D. Student
+  checked: '2026-11-15'
+  source: https://rayleigh-lin.top/
+P_Jiaqi_Tang:
+  status: former
+  label: Former BSc student
+  profile_group: Alumni Project Students
+  profile_role: BSc Computer Science
+  checked: '2026-11-15'
+  source: /author/jiaqi-tang/

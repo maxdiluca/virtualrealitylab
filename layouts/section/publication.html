@@ -16,8 +16,10 @@
     <div class="publication-search"><label for="publication-search">Search publications</label><input id="publication-search" type="search" placeholder="Title, author, keyword or grant" autocomplete="off"></div>
     <div><label for="publication-type">Publication type</label><select id="publication-type"><option value="">All types</option>{{ range sort (uniq $types) }}<option value="{{ . }}">{{ partial "publication-type-label" . }}</option>{{ end }}</select></div>
     <div><label for="publication-year">Year</label><select id="publication-year"><option value="">All years</option>{{ range sort (uniq $years) "value" "desc" }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></div>
+    <div><label for="publication-students">Lab student authors</label><select id="publication-students"><option value="">All publications</option><option value="all">Students &amp; alumni</option><option value="current">Current students</option><option value="former">Former students</option></select></div>
     <button type="reset">Reset</button>
   </form>
+  <p class="publication-student-note">Highlighted authors are current lab students or former project students. Roles refer to their lab profiles.</p>
   <p id="publication-count" class="publication-count" role="status" aria-live="polite">{{ len $pages }} publications</p>
   <div class="publication-results">
     {{ range $pages }}
@@ -27,9 +29,11 @@
       {{ if $profile }}{{ $authorNames = $authorNames | append $profile.Title }}{{ else }}{{ $authorNames = $authorNames | append . }}{{ end }}
     {{ end }}
     {{ $topics := partialCached "publication-topics" . .RelPermalink }}
+    {{ $studentStatuses := slice }}
+    {{ range (partialCached "publication-students" . .RelPermalink) }}{{ $studentStatuses = $studentStatuses | append .status }}{{ end }}
     {{ $topicSearch := slice }}
     {{ range $topics }}{{ $topicSearch = $topicSearch | append (index site.Data.publication_topic_index.topics .).search_terms }}{{ end }}
-    <article data-topic-search="{{ delimit $topicSearch " " }}" data-topics="{{ $topics | jsonify }}" data-authors="{{ delimit $authorNames " " }}" data-research="{{ dict "abstract" .Params.abstract "keywords" .Params.keywords "funding" .Params.funding_projects | jsonify }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
+    <article data-students="{{ delimit (uniq $studentStatuses) " " }}" data-topic-search="{{ delimit $topicSearch " " }}" data-topics="{{ $topics | jsonify }}" data-authors="{{ delimit $authorNames " " }}" data-research="{{ dict "abstract" .Params.abstract "keywords" .Params.keywords "funding" .Params.funding_projects | jsonify }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
       <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><span>{{ partial "publication-type-label" (index .Params.publication_types 0) }}</span>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ partial "publication-citation" . }}

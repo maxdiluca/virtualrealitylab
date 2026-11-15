@@ -1,2 +1,21 @@
-<p class="publication-authors">{{ .Params.citation_authors | markdownify }}</p>
+{{- $citation := .Params.citation_authors | markdownify | string -}}
+{{- $students := partialCached "publication-students" . .RelPermalink -}}
+{{- range $students -}}
+  {{- $prefix := printf `<a href="%s">` (.profile.RelPermalink | htmlEscape) -}}
+  {{- $matches := slice -}}
+  {{- range findRE `<a href="[^"]+">[^<]+</a>` $citation -}}
+    {{- if hasPrefix . $prefix -}}{{- $matches = $matches | append . -}}{{- end -}}
+  {{- end -}}
+  {{- if ne (len $matches) 1 -}}
+    {{- errorf "Publication %s must link student author %s exactly once in citation_authors" $.File.Path .profile.Title -}}
+  {{- else -}}
+    {{- $original := index $matches 0 -}}
+    {{- $title := printf "%s — %s. View lab profile." .profile.Title .label -}}
+    {{- $opening := printf `<a class="publication-student" data-student-status="%s" title="%s" aria-label="%s" ` .status ($title | htmlEscape) ($title | htmlEscape) -}}
+    {{- $replacement := replace $original "<a " $opening -}}
+    {{- $replacement = replace $replacement "</a>" (printf ` <span class="publication-student-role">%s</span></a>` (.label | htmlEscape)) -}}
+    {{- $citation = replace $citation $original $replacement -}}
+  {{- end -}}
+{{- end -}}
+<p class="publication-authors">{{ $citation | safeHTML }}</p>
 <p class="publication-venue">{{ .Params.publication | markdownify }}</p>

@@ -16,6 +16,8 @@ links:
   url: https://doi.org/10.1007/s00221-026-07371-1
 - name: Full text
   url: https://link.springer.com/article/10.1007/s00221-026-07371-1
+- name: Data and analysis code
+  url: https://github.com/maxdiluca/unimodal-crossmodal-sequences
 summary: Experimental Brain Research, 2026.
 draft: false
 doi: 10.1007/s00221-026-07371-1

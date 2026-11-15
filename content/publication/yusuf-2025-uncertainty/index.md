@@ -16,8 +16,10 @@ publication_status: ''
 links:
 - name: Google Scholar
   url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UvirJPEAAAAJ&sortby=pubdate&citation_for_view=UvirJPEAAAAJ:rCNdntzdTkkC
-- name: Full text
+- name: Conference proceedings
   url: https://www.sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf
+- name: Paper (author copy)
+  url: https://eyalofek.org/wp-content/uploads/2025/03/2025-DAUS-Handling-Uncertainty-in-UAV-Sensor-Information-using-Bayesian-Belief.pdf
 summary: Drones and Unmanned Systems (DAUS '2025), 2025.
 draft: false
 tags:

@@ -5,6 +5,7 @@
   const search = form.querySelector('input');
   const type = form.querySelector('#publication-type');
   const year = form.querySelector('#publication-year');
+  const students = form.querySelector('#publication-students');
   const count = root.querySelector('#publication-count');
   const empty = root.querySelector('#publication-empty');
   const topicLinks = [...root.querySelectorAll('[data-topic]')];
@@ -87,11 +88,13 @@
     search.value = params.get('publication_query') || '';
     type.value = params.get('type') || location.hash.slice(1);
     year.value = params.get('year') || '';
+    students.value = params.get('students') || '';
     topic = canonicalTopic(params.get('topic') || '');
     if (!topicLinks.some(link => normalize(link.dataset.topic) === topic)) topic = '';
     // Unknown or obsolete filters should not hide the entire collection.
     if (type.selectedIndex < 0) type.value = '';
     if (year.selectedIndex < 0) year.value = '';
+    if (students.selectedIndex < 0) students.value = '';
   }
   function arrangeTopics() {
     if (!cloud) return;
@@ -125,7 +128,8 @@
     records.forEach(({ element, text, topics }) => {
       // Facet counts exclude the topic selection so visitors can compare alternatives.
       const baseMatch = (!type.value || element.dataset.type === type.value) &&
-        (!year.value || element.dataset.year === year.value) && terms.every(term => text.includes(term));
+        (!year.value || element.dataset.year === year.value) &&
+        (!students.value || (students.value === 'all' ? !!element.dataset.students : element.dataset.students.split(' ').includes(students.value))) && terms.every(term => text.includes(term));
       if (baseMatch) {
         new Set(topics).forEach(value => topicCounts.set(value, (topicCounts.get(value) || 0) + 1));
       }
@@ -142,7 +146,7 @@
       link.dataset.count = total;
       link.classList.toggle('is-empty', total === 0);
       link.querySelector('.publication-topic-count').textContent = total;
-      const description = `${link.dataset.topicLabel || link.dataset.topic}: ${total} ${total === 1 ? 'paper' : 'papers'} matching search, year and type${selected ? '; selected, activate to clear' : ''}`;
+      const description = `${link.dataset.topicLabel || link.dataset.topic}: ${total} ${total === 1 ? 'paper' : 'papers'} matching search, year, type and author filters${selected ? '; selected, activate to clear' : ''}`;
       link.setAttribute('aria-label', description);
       link.title = `${description}. ${link.dataset.topicDefinition || ''}`.trim();
       if (selected) link.setAttribute('aria-current', 'true');
@@ -150,7 +154,7 @@
       // Modified clicks and copied links retain the current search filters too.
       const url = new URL(location.href);
       url.search = ''; url.hash = '';
-      for (const [name, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value], ['topic', selected ? '' : link.dataset.topic]]) {
+      for (const [name, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value], ['students', students.value], ['topic', selected ? '' : link.dataset.topic]]) {
         if (value) url.searchParams.set(name, value);
       }
       link.href = url;
@@ -165,14 +169,14 @@
       clearTopic.hidden = !topic;
       const url = new URL(location.href);
       url.search = ''; url.hash = '';
-      for (const [name, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value]]) {
+      for (const [name, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value], ['students', students.value]]) {
         if (value) url.searchParams.set(name, value);
       }
       clearTopic.href = url;
     }
     if (updateURL) {
       const url = new URL(location.href);
-      for (const [key, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value], ['topic', topic]]) {
+      for (const [key, value] of [['publication_query', search.value.trim()], ['type', type.value], ['year', year.value], ['students', students.value], ['topic', topic]]) {
         if (value) url.searchParams.set(key, value); else url.searchParams.delete(key);
       }
       url.hash = '';
@@ -213,7 +217,7 @@
   form.addEventListener('change', () => filter());
   form.addEventListener('reset', event => {
     event.preventDefault();
-    search.value = ''; type.value = ''; year.value = ''; topic = '';
+    search.value = ''; type.value = ''; year.value = ''; students.value = ''; topic = '';
     filter();
   });
   window.addEventListener('popstate', () => { readURL(); filter(false); });

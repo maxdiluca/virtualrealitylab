@@ -2,6 +2,16 @@
 
 The `/publication/` archive uses individual Hugo publication bundles, following the structure of the `massimilianodiluca` website. Add or edit `content/publication/<slug>/index.md`; the archive, filters and individual pages are generated automatically. The navigation URL is unchanged.
 
+## Student authors and discovery resources — 15 November 2026
+
+Verified lab student authors are highlighted within the original citation order on the archive and detail pages. The labels describe lab profiles, not historical study affiliations or author contributions. Current PhD students and former project students have distinct text labels; colour is supplementary. Names link to their profiles and expose full names to assistive technology. The archive supports `students=all`, `students=current` and `students=former`, combined with search, topic, year and publication type. Labels and links remain available without JavaScript.
+
+`data/publication_students.yaml` stores verified roles by exact author-profile ID, with source and check date. Subsequent papers using those IDs inherit the labels automatically. To add another student, verify identity and profile role, then add the evidence to this registry. Do not infer student status from initials, author order, a folder prefix or a paper's year. Research assistants are not automatically students. Former-project-student membership does not establish degree completion. Review the registry when roles change: the build rejects a mismatch with the profile's recorded role/group, a missing profile, or a missing/ambiguous citation link. Keep `authors` and `citation_authors` consistent.
+
+The [discovery audit](publication-discovery-2026-11-15.md) covers all 31 records and records 20 new links across 16 papers, alongside three clearer resource labels. The [structured audit](publication-discovery-2026-11-15.json) records sources, added resources and rejected candidates. For each new publication, search its title, inspect the publisher and authors' project pages, and follow explicit code/data/video links. Check the exact title and authors, resolve the destination, avoid duplicates, and record unresolved candidates outside public content. A search with no verified new resource is not evidence that none exists. Do not attach a similarly named project's code or infer a dataset from the research topic.
+
+Adding links changes a publication's source hash. Recheck any semantic overrides, refresh their hashes only when the recorded decisions still apply, then regenerate the topic index. Resource additions must not silently change topic assignments or scientific summaries.
+
 Each record contains:
 
 - `title`, `publication_year`, `publication` (the original venue and bibliographic details).

@@ -20,6 +20,8 @@ links:
   url: https://doi.org/10.1145/3715336.3735755
 - name: Publication record
   url: https://research.birmingham.ac.uk/en/publications/hapticwings-enhancing-the-experience-of-extra-wing-motions-in-vir/
+- name: Author project
+  url: https://rayleigh-lin.top/publications/hapticwings
 summary: 'DIS ''25: Proceedings of the 2025 ACM Designing Interactive Systems Conference, 2025.'
 draft: false
 doi: 10.1145/3715336.3735755

@@ -21,6 +21,10 @@ links:
   url: https://doi.org/10.1145/3772318.3793143
 - name: Full text
   url: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/308522854/AbdlkarimD2026Belt.pdf
+- name: Research blog
+  url: https://eyalofek.org/beltandwhistles/
+- name: Video
+  url: https://www.youtube.com/watch?v=bwTaKoOddUM
 summary: 'CHI ''26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, 2026.'
 draft: false
 doi: 10.1145/3772318.3793143

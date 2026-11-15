@@ -20,6 +20,8 @@ links:
   url: https://doi.org/10.3389/fdata.2025.1567941
 - name: Full text
   url: https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full
+- name: Article collection
+  url: https://www.frontiersin.org/research-topics/57023/machine-learning-and-immersive-technologies-for-user-centered-digital-healthcare-innovation
 summary: Frontiers in Big Data, 8, Article 1567941, 2025.
 draft: false
 tags:

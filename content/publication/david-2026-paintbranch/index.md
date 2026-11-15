@@ -20,6 +20,8 @@ links:
   url: https://doi.org/10.1007/s42979-026-04980-z
 - name: Full text
   url: https://link.springer.com/article/10.1007/s42979-026-04980-z
+- name: Earlier poster (2025)
+  url: /publication/david-2025-paintbranch/
 summary: SN Computer Science, 7(5), Article 456, 2026.
 draft: false
 tags:

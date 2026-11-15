@@ -30,6 +30,15 @@
   .publication-status { font-weight: 700; }
   h2 { margin: 0 0 .7rem; font-size: 1.2rem; line-height: 1.4; }
   .publication-authors, .publication-venue { font-size: .9rem; line-height: 1.6; margin-bottom: .5rem; }
+  .publication-authors .publication-student {
+    display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: .3em .5em;
+    margin: .15em 0; padding: .12em .45em; border-radius: 6px;
+    background: #e5f3ed; color: #17563e; text-decoration: underline; text-underline-offset: .15em;
+    &[data-student-status="former"] { background: #edf0f8; color: #344978; }
+    &:hover { background: #d0e8dd; }
+  }
+  .publication-student-role { font-size: .65rem; font-weight: 500; }
+  .publication-student-note { margin: .7rem 0; font-size: .7rem; line-height: 1.5; color: #536477; }
   .publication-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .85rem; }
   .publication-links a { display: inline-block; border: 1px solid currentColor; border-radius: 4px; padding: .3rem .65rem; font-size: .75rem; }
 }
@@ -56,6 +65,11 @@
   .publication-database .publication-metrics { float: none; margin: 0 0 .7rem; }
 }
 body.dark .publication-database .publication-filters { background: #242d3b; color: #f1f5f9; }
+body.dark .publication-database {
+  .publication-student-note { color: #c1ccd7; }
+  .publication-authors .publication-student { background: #25483b; color: #d5f5e7; }
+  .publication-authors .publication-student[data-student-status="former"] { background: #303f60; color: #e1e9ff; }
+}
 
 // A single, measured word cloud. Links remain ordinary keyboard-accessible HTML.
 .publication-database {

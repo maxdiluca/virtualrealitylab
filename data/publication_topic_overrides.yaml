@@ -4,25 +4,25 @@ ai-2026-articulation:
   - topic: 3d reconstruction
     field: abstract
     quote: reconstructs an articulated object from an initial scan and a video
-  source_hash: 73f695f39e180bd1de70f54f51bc8b00405b39fb22c73b90bd95e2bf80e1dc30
+  source_hash: 01d724e1ee046ffe3a7f4a2d044b34e61940d6c9838091feb1d253fd295e78fc
 chang-2025-hapticwings:
   include:
   - topic: wearable haptics
     field: abstract
     quote: back-mounted device that moves a weight
-  source_hash: 5049fcbad5836dbf8d2529384890d201147ae407dc540bee84b0c484afdaee02
+  source_hash: dda0bcdfe09eb0f5303b8c84f1998c222ad2b95c5cd1e4ff1648aa79dcbe0c44
 abdlkarim-2026-belt-and-whistles:
   include:
   - topic: wearable devices
     field: abstract
     quote: haptic belt
-  source_hash: 42d4e4147de880d89eedd105cc07e921af0bf36fdac88d9cbea680474532238a
+  source_hash: 1f4fe1bb28816e1d9f75e1fa075c4bee7cc1668b9ced736c83c487a6e51c79ad
 wen-2026-adaptive-music:
   include:
   - topic: generative ai
     field: abstract
     quote: AI-generated adaptive music
-  source_hash: dc06aa1f3341e11713058fd1bed219f236c5107e9fbc34b3db9140d56091fe87
+  source_hash: b8d5678d7dba582c28e3bd379ed34249dc5c7f6fd2f98a234c601f5ce38cc93f
 bovo-2025-put-that-there:
   include:
   - topic: gesture interaction
@@ -46,7 +46,7 @@ lin-2026-gazezoom:
   - topic: virtual reality
     field: abstract
     quote: a VR application demonstrating these techniques
-  source_hash: 24d1f30e6af3fa1a870e41f4930efdf3fb8292cff1078ab8599cf30cec5a9d2f
+  source_hash: 3efe68f43ff47ff48a6346b3c4b203e41221f63fb9a017c542550c18c87db323
 low-2025-smartphone-embodiment:
   exclude:
   - topic: virtual reality
@@ -65,10 +65,10 @@ yi-2026-augmented-body-parts:
   - topic: haptics
     field: abstract
     quote: virtual embodiment, wearable robotics, haptics and human augmentation
-  source_hash: 87992ac92961723f939510fe1cbefc0d8c31bc11c17244b106c90f3f630ebe8c
+  source_hash: 5e8d9348e45cf12523a5a5e86ba7d5c098b7d755c43f1a3a34d8e35eddd39e14
 
 gonzalez-franco-2024-hovering-text-input:
-  source_hash: 3ab9c0fda97d4133a352afd48a1c2b3a94a125227b4cb9e4f4987add9edb7345
+  source_hash: 7925ceb5980a226c398454d7de8e8c9879f05b1d5c67e81952f32a99e8757099
   exclude:
   - topic: hand tracking
     reason: Discussed as a constraint on XR text entry; this review does not introduce or evaluate a hand-tracking

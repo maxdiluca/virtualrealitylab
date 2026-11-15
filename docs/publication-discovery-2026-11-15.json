@@ -1,0 +1,517 @@
+{
+  "checked": "2026-11-15",
+  "scope": "All 31 publications present in the archive; title searches followed by primary-source checks. Additional-resource search, not an exhaustive availability guarantee.",
+  "publications": [
+    {
+      "slug": "abdlkarim-2024-quest-hand-tracking",
+      "title": "A methodological framework to assess the accuracy of virtual reality hand-tracking systems: A case study with the Meta Quest 2",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36781700/"
+      ],
+      "added_links": [],
+      "outcome": "Existing full text and data/code repository already cover the useful resources found. No additional distinct resource verified."
+    },
+    {
+      "slug": "abdlkarim-2026-belt-and-whistles",
+      "title": "Belt and whistles - adding lower body collision awareness for MR experiences",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://eyalofek.org/beltandwhistles/"
+      ],
+      "added_links": [
+        {
+          "name": "Research blog",
+          "url": "https://eyalofek.org/beltandwhistles/",
+          "verification": {
+            "status": "200"
+          }
+        },
+        {
+          "name": "Video",
+          "url": "https://www.youtube.com/watch?v=bwTaKoOddUM",
+          "verification": {
+            "status": "200",
+            "video_title": "BeltAndWhistles. HI26 mp4"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "ai-2026-articulation",
+      "title": "Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://haoai-1997.github.io/AiM/",
+        "https://github.com/haoai-1997/AiM"
+      ],
+      "added_links": [
+        {
+          "name": "Code",
+          "url": "https://github.com/haoai-1997/AiM",
+          "verification": {
+            "status": "200"
+          }
+        },
+        {
+          "name": "Dataset",
+          "url": "https://huggingface.co/datasets/hobbyaih/aimdataset",
+          "verification": {
+            "status": "200"
+          }
+        },
+        {
+          "name": "Supplementary material",
+          "url": "https://github.com/haoai-1997/haoai-1997.github.io/blob/main/AiM/supp.pdf",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "bhatia-2025-text",
+      "title": "Text Entry for XR Trove (TEXT): Collecting and Analyzing Techniques for Text Input in XR",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://spice-lab.org/projects/TEXT/"
+      ],
+      "added_links": [
+        {
+          "name": "Video",
+          "url": "https://www.youtube.com/watch?v=6k33QtPLktw",
+          "verification": {
+            "status": "200",
+            "video_title": "Text Entry for XR Trove (TEXT): Collecting and Analyzing Techniques for Text Input in XR"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "bovo-2025-put-that-there",
+      "title": "Revisiting put-that-there, context aware window interactions via LLMs",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://arxiv.org/html/2511.02378",
+        "https://www.linkedin.com/posts/margonzalez_spatialcomputing-xr-hci-activity-7457659562314215424-Bjoc"
+      ],
+      "added_links": [],
+      "outcome": "An author demonstration was found on LinkedIn. Retained as a candidate only because it introduces a social-platform access dependency. Existing accessible preprint retained."
+    },
+    {
+      "slug": "carvalho-2024-kalman-ensembles",
+      "title": "A Kalman Filter model for synchronization in musical ensembles",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://ismir2024program.ismir.net/poster_347.html",
+        "https://arxiv.org/html/2411.05971"
+      ],
+      "added_links": [],
+      "outcome": "The existing conference page embeds the paper, poster, video and slides. Relabelled that link to expose these resources; no duplicate URL added."
+    },
+    {
+      "slug": "cascarano-2025-see-it-hear-it",
+      "title": "See It and Hear It: Multimodal Guidance in MR-Based Neurosurgical Simulation for Skill Retention",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://stintipacchio.github.io/",
+        "https://cris.unibo.it/retrieve/handle/11585/1026450/540e2427-723a-4e08-aee1-0849cf2da1d4/VRST25_Medical_ACM_Camera_Ready%20%281%29.pdf"
+      ],
+      "added_links": [],
+      "outcome": "Author and institutional copies match the paper. Existing author PDF retained; no separate code or dataset verified."
+    },
+    {
+      "slug": "cascarano-2026-towards-target",
+      "title": "Towards the target and not beyond: 2D vs 3D visual aids in MR-based neurosurgical simulation",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s10055-026-01338-x",
+        "https://stintipacchio.github.io/"
+      ],
+      "added_links": [],
+      "outcome": "Publisher states that data are available from the corresponding author on reasonable request. No public dataset link added."
+    },
+    {
+      "slug": "chang-2025-hapticwings",
+      "title": "HapticWings: Enhancing the Experience of Extra Wing Motions in Virtual Reality through Dynamic 2D Weight Shifting",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://rayleigh-lin.top/publications/hapticwings"
+      ],
+      "added_links": [
+        {
+          "name": "Author project",
+          "url": "https://rayleigh-lin.top/publications/hapticwings",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the author project page. Direct media links returned HTTP 403 and were not added.",
+      "candidate_links": [
+        {
+          "name": "Video",
+          "url": "https://pageasset.rayleigh-lin.top/project/2025/hapticwings/video-1.mp4",
+          "reason": "Direct media URL returned HTTP 403; not added."
+        }
+      ]
+    },
+    {
+      "slug": "colecchia-2025-immersive-healthcare-editorial",
+      "title": "Editorial: Machine learning and immersive technologies for user-centered digital healthcare innovation",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1567941/full"
+      ],
+      "added_links": [
+        {
+          "name": "Article collection",
+          "url": "https://www.frontiersin.org/research-topics/57023/machine-learning-and-immersive-technologies-for-user-centered-digital-healthcare-innovation",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "david-2025-paintbranch",
+      "title": "PaintBranch: Asynchronous Collaborative Art in Virtual Reality",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://ubiq.online/publication/paintbranch/",
+        "https://link.springer.com/article/10.1007/s42979-026-04980-z"
+      ],
+      "added_links": [
+        {
+          "name": "Extended study (2026)",
+          "url": "/publication/david-2026-paintbranch/"
+        }
+      ],
+      "outcome": "Added navigation to the later PaintBranch study already in the archive; no public code repository verified."
+    },
+    {
+      "slug": "david-2026-paintbranch",
+      "title": "Exploring the Effects of Asynchronous Collaborative Art in VR with PaintBranch",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s42979-026-04980-z"
+      ],
+      "added_links": [
+        {
+          "name": "Earlier poster (2025)",
+          "url": "/publication/david-2025-paintbranch/"
+        }
+      ],
+      "outcome": "Added navigation to the earlier PaintBranch poster already in the archive; no public code repository verified."
+    },
+    {
+      "slug": "fraser-2025-biological-kinematics",
+      "title": "Biological kinematics: a detailed review of the velocity-curvature power law calculation",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11968483/"
+      ],
+      "added_links": [],
+      "outcome": "The data availability statement confirms that the existing GitHub repository contains both data and the analysis protocol. Relabelled the existing link accordingly."
+    },
+    {
+      "slug": "gatti-2025-virtual-campfire",
+      "title": "Around the Virtual Campfire: Early UX Insights into AI-Generated Stories in VR",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://dgiunchi.github.io/",
+        "https://discovery.ucl.ac.uk/id/eprint/10204631/1/AIsop_short_paper%20%282%29.pdf"
+      ],
+      "added_links": [],
+      "outcome": "Author listing and accepted manuscript checked. No separate matching code, demonstration or dataset verified. UCL landing page blocked direct automated access; indexed manuscript was available."
+    },
+    {
+      "slug": "giunchi-2025-xrworks",
+      "title": "xrWORKS'25: The 2nd International Workshop on Extended Reality for Knowledge Work",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://sites.google.com/view/xrworks25/home"
+      ],
+      "added_links": [],
+      "outcome": "Existing workshop site already exposes its programme. No additional distinct resource verified."
+    },
+    {
+      "slug": "gonzalez-franco-2024-hovering-text-input",
+      "title": "Hovering Over the Key to Text Input in XR",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://arxiv.org/html/2406.09579"
+      ],
+      "added_links": [
+        {
+          "name": "Full text (preprint)",
+          "url": "https://arxiv.org/html/2406.09579",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "grubert-2026-xr-mediation",
+      "title": "Extended Reality as a Mediation Layer for Situated Human Control in Human-Robot Teaming",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://arxiv.org/html/2607.25047"
+      ],
+      "added_links": [],
+      "outcome": "Existing accessible preprint covers the conceptual paper. No separate matching code or dataset verified."
+    },
+    {
+      "slug": "hauck-2025-reachvox",
+      "title": "ReachVox: clutter-free reachability visualization for robot motion planning in virtual reality",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://arxiv.org/html/2508.11426"
+      ],
+      "added_links": [
+        {
+          "name": "Preprint (HTML)",
+          "url": "https://arxiv.org/html/2508.11426",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "jeon-2026-swapsense",
+      "title": "SwapSense: Reusable Vision-Based Contact Force Sensing Across Swappable Passive Haptic Modules",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://hci.khu.ac.kr/publication/uist-2026-swapsense/",
+        "https://rayleigh-lin.top/publications/swapsense"
+      ],
+      "added_links": [],
+      "outcome": "Author/laboratory publication pages provide the paper description but no verified public PDF, code or demonstration to add."
+    },
+    {
+      "slug": "li-2026-temporal-sensitivity",
+      "title": "Temporal sensitivity and perceived timing in unimodal and crossmodal isochronous sequences",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13447548/",
+        "https://github.com/maxdiluca/unimodal-crossmodal-sequences"
+      ],
+      "added_links": [
+        {
+          "name": "Data and analysis code",
+          "url": "https://github.com/maxdiluca/unimodal-crossmodal-sequences",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "lin-2025-forearm-gestures",
+      "title": "Designing Hand and Forearm Gestures to Control Virtual Forearm for User-Initiated Forearm Deformation",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://hyeyoungjo.com/forearm-gesture/",
+        "https://rayleigh-lin.top/publications"
+      ],
+      "added_links": [],
+      "outcome": "Existing author copy, project page and video retained. Author project was search-indexed but direct web-tool fetch failed; no additional distinct resource verified."
+    },
+    {
+      "slug": "lin-2026-gazezoom",
+      "title": "GazeZoom: Exploration of Gaze-Assisted Multimodal Techniques for Panning and Zooming",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://rayleigh-lin.top/publications/gazezoom"
+      ],
+      "added_links": [
+        {
+          "name": "Author project",
+          "url": "https://rayleigh-lin.top/publications/gazezoom",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the author project page. Direct media links returned HTTP 403 and were not added.",
+      "candidate_links": [
+        {
+          "name": "Video",
+          "url": "https://pageasset.rayleigh-lin.top/project/2026/gazezoom/video-1.mp4",
+          "reason": "Direct media URL returned HTTP 403; not added."
+        }
+      ]
+    },
+    {
+      "slug": "lin-2026-groundedreach",
+      "title": "GroundedReach: Enabling Body-grounded Haptic Experience in Virtual Reality with an Elbow Wearable Haptic Device",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://rayleigh-lin.top/publications/groundedreach",
+        "https://eyalofek.org/journal-publications/"
+      ],
+      "added_links": [],
+      "outcome": "Existing local blog and full text retained. No additional accessible resource verified. Direct media links returned HTTP 403 and were not added.",
+      "candidate_links": [
+        {
+          "name": "Video",
+          "url": "https://pageasset.rayleigh-lin.top/project/2026/groundedreach/video-1.mp4",
+          "reason": "Direct media URL returned HTTP 403; not added."
+        },
+        {
+          "name": "Author-linked video",
+          "url": "https://www.youtube.com/watch?v=3kP6oUKKZEA",
+          "reason": "YouTube oEmbed returned Not Found; not added."
+        }
+      ]
+    },
+    {
+      "slug": "low-2025-smartphone-embodiment",
+      "title": "Embodiment in Smartphone Augmented Reality: Effects on User Performance",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://discovery.ucl.ac.uk/id/eprint/10216584/",
+        "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/302272178/LowHL2025Embodiment.pdf"
+      ],
+      "added_links": [],
+      "outcome": "Institutional manuscript retained. ARIKA search result is another project, not code for this paper; rejected. UCL landing page blocked direct automated access."
+    },
+    {
+      "slug": "pacchierotti-2024-haptics-metaverse-editorial",
+      "title": "Guest Editorial Haptics in the Metaverse: Haptic Feedback for Virtual, Augmented, Mixed, and eXtended Realities",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://eyalofek.org/journal-publications/",
+        "https://zenodo.org/records/10874975"
+      ],
+      "added_links": [
+        {
+          "name": "Open manuscript",
+          "url": "https://zenodo.org/records/10874975",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "rapata-2026-implicit-gaze-slide",
+      "title": "Implicit Gaze+Slide: Discrete and Low-Effort Typing for MR Using Gaze-Based Prediction and Finger Motion Refinement",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://eyalofek.org/research-blog-implicit-gaze-slide/"
+      ],
+      "added_links": [],
+      "outcome": "Existing local research blog, accepted paper and video already cover resources found on the author blog. No duplicate links added."
+    },
+    {
+      "slug": "tomczak-2023-virtuoso-strings",
+      "title": "Virtuoso Strings: A Dataset of String Ensemble Recordings and Onset Annotations for Timing Analysis",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://github.com/arme-project/virtuoso-strings",
+        "https://github.com/arme-project/virtuoso-strings/releases"
+      ],
+      "added_links": [],
+      "outcome": "Existing dataset/code repository exposes versioned releases; retained the single canonical repository link."
+    },
+    {
+      "slug": "wang-2026-magicpen",
+      "title": "MagicPen: Enabling Dynamic Physical Scaffolding through Haptic Feedback for 3D Content Creation in VR with a Variable-length Stylus",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://eyalofek.org/research-blog-magicpen/",
+        "https://tiaraaaaaa.github.io/publications/magicpen/"
+      ],
+      "added_links": [
+        {
+          "name": "Research blog",
+          "url": "/blog/magicpen/"
+        },
+        {
+          "name": "Video",
+          "url": "https://www.youtube.com/watch?v=stWjWZemYww",
+          "verification": {
+            "status": "200",
+            "video_title": "MagicPen UIST26"
+          }
+        }
+      ],
+      "outcome": "Added the existing local research blog and author-linked video. The PDF linked from the external author blog returned 404 and was not added.",
+      "candidate_links": [
+        {
+          "name": "Author-linked PDF",
+          "url": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/311720419/ismar26a-sub1203-cam-i5.pdf",
+          "reason": "HTTP 404; not added."
+        }
+      ]
+    },
+    {
+      "slug": "wen-2026-adaptive-music",
+      "title": "Tuning Immersion and Performance with Adaptive Generative Music in VR",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://www.youtube.com/watch?v=IiQbXVw_Dig",
+        "https://eyalofek.org/journal-publications/"
+      ],
+      "added_links": [
+        {
+          "name": "Conference video",
+          "url": "https://www.youtube.com/watch?v=IiQbXVw_Dig",
+          "verification": {
+            "status": "200",
+            "video_title": "Tuning Immersion and Performance with Adaptive Generative Music in VR"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "yi-2026-augmented-body-parts",
+      "title": "Augmented Body Parts: Bridging VR Embodiment and Wearable Robotics",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://sites.google.com/view/augmented-body-parts",
+        "https://sites.google.com/view/augmented-body-parts/accepted-papers"
+      ],
+      "added_links": [
+        {
+          "name": "Workshop contributions",
+          "url": "https://sites.google.com/view/augmented-body-parts/accepted-papers",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added the distinct resources linked by the primary sources listed here."
+    },
+    {
+      "slug": "yusuf-2025-uncertainty",
+      "title": "Handling Uncertainty in UAV Sensor Information using Bayesian Belief Network and Large Language Model",
+      "checked": "2026-11-15",
+      "sources": [
+        "https://eyalofek.org/wp-content/uploads/2025/03/2025-DAUS-Handling-Uncertainty-in-UAV-Sensor-Information-using-Bayesian-Belief.pdf"
+      ],
+      "added_links": [
+        {
+          "name": "Paper (author copy)",
+          "url": "https://eyalofek.org/wp-content/uploads/2025/03/2025-DAUS-Handling-Uncertainty-in-UAV-Sensor-Information-using-Bayesian-Belief.pdf",
+          "verification": {
+            "status": "200"
+          }
+        }
+      ],
+      "outcome": "Added a direct author-hosted copy of this paper; relabelled the existing full-volume link as Conference proceedings."
+    }
+  ]
+}

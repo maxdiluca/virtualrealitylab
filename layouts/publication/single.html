@@ -5,6 +5,7 @@
   <h1>{{ .Title }}</h1>
   {{ partial "publication-metrics" . }}
   {{ partial "publication-citation" . }}
+  {{ if (partialCached "publication-students" . .RelPermalink) }}<p class="publication-student-note">Highlighted roles refer to lab profiles, not necessarily to the time of the research.</p>{{ end }}
   <div class="publication-links">{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
   {{ partial "publication-illustration" . }}
   {{ with .Params.abstract }}

@@ -21,6 +21,8 @@ links:
   url: https://doi.org/10.1109/ISMAR67309.2025.00151
 - name: Full text
   url: https://pokristensson.com/pubs/HauckEtAlISMAR2025.pdf
+- name: Preprint (HTML)
+  url: https://arxiv.org/html/2508.11426
 summary: IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2025.
 draft: false
 doi: 10.1109/ISMAR67309.2025.00151

@@ -22,6 +22,8 @@ links:
   url: https://doi.org/10.1109/TOH.2024.3369192
 - name: Institutional record
   url: https://pure.au.dk/portal/en/publications/guest-editorial-haptics-in-the-metaverse-haptic-feedback-for-virt/
+- name: Open manuscript
+  url: https://zenodo.org/records/10874975
 summary: IEEE Transactions on Haptics, 17(2), 122–128, 2024.
 draft: false
 tags:

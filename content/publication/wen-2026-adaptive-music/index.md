@@ -23,6 +23,8 @@ links:
   url: https://discovery.ucl.ac.uk/id/eprint/10224338/
 - name: Full text (accepted manuscript)
   url: https://discovery.ucl.ac.uk/id/eprint/10224338/1/VGTC_Tuning_Immersion_and_Performance_with_Adaptive_Generative_Music_in_VR.pdf
+- name: Conference video
+  url: https://www.youtube.com/watch?v=IiQbXVw_Dig
 summary: IEEE Transactions on Visualization and Computer Graphics, 2026.
 draft: false
 doi: 10.1109/TVCG.2026.3679907

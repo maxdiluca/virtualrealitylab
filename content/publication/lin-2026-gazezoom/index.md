@@ -20,6 +20,8 @@ links:
   url: https://doi.org/10.1145/3772318.3790749
 - name: Full text
   url: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/299351492/3772318.3790749.pdf
+- name: Author project
+  url: https://rayleigh-lin.top/publications/gazezoom
 summary: 'CHI ''26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems, 2026.'
 draft: false
 doi: 10.1145/3772318.3790749

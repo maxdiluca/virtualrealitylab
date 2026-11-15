@@ -25,6 +25,10 @@ links:
   url: https://doi.org/10.1145/3830398.3830535
 - name: Publication record
   url: https://rayleigh-lin.top/publications/magicpen
+- name: Research blog
+  url: /blog/magicpen/
+- name: Video
+  url: https://www.youtube.com/watch?v=stWjWZemYww
 summary: 'UIST ''26: Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology, 2026.'
 draft: false
 tags:

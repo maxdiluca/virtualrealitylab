@@ -172,7 +172,7 @@
       ]
     }
   ],
-  "overrides_hash": "335676bd143bdae93fc11c1a2692794ab058bf99e010b819f03e8ab69b87f721",
+  "overrides_hash": "33b7012e26d02dc71da75f86fb0d5728bed9a84eb5b770c6bd83578179973f23",
   "publications": {
     "abdlkarim-2024-quest-hand-tracking": {
       "source_hash": "76c55635e5b885034488e40e6b1e22057caf22f1c82a33f9e1adfc7c42ae6d84",
@@ -182,7 +182,7 @@
       ]
     },
     "abdlkarim-2026-belt-and-whistles": {
-      "source_hash": "42d4e4147de880d89eedd105cc07e921af0bf36fdac88d9cbea680474532238a",
+      "source_hash": "1f4fe1bb28816e1d9f75e1fa075c4bee7cc1668b9ced736c83c487a6e51c79ad",
       "topics": [
         "collision awareness",
         "haptics",
@@ -193,14 +193,14 @@
       ]
     },
     "ai-2026-articulation": {
-      "source_hash": "73f695f39e180bd1de70f54f51bc8b00405b39fb22c73b90bd95e2bf80e1dc30",
+      "source_hash": "01d724e1ee046ffe3a7f4a2d044b34e61940d6c9838091feb1d253fd295e78fc",
       "topics": [
         "3d reconstruction",
         "motion analysis"
       ]
     },
     "bhatia-2025-text": {
-      "source_hash": "d9a0ffdcb7aeed428f85b794977a31c0bf9ee831a03ec699961fc6c5385c5de9",
+      "source_hash": "132240d140d412b7f50291b40c50bf086ad1d4b757dba4d6d94914297d0be0dd",
       "topics": [
         "extended reality",
         "text entry"
@@ -217,7 +217,7 @@
       ]
     },
     "carvalho-2024-kalman-ensembles": {
-      "source_hash": "193a3f2929b214f0d91e3be986575c034dba8f8edd01ef3e58ebcdd87978e773",
+      "source_hash": "dc9863d275d6ee837ce9112190f0bf5799a483823a45b1381811a87d25a45c4d",
       "topics": [
         "kalman filtering",
         "music",
@@ -240,7 +240,7 @@
       ]
     },
     "chang-2025-hapticwings": {
-      "source_hash": "5049fcbad5836dbf8d2529384890d201147ae407dc540bee84b0c484afdaee02",
+      "source_hash": "dda0bcdfe09eb0f5303b8c84f1998c222ad2b95c5cd1e4ff1648aa79dcbe0c44",
       "topics": [
         "embodiment",
         "haptics",
@@ -250,7 +250,7 @@
       ]
     },
     "colecchia-2025-immersive-healthcare-editorial": {
-      "source_hash": "49d26d2561150d2a7958cf141bd75516b995922652ed63b2fd2aa11bf4152f7c",
+      "source_hash": "43b55b95ae74461799b7518622e2b761fb6010a545a151c17c599be7a58cc5a1",
       "topics": [
         "artificial intelligence",
         "augmented reality",
@@ -262,7 +262,7 @@
       ]
     },
     "david-2025-paintbranch": {
-      "source_hash": "69d33206a69cd0a8d42e7ae43f0c647f0f43f6984f3f5ab428f1ac2c1a026d03",
+      "source_hash": "4b138c737ea3273d58fb5ff225c94c40b9f2df717a49b3cce0de4e731d95259b",
       "topics": [
         "asynchronous collaboration",
         "collaborative art",
@@ -270,7 +270,7 @@
       ]
     },
     "david-2026-paintbranch": {
-      "source_hash": "5cfc3315bdee595a68d42b35ba6b5d33e1e9b14558312e6e15b1ca226d9ea01f",
+      "source_hash": "24b4c416af90754fe644ead849a1f313f87bb99d394a4b72317cac7faa853295",
       "topics": [
         "asynchronous collaboration",
         "collaborative art",
@@ -279,7 +279,7 @@
       ]
     },
     "fraser-2025-biological-kinematics": {
-      "source_hash": "2599da3a688b00b37ebb5cbeb5a764428b630bafb89edc5acf1e0e2818245085",
+      "source_hash": "e23ea83888407571791ce75272ec8dd025e2825e04bbd18bfd1d3d96f6c2549d",
       "topics": [
         "biological motion",
         "motion analysis"
@@ -304,7 +304,7 @@
       ]
     },
     "gonzalez-franco-2024-hovering-text-input": {
-      "source_hash": "3ab9c0fda97d4133a352afd48a1c2b3a94a125227b4cb9e4f4987add9edb7345",
+      "source_hash": "7925ceb5980a226c398454d7de8e8c9879f05b1d5c67e81952f32a99e8757099",
       "topics": [
         "extended reality",
         "text entry",
@@ -320,7 +320,7 @@
       ]
     },
     "hauck-2025-reachvox": {
-      "source_hash": "5c2cfd935a2e1c29729ae7a95e15e2f93d50bc0ee62ada343fe3a31e9d1bf41d",
+      "source_hash": "064108e408ad3acb635c06c82bef3232338b7cd0cbaa24d7af423b2ceaa390cb",
       "topics": [
         "robot motion planning",
         "robotics",
@@ -338,7 +338,7 @@
       ]
     },
     "li-2026-temporal-sensitivity": {
-      "source_hash": "14be90d20b65e70b2fa99efc839c384df03bd9769f58d01330654452a167aacc",
+      "source_hash": "12d8d2695920006ad18ace36720a139d6436fe7bba04a7778e432158667d8dc4",
       "topics": [
         "multisensory perception",
         "temporal perception"
@@ -353,7 +353,7 @@
       ]
     },
     "lin-2026-gazezoom": {
-      "source_hash": "24d1f30e6af3fa1a870e41f4930efdf3fb8292cff1078ab8599cf30cec5a9d2f",
+      "source_hash": "3efe68f43ff47ff48a6346b3c4b203e41221f63fb9a017c542550c18c87db323",
       "topics": [
         "gaze interaction",
         "multimodal interaction",
@@ -377,7 +377,7 @@
       ]
     },
     "pacchierotti-2024-haptics-metaverse-editorial": {
-      "source_hash": "c264c3c17fbf4423394c3e3e06d357c49a72f31ee824d3ebbc06158369e3d7b5",
+      "source_hash": "6f6249cc630fcc21887708f8fbf5e4ac4bfff01b6537022a9e75f9d9b8e4318f",
       "topics": [
         "augmented reality",
         "extended reality",
@@ -401,7 +401,7 @@
       ]
     },
     "wang-2026-magicpen": {
-      "source_hash": "cdd7c87fd248ad95a29b9028b3b54cc9ecdcf36015ba7bb308d5fa664f21342d",
+      "source_hash": "2f62970c4cec3188e98256cfdacbe279ff250f20ff327cab374994fa053d85c4",
       "topics": [
         "3d content creation",
         "haptics",
@@ -409,7 +409,7 @@
       ]
     },
     "wen-2026-adaptive-music": {
-      "source_hash": "dc06aa1f3341e11713058fd1bed219f236c5107e9fbc34b3db9140d56091fe87",
+      "source_hash": "b8d5678d7dba582c28e3bd379ed34249dc5c7f6fd2f98a234c601f5ce38cc93f",
       "topics": [
         "artificial intelligence",
         "generative ai",
@@ -418,7 +418,7 @@
       ]
     },
     "yi-2026-augmented-body-parts": {
-      "source_hash": "87992ac92961723f939510fe1cbefc0d8c31bc11c17244b106c90f3f630ebe8c",
+      "source_hash": "5e8d9348e45cf12523a5a5e86ba7d5c098b7d755c43f1a3a34d8e35eddd39e14",
       "topics": [
         "embodiment",
         "haptics",
@@ -428,7 +428,7 @@
       ]
     },
     "yusuf-2025-uncertainty": {
-      "source_hash": "cf7f37a7f4a0df37ea77b1426f4369ffff16fe296625ebc0d9cb27388f3773f9",
+      "source_hash": "e6d21e1e290aa82967f9cff03d54a3905157d75e2e9960ea6480a973fc4bc701",
       "topics": [
         "artificial intelligence",
         "large language models",

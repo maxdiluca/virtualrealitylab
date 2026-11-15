@@ -27,6 +27,8 @@ links:
   url: https://arxiv.org/abs/2406.09579
 - name: University record
   url: https://research.birmingham.ac.uk/en/publications/hovering-over-the-key-to-text-input-in-xr
+- name: Full text (preprint)
+  url: https://arxiv.org/html/2406.09579
 summary: 2024 IEEE International Symposium on Emerging Metaverse (ISEMV), 13–16, 2024.
 draft: false
 tags:

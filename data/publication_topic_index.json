@@ -26,6 +26,8 @@
     "drones": "unmanned aerial vehicles",
     "drones uavs": "unmanned aerial vehicles",
     "embodiment": "embodiment",
+    "ensemble synchronisation": "sensorimotor synchronisation",
+    "ensemble synchronization": "sensorimotor synchronisation",
     "extended reality": "extended reality",
     "force sensing": "force sensing",
     "gaze assisted interaction": "gaze interaction",
@@ -39,12 +41,15 @@
     "gesture design": "gesture interaction",
     "gesture input": "gesture interaction",
     "gesture interaction": "gesture interaction",
+    "hand tracking": "hand tracking",
     "haptic belt": "wearable haptics",
     "haptic feedback": "haptics",
     "haptics": "haptics",
     "human robot interaction": "human-robot interaction",
     "human robot teaming": "human-robot interaction",
     "immersive workspaces": "knowledge work",
+    "kalman filter": "kalman filtering",
+    "kalman filtering": "kalman filtering",
     "knowledge work": "knowledge work",
     "large language model": "large language models",
     "large language models": "large language models",
@@ -71,6 +76,8 @@
     "robot": "robotics",
     "robot motion planning": "robot motion planning",
     "robotics": "robotics",
+    "sensorimotor synchronisation": "sensorimotor synchronisation",
+    "sensorimotor synchronization": "sensorimotor synchronisation",
     "storytelling": "storytelling",
     "surgical simulation": "surgical simulation",
     "surgical simulation training": "surgical simulation",
@@ -114,6 +121,7 @@
         "multimodal interaction",
         "wearable devices",
         "gaze interaction",
+        "hand tracking",
         "gesture interaction",
         "text entry",
         "force sensing",
@@ -127,6 +135,7 @@
         "embodiment",
         "biological motion",
         "temporal perception",
+        "sensorimotor synchronisation",
         "multisensory perception"
       ]
     },
@@ -134,6 +143,7 @@
       "id": "computing",
       "label": "Computational methods & robotics",
       "topics": [
+        "kalman filtering",
         "motion analysis",
         "artificial intelligence",
         "machine learning",
@@ -162,8 +172,15 @@
       ]
     }
   ],
-  "overrides_hash": "2859ed75d93dce0019fc16b027d00e8432cd23de6f4d87d1918c40322ad08402",
+  "overrides_hash": "02da5f07bb963482db5abcf9df1e7cc56778c0438f5caa195a90b4af82c2c262",
   "publications": {
+    "abdlkarim-2024-quest-hand-tracking": {
+      "source_hash": "3162296cc0e9360bc04768b896fc6390258b89dca06fb6cbbba91d5a6f9e8ae8",
+      "topics": [
+        "hand tracking",
+        "virtual reality"
+      ]
+    },
     "abdlkarim-2026-belt-and-whistles": {
       "source_hash": "42d4e4147de880d89eedd105cc07e921af0bf36fdac88d9cbea680474532238a",
       "topics": [
@@ -197,6 +214,14 @@
         "gesture interaction",
         "large language models",
         "multimodal interaction"
+      ]
+    },
+    "carvalho-2024-kalman-ensembles": {
+      "source_hash": "193a3f2929b214f0d91e3be986575c034dba8f8edd01ef3e58ebcdd87978e773",
+      "topics": [
+        "kalman filtering",
+        "music",
+        "sensorimotor synchronisation"
       ]
     },
     "cascarano-2025-see-it-hear-it": {
@@ -278,6 +303,14 @@
         "knowledge work"
       ]
     },
+    "gonzalez-franco-2024-hovering-text-input": {
+      "source_hash": "56ab7370d2d2d4e221edf82927d3dedfff20c71f31a0ed09a117311f7669a7ac",
+      "topics": [
+        "extended reality",
+        "text entry",
+        "virtual reality"
+      ]
+    },
     "grubert-2026-xr-mediation": {
       "source_hash": "78273831e618be95ba61c9642f2d2602548d31a6c4935b650348bb810275febe",
       "topics": [
@@ -343,12 +376,28 @@
         "embodiment"
       ]
     },
+    "pacchierotti-2024-haptics-metaverse-editorial": {
+      "source_hash": "c264c3c17fbf4423394c3e3e06d357c49a72f31ee824d3ebbc06158369e3d7b5",
+      "topics": [
+        "augmented reality",
+        "extended reality",
+        "haptics",
+        "mixed reality",
+        "virtual reality"
+      ]
+    },
     "rapata-2026-implicit-gaze-slide": {
       "source_hash": "0fd536492ca68521b58d37298c07b279db76ea3b15ba3085a72854ddfcd9822f",
       "topics": [
         "gaze interaction",
         "mixed reality",
         "text entry"
+      ]
+    },
+    "tomczak-2023-virtuoso-strings": {
+      "source_hash": "a778f6621b62929a2c61e28e0a6e1064402af958072a9ae4ecabf3751a049043",
+      "topics": [
+        "music"
       ]
     },
     "wang-2026-magicpen": {
@@ -389,7 +438,7 @@
   },
   "review_summary": {
     "candidate_assignments": 0,
-    "unmapped_keyword_values": 61
+    "unmapped_keyword_values": 68
   },
   "topics": {
     "3d content creation": {
@@ -555,6 +604,16 @@
         "gesture input"
       ]
     },
+    "hand tracking": {
+      "definition": "Measurement or estimation of hand and finger position, posture or motion.",
+      "group": "interaction",
+      "label": "Hand tracking",
+      "search_terms": [
+        "hand tracking",
+        "Hand tracking",
+        "hand-tracking"
+      ]
+    },
     "haptics": {
       "definition": "Touch or force feedback and haptic interfaces.",
       "group": "interaction",
@@ -575,6 +634,16 @@
         "Human–robot interaction",
         "human robot teaming",
         "human robot interaction"
+      ]
+    },
+    "kalman filtering": {
+      "definition": "State estimation or dynamic modelling using a Kalman filter.",
+      "group": "computing",
+      "label": "Kalman filtering",
+      "search_terms": [
+        "kalman filtering",
+        "Kalman filtering",
+        "Kalman filter"
       ]
     },
     "knowledge work": {
@@ -681,6 +750,18 @@
         "robot"
       ]
     },
+    "sensorimotor synchronisation": {
+      "definition": "Temporal coordination of actions with external rhythms or other performers; distinct from judgments of perceived timing.",
+      "group": "perception",
+      "label": "Sensorimotor synchronisation",
+      "search_terms": [
+        "sensorimotor synchronisation",
+        "Sensorimotor synchronisation",
+        "sensorimotor synchronization",
+        "ensemble synchronisation",
+        "ensemble synchronization"
+      ]
+    },
     "storytelling": {
       "definition": "Creation or presentation of narratives and stories.",
       "group": "applications",
@@ -771,5 +852,5 @@
     }
   },
   "version": 1,
-  "vocabulary_hash": "f96e7c64756ddb3c2d4bed47f03a0c086fbe52396ad4105ec6ecfa53a241002a"
+  "vocabulary_hash": "0cc8b68d65ed04415fe47ba7fb858a421f2f19ae914dc99a61de0a0d486357b3"
 }

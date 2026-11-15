@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-11-11",
+  "review_date": "2026-11-15",
   "purpose": "Maintainer-only source and verification records; excluded from the generated website.",
   "publications": {
     "abdlkarim-2026-belt-and-whistles": {
@@ -318,6 +318,80 @@
       ],
       "keywords_source": "https://www.sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf",
       "funding_projects": []
+    },
+    "tomczak-2023-virtuoso-strings": {
+      "metadata_checked": "2026-11-15",
+      "metadata_sources": [
+        "https://ismir2023program.ismir.net/lbd_312.html"
+      ],
+      "enrichment_checked": "2026-11-15",
+      "summary_source": "https://ismir2023program.ismir.net/lbd_312.html",
+      "funding_status": "unverified",
+      "funding_note": "The conference abstract identifies ARME as the project context. A grant acknowledgement in the paper has not yet been checked; no funding claim is inferred from project membership.",
+      "funding_sources": [
+        "https://ismir2023program.ismir.net/lbd_312.html"
+      ],
+      "scope_note": "Added with user approval as selected work involving lab members from the inauguration year onwards; does not imply all research was conducted after inauguration."
+    },
+    "abdlkarim-2024-quest-hand-tracking": {
+      "metadata_checked": "2026-11-15",
+      "metadata_sources": [
+        "https://link.springer.com/article/10.3758/s13428-022-02051-8"
+      ],
+      "enrichment_checked": "2026-11-15",
+      "summary_source": "https://link.springer.com/article/10.3758/s13428-022-02051-8",
+      "funding_status": "verified",
+      "funding_note": "The publisher acknowledgements explicitly name ERC Starting Grant MotMotLearn 637488 and ERC Proof of Concept Grant ImpHandRehab 872082.",
+      "funding_sources": [
+        "https://link.springer.com/article/10.3758/s13428-022-02051-8"
+      ],
+      "scope_note": "Added with user approval as selected work involving lab members from the inauguration year onwards; does not imply all research was conducted after inauguration.",
+      "keywords_source": "https://link.springer.com/article/10.3758/s13428-022-02051-8",
+      "date_note": "Citation/issue year 2024; first online and version of record date 2023-02-13."
+    },
+    "gonzalez-franco-2024-hovering-text-input": {
+      "metadata_checked": "2026-11-15",
+      "metadata_sources": [
+        "https://research.birmingham.ac.uk/en/publications/hovering-over-the-key-to-text-input-in-xr"
+      ],
+      "enrichment_checked": "2026-11-15",
+      "summary_source": "https://research.birmingham.ac.uk/en/publications/hovering-over-the-key-to-text-input-in-xr",
+      "funding_status": "not-stated",
+      "funding_note": "No acknowledgement section or research funding statement was identified in the checked arXiv HTML. This does not establish that the work was unfunded.",
+      "funding_sources": [
+        "https://arxiv.org/html/2406.09579v1"
+      ],
+      "scope_note": "Added with user approval as selected work involving lab members from the inauguration year onwards; does not imply all research was conducted after inauguration.",
+      "keywords_source": "https://research.birmingham.ac.uk/en/publications/hovering-over-the-key-to-text-input-in-xr"
+    },
+    "carvalho-2024-kalman-ensembles": {
+      "metadata_checked": "2026-11-15",
+      "metadata_sources": [
+        "https://research.birmingham.ac.uk/en/publications/a-kalman-filter-model-for-synchronisation-in-musical-ensembles/"
+      ],
+      "enrichment_checked": "2026-11-15",
+      "summary_source": "https://arxiv.org/html/2411.05971v1",
+      "funding_status": "verified",
+      "funding_note": "Section 7 explicitly acknowledges EPSRC EP/V034987/1 and the University of Birmingham Brazil Visiting Fellows Scheme.",
+      "funding_sources": [
+        "https://arxiv.org/html/2411.05971v1"
+      ],
+      "scope_note": "Added with user approval as selected work involving lab members from the inauguration year onwards; does not imply all research was conducted after inauguration."
+    },
+    "pacchierotti-2024-haptics-metaverse-editorial": {
+      "metadata_checked": "2026-11-15",
+      "metadata_sources": [
+        "https://pure.au.dk/portal/en/publications/guest-editorial-haptics-in-the-metaverse-haptic-feedback-for-virt/"
+      ],
+      "enrichment_checked": "2026-11-15",
+      "summary_source": "https://pure.au.dk/portal/en/publications/guest-editorial-haptics-in-the-metaverse-haptic-feedback-for-virt/",
+      "funding_status": "unverified",
+      "funding_note": "The institutional record verifies the citation and editorial classification, but a paper-level funding acknowledgement has not been verified. No grant is inferred from the authors or topic.",
+      "funding_sources": [
+        "https://pure.au.dk/portal/en/publications/guest-editorial-haptics-in-the-metaverse-haptic-feedback-for-virt/"
+      ],
+      "scope_note": "Added with user approval as selected work involving lab members from the inauguration year onwards; does not imply all research was conducted after inauguration.",
+      "date_note": "Issue month April 2024; ordering date is a year-only placeholder."
     }
   }
 }

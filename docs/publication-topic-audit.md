@@ -4,7 +4,25 @@ Generated from local metadata. Assignments are editorial navigation labels, not 
 
 Abstract-only and unverified-keyword matches are suggestions, not published labels. No probabilistic confidence scores are used.
 
-Review queue: 0 candidate assignments and 61 unmapped keyword values. Unmapped keywords can be specific details rather than useful navigation concepts.
+Review queue: 0 candidate assignments and 68 unmapped keyword values. Unmapped keywords can be specific details rather than useful navigation concepts.
+
+## abdlkarim-2024-quest-hand-tracking
+
+A methodological framework to assess the accuracy of virtual reality hand-tracking systems: A case study with the Meta Quest 2
+
+- **Hand tracking**
+  - tags / existing-editorial-tag: hand tracking
+  - title / title phrase: hand tracking: A methodological framework to assess the accuracy of virtual reality hand-tracking systems: A case study with the Meta Quest 2
+  - keywords / keyword (published): Hand-tracking
+- **Virtual reality**
+  - tags / existing-editorial-tag: virtual reality
+  - title / title phrase: virtual reality: A methodological framework to assess the accuracy of virtual reality hand-tracking systems: A case study with the Meta Quest 2
+  - keywords / keyword (published): Virtual reality
+
+Unmapped source keywords (possible vocabulary extensions, not automatically assigned):
+
+Metaverse, Tracking precision, VR delay
+
 
 ## abdlkarim-2026-belt-and-whistles
 
@@ -84,6 +102,20 @@ Revisiting put-that-there, context aware window interactions via LLMs
 Unmapped source keywords (possible vocabulary extensions, not automatically assigned):
 
 XR interfaces, window management, speech interface
+
+
+## carvalho-2024-kalman-ensembles
+
+A Kalman Filter model for synchronization in musical ensembles
+
+- **Kalman filtering**
+  - tags / existing-editorial-tag: kalman filtering
+  - title / title phrase: Kalman filter: A Kalman Filter model for synchronization in musical ensembles
+- **Music & audio**
+  - tags / existing-editorial-tag: music
+  - title / title phrase: musical ensembles: A Kalman Filter model for synchronization in musical ensembles
+- **Sensorimotor synchronisation**
+  - tags / existing-editorial-tag: sensorimotor synchronisation
 
 
 ## cascarano-2025-see-it-hear-it
@@ -275,6 +307,30 @@ Unmapped source keywords (possible vocabulary extensions, not automatically assi
 AI-assisted interaction, ergonomics
 
 
+## gonzalez-franco-2024-hovering-text-input
+
+Hovering Over the Key to Text Input in XR
+
+- **Extended reality**
+  - tags / existing-editorial-tag: extended reality
+  - title / title phrase: XR: Hovering Over the Key to Text Input in XR
+- **Text entry**
+  - tags / existing-editorial-tag: text entry
+  - title / title phrase: text input: Hovering Over the Key to Text Input in XR
+  - keywords / keyword (published): Text Entry
+- **Virtual reality**
+  - keywords / keyword (published): Virtual Reality
+
+Unmapped source keywords (possible vocabulary extensions, not automatically assigned):
+
+Extended Reality (XR), Input Techniques, Keyboard, Spatial Computing
+
+Reviewed exclusions:
+
+- Hand tracking: Discussed as a constraint on XR text entry; this review does not introduce or evaluate a hand-tracking method.
+- Machine learning: Discussed as an opportunity for keyboard design, rather than a new machine-learning method or evaluation.
+
+
 ## grubert-2026-xr-mediation
 
 Extended Reality as a Mediation Layer for Situated Human Control in Human-Robot Teaming
@@ -449,6 +505,24 @@ Reviewed exclusions:
 - Mixed reality: The abstract uses MR to frame embodiment; the reported condition is explicitly smartphone AR.
 
 
+## pacchierotti-2024-haptics-metaverse-editorial
+
+Guest Editorial Haptics in the Metaverse: Haptic Feedback for Virtual, Augmented, Mixed, and eXtended Realities
+
+- **Augmented reality**
+  - tags / existing-editorial-tag: augmented reality
+- **Extended reality**
+  - tags / existing-editorial-tag: extended reality
+- **Haptics**
+  - tags / existing-editorial-tag: haptics
+  - title / title phrase: haptic: Guest Editorial Haptics in the Metaverse: Haptic Feedback for Virtual, Augmented, Mixed, and eXtended Realities
+  - title / title phrase: haptics: Guest Editorial Haptics in the Metaverse: Haptic Feedback for Virtual, Augmented, Mixed, and eXtended Realities
+- **Mixed reality**
+  - tags / existing-editorial-tag: mixed reality
+- **Virtual reality**
+  - tags / existing-editorial-tag: virtual reality
+
+
 ## rapata-2026-implicit-gaze-slide
 
 Implicit Gaze+Slide: Discrete and Low-Effort Typing for MR Using Gaze-Based Prediction and Finger Motion Refinement
@@ -473,6 +547,15 @@ discreet interaction, one-handed typing
 Reviewed exclusions:
 
 - Gesture interaction: The abstract discusses visible mid-air gestures as existing approaches; the proposed input uses gaze and finger sliding.
+
+
+## tomczak-2023-virtuoso-strings
+
+Virtuoso Strings: A Dataset of String Ensemble Recordings and Onset Annotations for Timing Analysis
+
+- **Music & audio**
+  - tags / existing-editorial-tag: music
+  - title / title phrase: string ensemble: Virtuoso Strings: A Dataset of String Ensemble Recordings and Onset Annotations for Timing Analysis
 
 
 ## wang-2026-magicpen

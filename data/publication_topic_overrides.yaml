@@ -66,3 +66,12 @@ yi-2026-augmented-body-parts:
     field: abstract
     quote: virtual embodiment, wearable robotics, haptics and human augmentation
   source_hash: 87992ac92961723f939510fe1cbefc0d8c31bc11c17244b106c90f3f630ebe8c
+
+gonzalez-franco-2024-hovering-text-input:
+  source_hash: 56ab7370d2d2d4e221edf82927d3dedfff20c71f31a0ed09a117311f7669a7ac
+  exclude:
+  - topic: hand tracking
+    reason: Discussed as a constraint on XR text entry; this review does not introduce or evaluate a hand-tracking
+      method.
+  - topic: machine learning
+    reason: Discussed as an opportunity for keyboard design, rather than a new machine-learning method or evaluation.

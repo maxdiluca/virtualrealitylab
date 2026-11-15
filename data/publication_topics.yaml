@@ -112,6 +112,15 @@ topics:
   - gaze input
   - gaze interaction
   title_acronyms: []
+- id: hand tracking
+  label: Hand tracking
+  group: interaction
+  definition: Measurement or estimation of hand and finger position, posture or motion.
+  aliases:
+  - hand-tracking
+  title_terms:
+  - hand tracking
+  title_acronyms: []
 - id: gesture interaction
   label: Gesture interaction
   group: interaction
@@ -189,6 +198,28 @@ topics:
   - temporal sensitivity
   - perceived timing
   - perceptual timing
+  title_acronyms: []
+- id: sensorimotor synchronisation
+  label: Sensorimotor synchronisation
+  group: perception
+  definition: Temporal coordination of actions with external rhythms or other performers; distinct from judgments of perceived timing.
+  aliases:
+  - sensorimotor synchronization
+  - ensemble synchronisation
+  - ensemble synchronization
+  title_terms:
+  - sensorimotor synchronisation
+  - sensorimotor synchronization
+  title_acronyms: []
+- id: kalman filtering
+  label: Kalman filtering
+  group: computing
+  definition: State estimation or dynamic modelling using a Kalman filter.
+  aliases:
+  - Kalman filter
+  title_terms:
+  - Kalman filter
+  - Kalman filtering
   title_acronyms: []
 - id: multisensory perception
   label: Multisensory perception
@@ -408,6 +439,8 @@ topics:
   - generative audio
   title_terms:
   - music
+  - musical ensembles
+  - string ensemble
   - generative audio
   title_acronyms: []
 ignore_keywords:

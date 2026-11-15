@@ -91,6 +91,7 @@ class TopicTests(unittest.TestCase):
             root=Path(directory)
             shutil.copytree(m.ROOT/'data',root/'data')
             shutil.copytree(m.ROOT/'content/publication',root/'content/publication')
+            existing_count=len(list((root/'content/publication').glob('*/index.md')))
             new=root/'content/publication/test-new-paper/index.md'
             new.parent.mkdir()
             new.write_text('---\ntitle: Wearable haptics in VR\nkeywords: [Text Entry]\nkeywords_kind: published\n---\n')
@@ -98,7 +99,7 @@ class TopicTests(unittest.TestCase):
             index,report=m.generate(root)
             self.assertEqual((index,report),m.generate(root))
             data=json.loads(index)
-            self.assertEqual(len(data['publications']),27)
+            self.assertEqual(len(data['publications']),existing_count+1)
             self.assertIn('text entry',data['publications']['test-new-paper']['topics'])
             self.assertEqual(new.read_bytes(),before)
             reviewed=root/'content/publication/chang-2025-hapticwings/index.md'

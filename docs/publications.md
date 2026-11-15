@@ -56,3 +56,7 @@ Check the licence for the specific image and any third-party credits. Article op
 Only individual publication pages embed Altmetric donuts and Dimensions small-circle citation badges. The publication list contains no badges and loads neither provider script. Each badge uses the publication's `doi`, or `preprint_doi` with a visible “Preprint metrics” label when no publication DOI exists. Records without either identifier omit the badges. No counts are stored or estimated locally.
 
 The provider scripts load once per page, only on publication pages containing eligible records. Badges hide when there are no mentions/citations; provider coverage, script blocking or service availability can also leave them absent. Publications and filtering remain usable without the external services. Implementation: `layouts/partials/publication-metrics.html` and `publication-metrics-scripts.html`. Provider documentation: [Altmetric embed guidance](https://help.altmetric.com/en/articles/9808705) and [Dimensions badges](https://badge.dimensions.ai/).
+
+## Archive expansion — 15 November 2026
+
+The collection now contains 31 selected records from 2023 onwards: five additions from 2023–2024, with the existing CHI 2025 TEXT entry retained. The inauguration year defines the start of coverage, not a claim that every study began after the opening. Citation years remain authoritative for archive grouping; the Quest 2 paper notes its 2023 online date alongside its 2024 journal citation. See [the expansion and pending Loop reconciliation](publication-expansion-2026-11-15.md).

@@ -1,0 +1,68 @@
+# Reviewed decisions are tied to the source version; re-review if that file changes.
+ai-2026-articulation:
+  include:
+  - topic: 3d reconstruction
+    field: abstract
+    quote: reconstructs an articulated object from an initial scan and a video
+  source_hash: 73f695f39e180bd1de70f54f51bc8b00405b39fb22c73b90bd95e2bf80e1dc30
+chang-2025-hapticwings:
+  include:
+  - topic: wearable haptics
+    field: abstract
+    quote: back-mounted device that moves a weight
+  source_hash: 5049fcbad5836dbf8d2529384890d201147ae407dc540bee84b0c484afdaee02
+abdlkarim-2026-belt-and-whistles:
+  include:
+  - topic: wearable devices
+    field: abstract
+    quote: haptic belt
+  source_hash: 42d4e4147de880d89eedd105cc07e921af0bf36fdac88d9cbea680474532238a
+wen-2026-adaptive-music:
+  include:
+  - topic: generative ai
+    field: abstract
+    quote: AI-generated adaptive music
+  source_hash: dc06aa1f3341e11713058fd1bed219f236c5107e9fbc34b3db9140d56091fe87
+bovo-2025-put-that-there:
+  include:
+  - topic: gesture interaction
+    field: abstract
+    quote: refer to objects through speech and gestures
+  source_hash: 4fc131fdf035e0ffbc3ecf26fd7a7ecf7433483238fb6901d738037397da46a9
+giunchi-2025-xrworks:
+  include:
+  - topic: artificial intelligence
+    field: abstract
+    quote: AI-supported interaction
+  source_hash: 840acf2eb5ef7c8d2d95db4cccad745fa33397ce3772603f3fd5fa7433930f39
+jeon-2026-swapsense:
+  include:
+  - topic: machine learning
+    field: abstract
+    quote: A neural network estimates contact force from deformation images
+  source_hash: 835b0405671958df878a75ff69f616d5cbaa52947d5a50b2d5513d831a72b326
+lin-2026-gazezoom:
+  include:
+  - topic: virtual reality
+    field: abstract
+    quote: a VR application demonstrating these techniques
+  source_hash: 24d1f30e6af3fa1a870e41f4930efdf3fb8292cff1078ab8599cf30cec5a9d2f
+low-2025-smartphone-embodiment:
+  exclude:
+  - topic: virtual reality
+    reason: The abstract mentions VR as prior work; the reported study concerns smartphone AR.
+  - topic: mixed reality
+    reason: The abstract uses MR to frame embodiment; the reported condition is explicitly smartphone AR.
+  source_hash: 22712a554e53e7b8c434416e84ca3c71434de1110defe80041ede601938c9c7d
+rapata-2026-implicit-gaze-slide:
+  exclude:
+  - topic: gesture interaction
+    reason: The abstract discusses visible mid-air gestures as existing approaches; the proposed input uses gaze
+      and finger sliding.
+  source_hash: 0fd536492ca68521b58d37298c07b279db76ea3b15ba3085a72854ddfcd9822f
+yi-2026-augmented-body-parts:
+  include:
+  - topic: haptics
+    field: abstract
+    quote: virtual embodiment, wearable robotics, haptics and human augmentation
+  source_hash: 87992ac92961723f939510fe1cbefc0d8c31bc11c17244b106c90f3f630ebe8c

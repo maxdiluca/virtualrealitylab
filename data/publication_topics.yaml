@@ -1,0 +1,416 @@
+# Controlled editorial vocabulary. See docs/publication-topics.md.
+version: 1
+groups:
+- id: environments
+  label: Immersive environments
+- id: interaction
+  label: Interaction & sensing
+- id: perception
+  label: Perception & embodiment
+- id: computing
+  label: Computational methods & robotics
+- id: applications
+  label: Applications & creativity
+topics:
+- id: virtual reality
+  label: Virtual reality
+  group: environments
+  definition: Virtual-reality systems, experiences or research.
+  aliases:
+  - VR
+  title_terms:
+  - virtual reality
+  title_acronyms:
+  - VR
+- id: extended reality
+  label: Extended reality
+  group: environments
+  definition: XR as an umbrella field; do not infer it from every VR or AR paper.
+  aliases:
+  - XR
+  title_terms:
+  - extended reality
+  title_acronyms:
+  - XR
+- id: mixed reality
+  label: Mixed reality
+  group: environments
+  definition: Mixed-reality systems or experiences explicitly described as such.
+  aliases:
+  - MR
+  title_terms:
+  - mixed reality
+  title_acronyms:
+  - MR
+- id: augmented reality
+  label: Augmented reality
+  group: environments
+  definition: Augmented-reality systems, including mobile AR.
+  aliases:
+  - AR
+  - mobile augmented reality
+  title_terms:
+  - augmented reality
+  title_acronyms:
+  - AR
+- id: haptics
+  label: Haptics
+  group: interaction
+  definition: Touch or force feedback and haptic interfaces.
+  aliases:
+  - haptic feedback
+  - passive haptics
+  title_terms:
+  - haptic
+  - haptics
+  title_acronyms: []
+- id: wearable haptics
+  label: Wearable haptics
+  group: interaction
+  definition: Haptic feedback delivered by a device worn on the body.
+  aliases:
+  - haptic belt
+  title_terms:
+  - wearable haptic
+  - wearable haptics
+  - haptic belt
+  title_acronyms: []
+  broader:
+  - haptics
+  - wearable devices
+- id: multimodal interaction
+  label: Multimodal interaction
+  group: interaction
+  definition: Interfaces combining input or feedback modalities; not multisensory perception in general.
+  aliases:
+  - multimodal input
+  - multimodal guidance
+  title_terms:
+  - multimodal
+  title_acronyms: []
+- id: wearable devices
+  label: Wearable devices
+  group: interaction
+  definition: Devices explicitly worn on the body; do not infer from an HMD used only as study equipment.
+  aliases:
+  - wearables
+  - wearable device
+  title_terms:
+  - wearable
+  title_acronyms: []
+- id: gaze interaction
+  label: Gaze-based interaction
+  group: interaction
+  definition: Gaze used to control or assist an interface; eye tracking alone is insufficient.
+  aliases:
+  - gaze input
+  - gaze-assisted interaction
+  - gaze based interaction
+  title_terms:
+  - gaze assisted
+  - gaze based
+  - gaze input
+  - gaze interaction
+  title_acronyms: []
+- id: gesture interaction
+  label: Gesture interaction
+  group: interaction
+  definition: Hand or body gestures used as intentional input.
+  aliases:
+  - gesture design
+  - gesture input
+  title_terms:
+  - gesture
+  - gestures
+  title_acronyms: []
+- id: text entry
+  label: Text entry
+  group: interaction
+  definition: Typing and other techniques for entering text.
+  aliases:
+  - text input
+  - typing
+  title_terms:
+  - text entry
+  - text input
+  - typing
+  title_acronyms: []
+- id: force sensing
+  label: Force sensing
+  group: interaction
+  definition: Measurement or estimation of contact force; distinct from force feedback.
+  aliases:
+  - contact force estimation
+  - contact force sensing
+  title_terms:
+  - force sensing
+  - force estimation
+  title_acronyms: []
+- id: collision awareness
+  label: Collision awareness
+  group: interaction
+  definition: Awareness or avoidance of collisions with real or virtual objects.
+  aliases:
+  - collision avoidance
+  title_terms:
+  - collision awareness
+  - collision avoidance
+  title_acronyms: []
+- id: embodiment
+  label: Embodiment
+  group: perception
+  definition: Experience or design of a virtual body as one's own body.
+  aliases:
+  - avatar embodiment
+  - virtual embodiment
+  title_terms:
+  - embodiment
+  title_acronyms: []
+- id: biological motion
+  label: Biological motion & kinematics
+  group: perception
+  definition: Motion and kinematic regularities of biological bodies.
+  aliases:
+  - biological kinematics
+  title_terms:
+  - biological motion
+  - biological kinematics
+  title_acronyms: []
+- id: temporal perception
+  label: Temporal perception
+  group: perception
+  definition: Perception of event timing, duration or temporal regularity.
+  aliases:
+  - perceptual timing
+  - temporal sensitivity
+  - perceived timing
+  title_terms:
+  - temporal perception
+  - temporal sensitivity
+  - perceived timing
+  - perceptual timing
+  title_acronyms: []
+- id: multisensory perception
+  label: Multisensory perception
+  group: perception
+  definition: Perceptual processing across sensory modalities; distinct from multimodal interface design.
+  aliases:
+  - crossmodal timing
+  title_terms:
+  - crossmodal
+  - multisensory
+  title_acronyms: []
+- id: motion analysis
+  label: Motion analysis
+  group: computing
+  definition: Analysis or estimation of object or body motion; does not imply biological perception.
+  aliases:
+  - motion segmentation
+  - part mobility analysis
+  title_terms:
+  - motion analysis
+  - motion segmentation
+  - part mobility analysis
+  title_acronyms: []
+- id: artificial intelligence
+  label: Artificial intelligence
+  group: computing
+  definition: Explicit AI research or applications; no inference solely from adaptive or generative behaviour.
+  aliases:
+  - AI
+  title_terms:
+  - artificial intelligence
+  title_acronyms:
+  - AI
+- id: machine learning
+  label: Machine learning
+  group: computing
+  definition: Explicit machine learning methods or research themes.
+  aliases: []
+  title_terms:
+  - machine learning
+  - neural network
+  title_acronyms: []
+  broader:
+  - artificial intelligence
+- id: large language models
+  label: Large language models
+  group: computing
+  definition: Explicit use or study of large language models.
+  aliases:
+  - LLM
+  - LLMs
+  - large language model
+  title_terms:
+  - large language model
+  - large language models
+  title_acronyms:
+  - LLM
+  - LLMs
+  broader:
+  - artificial intelligence
+- id: generative ai
+  label: Generative AI
+  group: computing
+  definition: Explicit generative AI; generative music alone is not sufficient.
+  aliases:
+  - generative artificial intelligence
+  title_terms:
+  - generative ai
+  - ai generated
+  title_acronyms: []
+  broader:
+  - artificial intelligence
+- id: robotics
+  label: Robotics
+  group: computing
+  definition: Robots, robot control or wearable robotics.
+  aliases:
+  - robot
+  title_terms:
+  - robot
+  - robots
+  - robotics
+  title_acronyms: []
+- id: human-robot interaction
+  label: Human–robot interaction
+  group: computing
+  definition: Interaction or teaming between humans and robots.
+  aliases:
+  - human robot teaming
+  - human robot interaction
+  title_terms:
+  - human robot teaming
+  - human robot interaction
+  title_acronyms: []
+  broader:
+  - robotics
+- id: robot motion planning
+  label: Robot motion planning
+  group: computing
+  definition: Planning robot movements or analysing their reachability.
+  aliases: []
+  title_terms:
+  - robot motion planning
+  title_acronyms: []
+  broader:
+  - robotics
+- id: computer vision
+  label: Computer vision
+  group: computing
+  definition: Computational interpretation of images or video.
+  aliases:
+  - vision-based sensing
+  title_terms:
+  - computer vision
+  - vision based
+  title_acronyms: []
+- id: 3d reconstruction
+  label: 3D reconstruction
+  group: computing
+  definition: Reconstructing 3D geometry or articulated objects from scans, images or video.
+  aliases:
+  - 3D Gaussian splatting
+  title_terms:
+  - 3d reconstruction
+  - 3d gaussian splatting
+  title_acronyms: []
+- id: unmanned aerial vehicles
+  label: Drones (UAVs)
+  group: computing
+  definition: Unmanned aerial vehicles and their sensing or control.
+  aliases:
+  - UAV
+  - UAVs
+  - drone
+  - drones
+  title_terms:
+  - unmanned aerial vehicle
+  - unmanned aerial vehicles
+  - drone
+  - drones
+  title_acronyms:
+  - UAV
+  - UAVs
+- id: surgical simulation
+  label: Surgical simulation & training
+  group: applications
+  definition: Simulation or training of surgical procedures; not general clinical healthcare.
+  aliases:
+  - neurosurgical training
+  - neurosurgical simulation
+  - surgical training
+  title_terms:
+  - surgical simulation
+  - neurosurgical simulation
+  - neurosurgical training
+  title_acronyms: []
+- id: digital healthcare
+  label: Digital healthcare
+  group: applications
+  definition: Digital technologies explicitly applied to healthcare.
+  aliases: []
+  title_terms:
+  - digital healthcare
+  title_acronyms: []
+- id: collaborative art
+  label: Collaborative art
+  group: applications
+  definition: Collaborative creation of visual art.
+  aliases:
+  - art collaboration
+  title_terms:
+  - collaborative art
+  - art collaboration
+  title_acronyms: []
+- id: asynchronous collaboration
+  label: Asynchronous collaboration
+  group: applications
+  definition: Collaboration where contributions occur at different times.
+  aliases: []
+  title_terms:
+  - asynchronous collaboration
+  - asynchronous collaborative
+  title_acronyms: []
+- id: knowledge work
+  label: Knowledge work
+  group: applications
+  definition: Immersive or digital systems for professional knowledge work.
+  aliases:
+  - immersive workspaces
+  title_terms:
+  - knowledge work
+  title_acronyms: []
+- id: 3d content creation
+  label: 3D content creation
+  group: applications
+  definition: Authoring, drawing or modelling three-dimensional content.
+  aliases: []
+  title_terms:
+  - 3d content creation
+  title_acronyms: []
+- id: storytelling
+  label: Storytelling
+  group: applications
+  definition: Creation or presentation of narratives and stories.
+  aliases: []
+  title_terms:
+  - storytelling
+  - stories
+  title_acronyms: []
+- id: music
+  label: Music & audio
+  group: applications
+  definition: Music or generative/adaptive audio as a research topic; not every audio cue.
+  aliases:
+  - adaptive music
+  - generative music
+  - generative audio
+  title_terms:
+  - music
+  - generative audio
+  title_acronyms: []
+ignore_keywords:
+- User Study
+- Dataset
+- Performance

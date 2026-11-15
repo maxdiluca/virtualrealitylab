@@ -27,7 +27,10 @@
       {{ $profile := site.GetPage (printf "/authors/%s" .) }}
       {{ if $profile }}{{ $authorNames = $authorNames | append $profile.Title }}{{ else }}{{ $authorNames = $authorNames | append . }}{{ end }}
     {{ end }}
-    <article data-topics="{{ .Params.tags | default slice | jsonify }}" data-authors="{{ delimit $authorNames " " }}" data-research="{{ dict "abstract" .Params.abstract "keywords" .Params.keywords "funding" .Params.funding_projects | jsonify }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
+    {{ $topics := partialCached "publication-topics" . .RelPermalink }}
+    {{ $topicSearch := slice }}
+    {{ range $topics }}{{ $topicSearch = $topicSearch | append (index site.Data.publication_topic_index.topics .).search_terms }}{{ end }}
+    <article data-topic-search="{{ delimit $topicSearch " " }}" data-topics="{{ $topics | jsonify }}" data-authors="{{ delimit $authorNames " " }}" data-research="{{ dict "abstract" .Params.abstract "keywords" .Params.keywords "funding" .Params.funding_projects | jsonify }}" class="publication-record" data-year="{{ .Params.publication_year | default (.Date.Format "2006") }}" data-type="{{ index .Params.publication_types 0 }}">
       <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><span>{{ partial "publication-type-label" (index .Params.publication_types 0) }}</span>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ partial "publication-citation" . }}

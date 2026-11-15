@@ -1,5 +1,5 @@
 [build]
-  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $URL"
+  command = "python3 scripts/build-publication-topics.py && node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $URL"
   publish = "public"
 
 [build.environment]
@@ -10,10 +10,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "python3 scripts/build-publication-topics.py && node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
+  command = "python3 scripts/build-publication-topics.py && node scripts/validate-bhamxr-map.cjs static/bhamxr-map/members.json && hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"

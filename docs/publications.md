@@ -17,13 +17,15 @@ The migration preserved all 20 citations and links from the former `content/publ
 
 Search and filters are progressive enhancements: all records remain readable without JavaScript. Filter URLs use `publication_query`, `type` and `year`; `q` is reserved for the site's global search. The original publication type fragment URLs also work.
 
-Build a local preview with `hugo --minify --destination /private/tmp/vrlab-publication-preview`. Templates live in `layouts/section/publication.html` and `layouts/publication/single.html`; styles and behaviour are in `assets/scss/publications.scss` and `assets/js/publications.js`.
+After generating topics, build a local preview with `hugo --minify --destination /private/tmp/vrlab-publication-preview`. Templates live in `layouts/section/publication.html` and `layouts/publication/single.html`; styles and behaviour are in `assets/scss/publications.scss` and `assets/js/publications.js`.
 
 ## Topic cloud
 
-The archive's coloured word cloud is generated from each publication's `tags` list, counting each record once per topic. Initial topic labels are editorial navigation terms grounded in the existing titles; they are not presented as author-supplied keywords. Update these labels when adding or correcting records. Counts use only this publication collection (not blog posts or other tagged content), cover all years, and remain fixed while filtering. Font size uses logarithmic frequency scaling.
+The cloud uses a controlled semantic vocabulary and generated assignments shared with the publication filters. See [the topic workflow](publication-topics.md) for definitions, evidence rules, reviewed exceptions and adding papers, and [the generated evidence audit](publication-topic-audit.md) for the current decisions. Source titles, abstracts, author keywords and existing tags are not rewritten.
 
-Selecting a topic combines an exact topic match with search, type and year filters. The `topic` URL parameter preserves the selection; “All topics” clears only the topic and “Reset” clears every filter. Without JavaScript, cloud links open the site's ordinary tag archives. Colours are decorative, with no category meaning.
+Word size uses logarithmic full-collection paper counts. Numeric counts reflect search, type and year before topic selection. Colours identify labelled navigation groups. Cloud/List switching supports alphabetical display-label sorting and descending counts. Selecting the same topic again clears it; “Clear topic” preserves other filters and “Reset” clears everything. Legacy topic IDs and recognised synonyms remain usable in URLs. Without JavaScript, topics link to their paper lists on the same page.
+
+Netlify generates topics automatically before each build. For a local build or preview, run `python3 scripts/build-publication-topics.py` before Hugo. Stale generated assignments fail the Hugo build with a regeneration instruction.
 
 ## Source refresh — 9 November 2026
 

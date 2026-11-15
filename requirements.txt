@@ -1,0 +1,2 @@
+# Publication-topic build step; Netlify installs requirements before the build.
+PyYAML==6.0.2

@@ -1,0 +1,10 @@
+{{/* One generated index serves the cloud, filters and no-JavaScript topic lists. */}}
+{{ $index := site.Data.publication_topic_index }}
+{{ $slug := path.Base (path.Dir .File.Path) }}
+{{ $record := index $index.publications $slug }}
+{{ if not $record }}
+  {{ errorf "Missing topics for %s. Run python3 scripts/build-publication-topics.py before Hugo." .File.Path }}
+{{ else if ne $record.source_hash (sha256 (readFile .File.Filename)) }}
+  {{ errorf "Stale topics for %s. Run python3 scripts/build-publication-topics.py before Hugo." .File.Path }}
+{{ end }}
+{{ return ($record.topics | default slice) }}

@@ -1,30 +1,64 @@
-{{/* Count only the publications supplied by the archive, once per topic per record. */}}
+{{/* Validate generated data before displaying any semantic assignments. */}}
+{{ $index := site.Data.publication_topic_index }}
+{{ range $path, $expected := dict "data/publication_topics.yaml" $index.vocabulary_hash "data/publication_topic_overrides.yaml" $index.overrides_hash "scripts/build-publication-topics.py" $index.engine_hash }}
+  {{ if ne $expected (sha256 (readFile $path)) }}{{ errorf "Stale publication vocabulary. Run python3 scripts/build-publication-topics.py before Hugo." }}{{ end }}
+{{ end }}
+{{ $pages := . }}
 {{ $topics := dict }}
 {{ $maxCount := 1 }}
-{{ range . }}
-  {{ range .GetTerms "tags" }}
-    {{ $key := lower .LinkTitle }}
+{{ range $pages }}
+  {{ range partialCached "publication-topics" . .RelPermalink }}
+    {{ $key := . }}
+    {{ $definition := index $index.topics $key }}
     {{ $count := add (index $topics $key | default (dict "count" 0)).count 1 }}
-    {{ $topics = merge $topics (dict $key (dict "label" $key "count" $count "url" .RelPermalink)) }}
+    {{ $topics = merge $topics (dict $key (dict "id" $key "label" $definition.label "definition" $definition.definition "count" $count "url" (printf "#topic-%s" (urlize $key)))) }}
     {{ $maxCount = math.Max $maxCount $count }}
   {{ end }}
 {{ end }}
 {{ with $topics }}
-<nav class="publication-topics" aria-labelledby="publication-topics-heading">
+<nav class="publication-topics" data-aliases="{{ $index.aliases | jsonify }}" aria-labelledby="publication-topics-heading">
   <div class="publication-topics-heading">
-    <h2 id="publication-topics-heading">Explore by topic</h2>
-    <a class="publication-topic-clear" href="{{ "/publication/" | relURL }}" hidden>All topics</a>
+    <div><p class="lab-section-kicker">Discover our research</p><h2 id="publication-topics-heading">Explore by topic</h2></div>
+    <div class="publication-topic-controls" hidden>
+      <div role="group" aria-label="Topic display"><button type="button" data-topic-view="cloud" aria-pressed="true">Cloud</button><button type="button" data-topic-view="list" aria-pressed="false">List</button></div>
+      <label class="publication-topic-sort" hidden>Sort topics <select><option value="alphabetical">A–Z</option><option value="count">Most papers</option></select></label>
+    </div>
   </div>
-  <p class="publication-topics-help">Select a topic to explore related publications. Larger words indicate more publications in this collection; counts cover all years.</p>
-  <div class="publication-topic-cloud">
-    {{ range $index, $topic := sort . "label" }}
-      {{ $weight := 0.0 }}
-      {{ if gt $maxCount 1 }}{{ $weight = div (math.Log $topic.count) (math.Log $maxCount) }}{{ end }}
-      <a class="publication-topic publication-topic-palette-{{ mod $index 6 }}" href="{{ .url }}" data-topic="{{ .label }}" style="--topic-size: {{ printf "%.3f" (add 0.85 (mul 0.95 $weight)) }}rem;" aria-label="{{ .label }}: {{ .count }} {{ cond (eq .count 1) "publication" "publications" }}">
-        <span>{{ .label }}</span><span class="publication-topic-count" aria-hidden="true">{{ .count }}</span>
-      </a>
+  <p class="publication-topics-help">Select a topic to filter the papers below. Word size reflects the full collection; colour identifies a topic group.</p>
+  <p class="publication-topic-scope">Counts cover all years.</p>
+  <div class="publication-topic-cloud" data-view="cloud">
+    {{ $groups := $index.groups }}
+    {{ range $groups }}
+      {{ $group := . }}
+      {{ $members := slice }}
+      {{ range .topics }}{{ with index $topics . }}{{ $members = $members | append . }}{{ end }}{{ end }}
+      {{ with $members }}
+      <section class="publication-topic-group" data-group="{{ $group.id }}" aria-labelledby="topic-group-{{ $group.id }}">
+        <h3 id="topic-group-{{ $group.id }}">{{ $group.label }}</h3>
+        <div class="publication-topic-words">
+          {{ range sort . "label" }}
+            {{ $weight := 0.0 }}
+            {{ if gt $maxCount 1 }}{{ $weight = div (math.Log .count) (math.Log $maxCount) }}{{ end }}
+            <a class="publication-topic" href="{{ .url }}" data-topic="{{ .id }}" data-topic-label="{{ .label }}" title="{{ .definition }}" data-topic-definition="{{ .definition }}" data-group="{{ $group.id }}" style="--topic-size: {{ printf "%.3f" (add 0.9 (mul 1.1 $weight)) }}rem;" aria-label="{{ .label }}: {{ .count }} {{ cond (eq .count 1) "paper" "papers" }}">
+              <span class="publication-topic-label">{{ .label }}</span><span class="publication-topic-count" aria-hidden="true">{{ .count }}</span><span class="publication-topic-category">{{ $group.label }}</span>
+            </a>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
     {{ end }}
   </div>
-  <p class="publication-topic-selection" hidden>Selected topic: <strong></strong></p>
+  <div class="publication-topic-footer">
+    <p class="publication-topic-selection" hidden>Selected topic: <strong></strong></p>
+    <a class="publication-topic-clear" href="{{ "/publication/" | relURL }}" hidden>Clear topic</a>
+  </div>
+  <noscript>
+    <p>Select a topic above to jump to its papers. Enable JavaScript to combine topics with search, year and type filters.</p>
+    {{ range sort $topics "label" }}
+      {{ $key := .id }}
+      <h3 id="topic-{{ $key | urlize }}">{{ .label }}</h3>
+      <ul>{{ range $pages }}{{ if in (partialCached "publication-topics" . .RelPermalink) $key }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul>
+    {{ end }}
+  </noscript>
 </nav>
 {{ end }}

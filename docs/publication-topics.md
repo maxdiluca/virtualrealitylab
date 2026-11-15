@@ -66,4 +66,15 @@ Rules deliberately favour traceability over automatic coverage. They cannot reli
 
 ## Interface behaviour
 
-The cloud retains stable full-collection word sizes; badges respond to search, year and publication type. Each definition appears in the topic's native tooltip. The sortable list uses display labels, not internal IDs. Legacy IDs and recognised synonyms resolve to the same filter; search includes those aliases. Without JavaScript, the cloud links to generated topic-specific paper lists on the same page.
+The cloud retains stable full-collection word sizes; badges respond to search, year and publication type. Definitions and filtered counts appear in a detail strip on hover or keyboard focus, and remain available in native tooltips. The sortable list uses display labels, not internal IDs. Legacy IDs and recognised synonyms resolve to the same filter; search includes those aliases. Without JavaScript, the cloud links to generated topic-specific paper lists on the same page.
+
+
+## Cloud layout
+
+`assets/js/publication-cloud-layout.js` packs measured HTML links along a deterministic elliptical spiral. Larger terms sit near the centre. The browser measures the actual font after loading, checks rectangular collisions, and recalculates when the available width changes. Positions and sizes remain stable during filtering. Labels remain horizontal, keyboard-accessible links; no canvas, remote chart library or animation loop is used on the website.
+
+At widths below 600 CSS pixels, the cloud shows the 12 most frequent topics (plus a selected topic if needed). The visible count and “View all topics” button make this explicit. List view always contains the complete vocabulary present in the collection. If measurement or packing is unavailable, a wrapping text layout retains the topics. Without JavaScript, the complete topic lists remain available.
+
+Colours identify themes through a compact legend; individual group panels are no longer rendered. The cloud uses a compressed logarithmic size scale, a subtle entrance fade, and no motion when reduced motion is requested. Touch targets are at least 44 CSS pixels high on coarse-pointer devices.
+
+Run `node --test scripts/tests/publication-cloud-layout.test.cjs` to check deterministic placement, bounds and collisions at narrow and wide widths.

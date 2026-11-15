@@ -41,6 +41,6 @@
   <p id="publication-empty" hidden>No publications match these filters. Try another search or reset the filters.</p>
   <noscript><p>All publications are shown. Enable JavaScript to search and filter this collection.</p></noscript>
 </section>
-{{ $script := resources.Get "js/publications.js" | minify | fingerprint }}
+{{ $script := slice (resources.Get "js/publication-cloud-layout.js") (resources.Get "js/publications.js") | resources.Concat "js/publications.js" | minify | fingerprint }}
 <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
 {{ end }}

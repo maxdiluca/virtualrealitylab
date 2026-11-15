@@ -16,12 +16,73 @@
   const sort = sortLabel?.querySelector('select');
   const scope = root.querySelector('.publication-topic-scope');
   const homes = new Map(topicLinks.map(link => [link, link.parentElement]));
+  const moreTopics = root.querySelector('.publication-topic-more');
+  const preview = root.querySelector('.publication-topic-preview');
+  let previewedTopic = null;
+  let layoutWidth = 0;
+  let layoutFrame = null;
   let view = 'cloud';
   let topic = '';
   const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const aliases = JSON.parse(root.querySelector('.publication-topics')?.dataset.aliases || '{}');
   const canonicalTopic = value => aliases[normalize(value).replace(/[^a-z0-9]+/g, ' ').trim()] || normalize(value);
   const records = [...root.querySelectorAll('.publication-record')].map(element => ({ element, topics: (JSON.parse(element.dataset.topics || "[]") || []).map(normalize), text: normalize(element.textContent + " " + element.dataset.authors + " " + (element.dataset.topicSearch || "") + " " + (element.dataset.topics || "") + " " + (element.dataset.research || "")) }));
+  function showTopicPreview(link) {
+    if (!preview) return;
+    previewedTopic = link;
+    const current = link || topicLinks.find(item => item.dataset.topic === topic);
+    preview.querySelector('strong').textContent = current?.dataset.topicLabel || 'Find your research interest';
+    preview.querySelector('p').textContent = current?.dataset.topicDefinition || 'Point to a word or use Tab to explore a topic, then select it to see the papers.';
+    const total = Number(current?.dataset.count || 0);
+    preview.querySelector('.publication-topic-preview-count').textContent = current ? `${total} ${total === 1 ? 'paper' : 'papers'}` : '';
+    preview.dataset.group = current?.dataset.group || '';
+  }
+  function layoutCloud(force = false) {
+    if (!cloud || view !== 'cloud' || !window.PublicationCloudLayout) return;
+    const width = Math.floor(cloud.clientWidth);
+    if (width < 160 || (!force && width === layoutWidth)) return;
+    cloud.classList.add('is-measuring');
+    const maximum = Math.max(1, ...topicLinks.map(link => Number(link.dataset.total)));
+    const compact = width < 600;
+    const smallest = compact ? 14 : 16;
+    const largest = compact ? 32 : Math.min(56, width * .065);
+    const prominent = new Set([...topicLinks].sort((a, b) => Number(b.dataset.total) - Number(a.dataset.total) || a.dataset.topicLabel.localeCompare(b.dataset.topicLabel)).slice(0, 12));
+    topicLinks.forEach(link => { link.hidden = compact && !prominent.has(link) && link.dataset.topic !== topic; });
+    const visibleLinks = topicLinks.filter(link => !link.hidden);
+    if (moreTopics) {
+      moreTopics.hidden = !compact || visibleLinks.length === topicLinks.length;
+      moreTopics.querySelector('span').textContent = `${visibleLinks.length} of ${topicLinks.length} topics`;
+    }
+    topicLinks.forEach(link => {
+      const ratio = maximum > 1 ? Math.log(Number(link.dataset.total) || 1) / Math.log(maximum) : 0;
+      const size = smallest + (largest - smallest) * ratio ** 1.7;
+      link.style.setProperty('--cloud-size', `${size}px`);
+      link.style.setProperty('--cloud-weight', ratio > .45 ? '700' : '500');
+      // A long new topic must remain inside a narrow viewport.
+      const measured = link.getBoundingClientRect().width;
+      if (measured > width - 24) link.style.setProperty('--cloud-size', `${Math.max(12, size * (width - 24) / measured)}px`);
+    });
+    const boxes = visibleLinks.map(link => {
+      const index = topicLinks.indexOf(link);
+      const bounds = link.getBoundingClientRect();
+      return { id: index, width: Math.ceil(bounds.width), height: Math.ceil(bounds.height), weight: Number(link.dataset.total) || 1 };
+    });
+    const layout = window.PublicationCloudLayout.pack(boxes, width, compact ? 5 : 8);
+    cloud.classList.remove('is-measuring');
+    cloud.classList.toggle('is-packed', !!layout);
+    cloud.style.height = layout ? `${layout.height}px` : '';
+    if (layout) layout.words.forEach(word => {
+      topicLinks[word.id].style.setProperty('--cloud-x', `${word.x}px`);
+      topicLinks[word.id].style.setProperty('--cloud-y', `${word.y}px`);
+    });
+    layoutWidth = width;
+  }
+  function scheduleLayout(force = false) {
+    if (!window.PublicationCloudLayout || typeof requestAnimationFrame !== 'function') return;
+    if (force) layoutWidth = 0;
+    if (layoutFrame !== null) cancelAnimationFrame(layoutFrame);
+    layoutFrame = requestAnimationFrame(() => { layoutFrame = null; layoutCloud(force); });
+  }
   function readURL() {
     const params = new URLSearchParams(location.search);
     search.value = params.get('publication_query') || '';
@@ -37,19 +98,24 @@
     if (!cloud) return;
     const focusedTopic = topicLinks.includes(document.activeElement) ? document.activeElement : null;
     cloud.dataset.view = view;
+    cloud.style.height = view === 'list' ? '' : cloud.style.height;
     controls.querySelectorAll('[data-topic-view]').forEach(button => {
       button.setAttribute('aria-pressed', String(button.dataset.topicView === view));
     });
     sortLabel.hidden = view !== 'list';
     if (view === 'list') {
+      topicLinks.forEach(link => { link.hidden = false; });
+      if (moreTopics) moreTopics.hidden = true;
       [...topicLinks].sort((a, b) => {
         const difference = sort.value === 'count' ? Number(b.dataset.count) - Number(a.dataset.count) : 0;
         return difference || (a.dataset.topicLabel || a.dataset.topic).localeCompare(b.dataset.topicLabel || b.dataset.topic);
       }).forEach(link => cloud.append(link));
     } else {
+      const returning = topicLinks.some(link => link.parentElement !== homes.get(link));
       topicLinks.forEach(link => {
         if (link.parentElement !== homes.get(link)) homes.get(link).append(link);
       });
+      scheduleLayout(returning || topicLinks.some(link => link.hidden && link.dataset.topic === topic));
     }
     if (focusedTopic && document.activeElement !== focusedTopic) focusedTopic.focus({ preventScroll: true });
   }
@@ -92,8 +158,9 @@
       }
       link.href = url;
     });
-    if (scope) scope.textContent = `Counts reflect search, year and type filters (${eligible} ${eligible === 1 ? 'paper' : 'papers'}), before topic selection.`;
+    if (scope) scope.textContent = `${eligible} ${eligible === 1 ? 'paper' : 'papers'} across these topics${search.value || year.value || type.value ? ' with the current search, year and type filters' : ''}. Word sizes reflect the full collection.`;
     arrangeTopics();
+    showTopicPreview(previewedTopic);
     if (selection) {
       selection.hidden = !topic;
       selection.querySelector('strong').textContent = topicLinks.find(link => link.dataset.topic === topic)?.dataset.topicLabel || topic;
@@ -124,6 +191,10 @@
   }
   topicLinks.forEach(link => {
     link.addEventListener('click', event => selectTopic(event, link.dataset.topic));
+    link.addEventListener('pointerenter', () => showTopicPreview(link));
+    link.addEventListener('pointerleave', () => showTopicPreview(topicLinks.includes(document.activeElement) ? document.activeElement : null));
+    link.addEventListener('focus', () => showTopicPreview(link));
+    link.addEventListener('blur', () => showTopicPreview(null));
   });
   clearTopic?.addEventListener('click', event => selectTopic(event, ''));
   if (controls) {
@@ -132,6 +203,13 @@
       button.addEventListener('click', () => { view = button.dataset.topicView; arrangeTopics(); });
     });
     sort.addEventListener('change', arrangeTopics);
+  }
+  moreTopics?.querySelector('button').addEventListener('click', () => { view = 'list'; arrangeTopics(); controls.querySelector('[data-topic-view="list"]').focus(); });
+  if (preview) preview.hidden = false;
+  if (cloud) {
+    if (typeof ResizeObserver !== 'undefined') new ResizeObserver(() => scheduleLayout()).observe(cloud);
+    else window.addEventListener('resize', () => scheduleLayout());
+    document.fonts?.ready.then(() => scheduleLayout(true));
   }
   form.hidden = false;
   form.addEventListener('submit', event => event.preventDefault());

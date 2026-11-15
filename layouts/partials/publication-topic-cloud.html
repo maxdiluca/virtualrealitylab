@@ -18,14 +18,16 @@
 {{ with $topics }}
 <nav class="publication-topics" data-aliases="{{ $index.aliases | jsonify }}" aria-labelledby="publication-topics-heading">
   <div class="publication-topics-heading">
-    <div><p class="lab-section-kicker">Discover our research</p><h2 id="publication-topics-heading">Explore by topic</h2></div>
+    <h2 id="publication-topics-heading">Explore our research</h2>
     <div class="publication-topic-controls" hidden>
       <div role="group" aria-label="Topic display"><button type="button" data-topic-view="cloud" aria-pressed="true">Cloud</button><button type="button" data-topic-view="list" aria-pressed="false">List</button></div>
       <label class="publication-topic-sort" hidden>Sort topics <select><option value="alphabetical">A–Z</option><option value="count">Most papers</option></select></label>
     </div>
   </div>
-  <p class="publication-topics-help">Select a topic to filter the papers below. Word size reflects the full collection; colour identifies a topic group.</p>
-  <p class="publication-topic-scope">Counts cover all years.</p>
+  <p class="publication-topics-help">Select a word to explore the papers. Larger words represent more publications.</p>
+  <ul class="publication-topic-legend" aria-label="Research themes">
+    {{ range $index.groups }}<li data-group="{{ .id }}"><span aria-hidden="true"></span>{{ .label }}</li>{{ end }}
+  </ul>
   <div class="publication-topic-cloud" data-view="cloud">
     {{ $groups := $index.groups }}
     {{ range $groups }}
@@ -39,7 +41,7 @@
           {{ range sort . "label" }}
             {{ $weight := 0.0 }}
             {{ if gt $maxCount 1 }}{{ $weight = div (math.Log .count) (math.Log $maxCount) }}{{ end }}
-            <a class="publication-topic" href="{{ .url }}" data-topic="{{ .id }}" data-topic-label="{{ .label }}" title="{{ .definition }}" data-topic-definition="{{ .definition }}" data-group="{{ $group.id }}" style="--topic-size: {{ printf "%.3f" (add 0.9 (mul 1.1 $weight)) }}rem;" aria-label="{{ .label }}: {{ .count }} {{ cond (eq .count 1) "paper" "papers" }}">
+            <a class="publication-topic" href="{{ .url }}" data-topic="{{ .id }}" data-topic-label="{{ .label }}" data-total="{{ .count }}" title="{{ .definition }}" data-topic-definition="{{ .definition }}" data-group="{{ $group.id }}" style="--topic-size: {{ printf "%.3f" (add 0.9 (mul 1.1 $weight)) }}rem;" aria-label="{{ .label }}: {{ .count }} {{ cond (eq .count 1) "paper" "papers" }}">
               <span class="publication-topic-label">{{ .label }}</span><span class="publication-topic-count" aria-hidden="true">{{ .count }}</span><span class="publication-topic-category">{{ $group.label }}</span>
             </a>
           {{ end }}
@@ -48,6 +50,12 @@
       {{ end }}
     {{ end }}
   </div>
+  <p class="publication-topic-more" hidden><span></span> <button type="button">View all topics</button></p>
+  <div class="publication-topic-preview" hidden>
+    <div><strong>Find your research interest</strong><span class="publication-topic-preview-count"></span></div>
+    <p>Point to a word or use Tab to explore a topic, then select it to see the papers.</p>
+  </div>
+  <p class="publication-topic-scope">Counts cover all years.</p>
   <div class="publication-topic-footer">
     <p class="publication-topic-selection" hidden>Selected topic: <strong></strong></p>
     <a class="publication-topic-clear" href="{{ "/publication/" | relURL }}" hidden>Clear topic</a>

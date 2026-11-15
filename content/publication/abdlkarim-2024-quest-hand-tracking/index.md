@@ -59,5 +59,3 @@ keywords:
 - VR delay
 keywords_kind: published
 ---
-
-The journal issue is dated February 2024; the version of record was first published online on 13 February 2023, before the lab inauguration.

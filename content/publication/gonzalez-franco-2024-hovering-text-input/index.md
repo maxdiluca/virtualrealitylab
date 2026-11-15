@@ -49,4 +49,4 @@ keywords:
 keywords_kind: published
 ---
 
-The preprint appeared in June 2024; the conference proceedings were published on 28 November 2024. The later TEXT paper is a separate publication: [Text Entry for XR Trove (TEXT)](/publication/bhatia-2025-text/).
+Related: [Text Entry for XR Trove (TEXT)](/publication/bhatia-2025-text/).

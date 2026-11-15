@@ -8,7 +8,6 @@
 {{ end }}
 <section class="publication-database container" aria-labelledby="publications-heading">
   <header class="publication-intro">
-    <p class="lab-section-kicker">VR Lab research</p>
     <h1 id="publications-heading">{{ .Title }}</h1>
     {{ .Content }}
   </header>
@@ -34,7 +33,7 @@
       <div class="publication-meta"><span>{{ .Params.publication_year | default (.Date.Format "2006") }}</span><span>{{ partial "publication-type-label" (index .Params.publication_types 0) }}</span>{{ with .Params.publication_status }}<span class="publication-status">{{ . }}</span>{{ end }}</div>
       <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
       {{ partial "publication-citation" . }}
-      <div class="publication-links"><a href="{{ .RelPermalink }}">Details</a>{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
+      <div class="publication-links">{{ range .Params.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}</div>
     </article>
     {{ end }}
   </div>

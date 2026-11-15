@@ -24,7 +24,6 @@
       <label class="publication-topic-sort" hidden>Sort topics <select><option value="alphabetical">A–Z</option><option value="count">Most papers</option></select></label>
     </div>
   </div>
-  <p class="publication-topics-help">Select a word to explore the papers. Larger words represent more publications.</p>
   <ul class="publication-topic-legend" aria-label="Research themes">
     {{ range $index.groups }}<li data-group="{{ .id }}"><span aria-hidden="true"></span>{{ .label }}</li>{{ end }}
   </ul>
@@ -52,10 +51,10 @@
   </div>
   <p class="publication-topic-more" hidden><span></span> <button type="button">View all topics</button></p>
   <div class="publication-topic-preview" hidden>
-    <div><strong>Find your research interest</strong><span class="publication-topic-preview-count"></span></div>
-    <p>Point to a word or use Tab to explore a topic, then select it to see the papers.</p>
+    <div><strong>Select a topic to filter papers</strong><span class="publication-topic-preview-count"></span></div>
+    <p></p>
   </div>
-  <p class="publication-topic-scope">Counts cover all years.</p>
+  <p class="publication-topic-scope">Word sizes reflect publications across all years.</p>
   <div class="publication-topic-footer">
     <p class="publication-topic-selection" hidden>Selected topic: <strong></strong></p>
     <a class="publication-topic-clear" href="{{ "/publication/" | relURL }}" hidden>Clear topic</a>

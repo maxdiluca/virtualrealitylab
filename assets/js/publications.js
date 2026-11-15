@@ -14,7 +14,6 @@
   const controls = root.querySelector('.publication-topic-controls');
   const sortLabel = root.querySelector('.publication-topic-sort');
   const sort = sortLabel?.querySelector('select');
-  const scope = root.querySelector('.publication-topic-scope');
   const homes = new Map(topicLinks.map(link => [link, link.parentElement]));
   const moreTopics = root.querySelector('.publication-topic-more');
   const preview = root.querySelector('.publication-topic-preview');
@@ -31,8 +30,8 @@
     if (!preview) return;
     previewedTopic = link;
     const current = link || topicLinks.find(item => item.dataset.topic === topic);
-    preview.querySelector('strong').textContent = current?.dataset.topicLabel || 'Find your research interest';
-    preview.querySelector('p').textContent = current?.dataset.topicDefinition || 'Point to a word or use Tab to explore a topic, then select it to see the papers.';
+    preview.querySelector('strong').textContent = current?.dataset.topicLabel || 'Select a topic to filter papers';
+    preview.querySelector('p').textContent = current?.dataset.topicDefinition || '';
     const total = Number(current?.dataset.count || 0);
     preview.querySelector('.publication-topic-preview-count').textContent = current ? `${total} ${total === 1 ? 'paper' : 'papers'}` : '';
     preview.dataset.group = current?.dataset.group || '';
@@ -122,14 +121,12 @@
   function filter(updateURL = true) {
     const terms = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     let shown = 0;
-    let eligible = 0;
     const topicCounts = new Map();
     records.forEach(({ element, text, topics }) => {
       // Facet counts exclude the topic selection so visitors can compare alternatives.
       const baseMatch = (!type.value || element.dataset.type === type.value) &&
         (!year.value || element.dataset.year === year.value) && terms.every(term => text.includes(term));
       if (baseMatch) {
-        eligible++;
         new Set(topics).forEach(value => topicCounts.set(value, (topicCounts.get(value) || 0) + 1));
       }
       const match = baseMatch && (!topic || topics.includes(topic));
@@ -158,7 +155,6 @@
       }
       link.href = url;
     });
-    if (scope) scope.textContent = `${eligible} ${eligible === 1 ? 'paper' : 'papers'} across these topics${search.value || year.value || type.value ? ' with the current search, year and type filters' : ''}. Word sizes reflect the full collection.`;
     arrangeTopics();
     showTopicPreview(previewedTopic);
     if (selection) {

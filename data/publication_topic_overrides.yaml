@@ -68,7 +68,7 @@ yi-2026-augmented-body-parts:
   source_hash: 87992ac92961723f939510fe1cbefc0d8c31bc11c17244b106c90f3f630ebe8c
 
 gonzalez-franco-2024-hovering-text-input:
-  source_hash: 56ab7370d2d2d4e221edf82927d3dedfff20c71f31a0ed09a117311f7669a7ac
+  source_hash: 3ab9c0fda97d4133a352afd48a1c2b3a94a125227b4cb9e4f4987add9edb7345
   exclude:
   - topic: hand tracking
     reason: Discussed as a constraint on XR text entry; this review does not introduce or evaluate a hand-tracking

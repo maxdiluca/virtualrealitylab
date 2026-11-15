@@ -172,10 +172,10 @@
       ]
     }
   ],
-  "overrides_hash": "02da5f07bb963482db5abcf9df1e7cc56778c0438f5caa195a90b4af82c2c262",
+  "overrides_hash": "335676bd143bdae93fc11c1a2692794ab058bf99e010b819f03e8ab69b87f721",
   "publications": {
     "abdlkarim-2024-quest-hand-tracking": {
-      "source_hash": "3162296cc0e9360bc04768b896fc6390258b89dca06fb6cbbba91d5a6f9e8ae8",
+      "source_hash": "76c55635e5b885034488e40e6b1e22057caf22f1c82a33f9e1adfc7c42ae6d84",
       "topics": [
         "hand tracking",
         "virtual reality"
@@ -304,7 +304,7 @@
       ]
     },
     "gonzalez-franco-2024-hovering-text-input": {
-      "source_hash": "56ab7370d2d2d4e221edf82927d3dedfff20c71f31a0ed09a117311f7669a7ac",
+      "source_hash": "3ab9c0fda97d4133a352afd48a1c2b3a94a125227b4cb9e4f4987add9edb7345",
       "topics": [
         "extended reality",
         "text entry",
@@ -395,7 +395,7 @@
       ]
     },
     "tomczak-2023-virtuoso-strings": {
-      "source_hash": "a778f6621b62929a2c61e28e0a6e1064402af958072a9ae4ecabf3751a049043",
+      "source_hash": "3e6dacfc363a00494e4a50ec89526cfeff5c4c0ed5c67650120c1b3daa15739d",
       "topics": [
         "music"
       ]

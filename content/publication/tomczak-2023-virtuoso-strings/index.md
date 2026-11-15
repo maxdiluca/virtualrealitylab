@@ -31,5 +31,3 @@ abstract: Virtuoso Strings provides multitrack string-ensemble recordings with n
 abstract_kind: summary
 abstract_source: https://ismir2023program.ismir.net/lbd_312.html
 ---
-
-Published as a late-breaking/demo extended abstract at ISMIR 2023.

@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ partial "page_header" . }}
+<div class="universal-wrapper">
+  {{ with .Content }}<div class="article-style">{{ . }}</div>{{ end }}
+  {{ partial "event-list" (dict "limit" 0) }}
+</div>
+{{ end }}

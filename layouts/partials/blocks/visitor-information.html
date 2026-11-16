@@ -1,0 +1,29 @@
+{{ $poster := resources.Get "media/visitor-entrance.webp" }}
+<div class="visitor-information">
+  <div>
+    {{ if .wcPage.IsHome }}<h2>Visitor information</h2>{{ else }}<h1>Visitor information</h1>{{ end }}
+    <p>The lab is on the fourth floor of Gisbert Kapp, entered through 52 Pritchatts Road, across the road from the University North Gate.</p>
+    <p><a href="https://campusmap.bham.ac.uk/search/5d6f49101e1f64009327a18c">Find Gisbert Kapp on the campus map</a></p>
+    <ol>
+      <li>Enter through the courtyard entrance shown in the photograph.</li>
+      <li>Facing Café 52, take the lifts on the left to the fourth floor.</li>
+      <li>Turn left when leaving the lift and go through the door into the corridor. The lab is at the end of the corridor.</li>
+    </ol>
+    <p>Corridor access requires a University ID card. <a href="#contact">Contact us before your visit</a> if you need someone to meet you at the lift.</p>
+    <p>Visitor parking is possible at the nearby North East multi-storey car park.</p>
+  </div>
+  <div>
+    <figure>
+      <img src="{{ $poster.RelPermalink }}" width="{{ $poster.Width }}" height="{{ $poster.Height }}" alt="Courtyard entrance to 52 Pritchatts Road, marked by a red arrow above the doors." loading="lazy" decoding="async">
+      <figcaption>Entrance to 52 Pritchatts Road.</figcaption>
+    </figure>
+    <details class="visitor-video">
+      <summary>Watch the route to the lab</summary>
+      <video controls playsinline preload="none" width="800" height="800" aria-label="Route from the courtyard entrance to the VR Lab" aria-describedby="visitor-video-description">
+        <source src="/media/visitor-directions.mp4" type="video/mp4">
+        <a href="/media/visitor-directions.mp4">Download the directions video</a>.
+      </video>
+      <p id="visitor-video-description">Silent visual guide to the entrance, lifts and fourth-floor corridor. Follow the written directions alongside the photograph.</p>
+    </details>
+  </div>
+</div>

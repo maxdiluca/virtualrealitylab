@@ -1,10 +1,12 @@
 ---
+sitemap:
+  disable: true
 title:
 date: 2024-06-06
 type: maintenance
 
 slug:
-private: false
+private: true
 _build:
   list: true
 

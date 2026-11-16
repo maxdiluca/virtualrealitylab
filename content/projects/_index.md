@@ -1,4 +1,5 @@
 ---
+summary: "Explore Virtual Reality Lab research in perception, immersive interaction, haptics, movement and collaboration at the University of Birmingham."
 title: Research 
 view: compact
 

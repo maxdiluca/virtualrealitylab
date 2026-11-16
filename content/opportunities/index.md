@@ -1,4 +1,5 @@
 ---
+summary: "Explore PhD studentships, student projects and research opportunities with the University of Birmingham Virtual Reality Lab."
 title: Opportunities
 date: 2022-10-24
 
@@ -9,27 +10,27 @@ sections:
     content:
       title:
       text: |-
-        ## Projects and Opportunities
+        # Projects and Opportunities
 
         The VR Lab welcomes students, researchers and collaborators who want to explore virtual, augmented and mixed reality through experimental research, technical development, creative practice and public engagement.
 
-        #### PhD positions
+        ## PhD positions
 
         **MIBTP PhD studentships — October 2027 entry.** Applications are open for two projects supervised by Dr Massimiliano Di Luca: sensory prediction and adaptation in virtual reality, and coordination with artificial musical partners. **Deadline: 23 November 2026.** See the [announcement and application guidance](/post/mibtp-phd-studentships-2027/) for project details, funding and how to apply.
 
         If you are interested in pursuing a PhD in the lab, contact **Dr Max Di Luca** or use the [Get in touch section](/#contact). It helps to include a short description of your interests, relevant experience and the kind of XR research question you would like to explore.
 
-        #### BSc and MSc student projects
+        ## BSc and MSc student projects
 
         We support Bachelor's and Master's projects in Psychology, Computer Science and related areas. Projects can involve perception experiments, motion capture, haptics, accessibility, immersive interaction, AI-supported XR tools, or applied VR/AR/MR systems.
 
         Start by browsing our [Research](/projects/) and [Resources](/resources/) pages, then get in touch through the [Get in touch section](/#contact).
 
-        #### Student engagement
+        ## Student engagement
 
-        We are always looking for students who want to get involved in lab activities. Send us your CV through the [Get in touch section](/#contact) if you are interested in internships, part-time research assistant roles, volunteering, workshops or project support.
+        We are always looking for students who want to get involved in lab activities. Email your CV and a short description of your interests to [Dr Max Di Luca](mailto:m.diluca@bham.ac.uk) if you are interested in internships, part-time research assistant roles, volunteering, workshops or project support.
 
-        #### Supported student programmes
+        ## Supported student programmes
 
         **<a href="https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/computer-science/about/bsure">BSURE</a>** supports structured summer research opportunities for undergraduate students interested in research experience, technical development and project work. See our [BSURE 2025 summer research group](/post/bsure-2025/) update for a recent example.
 

@@ -1,0 +1,26 @@
+{{ $events := where site.RegularPages "Section" "event" }}
+{{ $limit := .limit | default 0 }}
+<div class="lab-event-lists" data-event-lists data-limit="{{ $limit }}">
+  {{ range $past := slice false true }}
+    <section class="lab-event-group" data-event-group="{{ if $past }}past{{ else }}upcoming{{ end }}">
+      <h2>{{ if $past }}Past events{{ else }}Upcoming events{{ end }}</h2>
+      {{ $ordered := $events.ByDate }}
+      {{ if $past }}{{ $ordered = $events.ByDate.Reverse }}{{ end }}
+      {{ $count := 0 }}
+      <div class="lab-event-cards">
+        {{ range $ordered }}
+          {{ $end := partial "event-end" . }}
+          {{ if eq (lt $end now) $past }}
+            {{ $count = add $count 1 }}
+            <article class="lab-event-card" data-event-end="{{ $end.Format "2006-01-02T15:04:05Z07:00" }}" data-event-start="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" {{ if and (gt $limit 0) (gt $count $limit) }}hidden{{ end }}>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2 January 2006" }}</time>{{ if not .Params.all_day }} · {{ .Date | time.Format "15:04 MST" }}{{ end }}</p>
+              {{ with .Params.summary }}<p>{{ . | plainify }}</p>{{ end }}
+            </article>
+          {{ end }}
+        {{ end }}
+      </div>
+      <p data-events-empty {{ if gt $count 0 }}hidden{{ end }}>{{ if $past }}No past events are listed.{{ else }}No upcoming events are currently listed. <a href="/#contact">Contact us about future events or visits.</a>{{ end }}</p>
+    </section>
+  {{ end }}
+</div>

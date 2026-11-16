@@ -1,4 +1,7 @@
 ---
+sitemap:
+  disable: true
+private: true
 title: Blog Post Submitted
 date: 2026-04-26
 draft: false

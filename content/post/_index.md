@@ -1,4 +1,5 @@
 ---
+summary: "Announcements and research news from the University of Birmingham Virtual Reality Lab."
 title: Latest News
 
 # View.

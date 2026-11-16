@@ -1,29 +1,20 @@
 ---
+summary: "Contact the Virtual Reality Lab about collaboration, student opportunities or equipment access, and find directions to Gisbert Kapp in Birmingham."
 title: Contact
 date: 2022-10-24
 
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: Visitor information
-      image:
-        filename: FindUs.gif
-      text: |-
-        The Gisbert Kapp building is located across the road from the University North Gate.  
-        [Gisbert Kapp on the campus map ](https://campusmap.bham.ac.uk/search/5d6f49101e1f64009327a18c)
-        
-        <br>
-        Enter the Pritchatts Road 52 building through the parking lot. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and enter the door leading to the corridor. The lab is at the end of the corridor.
-       
-        <br>
-        Please note that access to the Gisbert Kapp corridors requires a UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
+  - block: visitor-information
+
   - block: contact
+    id: contact
     content:
       title: Get in touch
       text: |-
-        To get in touch and for information on how to use the lab, please fill in the form below. You will be given access to the lab SharePoint site where you will find all details. The lab is located in the Gisbert Kapp building. Entrance is via Pritchatts Road 52. Visitor parking is possible at the nearby multi-storey North East car park.
+        Tell us about your project, interests or access requirements. We will review your enquiry and discuss the appropriate next steps. Lab access, training and SharePoint access are arranged where relevant after this discussion.
+      email: m.diluca@bham.ac.uk
       address:
         street: Pritchatts Road 52
         postcode: "B15 2SA"

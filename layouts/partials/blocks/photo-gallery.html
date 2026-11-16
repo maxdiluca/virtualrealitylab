@@ -24,10 +24,10 @@
 
     <div class="lab-full-gallery lab-full-gallery-direct" aria-label="Photo gallery">
       <div class="lab-full-gallery-grid">
-        {{ range $image := $images }}
+        {{ range $index, $image := $images }}
           {{ $thumb := $image.Fill "520x360 center" }}
-          <a class="lab-full-gallery-item" href="{{ $image.RelPermalink }}" data-lightbox="gallery">
-            <img src="{{ $thumb.RelPermalink }}" alt="" loading="lazy" decoding="async">
+          <a class="lab-full-gallery-item" href="{{ $image.RelPermalink }}" data-lightbox="gallery" aria-label="Open lab photograph {{ add $index 1 }}">
+            <img src="{{ $thumb.RelPermalink }}" width="520" height="360" alt="" loading="lazy" decoding="async">
           </a>
         {{ end }}
       </div>

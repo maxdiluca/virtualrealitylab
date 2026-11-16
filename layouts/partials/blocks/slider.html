@@ -1,0 +1,26 @@
+{{/* Keep the existing three slides, with manual controls and responsive images. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $id := .wcIdentifier }}
+<div class="carousel-inner">
+  {{ range $index, $slide := $block.content.slides }}
+    {{ $image := resources.Get (printf "media/%s" $slide.background.image.filename) }}
+    {{ $small := $image.Fit "800x800 webp q78" }}
+    {{ $large := $image.Fit "1600x1200 webp q78" }}
+    <div class="carousel-item{{ if eq $index 0 }} active{{ end }}">
+      <img class="lab-slide-image" src="{{ $large.RelPermalink }}" srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w" sizes="100vw" width="{{ $large.Width }}" height="{{ $large.Height }}" alt="" {{ if eq $index 0 }}fetchpriority="high"{{ else }}loading="lazy"{{ end }} decoding="async">
+      <div class="lab-slide-shade"></div>
+      <div class="wg-hero dark container lab-slide-copy">
+        {{ if eq $index 0 }}<h1 class="hero-title">{{ $slide.title }}</h1>{{ else }}<h2 class="hero-title">{{ $slide.title }}</h2>{{ end }}
+        <div class="hero-lead">{{ $slide.content | $page.RenderString }}</div>
+        {{ with $slide.link }}<a href="{{ .url }}" class="btn btn-light btn-lg mt-3">{{ .text }}</a>{{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>
+<button class="carousel-control-prev" type="button" data-target="#{{ $id }}" data-slide="prev" aria-label="Previous introduction slide">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</button>
+<button class="carousel-control-next" type="button" data-target="#{{ $id }}" data-slide="next" aria-label="Next introduction slide">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</button>

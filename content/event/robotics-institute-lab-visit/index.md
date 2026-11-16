@@ -10,8 +10,8 @@ address:
   postcode: B15 2SA
   country: United Kingdom
 
-summary: "A tour of Psychology research facilities for Robotics Institute members, including the VR Lab. Join the group at the ground-floor coffee shop in Gisbert Kapp at 13:00."
-abstract: "The Virtual Reality Lab welcomes Robotics Institute members as part of a tour of Psychology research facilities on 11 November 2026, 13:00–15:00 GMT. Meet near the ground-floor coffee shop in Gisbert Kapp / 52 Pritchatts Road."
+summary: "Arrangements for a tour of Psychology research facilities for Robotics Institute members, including the VR Lab, scheduled for 11 November 2026."
+abstract: "A Psychology facilities tour for Robotics Institute members was scheduled for 11 November 2026, 13:00–15:00 GMT, with a meeting point near the ground-floor coffee shop in Gisbert Kapp / 52 Pritchatts Road."
 
 date: 2026-11-11T13:00:00Z
 date_end: 2026-11-11T15:00:00Z
@@ -30,12 +30,10 @@ image:
   focal_point: Center
 ---
 
-Visit the **Virtual Reality Lab** as part of the Robotics Institute's tour of Psychology research facilities on **Wednesday 11 November 2026, 13:00–15:00 GMT**.
+This page records the arrangements for a Robotics Institute tour of Psychology research facilities scheduled for **Wednesday 11 November 2026, 13:00–15:00 GMT**.
 
-The planned tour begins with Dietmar Heinke's and Joseph Galea's laboratory facilities before continuing to the VR Lab in **Gisbert Kapp N418**. The VR Lab brings together research in virtual and augmented reality, with facilities for tracking, haptics and interactive systems.
+The planned route included Dietmar Heinke's and Joseph Galea's laboratory facilities, followed by the VR Lab in **Gisbert Kapp N418**. The lab supports research in virtual and augmented reality, tracking, haptics and interactive systems.
 
-**Meeting point:** please join the group near the **ground-floor coffee shop in Gisbert Kapp / 52 Pritchatts Road at 13:00**. Dietmar Heinke will meet visitors and accompany the group to the laboratories. Corridor access is controlled, so please meet downstairs rather than going directly to N418. The 13:00–15:00 slot covers the full Psychology tour.
-
-This visit is arranged for **Robotics Institute members** and coordinated by **Steve Davis**. If you would like to enquire about joining, please contact [Steve Davis](mailto:s.davis.2@bham.ac.uk) before attending.
+The scheduled meeting point was the **ground-floor coffee shop in Gisbert Kapp / 52 Pritchatts Road at 13:00**. The invitation was for **Robotics Institute members**, coordinated by **Steve Davis**. The advertised two-hour slot covered the full Psychology tour.
 
 Interested in arranging a future visit or discussing use of the VR Lab? See our [visitor information and contact form]({{< relref "/contact" >}}).

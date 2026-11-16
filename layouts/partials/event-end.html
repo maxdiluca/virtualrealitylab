@@ -1,0 +1,7 @@
+{{/* An all-day event remains current throughout its final calendar day. */}}
+{{ $end := .Date }}
+{{ with .Params.date_end }}{{ $end = time.AsTime . }}{{ end }}
+{{ if .Params.all_day }}
+  {{ $end = (time.AsTime ($end.Format "2006-01-02") "Europe/London").AddDate 0 0 1 }}
+{{ end }}
+{{ return $end }}

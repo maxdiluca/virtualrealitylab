@@ -1,10 +1,12 @@
 ---
+summary: "News, research blogs, seminars, workshops and photographs from the University of Birmingham Virtual Reality Lab."
 title: Media
 date: 2026-04-25
 type: landing
 
 sections:
   - block: markdown
+    id: media-introduction
     content:
       title:
       text: |-
@@ -14,6 +16,7 @@ sections:
           <p>Follow the lab's latest research updates, event activity, public stories and snapshots from workshops, demonstrations and visits.</p>
           <div class="media-hub-links">
             <a href="#updates">Latest updates</a>
+            <a href="/post/">News archive</a>
             <a href="/blog/">Blog archive</a>
             <a href="#events">Events</a>
             <a href="#gallery">Photo gallery</a>
@@ -36,20 +39,10 @@ sections:
     design:
       css_class: media-updates
 
-  - block: recent-updates
-    content:
-      anchor: events
-      kicker: Events
-      title: Events, talks and visits
-      subtitle: Explore seminars, workshops, demos, network visits and public activities hosted or supported by the VR Lab.
-      count: 6
-      sections:
-        - event
-      archive_link:
-    design:
-      css_class: media-events
+  - block: event-list
 
   - block: markdown
+    id: media-resources
     content:
       title:
       text: |-

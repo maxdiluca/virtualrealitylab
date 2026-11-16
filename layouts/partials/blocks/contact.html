@@ -1,0 +1,36 @@
+{{ $page := .wcPage }}
+{{ $data := .wcBlock.content }}
+<div class="col-12 lab-contact">
+  {{ with $data.text }}<div>{{ . | $page.RenderString }}</div>{{ end }}
+  <p>For CVs or other attachments, or if you cannot use the form, email <a href="mailto:{{ $data.email }}">{{ $data.email }}</a>.</p>
+  <form name="contact" method="POST" action="/contact-submitted/" data-netlify="true" netlify-honeypot="_gotcha" data-netlify-recaptcha="true">
+    <input type="hidden" name="form-name" value="contact">
+    <div class="form-group">
+      <label for="inputName">Name (required)</label>
+      <input type="text" name="name" id="inputName" class="form-control" autocomplete="name" required>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail">Email (required)</label>
+      <input type="email" name="email" id="inputEmail" class="form-control" autocomplete="email" required>
+    </div>
+    <div class="form-group">
+      <label for="enquiryType">Enquiry type (required)</label>
+      <select name="enquiry-type" id="enquiryType" class="form-control" required>
+        <option value="">Please select</option>
+        <option>Research collaboration</option>
+        <option>Lab or equipment access</option>
+        <option>Student opportunities</option>
+        <option>Training or visits</option>
+        <option>Other enquiry</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="inputMessage">Message (required)</label>
+      <textarea name="message" id="inputMessage" class="form-control" rows="5" required></textarea>
+    </div>
+    <div hidden><label>Leave this field empty: <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+    <div class="form-group" data-netlify-recaptcha="true"></div>
+    <button type="submit" class="btn btn-primary">Send enquiry</button>
+  </form>
+  <p class="mt-4">{{ $data.address.street }}, {{ $data.address.city }}, {{ $data.address.postcode }}<br>{{ $data.directions }}</p>
+</div>

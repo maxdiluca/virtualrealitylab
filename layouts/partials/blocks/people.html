@@ -12,7 +12,7 @@
 <div class="row justify-content-center people-widget">
   {{ with $block.content.title }}
     <div class="section-heading col-12 mb-3 text-center">
-      <h1 class="mb-0">{{ . | markdownify | emojify }}</h1>
+      <h2 class="mb-0">{{ . | markdownify | emojify }}</h2>
       {{ with $block.content.subtitle }}<p class="mt-1">{{ . | markdownify | emojify }}</p>{{ end }}
     </div>
   {{ end }}
@@ -65,7 +65,7 @@
 
     {{ if $query | and (gt (len $block.content.user_groups) 1) }}
       <div class="col-md-12">
-        <h2 class="mb-4">{{ $group | markdownify }}</h2>
+        <h3 class="mb-4">{{ $group | markdownify }}</h3>
       </div>
     {{ end }}
 
@@ -129,7 +129,7 @@
         {{ end }}
 
         <div class="portrait-title">
-          <h2>{{ with $link }}<a href="{{ . }}">{{ end }}{{ .Title }}{{ if $link }}</a>{{ end }}</h2>
+          <h4 class="person-name">{{ with $link }}<a href="{{ . }}">{{ end }}{{ .Title }}{{ if $link }}</a>{{ end }}</h4>
           {{ $badges := .Params.badges | default .Params.badge }}
           {{ with $badges }}
             <div class="people-badges" aria-label="Lab roles">
@@ -138,8 +138,8 @@
               {{ end }}
             </div>
           {{ end }}
-          {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
-          {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+          {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<p class="person-role">{{ .name }}</p>{{ end }}{{ end }}
+          {{ if and $show_role .Params.role }}<p class="person-role">{{ .Params.role | markdownify | emojify }}</p>{{ end }}
           {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
           {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
         </div>

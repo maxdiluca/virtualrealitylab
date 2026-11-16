@@ -1,4 +1,5 @@
 ---
+summary: "Research in perception, movement and immersive interaction at the University of Birmingham. Explore our projects, people, facilities and opportunities."
 # Leave the homepage title empty to use the site title
 title: Home
 date: 2022-10-24
@@ -55,10 +56,11 @@ sections:
     design:
       slide_height: '55vh'
       is_fullscreen: false
-      loop: true
-      interval: 5000
+      loop: false
+      interval: false
   - block: recent-updates
     content:
+      title: Recent updates
       subtitle: Talks, press releases, blogs and project updates from across the lab.
       count: 6
       archive_link: /media/
@@ -92,27 +94,15 @@ sections:
 
   - block: funding-supporters
 
-  - block: hero
-    content:
-      title: Visitor information
-      image:
-        filename: FindUs.gif
-      text: |-
-        The Gisbert Kapp building is located across the road from the University North Gate.  
-        [Gisbert Kapp on the campus map ](https://campusmap.bham.ac.uk/search/5d6f49101e1f64009327a18c)
-        
-        <br>
-        Enter the Pritchatts Road 52 building through the parking lot. Looking at the Cafe 52, take the elevators on the left to the 4th floor. Exit the elevator on the left and enter the door leading to the corridor. The lab is at the end of the corridor.
-       
-        <br>
-        Please note that access to the Gisbert Kapp corridors requires a UoB ID card. If you don't have one, please get in touch with us before you venture to the lab, so that we can meet you when you exit the elevator.
+  - block: visitor-information
 
   - block: contact
     id: contact
     content:
       title: Get in touch
       text: |-
-        To get in touch, discuss a collaboration, or ask how to use the lab, please fill in the form below. You will be given access to the lab SharePoint site, where you will find practical details for booking and using the space.
+        Tell us about your project, interests or access requirements. We will review your enquiry and discuss the appropriate next steps. Lab access, training and SharePoint access are arranged where relevant after this discussion.
+      email: m.diluca@bham.ac.uk
       address:
         street: Pritchatts Road 52
         postcode: "B15 2SA"

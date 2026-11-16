@@ -1,4 +1,5 @@
 ---
+summary: "Explore VR Lab spaces, XR headsets, motion capture, haptics and fabrication equipment, and find out how to enquire about access and training."
 title: Resources
 date: 2024-11-21
 
@@ -7,6 +8,7 @@ type: landing
 sections:
   - block: markdown
     content:
+      heading_level: 1
       title: VR Lab Equipment and Resources
       text: |-
         The VR Lab supports research, teaching and collaboration in virtual, augmented and mixed reality (VR/AR/MR), human-computer interaction, perception, movement science and creative technologies. The space combines configurable rooms, the dedicated VRLab Office, XR headsets, motion capture, haptics, audio-visual recording, physiological sensing and fabrication equipment.

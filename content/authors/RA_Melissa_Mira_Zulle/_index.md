@@ -10,7 +10,7 @@ authors:
   - Melissa Mira Zulle
 
 # Role/position
-role: Research Assistant
+role: Former Research Assistant
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
     url: "https://www.birmingham.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Associate
+bio: Former Research Assistant
 
 interests:
   - Hardware
@@ -65,9 +65,9 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Research Assistants
+  - Alumni Research Assistants
 ---
 
-**Melissa Mira Zulle** is a Research Assistant in the School of Computer Science, where she works across human–computer interaction and intelligent systems. Her current projects explore typing in virtual reality and the development of a haptic wristband aimed at supporting neuropathy rehabilitation. She has a strong interest in hardware design, machine learning, artificial intelligence and full-stack development, and enjoys building systems that bridge physical and digital interaction. Melissa holds an MSc in Computer Science and brings a multidisciplinary approach to prototyping, experimentation and user-centred design within emerging interactive technologies.
+**Melissa Mira Zulle** was a Research Assistant in the School of Computer Science, where she worked across human–computer interaction and intelligent systems. Her projects included research on typing in virtual reality and the development of a haptic wristband aimed at supporting neuropathy rehabilitation. She has a strong interest in hardware design, machine learning, artificial intelligence and full-stack development, and enjoys building systems that bridge physical and digital interaction. Melissa holds an MSc in Computer Science and brings a multidisciplinary approach to prototyping, experimentation and user-centred design within emerging interactive technologies.
 
 Contact: **m.zulle@bham.ac.uk**

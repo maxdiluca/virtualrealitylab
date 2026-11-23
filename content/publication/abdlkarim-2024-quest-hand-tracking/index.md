@@ -42,12 +42,12 @@ doi: 10.3758/s13428-022-02051-8
 funding_statement: Supported by the European Research Council through MotMotLearn and ImpHandRehab.
 funding_projects:
 - name: MotMotLearn
-  url: https://link.springer.com/article/10.3758/s13428-022-02051-8
+  url: https://research.birmingham.ac.uk/en/projects/h2020ercmotmotlearn/
   funder: European Research Council
   grant: '637488'
   role: Starting Grant
 - name: ImpHandRehab
-  url: https://link.springer.com/article/10.3758/s13428-022-02051-8
+  url: https://cordis.europa.eu/article/id/436475-virtual-reality-helps-stroke-patients-overcome-hand-movement-impairments
   funder: European Research Council
   grant: '872082'
   role: Proof of Concept Grant

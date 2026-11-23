@@ -59,3 +59,7 @@ keywords:
 - VR delay
 keywords_kind: published
 ---
+
+## Related method
+
+[Measure end-to-end VR latency with photodiodes](https://massimilianodiluca.info/pages/code_delay/) describes a separate method for measuring the delay between physical movement and its visual representation in VR.
